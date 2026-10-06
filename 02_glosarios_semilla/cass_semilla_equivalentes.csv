@@ -1,0 +1,39 @@
+termino_en,equivalente_es,fuente_equivalente
+Annotation,Anotación,Gestor ILA
+Balance,Equilibrio,Propuesta
+Colligation,Coligación,Propuesta
+Collocation,Colocación,CercaTerm
+Comparability,Comparabilidad,Gestor ILA
+Concordance,Concordancia,Gestor ILA
+Concordancer,Programa de concordancias,TERMIUM Plus
+Corpus,Corpus (textual),TERMIUM Plus
+Corpus construction,Construcción de corpus,Gestor ILA
+Corpus-based,Basado en corpus,Gestor ILA
+Corpus-driven,Guiado por el corpus*,Gestor ILA
+Diachronic,Diacrónico,CercaTerm
+Encoding,Codificación,CercaTerm
+Frequency list,Lista de frecuencias,Gestor ILA
+Key word in context (KWIC),Palabra clave en contexto*,Gestor ILA
+Keyword,Palabra clave,CercaTerm
+Lemma,Lema,CercaTerm
+Lemmatisation,Lematización,CercaTerm
+Lexis,Léxico,Propuesta
+Markup,Marcado,CercaTerm
+Markup language,Lenguaje de marcado,TERMIUM Plus
+Metadata,Metadato/s,CercaTerm
+Monitor corpus,Corpus monitor,Gestor ILA
+Node,Nodo,Gestor ILA
+Reference corpus,Corpus de referencia,Gestor ILA
+Representativeness,Representatividad,Propuesta
+Sample,Muestra,CercaTerm
+Sample corpus,Corpus de muestra/muestral,rojo2021introduccion
+Sampling frame,Marco de muestreo,Propuesta
+Significance test,Prueba estadística,TERMIUM Plus
+Statistical significance,Significación estadística,TERMIUM Plus
+Synchronic,Sincrónico,CercaTerm
+Tagging,Etiquetado,Propuesta
+Text,Texto,CercaTerm
+Token,Token,Gestor ILA
+Type,Tipo,Gestor ILA
+Type-token ratio,Type-token ratio,Gestor ILA
+XML,XML,"TERMIUM Plus, CercaTerm"

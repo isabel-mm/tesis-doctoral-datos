@@ -1,0 +1,26 @@
+familia,rasgo,descripcion
+Morfología (sufijos),suffix3,Últimos 3 caracteres del lema
+Morfología (sufijos),suffix4,Últimos 4 caracteres del lema
+Forma,shape,"Patrón ortográfico (p. ej.\ Xxxx, xxxx)"
+Forma,is_alpha,El token es alfabético
+Forma,is_punct,El token es puntuación
+Forma,is_stop,El token es palabra vacía
+Forma,has_digit,El token contiene algún dígito
+Categoría gramatical,pos,Categoría gramatical universal (UPOS)
+Categoría gramatical,tag,Etiqueta morfosintáctica específica de la lengua
+Categoría gramatical,dom_pos,Categoría dominante del lema (sustantivo/verbo/adjetivo/nombre propio)
+Categoría gramatical,is_noun / is_verb,Binarizados de pos
+Categoría gramatical,is_adj / is_propn,Binarizados de pos
+Sintaxis (SN),dep,Función de dependencia sintáctica
+Sintaxis (SN),in_np,Pertenencia a sintagma nominal
+Sintaxis (SN),np_head,Núcleo del sintagma nominal
+Sintaxis (SN),has_amod,Presencia de modificador adjetival
+Sintaxis (SN),has_premod,Presencia de modificador prenominal
+Estadísticos,freq_q,"Frecuencia global, discretizada en cuartiles (Q0--Q4)"
+Estadísticos,df_q,"Frecuencia documental, discretizada en cuartiles"
+Estadísticos,tfidf_q,"TF-IDF, discretizado en cuartiles"
+Estadísticos,cd_q,"Dispersión contextual, discretizada en cuartiles"
+Contexto (± 2),prevN:*/nextN:*,"POS, sufijo, condición nominal/adjetival y pertenencia a SN de los tokens vecinos (N \1,2\), más marcadores BOS/EOS"
+Cohesión (PMI),pmi_prev_q / pmi_next_q,"Información mutua puntual con el token anterior/posterior, discretizada en cuartiles"
+Contexto definitorio,in_definition_context,La oración contiene un patrón metalingüístico definitorio (Tabla tab:apendice_patrones_definitorios)
+Patrón de sigla,acronym_pattern,El candidato participa en un patrón de introducción de sigla entre paréntesis

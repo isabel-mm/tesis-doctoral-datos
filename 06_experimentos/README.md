@@ -1,0 +1,31 @@
+# Experimentos
+
+La tesis compara dos modelos de reconocimiento de términos, uno por cada respuesta posible a la pregunta de si hacen falta rasgos o basta con la distribución de las palabras en el texto:
+
+1. **Modelo de aprendizaje automático basado en rasgos**: un CRF que recibe, para cada palabra, 27 rasgos lingüísticos y estadísticos (`rasgos_crf.csv`).
+2. **Modelo neuronal basado en distribuciones**: un BiLSTM-CRF que no recibe rasgos y aprende sus propias representaciones de las palabras a partir del corpus.
+
+Los hiperparámetros de ambos están en `hiperparametros.csv`.
+
+## Protocolo de evaluación
+
+- **Reserva de tipos** (protocolo principal): se reserva al azar un 10, 20, 30 o 50 % de las entradas de término de GLiCor; toda oración que contenga alguna de ellas va al conjunto de prueba, y el resto, al de entrenamiento. Así ningún término evaluado se ha visto al entrenar, y todas las formas de un mismo concepto caen en la misma partición. Se repite con 10 semillas (CRF) y 3 semillas (BiLSTM-CRF).
+- **Sin fuga de datos**: los rasgos estadísticos (frecuencia, frecuencia documental, TF-IDF, dispersión contextual, PMI) se calculan solo con las oraciones de entrenamiento de cada partición.
+- **Dos etiquetas**: misma reserva, pero con términos y entidades etiquetados por separado (`B-T/I-T` y `B-E/I-E`).
+- **Ablación**: con la reserva del 20 %, se reentrena el CRF sin cada una de las 9 familias de rasgos.
+- **Validación cruzada estándar** de 5 pliegues, con particiones aleatorias, como contraste: mide cuánto se sobrestima el rendimiento cuando las apariciones de un mismo término se reparten entre entrenamiento y prueba.
+
+## Métricas
+
+Para cada ejecución se guardan, sobre el conjunto de prueba completo y, por separado, sobre los *tokens* de las entradas reservadas (`res_*`, términos nunca vistos) y sobre el resto (`vis_*`):
+
+- por etiqueta (`bt`, `it`, `o`; `be`, `ie` con dos etiquetas): verdaderos positivos, falsos positivos, falsos negativos, verdaderos negativos, soporte, precisión, recuperación y F1;
+- término frente a palabra: los mismos recuentos y medidas; `f1_termino` es la métrica principal de la tesis;
+- medias macro y ponderada (`f1_global`) y exactitud;
+- por *span* de término: coincidencia exacta y parcial, y *spans* exactos, parciales, perdidos y espurios.
+
+## Código
+
+`scripts/` contiene el código completo: generación de la anotación (`paso1_generar_bio.py`, `glicor_match.py`), CRF (`crf_base.py`, `paso2_crf.py`), BiLSTM-CRF (`paso3_bilstm.py`), análisis de errores (`paso4_errores.py`) y métricas (`metricas.py`).
+
+Los resultados se añadirán en `resultados/` cuando terminen las ejecuciones definitivas.

@@ -1,0 +1,21 @@
+modelo,parametro,valor
+CRF,Implementación,sklearn-crfsuite (CRFsuite)
+CRF,Algoritmo de entrenamiento,L-BFGS
+CRF,Regularización L1 (c1),"0,05"
+CRF,Regularización L2 (c2),"0,01"
+CRF,Iteraciones máximas,200
+CRF,Transiciones,solo las observadas en el entrenamiento (opción por defecto de CRFsuite)
+CRF,Rasgos,27 rasgos en 9 familias (rasgos_crf.csv); estadísticos y PMI recalculados solo con el entrenamiento
+CRF,Repeticiones,10 semillas de partición (0–9) por nivel de reserva
+BiLSTM-CRF,Embeddings de palabra,"128 dimensiones, aprendidos desde cero"
+BiLSTM-CRF,Capa recurrente,"BiLSTM, 256 unidades por dirección"
+BiLSTM-CRF,Capa de salida,CRF (pytorch-crf)
+BiLSTM-CRF,Optimizador,"Adam, tasa de aprendizaje 0,001"
+BiLSTM-CRF,Tamaño de lote,16 oraciones
+BiLSTM-CRF,Longitud máxima de secuencia,120 tokens
+BiLSTM-CRF,Sobremuestreo,oraciones con término ×4 por época
+BiLSTM-CRF,Recorte del gradiente,"norma máxima 5,0"
+BiLSTM-CRF,Selección de época,validación con el 10 % de las entradas de término del entrenamiento (no vistas); mejor F1 de término en validación; parada tras 5 épocas sin mejora; máximo 50
+BiLSTM-CRF,Repeticiones,"3 semillas de partición (0–2), las mismas particiones que las tres primeras del CRF"
+Ambos,Protocolo principal,"reserva de entradas de GLiCor (10, 20, 30 y 50 %); oraciones con alguna entrada reservada → prueba"
+Ambos,Protocolo de contraste,"validación cruzada estándar de 5 pliegues (StratifiedKFold, semilla 42)"

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Si usas este material, cítalo como sigue."
+title: "Material complementario de la tesis doctoral «Modelo teórico-computacional para la extracción automática de términos: una aproximación desde las tecnologías del lenguaje»"
+authors:
+  - family-names: "Moyano Moreno"
+    given-names: "Isabel"
+    affiliation: "Universidad de Cádiz"
+date-released: 2026-10-06
+license: CC-BY-4.0
+repository-code: "https://github.com/isabel-mm/tesis-doctoral-datos"
+type: dataset
+keywords: [terminología, extracción automática de términos, lingüística de corpus, terminografía, CRF, BiLSTM-CRF]
