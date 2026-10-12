@@ -2,6 +2,8 @@
 
 Inventario validado a partir de la extracción híbrida (capítulo 5 y Apéndice III de la tesis): 170 unidades en inglés y 147 en español.
 
+Es el inventario tal como se validó, antes de la unificación por concepto. Las variantes de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `04_anotacion/formas_por_entrada.csv`, y las 261 entradas unificadas del glosario, en `07_glicor/`.
+
 ## Ficheros
 
 - `inventario_en.csv`, `inventario_es.csv`: una unidad por fila.
