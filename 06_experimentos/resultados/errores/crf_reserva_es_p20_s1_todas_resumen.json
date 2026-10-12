@@ -1,0 +1,169 @@
+{
+ "modelo": "crf",
+ "ejecucion": "reserva_es_p20_s1_todas",
+ "spans_gold": 5364,
+ "spans_espurios": 375,
+ "global": {
+  "exacto": 2867,
+  "parcial": 696,
+  "perdido": 1801
+ },
+ "por_reserva": {
+  "vista": {
+   "exacto": 1904,
+   "parcial": 139,
+   "perdido": 449
+  },
+  "reservada": {
+   "exacto": 963,
+   "parcial": 557,
+   "perdido": 1352
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "parcial": 122,
+   "exacto": 1871,
+   "perdido": 1448
+  },
+  "poliléxico": {
+   "exacto": 996,
+   "parcial": 574,
+   "perdido": 353
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "parcial": 61,
+   "exacto": 350,
+   "perdido": 1054
+  },
+  "poliléxico": {
+   "exacto": 613,
+   "parcial": 496,
+   "perdido": 298
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "corpus",
+   19
+  ],
+  [
+   "lingüística histórica",
+   11
+  ],
+  [
+   "combinaciones",
+   10
+  ],
+  [
+   "problema",
+   9
+  ],
+  [
+   "problemas",
+   8
+  ],
+  [
+   "diferencias",
+   6
+  ],
+  [
+   "referencia",
+   5
+  ],
+  [
+   "secuencias",
+   5
+  ],
+  [
+   "ciencia",
+   5
+  ],
+  [
+   "combinación",
+   5
+  ],
+  [
+   "traducción",
+   4
+  ],
+  [
+   "diacrónico",
+   4
+  ],
+  [
+   "transcripción",
+   3
+  ],
+  [
+   "presencia",
+   3
+  ],
+  [
+   "importancia",
+   3
+  ],
+  [
+   "palabras clave",
+   3
+  ],
+  [
+   "evidencia",
+   3
+  ],
+  [
+   "oraciones",
+   3
+  ],
+  [
+   "tendencia",
+   3
+  ],
+  [
+   "raíz",
+   3
+  ],
+  [
+   "relevancia",
+   3
+  ],
+  [
+   "consistencia",
+   2
+  ],
+  [
+   "palabra clave",
+   2
+  ],
+  [
+   "combinaciones de palabras",
+   2
+  ],
+  [
+   "herencia",
+   2
+  ],
+  [
+   "cantidad",
+   2
+  ],
+  [
+   "dominico",
+   2
+  ],
+  [
+   "dicciones",
+   2
+  ],
+  [
+   "caridad",
+   2
+  ],
+  [
+   "king",
+   2
+  ]
+ ]
+}

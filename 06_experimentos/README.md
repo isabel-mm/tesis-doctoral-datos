@@ -1,11 +1,13 @@
 # Experimentos
 
-La tesis compara dos modelos de reconocimiento de términos, uno por cada respuesta posible a la pregunta de si hacen falta rasgos o basta con la distribución de las palabras en el texto:
+La tesis compara dos modelos de reconocimiento de términos, uno por cada respuesta posible a la pregunta de si hacen falta rasgos o basta con la distribución de las palabras en el texto, y un *baseline* de clasificadores que deciden sobre cada palabra por separado:
 
 1. **Modelo de aprendizaje automático basado en rasgos**: un CRF que recibe, para cada palabra, 27 rasgos lingüísticos y estadísticos (`rasgos_crf.csv`).
 2. **Modelo neuronal basado en distribuciones**: un BiLSTM-CRF que no recibe rasgos y aprende sus propias representaciones de las palabras a partir del corpus.
 
-Los hiperparámetros de ambos están en `hiperparametros.csv`.
+3. **Baseline**: cinco clasificadores clásicos (regresión logística, SVM lineal, Naive Bayes, árbol de decisión y Random Forest) con los mismos 27 rasgos que el CRF, pero sin tener en cuenta la secuencia.
+
+Los hiperparámetros están en `hiperparametros.csv`.
 
 ## Protocolo de evaluación
 
@@ -26,6 +28,6 @@ Para cada ejecución se guardan, sobre el conjunto de prueba completo y, por sep
 
 ## Código
 
-`scripts/` contiene el código completo: generación de la anotación (`paso1_generar_bio.py`, `glicor_match.py`), CRF (`crf_base.py`, `paso2_crf.py`), BiLSTM-CRF (`paso3_bilstm.py`), análisis de errores (`paso4_errores.py`) y métricas (`metricas.py`).
+`scripts/` contiene el código completo: generación de la anotación (`paso1_generar_bio.py`, `glicor_match.py`), CRF (`crf_base.py`, `paso2_crf.py`), BiLSTM-CRF (`paso3_bilstm.py`), análisis de errores (`paso4_errores.py`), análisis de palabras fuera de vocabulario (`paso5_vocabulario.py`), *baseline* (`paso6_clasificadores.py`), sensibilidad y convergencia del CRF (`paso7_sensibilidad_crf.py`, `paso8_convergencia_crf.py`) y métricas (`metricas.py`).
 
-Los resultados se añadirán en `resultados/` cuando terminen las ejecuciones definitivas.
+Los resultados de todas las ejecuciones están en `resultados/` (véase su README).

@@ -12,10 +12,13 @@ BiLSTM-CRF,Capa recurrente,"BiLSTM, 256 unidades por dirección"
 BiLSTM-CRF,Capa de salida,CRF (pytorch-crf)
 BiLSTM-CRF,Optimizador,"Adam, tasa de aprendizaje 0,001"
 BiLSTM-CRF,Tamaño de lote,16 oraciones
-BiLSTM-CRF,Longitud máxima de secuencia,120 tokens
+BiLSTM-CRF,Longitud máxima de secuencia,sin límite: cada lote se rellena hasta su oración más larga
 BiLSTM-CRF,Sobremuestreo,oraciones con término ×4 por época
 BiLSTM-CRF,Recorte del gradiente,"norma máxima 5,0"
 BiLSTM-CRF,Selección de época,validación con el 10 % de las entradas de término del entrenamiento (no vistas); mejor F1 de término en validación; parada tras 5 épocas sin mejora; máximo 50
 BiLSTM-CRF,Repeticiones,"3 semillas de partición (0–2), las mismas particiones que las tres primeras del CRF"
 Ambos,Protocolo principal,"reserva de entradas de GLiCor (10, 20, 30 y 50 %); oraciones con alguna entrada reservada → prueba"
 Ambos,Protocolo de contraste,"validación cruzada estándar de 5 pliegues (StratifiedKFold, semilla 42)"
+Baseline,Clasificadores,"regresión logística (liblinear), SVM lineal, Naive Bayes (Bernoulli), árbol de decisión y Random Forest (100 árboles), con los valores por defecto de scikit-learn"
+Baseline,Protocolos,"validación cruzada de 5 pliegues y reserva del 20 % (semillas 0–2)"
+CRF,Comprobación de sensibilidad,"c1 ∈ {0,05; 0,1; 0,5} × c2 ∈ {0,01; 0,1}; 200 frente a 1000 iteraciones (resultados/crf)"

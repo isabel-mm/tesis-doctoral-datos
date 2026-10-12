@@ -1,0 +1,143 @@
+entrada,denominacion,forma,pos,n_tokens,patron,principal_documentada,frec_autonoma,formas,frec_incrustada,cadenas,frec_total
+corpus,corpus,corpus,NOUN,1,Monoléxico,True,9168,140,2642,40,11810
+frequency,frecuencia,frecuencia,NOUN,1,Monoléxico,True,1148,6,462,6,1610
+corpus_linguistics,lingüística de corpus,lingüística de corpus,NOUN ADP NOUN,3,N+ de N+,True,715,5,13,1,728
+lemma,lema,lema,NOUN,1,Monoléxico,True,631,21,0,0,631
+annotation,anotación,anotación,NOUN,1,Monoléxico,True,561,7,83,6,644
+sample,muestra,muestra,NOUN,1,Monoléxico,True,539,3,27,2,566
+query,consulta,consulta,NOUN,1,Monoléxico,True,422,5,1,1,423
+genre,género,género,NOUN,1,Monoléxico,True,405,3,0,0,405
+concordance,concordancia,concordancia,NOUN,1,Monoléxico,True,347,4,6,1,353
+parallel_corpus,corpus paralelo,corpus paralelo,NOUN ADJ,2,N ADJ+,True,269,2,0,0,269
+normalized_frequency,frecuencia normalizada,frecuencia normalizada,NOUN ADJ,2,N ADJ+,True,263,2,0,0,263
+encoding,codificación,codificación,NOUN,1,Monoléxico,True,263,5,0,0,263
+representativeness,representatividad,representatividad,NOUN,1,Monoléxico,True,229,1,0,0,229
+word_class,categoría gramatical,categoría gramatical,NOUN ADJ,2,N ADJ+,True,229,6,0,0,229
+speech_corpus,corpus oral,corpus oral,NOUN ADJ,2,N ADJ+,True,220,2,0,0,220
+corpus_based,basado en corpus,basado en corpus,ADJ ADP NOUN,3,Otros,True,212,5,3,1,215
+grammar,gramática,gramática,NOUN,1,Monoléxico,True,194,16,0,0,194
+subcorpus,subcorpus,subcorpus,NOUN,1,Monoléxico,True,189,2,0,0,189
+collocation,colocación,colocación,NOUN,1,Monoléxico,True,189,4,0,0,189
+tagger,etiquetador,etiquetador,NOUN,1,Monoléxico,True,165,4,0,0,165
+reference_corpus,corpus de referencia,corpus de referencia,NOUN ADP NOUN,3,N+ de N+,True,161,2,0,0,161
+frequency_list,lista de frecuencias,lista de frecuencias,NOUN ADP NOUN,3,N+ de N+,True,140,8,0,0,140
+text_type,tipo de texto,tipo de texto,NOUN ADP NOUN,3,N+ de N+,True,140,2,0,0,140
+probability,probabilidad,probabilidad,NOUN,1,Monoléxico,True,134,2,0,0,134
+occurrence,ocurrencia,ocurrencia,NOUN,1,Monoléxico,True,134,3,0,0,134
+diachronic_corpus,corpus diacrónico,corpus diacrónico,NOUN ADJ,2,N ADJ+,True,114,2,0,0,114
+alignment,alineación,alineación,NOUN,1,Monoléxico,True,109,3,0,0,109
+token,token,token,PROPN,1,Monoléxico,True,106,7,7,2,113
+lemmatisation,lematización,lematización,NOUN,1,Monoléxico,True,102,2,0,0,102
+population,población,población,NOUN,1,Monoléxico,True,100,4,0,0,100
+metadata,metadato,metadato,NOUN,1,Monoléxico,True,98,4,0,0,98
+balance,equilibrio,equilibrio,NOUN,1,Monoléxico,True,96,1,0,0,96
+web_as_corpus,web como corpus,web como corpus,NOUN SCONJ NOUN,3,Otros,True,96,2,0,0,96
+computational_linguistics,lingüística computacional,lingüística computacional,NOUN ADJ,2,N ADJ+,True,93,1,12,1,105
+keyword,palabra clave,palabra clave,NOUN NOUN,2,N N+,True,89,5,2,1,91
+tagset,etiquetario,etiquetario,NOUN,1,Monoléxico,True,80,7,0,0,80
+learner_corpus,corpus de aprendices,corpus de aprendices,NOUN ADP NOUN,3,N+ de N+,True,78,3,0,0,78
+annotated_corpus,corpus anotado,corpus anotado,NOUN ADJ,2,N ADJ+,True,75,2,3,1,78
+specialised_corpus,corpus especializado,corpus especializado,NOUN ADJ,2,N ADJ+,True,73,2,0,0,73
+general_corpus,corpus general,corpus general,NOUN ADJ,2,N ADJ+,True,72,2,0,0,72
+comparable_corpus,corpus comparable,corpus comparable,NOUN ADJ,2,N ADJ+,True,64,2,0,0,64
+synchronic,sincrónico,sincrónico,ADJ,1,Monoléxico,True,60,4,16,1,76
+corpus_building,construcción de corpus,construcción de corpus,NOUN ADP NOUN,3,N+ de N+,True,59,2,0,0,59
+raw_frequency,frecuencia absoluta,frecuencia absoluta,NOUN ADJ,2,N ADJ+,True,58,4,0,0,58
+natural_language_processing,procesamiento del lenguaje natural,procesamiento del lenguaje natural,NOUN ADP NOUN ADJ,4,N+ de N ADJ+,True,54,1,0,0,54
+multilingual_corpus,corpus multilingüe,corpus multilingüe,NOUN ADJ,2,N ADJ+,True,53,3,0,0,53
+n_gram,n-grama,n-grama,NOUN,1,Monoléxico,True,52,8,0,0,52
+stem,raíz,raíz,NOUN,1,Monoléxico,True,52,4,0,0,52
+treebank,corpus anotado sintácticamente,corpus anotado sintácticamente,NOUN ADJ ADV,3,Otros,True,52,7,0,0,52
+ttr,relación entre types y tokens,ttr,PROPN,1,Monoléxico,False,51,7,0,0,51
+regular_expression,expresión regular,expresión regular,NOUN ADJ,2,N ADJ+,True,47,2,0,0,47
+relative_frequency,frecuencia relativa,frecuencia relativa,NOUN ADJ,2,N ADJ+,True,46,2,0,0,46
+dataset,conjunto de datos,conjunto de datos,NOUN ADP NOUN,3,N+ de N+,True,44,6,0,0,44
+virtual_corpus,corpus virtual,corpus virtual,NOUN ADJ,2,N ADJ+,True,43,2,0,0,43
+plain_text,texto plano,texto plano,NOUN ADJ,2,N ADJ+,True,43,1,0,0,43
+corpus_design,diseño de corpus,diseño de corpus,NOUN ADP NOUN,3,N+ de N+,True,42,1,0,0,42
+historical_corpus,corpus histórico,corpus histórico,PROPN ADJ,2,N ADJ+,True,40,3,0,0,40
+corpus_size,tamaño del corpus,tamaño del corpus,NOUN ADP NOUN,3,N+ de N+,True,38,1,0,0,38
+clustering,agrupamiento,agrupamiento,NOUN,1,Monoléxico,True,36,5,0,0,36
+written_corpus,corpus escrito,corpus escrito,NOUN ADJ,2,N ADJ+,True,36,2,0,0,36
+semantic_annotation,anotación semántica,anotación semántica,NOUN ADJ,2,N ADJ+,True,36,1,0,0,36
+dispersion,dispersión,dispersión,NOUN,1,Monoléxico,True,33,2,3,1,36
+hapax_legomenon,hápax,hápax,NOUN,1,Monoléxico,True,30,1,0,0,30
+bilingual_corpus,corpus bilingüe,corpus bilingüe,NOUN ADJ,2,N ADJ+,True,30,3,0,0,30
+text_mining,minería de textos,minería de textos,NOUN ADP NOUN,3,N+ de N+,True,30,4,0,0,30
+monolingual_corpus,corpus monolingüe,corpus monolingüe,NOUN ADJ,2,N ADJ+,True,29,2,0,0,29
+segmentation,segmentación,segmentación,NOUN,1,Monoléxico,True,29,1,0,0,29
+mutual_information,información mutua,información mutua,NOUN ADJ,2,N ADJ+,True,27,1,0,0,27
+multimodal_corpus,corpus multimodal,corpus multimodal,NOUN ADJ,2,N ADJ+,True,26,2,0,0,26
+pos_tagging,etiquetado morfosintáctico,etiquetado morfosintáctico,NOUN ADJ,2,N ADJ+,True,26,2,0,0,26
+wildcard,comodín,comodín,NOUN,1,Monoléxico,True,26,4,0,0,26
+transcriber,transcriptor,transcriptor,NOUN,1,Monoléxico,True,26,2,0,0,26
+parsing,análisis sintáctico,análisis sintáctico,NOUN ADJ,2,N ADJ+,True,25,1,6,1,31
+monitor_corpus,corpus monitor,corpus monitor,NOUN NOUN,2,N N+,True,25,2,0,0,25
+accuracy,exactitud,exactitud,NOUN,1,Monoléxico,True,24,1,0,0,24
+sample_size,tamaño de la muestra,tamaño de la muestra,NOUN ADP DET NOUN,4,N+ de N+,True,20,4,0,0,20
+lexeme,lexema,lexema,NOUN,1,Monoléxico,True,20,2,0,0,20
+corpus_driven,guiado por corpus,guiado por corpus,ADJ ADP NOUN,3,Otros,True,19,5,0,0,19
+multiword_expression,expresión multipalabra,unidades multipalabra,NOUN ADJ,2,N ADJ+,False,18,4,0,0,18
+kwic,KWIC,kwic,PROPN,1,Monoléxico,True,18,4,0,0,18
+corpus_based_translation_studies,estudios de la traducción basados en corpus,estudios de la traducción basados en corpus,PROPN ADP DET PROPN ADJ ADP PROPN,7,Otros,True,18,4,0,0,18
+training_corpus,corpus de entrenamiento,corpus de entrenamiento,NOUN ADP NOUN,3,N+ de N+,True,16,1,0,0,16
+synchronic_corpus,corpus sincrónico,corpus sincrónico,NOUN ADJ,2,N ADJ+,True,16,2,0,0,16
+moving_average,media móvil,media móvil,NOUN ADJ,2,N ADJ+,True,16,2,0,0,16
+recall,exhaustividad,exhaustividad,NOUN,1,Monoléxico,True,16,1,0,0,16
+header,encabezado,encabezado,NOUN,1,Monoléxico,True,16,2,0,0,16
+web_corpus,corpus web,corpus web,PROPN NOUN,2,N N+,True,15,1,0,0,15
+word_sketch,word sketch,word sketch,PROPN PROPN,2,N N+,True,15,2,0,0,15
+word_sense_disambiguation,desambiguación semántica,desambiguación semántica,NOUN ADJ,2,N ADJ+,True,13,3,0,0,13
+syntactic_annotation,anotación sintáctica,anotación sintáctica,NOUN ADJ,2,N ADJ+,True,13,1,0,0,13
+computational_corpus_linguistics,lingüística de corpus computacional,lingüística de corpus computacional,NOUN ADP NOUN ADJ,4,N+ de N ADJ+,True,13,1,0,0,13
+balanced_corpus,corpus equilibrado,corpus equilibrado,NOUN ADJ,2,N ADJ+,True,13,2,0,0,13
+tokenization,tokenización,tokenización,NOUN,1,Monoléxico,True,13,1,0,0,13
+corpus_based_computational_linguistics,lingüística computacional de corpus,lingüística computacional de corpus,NOUN ADJ ADP NOUN,4,Otros,True,12,1,0,0,12
+markup_language,lenguaje de marcado,lenguaje de marcado,NOUN ADP NOUN,3,N+ de N+,True,11,3,0,0,11
+morphological_annotation,anotación morfológica,anotación morfológica,NOUN ADJ,2,N ADJ+,True,11,1,0,0,11
+zipfs_law,ley de Zipf,ley de zipf,NOUN ADP PROPN,3,Otros,True,11,1,0,0,11
+statistical_significance,significación estadística,significación estadística,NOUN ADJ,2,N ADJ+,True,11,2,0,0,11
+collocate,colocado,colocado,ADJ,1,Monoléxico,True,11,2,0,0,11
+pragmatic_annotation,anotación pragmática,anotación pragmática,NOUN ADJ,2,N ADJ+,True,10,1,0,0,10
+annotation_scheme,esquema de anotación,esquema de anotación,NOUN ADP NOUN,3,N+ de N+,True,10,2,0,0,10
+function_word,palabra funcional,palabras funcionales,NOUN ADJ,2,N ADJ+,False,10,1,0,0,10
+word_frequency,frecuencia de palabras,frecuencia de palabras,NOUN ADP NOUN,3,N+ de N+,True,10,2,0,0,10
+mega_corpus,megacorpus,megacorpus,NOUN,1,Monoléxico,True,10,2,0,0,10
+sampling_unit,unidad de muestra,unidad de muestra,NOUN ADP NOUN,3,N+ de N+,True,9,1,0,0,9
+inter_annotator_agreement,acuerdo entre anotadores,acuerdo entre anotadores,NOUN ADP NOUN,3,Otros,True,9,2,0,0,9
+phraseology,fraseología,fraseología,NOUN,1,Monoléxico,True,9,1,0,0,9
+web_crawling,web crawling,web crawling,PROPN PROPN,2,N N+,True,8,3,0,0,8
+dependency_parsing,análisis sintáctico de dependencias,análisis sintáctico de dependencias,NOUN ADJ ADP NOUN,4,Otros,True,8,2,0,0,8
+collocational_strength,fuerza de asociación,fuerza de asociación,NOUN ADP NOUN,3,N+ de N+,True,8,3,0,0,8
+web_for_corpus,web para corpus,web para corpus,NOUN ADP NOUN,3,Otros,True,8,3,0,0,8
+gold_standard,estándar de oro,estándar de oro,PROPN ADP NOUN,3,N+ de N+,True,7,2,0,0,7
+opportunistic_corpus,corpus oportunista,corpus oportunista,NOUN ADJ,2,N ADJ+,True,7,2,0,0,7
+association_measure,medida de asociación,medidas de asociación,NOUN ADP NOUN,3,N+ de N+,False,6,1,0,0,6
+chi_squared,chi cuadrado,chi cuadrado,NOUN ADJ,2,N ADJ+,True,6,4,0,0,6
+telematic_corpus,corpus telemático,corpus telemático,NOUN ADJ,2,N ADJ+,True,6,2,0,0,6
+concordancer,programa de concordancias,programa de concordancias,NOUN ADP NOUN,3,N+ de N+,True,6,2,0,0,6
+frequency_per_million_words,frecuencia por millón de palabras,frecuencia por millón de palabras,NOUN ADP NOUN ADP NOUN,5,Otros,True,6,2,0,0,6
+t_score,puntuación t,puntuación t,NOUN NOUN,2,N N+,True,6,2,0,0,6
+inferential_statistics,estadística inferencial,estadística inferencial,NOUN ADJ,2,N ADJ+,True,5,2,0,0,5
+stopword,palabra vacía,palabras vacías,NOUN ADJ,2,N ADJ+,False,5,1,0,0,5
+stemming,stemming,stemming,NOUN,1,Monoléxico,True,4,1,0,0,4
+content_word,palabra de contenido,palabras de contenido,NOUN ADP NOUN,3,N+ de N+,False,4,1,0,0,4
+log_likelihood,log-verosimilitud,log-verosimilitud,NOUN,1,Monoléxico,True,4,1,0,0,4
+corpus_query_language,lenguaje de consulta,lenguaje de consulta,NOUN ADP NOUN,3,N+ de N+,True,4,3,0,0,4
+descriptive_statistics,estadística descriptiva,estadística descriptiva,NOUN ADJ,2,N ADJ+,True,4,2,0,0,4
+semantic_prosody,prosodia semántica,prosodia semántica,NOUN ADJ,2,N ADJ+,True,4,1,0,0,4
+semantic_preference,preferencia semántica,preferencia semántica,NOUN ADJ,2,N ADJ+,True,3,1,0,0,3
+national_corpus,corpus nacional,corpus nacionales,NOUN ADJ,2,N ADJ+,False,3,1,0,0,3
+static_corpus,corpus estático,corpus estático,NOUN ADJ,2,N ADJ+,True,3,2,0,0,3
+annotation_tool,herramienta de anotación,herramienta de anotación,NOUN ADP NOUN,3,N+ de N+,True,3,2,0,0,3
+normalized_dispersion_index,índice normalizado de dispersión,índice normalizado de dispersión,NOUN ADJ ADP NOUN,4,Otros,True,3,1,0,0,3
+pos_disambiguation,desambiguación morfosintáctica,desambiguación morfosintáctica,NOUN ADJ,2,N ADJ+,True,3,1,0,0,3
+mean_score,media aritmética,media aritmética,NOUN ADJ,2,N ADJ+,True,2,2,0,0,2
+keyness,keyness,keyness,PROPN,1,Monoléxico,True,2,1,0,0,2
+named_entity_recognition,reconocimiento de entidades nombradas,reconocimiento de entidades nombradas,NOUN ADP NOUN ADJ,4,N+ de N ADJ+,True,2,1,0,0,2
+colligation,coligación,coligación,NOUN,1,Monoléxico,True,2,1,0,0,2
+standard_deviation,desviación estándar,desviación estándar,NOUN ADJ,2,N ADJ+,True,2,1,0,0,2
+keyword_analysis,análisis de palabras clave,análisis de palabras clave,NOUN ADP NOUN NOUN,4,N+ de N+,True,2,1,0,0,2
+type,tipo,types y tokens,PROPN CCONJ PROPN,3,Otros,False,2,2,0,0,2
+node_word,palabra nodo,palabra nodo,NOUN NOUN,2,N N+,True,1,1,0,0,1
+lexical_bundle,grupo léxico,grupos léxicos,NOUN ADJ,2,N ADJ+,False,1,1,0,0,1

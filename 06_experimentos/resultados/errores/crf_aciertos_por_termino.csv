@@ -1,0 +1,253 @@
+lengua,entrada,reservada,exacto,parcial,perdido,apariciones,%_acierto,parcial_tipico
+EN,probability,True,0,12,469,481,0.0,transitional probability
+EN,frequency_list,True,0,188,112,300,0.0,frequency
+EN,corpus_design,True,0,292,0,292,0.0,corpus
+EN,word_class,True,0,3,155,158,0.0,particular word
+EN,reference_corpus,True,0,119,0,119,0.0,corpus
+EN,general_corpus,True,0,104,3,107,0.0,corpus
+EN,stem,True,0,0,106,106,0.0,
+EN,natural_language_processing,True,0,3,75,78,0.0,Processing
+EN,mean_score,True,0,0,77,77,0.0,
+EN,clustering,True,0,0,67,67,0.0,
+EN,recall,True,0,0,63,63,0.0,
+EN,diachronic_corpus,True,0,56,0,56,0.0,corpus
+EN,concordancer,True,0,1,35,36,0.0,parallel concordancers
+EN,t_score,True,0,0,16,16,0.0,
+EN,word_sense_disambiguation,True,0,0,16,16,0.0,
+EN,markup_language,True,0,0,14,14,0.0,
+EN,synchronic_corpus,True,0,10,0,10,0.0,corpora
+EN,named_entity_recognition,True,0,2,1,3,0.0,recognition
+EN,corpus_query_language,True,0,1,0,1,0.0,Corpus Query
+EN,sample,True,16,4,1489,1509,1.1,corpus samples
+EN,corpus_linguistics,True,49,1568,0,1617,3.0,corpus
+EN,corpus_size,True,4,97,0,101,4.0,corpus
+EN,web_crawling,True,1,0,14,15,6.7,
+EN,lemma,True,10,0,130,140,7.1,
+EN,concordance,True,51,3,174,228,22.4,concordance
+EN,lexico_grammar,True,3,4,0,7,42.9,grammar
+EN,stemming,True,2,0,2,4,50.0,
+EN,keyness,True,82,0,0,82,100.0,
+EN,colligation,True,31,0,0,31,100.0,
+EN,alignment,False,0,0,18,18,0.0,
+EN,lemmatisation,False,0,0,13,13,0.0,
+EN,parsing,False,0,0,7,7,0.0,
+EN,semantic_preference,False,0,0,2,2,0.0,
+EN,stratified_sampling,False,0,0,2,2,0.0,
+EN,text_mining,False,0,0,2,2,0.0,
+EN,corpus_based_translation_studies,False,0,1,0,1,0.0,corpus - based
+EN,dependency_parsing,False,0,1,0,1,0.0,dependency
+EN,transcriber,False,0,0,1,1,0.0,
+EN,population,False,3,0,111,114,2.6,
+EN,balance,False,2,0,24,26,7.7,
+EN,collocation,False,10,0,60,70,14.3,
+EN,statistical_significance,False,1,0,6,7,14.3,
+EN,syntactic_annotation,False,1,0,3,4,25.0,
+EN,metadata,False,5,0,13,18,27.8,
+EN,encoding,False,3,1,6,10,30.0,Encoding Standard
+EN,type,False,14,8,21,43,32.6,word types
+EN,occurrence,False,29,0,58,87,33.3,
+EN,word_frequency,False,6,12,0,18,33.3,frequency
+EN,tokenization,False,4,0,8,12,33.3,
+EN,phraseology,False,1,0,2,3,33.3,
+EN,annotation,False,44,2,76,122,36.1,corpus
+EN,descriptive_statistics,False,3,0,5,8,37.5,
+EN,computational_linguistics,False,4,0,6,10,40.0,
+EN,synchronic,False,4,0,6,10,40.0,
+EN,mutual_information,False,2,0,3,5,40.0,
+EN,historical_corpus,False,3,4,0,7,42.9,corpora
+EN,dispersion,False,27,3,32,62,43.5,dispersion measure
+EN,balanced_corpus,False,2,2,0,4,50.0,corpus
+EN,content_word,False,2,1,1,4,50.0,words.18
+EN,training_corpus,False,2,2,0,4,50.0,corpus
+EN,segmentation,False,1,0,1,2,50.0,
+EN,web_as_corpus,False,1,1,0,2,50.0,Corpus
+EN,sampling_unit,False,5,0,4,9,55.6,
+EN,annotation_scheme,False,4,0,3,7,57.1,
+EN,relative_frequency,False,7,5,0,12,58.3,frequency
+EN,written_corpus,False,3,2,0,5,60.0,corpus
+EN,association_measure,False,7,2,2,11,63.6,association
+EN,regular_expression,False,8,0,4,12,66.7,
+EN,confidence_interval,False,11,0,5,16,68.8,
+EN,comparable_corpus,False,9,4,0,13,69.2,corpus
+EN,corpus_driven,False,5,2,0,7,71.4,corpus
+EN,corpus_building,False,14,5,0,19,73.7,corpus
+EN,inferential_statistics,False,3,0,1,4,75.0,
+EN,node_word,False,3,1,0,4,75.0,node
+EN,semantic_annotation,False,3,0,1,4,75.0,
+EN,standard_deviation,False,22,1,6,29,75.9,deviation
+EN,text_type,False,27,1,6,34,79.4,Type
+EN,representativeness,False,136,0,35,171,79.5,
+EN,plain_text,False,4,0,1,5,80.0,
+EN,treebank,False,4,0,1,5,80.0,
+EN,annotated_corpus,False,5,1,0,6,83.3,corpus
+EN,frequency_per_million_words,False,5,1,0,6,83.3,per million
+EN,lexeme,False,5,0,1,6,83.3,
+EN,log_likelihood,False,5,0,1,6,83.3,
+EN,function_word,False,11,0,2,13,84.6,
+EN,collocate,False,24,2,2,28,85.7,collocate frequency
+EN,speech_corpus,False,24,4,0,28,85.7,corpus
+EN,monolingual_corpus,False,14,2,0,16,87.5,corpus
+EN,web_corpus,False,7,1,0,8,87.5,corpus
+EN,multilingual_corpus,False,8,1,0,9,88.9,corpus
+EN,kwic,False,18,0,2,20,90.0,
+EN,header,False,10,0,1,11,90.9,
+EN,lexical_bundle,False,10,1,0,11,90.9,bundles/
+EN,n_gram,False,10,0,1,11,90.9,
+EN,keyword,False,86,4,4,94,91.5,differential keywords
+EN,national_corpus,False,13,0,1,14,92.9,
+EN,learner_corpus,False,15,1,0,16,93.8,corpus/
+EN,frequency,False,250,5,7,262,95.4,collocate frequency
+EN,sample_size,False,43,0,2,45,95.6,
+EN,ttr,False,23,1,0,24,95.8,Type / token
+EN,corpus,False,1652,40,20,1712,96.5,translation corpus
+EN,tagger,False,35,0,1,36,97.2,
+EN,token,False,80,2,0,82,97.6,multi - word tokens
+EN,genre,False,63,0,1,64,98.4,
+EN,corpus_based,False,64,1,0,65,98.5,Corpus
+EN,query,False,76,0,0,76,100.0,
+EN,grammar,False,44,0,0,44,100.0,
+EN,parallel_corpus,False,43,0,0,43,100.0,
+EN,hapax_legomenon,False,29,0,0,29,100.0,
+EN,accuracy,False,26,0,0,26,100.0,
+EN,keyword_analysis,False,26,0,0,26,100.0,
+EN,subcorpus,False,23,0,0,23,100.0,
+EN,pos_tagging,False,21,0,0,21,100.0,
+EN,tagset,False,21,0,0,21,100.0,
+EN,sampling_frame,False,19,0,0,19,100.0,
+EN,dataset,False,15,0,0,15,100.0,
+EN,specialised_corpus,False,13,0,0,13,100.0,
+EN,chi_squared,False,10,0,0,10,100.0,
+EN,bilingual_corpus,False,9,0,0,9,100.0,
+EN,effect_size,False,9,0,0,9,100.0,
+EN,monitor_corpus,False,8,0,0,8,100.0,
+EN,multimodal_corpus,False,8,0,0,8,100.0,
+EN,mega_corpus,False,7,0,0,7,100.0,
+EN,raw_frequency,False,7,0,0,7,100.0,
+EN,opportunistic_corpus,False,4,0,0,4,100.0,
+EN,stopword,False,4,0,0,4,100.0,
+EN,semantic_prosody,False,2,0,0,2,100.0,
+EN,wildcard,False,2,0,0,2,100.0,
+EN,zipfs_law,False,2,0,0,2,100.0,
+EN,annotation_tool,False,1,0,0,1,100.0,
+EN,formulaic_language,False,1,0,0,1,100.0,
+EN,normalized_frequency,False,1,0,0,1,100.0,
+EN,static_corpus,False,1,0,0,1,100.0,
+EN,z_score,False,1,0,0,1,100.0,
+ES,sample,True,0,27,512,539,0.0,cantidad de muestras
+ES,grammar,True,0,1,193,194,0.0,gramáticas descritivas
+ES,tagger,True,0,0,165,165,0.0,
+ES,metadata,True,0,5,93,98,0.0,tipo de metadatos
+ES,web_as_corpus,True,0,96,0,96,0.0,corpus
+ES,learner_corpus,True,0,65,13,78,0.0,corpus
+ES,multilingual_corpus,True,0,53,0,53,0.0,corpus
+ES,n_gram,True,0,1,51,52,0.0,n-gramas de etiquetas
+ES,relative_frequency,True,0,45,1,46,0.0,frecuencia
+ES,virtual_corpus,True,0,43,0,43,0.0,corpus
+ES,bilingual_corpus,True,0,30,0,30,0.0,corpus
+ES,monolingual_corpus,True,0,28,1,29,0.0,corpus
+ES,monitor_corpus,True,0,11,14,25,0.0,corpus
+ES,statistical_significance,True,0,4,7,11,0.0,significación
+ES,annotation_scheme,True,0,5,5,10,0.0,anotación
+ES,opportunistic_corpus,True,0,7,0,7,0.0,corpus
+ES,stopword,True,0,0,5,5,0.0,
+ES,colligation,True,0,0,2,2,0.0,
+ES,keyness,True,0,0,2,2,0.0,
+ES,node_word,True,0,0,1,1,0.0,
+ES,lemma,True,3,0,628,631,0.5,
+ES,computational_linguistics,True,2,0,91,93,2.2,
+ES,corpus_design,True,1,41,0,42,2.4,corpus
+ES,clustering,True,2,0,34,36,5.6,
+ES,synchronic_corpus,True,1,15,0,16,6.2,corpus
+ES,concordance,True,100,1,246,347,28.8,corpus de concordancias
+ES,tokenization,True,5,0,8,13,38.5,
+ES,recall,True,10,0,6,16,62.5,
+ES,representativeness,False,0,0,30,30,0.0,
+ES,probability,False,0,0,12,12,0.0,
+ES,word_frequency,False,0,3,4,7,0.0,frecuencias
+ES,accuracy,False,0,0,6,6,0.0,
+ES,parsing,False,0,0,5,5,0.0,
+ES,corpus_building,False,0,4,0,4,0.0,corpus
+ES,dependency_parsing,False,0,0,4,4,0.0,
+ES,dispersion,False,0,0,4,4,0.0,
+ES,association_measure,False,0,0,3,3,0.0,
+ES,computational_corpus_linguistics,False,0,3,0,3,0.0,lingüística de corpus
+ES,frequency_per_million_words,False,0,1,2,3,0.0,frecuencia
+ES,concordancer,False,0,0,2,2,0.0,
+ES,morphological_annotation,False,0,0,2,2,0.0,
+ES,named_entity_recognition,False,0,0,2,2,0.0,
+ES,normalized_dispersion_index,False,0,0,2,2,0.0,
+ES,pragmatic_annotation,False,0,0,2,2,0.0,
+ES,stemming,False,0,0,2,2,0.0,
+ES,training_corpus,False,0,2,0,2,0.0,corpus
+ES,chi_squared,False,0,0,1,1,0.0,
+ES,collocational_strength,False,0,0,1,1,0.0,
+ES,dataset,False,0,0,1,1,0.0,
+ES,header,False,0,0,1,1,0.0,
+ES,inferential_statistics,False,0,0,1,1,0.0,
+ES,markup_language,False,0,0,1,1,0.0,
+ES,phraseology,False,0,0,1,1,0.0,
+ES,segmentation,False,0,0,1,1,0.0,
+ES,t_score,False,0,0,1,1,0.0,
+ES,type,False,0,1,0,1,0.0,tokens
+ES,collocation,False,1,0,51,52,1.9,
+ES,population,False,1,0,40,41,2.4,
+ES,synchronic,False,1,0,12,13,7.7,
+ES,lemmatisation,False,2,0,23,25,8.0,
+ES,alignment,False,1,0,9,10,10.0,
+ES,balanced_corpus,False,1,4,0,5,20.0,corpus
+ES,multiword_expression,False,1,3,1,5,20.0,expresiones
+ES,pos_tagging,False,1,0,4,5,20.0,
+ES,encoding,False,5,0,19,24,20.8,
+ES,annotation,False,17,5,53,75,22.7,corpus
+ES,regular_expression,False,1,0,2,3,33.3,
+ES,treebank,False,1,1,1,3,33.3,corpus anotados
+ES,occurrence,False,13,0,22,35,37.1,
+ES,web_for_corpus,False,3,3,0,6,50.0,corpus
+ES,semantic_annotation,False,1,0,1,2,50.0,
+ES,kwic,False,9,3,4,16,56.2,Words
+ES,frequency,False,138,9,83,230,60.0,frecuencia general
+ES,text_type,False,12,0,8,20,60.0,
+ES,web_corpus,False,3,2,0,5,60.0,corpus
+ES,keyword,False,19,1,11,31,61.3,extracción de palabras clave
+ES,natural_language_processing,False,4,0,2,6,66.7,
+ES,sample_size,False,4,0,2,6,66.7,
+ES,comparable_corpus,False,2,1,0,3,66.7,corpus
+ES,historical_corpus,False,2,1,0,3,66.7,Corpus
+ES,frequency_list,False,31,11,4,46,67.4,frecuencias
+ES,tagset,False,13,0,6,19,68.4,
+ES,written_corpus,False,5,2,0,7,71.4,corpus
+ES,diachronic_corpus,False,8,3,0,11,72.7,corpus
+ES,specialised_corpus,False,8,3,0,11,72.7,corpus
+ES,general_corpus,False,12,4,0,16,75.0,corpus
+ES,plain_text,False,3,0,1,4,75.0,
+ES,ttr,False,3,1,0,4,75.0,tokens
+ES,word_class,False,80,1,19,100,80.0,Clase de palabras Frecuencia absoluta
+ES,token,False,13,2,1,16,81.2,Categorías sintácticas Categoría Tokens
+ES,raw_frequency,False,21,1,3,25,84.0,Clase de palabras Frecuencia absoluta
+ES,corpus_size,False,6,1,0,7,85.7,corpus
+ES,normalized_frequency,False,79,5,8,92,85.9,frecuencia
+ES,word_sketch,False,7,0,1,8,87.5,
+ES,corpus_based,False,12,0,1,13,92.3,
+ES,corpus,False,956,41,12,1009,94.7,lingüista de corpus
+ES,reference_corpus,False,25,1,0,26,96.2,corpus
+ES,speech_corpus,False,28,1,0,29,96.6,corpus
+ES,subcorpus,False,34,0,1,35,97.1,
+ES,genre,False,42,0,1,43,97.7,
+ES,corpus_linguistics,False,57,1,0,58,98.3,corpus
+ES,query,False,63,0,0,63,100.0,
+ES,parallel_corpus,False,24,0,0,24,100.0,
+ES,balance,False,19,0,0,19,100.0,
+ES,annotated_corpus,False,14,0,0,14,100.0,
+ES,hapax_legomenon,False,6,0,0,6,100.0,
+ES,stem,False,6,0,0,6,100.0,
+ES,corpus_based_computational_linguistics,False,5,0,0,5,100.0,
+ES,multimodal_corpus,False,4,0,0,4,100.0,
+ES,mutual_information,False,3,0,0,3,100.0,
+ES,transcriber,False,3,0,0,3,100.0,
+ES,corpus_based_translation_studies,False,2,0,0,2,100.0,
+ES,mega_corpus,False,2,0,0,2,100.0,
+ES,word_sense_disambiguation,False,2,0,0,2,100.0,
+ES,log_likelihood,False,1,0,0,1,100.0,
+ES,text_mining,False,1,0,0,1,100.0,
+ES,wildcard,False,1,0,0,1,100.0,
+ES,zipfs_law,False,1,0,0,1,100.0,

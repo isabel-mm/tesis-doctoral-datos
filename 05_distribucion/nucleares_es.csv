@@ -1,0 +1,16 @@
+entrada,denominacion,forma,pos,n_tokens,patron,principal_documentada,frec_autonoma,formas,frec_incrustada,cadenas,frec_total
+corpus,corpus,corpus,NOUN,1,Monoléxico,True,9168,140,2642,40,11810
+frequency,frecuencia,frecuencia,NOUN,1,Monoléxico,True,1148,6,462,6,1610
+annotation,anotación,anotación,NOUN,1,Monoléxico,True,561,7,83,6,644
+sample,muestra,muestra,NOUN,1,Monoléxico,True,539,3,27,2,566
+token,token,token,PROPN,1,Monoléxico,True,106,7,7,2,113
+corpus_linguistics,lingüística de corpus,lingüística de corpus,NOUN ADP NOUN,3,N+ de N+,True,715,5,13,1,728
+query,consulta,consulta,NOUN,1,Monoléxico,True,422,5,1,1,423
+concordance,concordancia,concordancia,NOUN,1,Monoléxico,True,347,4,6,1,353
+corpus_based,basado en corpus,basado en corpus,ADJ ADP NOUN,3,Otros,True,212,5,3,1,215
+computational_linguistics,lingüística computacional,lingüística computacional,NOUN ADJ,2,N ADJ+,True,93,1,12,1,105
+keyword,palabra clave,palabra clave,NOUN NOUN,2,N N+,True,89,5,2,1,91
+annotated_corpus,corpus anotado,corpus anotado,NOUN ADJ,2,N ADJ+,True,75,2,3,1,78
+synchronic,sincrónico,sincrónico,ADJ,1,Monoléxico,True,60,4,16,1,76
+dispersion,dispersión,dispersión,NOUN,1,Monoléxico,True,33,2,3,1,36
+parsing,análisis sintáctico,análisis sintáctico,NOUN ADJ,2,N ADJ+,True,25,1,6,1,31

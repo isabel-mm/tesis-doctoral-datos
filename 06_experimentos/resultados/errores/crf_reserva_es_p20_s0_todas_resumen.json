@@ -1,0 +1,169 @@
+{
+ "modelo": "crf",
+ "ejecucion": "reserva_es_p20_s0_todas",
+ "spans_gold": 14901,
+ "spans_espurios": 724,
+ "global": {
+  "perdido": 7624,
+  "exacto": 5166,
+  "parcial": 2111
+ },
+ "por_reserva": {
+  "vista": {
+   "exacto": 2313,
+   "perdido": 1073,
+   "parcial": 140
+  },
+  "reservada": {
+   "perdido": 6551,
+   "exacto": 2853,
+   "parcial": 1971
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "perdido": 7191,
+   "exacto": 3801,
+   "parcial": 1947
+  },
+  "poliléxico": {
+   "exacto": 1365,
+   "perdido": 433,
+   "parcial": 164
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "perdido": 6298,
+   "exacto": 2725,
+   "parcial": 1882
+  },
+  "poliléxico": {
+   "perdido": 253,
+   "exacto": 128,
+   "parcial": 89
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "secuencias",
+   20
+  ],
+  [
+   "tipos de textos",
+   17
+  ],
+  [
+   "secuencia",
+   15
+  ],
+  [
+   "spoken",
+   15
+  ],
+  [
+   "diferencias",
+   13
+  ],
+  [
+   "referencia",
+   13
+  ],
+  [
+   "investigadores",
+   11
+  ],
+  [
+   "oraciones",
+   10
+  ],
+  [
+   "diferencia",
+   10
+  ],
+  [
+   "importancia",
+   9
+  ],
+  [
+   "clasificación",
+   8
+  ],
+  [
+   "categoría sintáctica",
+   8
+  ],
+  [
+   "conjunto de textos",
+   7
+  ],
+  [
+   "palabras clave",
+   7
+  ],
+  [
+   "diccionario",
+   7
+  ],
+  [
+   "recuperación",
+   7
+  ],
+  [
+   "ciencias",
+   6
+  ],
+  [
+   "ciencia",
+   6
+  ],
+  [
+   "consecuencia",
+   6
+  ],
+  [
+   "translation-driven",
+   6
+  ],
+  [
+   "investigador",
+   6
+  ],
+  [
+   "función",
+   6
+  ],
+  [
+   "/palabra",
+   6
+  ],
+  [
+   "web-based",
+   5
+  ],
+  [
+   "unidades",
+   5
+  ],
+  [
+   "representación",
+   5
+  ],
+  [
+   "referencias",
+   5
+  ],
+  [
+   "información",
+   5
+  ],
+  [
+   "diccionarios",
+   5
+  ],
+  [
+   "especializado peninsular",
+   5
+  ]
+ ]
+}

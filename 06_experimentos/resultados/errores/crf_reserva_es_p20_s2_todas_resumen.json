@@ -1,0 +1,169 @@
+{
+ "modelo": "crf",
+ "ejecucion": "reserva_es_p20_s2_todas",
+ "spans_gold": 4749,
+ "spans_espurios": 203,
+ "global": {
+  "exacto": 2123,
+  "perdido": 1976,
+  "parcial": 650
+ },
+ "por_reserva": {
+  "vista": {
+   "exacto": 1792,
+   "perdido": 387,
+   "parcial": 121
+  },
+  "reservada": {
+   "perdido": 1589,
+   "parcial": 529,
+   "exacto": 331
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "perdido": 1664,
+   "exacto": 1646,
+   "parcial": 57
+  },
+  "poliléxico": {
+   "exacto": 477,
+   "parcial": 593,
+   "perdido": 312
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "perdido": 1339,
+   "exacto": 194,
+   "parcial": 6
+  },
+  "poliléxico": {
+   "parcial": 523,
+   "perdido": 250,
+   "exacto": 137
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "muestra",
+   19
+  ],
+  [
+   "corpus",
+   17
+  ],
+  [
+   "importancia",
+   8
+  ],
+  [
+   "problema",
+   6
+  ],
+  [
+   "diferencias",
+   5
+  ],
+  [
+   "secuencia",
+   5
+  ],
+  [
+   "secuencias",
+   4
+  ],
+  [
+   "list",
+   4
+  ],
+  [
+   "medidas de precisión",
+   4
+  ],
+  [
+   "características semánticas",
+   3
+  ],
+  [
+   "problemas",
+   3
+  ],
+  [
+   "referencia",
+   3
+  ],
+  [
+   "diacrónico",
+   3
+  ],
+  [
+   "raíz",
+   3
+  ],
+  [
+   "sección",
+   3
+  ],
+  [
+   "fónica",
+   2
+  ],
+  [
+   "longitud",
+   2
+  ],
+  [
+   "oraciones",
+   2
+  ],
+  [
+   "categorías semánticas",
+   2
+  ],
+  [
+   "macrocorpus",
+   2
+  ],
+  [
+   "asistencia",
+   2
+  ],
+  [
+   "dimensión",
+   2
+  ],
+  [
+   "relevancia",
+   2
+  ],
+  [
+   "distribución",
+   2
+  ],
+  [
+   "diferencia",
+   2
+  ],
+  [
+   "utilidad",
+   2
+  ],
+  [
+   "▪ transcripciones",
+   2
+  ],
+  [
+   "categoría sintáctica",
+   2
+  ],
+  [
+   "fragmentos de palabras",
+   2
+  ],
+  [
+   "por millón",
+   2
+  ]
+ ]
+}

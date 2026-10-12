@@ -1,0 +1,563 @@
+lengua,falso_positivo,veces
+EN,keywords,13
+EN,corpus,12
+EN,association,11
+EN,precision,9
+EN,headword,9
+EN,data,8
+EN,consistency,6
+EN,readers,6
+EN,considerations,6
+EN,type,6
+EN,information,5
+EN,representation,5
+EN,directions,4
+EN,spoken,4
+EN,definition,4
+EN,richness,4
+EN,expression,4
+EN,citation,4
+EN,translation,4
+EN,composition,4
+EN,replication,3
+EN,evidence,3
+EN,randomness,3
+EN,collection,3
+EN,bigram,3
+EN,introduction,3
+EN,science,3
+EN,electronic,3
+EN,subgenre,3
+EN,options,3
+EN,historical linguistics,3
+EN,business,3
+EN,biber,3
+EN,sampling,3
+EN,description,3
+EN,adverbs,2
+EN,expressions,2
+EN,observations,2
+EN,national corpus,2
+EN,transcription,2
+EN,subgenres,2
+EN,implementation,2
+EN,international corpus,2
+EN,tendencies,2
+EN,distribution,2
+EN,estion,2
+EN,fluctuation,2
+EN,positions,2
+EN,awareness,2
+EN,querying,2
+EN,onwards,2
+EN,climactic reappearance,2
+EN,money_in_the_bank,2
+EN,data.col.totals,2
+EN,generalising,2
+EN,log - likelihoodratio,2
+EN,consciousness,2
+EN,decisions,2
+EN,q−q,2
+EN,armchair,2
+EN,visualizations,2
+EN,application,2
+EN,particular words,2
+EN,fertilisation,2
+EN,evaluation,2
+EN,minding,2
+EN,questions,2
+EN,mastery,2
+EN,development,2
+EN,stratification,2
+EN,lemmatising,2
+EN,definiteness,2
+EN,types,2
+EN,documented,2
+EN,argument,2
+EN,practices,2
+EN,recognition,2
+EN,hanks,2
+EN,multiword units,2
+EN,particular type,2
+EN,partof - speech tagging,2
+EN,descriptions,2
+EN,examination,2
+EN,selection,2
+EN,prepositions,2
+EN,markers/,2
+EN,addressing,2
+EN,abstraction,2
+EN,robustness,2
+EN,bank,2
+EN,individual words,1
+EN,domain description,1
+EN,references,1
+EN,derivation,1
+EN,sparseness,1
+EN,conclusion,1
+EN,elimination,1
+EN,limitations,1
+EN,written permission,1
+EN,building,1
+EN,metadiscourse/,1
+EN,contact/,1
+EN,impression,1
+EN,colexifications,1
+EN,ddl/,1
+EN,change/,1
+EN,cognitive linguistics,1
+EN,ow1ver0riy0ae1kt,1
+EN,discourse/,1
+EN,industrialization,1
+EN,additional,1
+EN,coding,1
+EN,metadiscourse/ ddl/,1
+EN,modals/,1
+EN,lexicography/,1
+EN,unavailable keywords,1
+EN,semi-)automatic tools,1
+EN,importance,1
+EN,mysteriousness,1
+EN,greyness,1
+EN,grossness,1
+EN,grotesqueness,1
+EN,heaviness,1
+EN,laziness,1
+EN,likeness,1
+EN,nastiness,1
+EN,freshness,1
+EN,outspokenness,1
+EN,pinkness,1
+EN,plainness,1
+EN,politeness,1
+EN,prettiness,1
+EN,priggishness,1
+EN,ghostliness,1
+EN,fizziness,1
+EN,distributional differences,1
+EN,childishness,1
+EN,toughness,1
+EN,uxoriousness,1
+EN,ancientness,1
+EN,badness,1
+EN,bolshiness,1
+EN,chasifness,1
+EN,chubbiness,1
+EN,feverishness,1
+EN,clumsiness,1
+EN,conciseness,1
+EN,eagerness,1
+EN,easiness,1
+EN,faithfulness,1
+EN,falseness,1
+EN,primness,1
+EN,responsiveness,1
+EN,scratchiness,1
+EN,inconsistencies,1
+EN,immigrant(s,1
+EN,http://www.ucl.ac.uk/englishusage/projects/ice-gb/beta/index.htm,1
+EN,information retrieval,1
+EN,definitions,1
+EN,exemption,1
+EN,z ratio,1
+EN,polysemous words,1
+EN,sloppiness,1
+EN,k]eyword,1
+EN,word type,1
+EN,section,1
+EN,standards,1
+EN,motivation,1
+EN,separation,1
+EN,rences,1
+EN,nation,1
+EN,culture(s,1
+EN,function(s,1
+EN,zombieness,1
+EN,wetness,1
+EN,untidiness,1
+EN,unpredictableness,1
+EN,uncomfortableness,1
+EN,ugliness,1
+EN,timidness,1
+EN,timelessness,1
+EN,tightness,1
+EN,tenderness,1
+EN,stretchiness,1
+EN,stiffness,1
+EN,smoothness,1
+EN,permissions,1
+EN,restrictions,1
+EN,hesitation,1
+EN,sciences,1
+EN,log likelihood,1
+EN,collocational statistics,1
+EN,punctuation,1
+EN,content,1
+EN,freedom/,1
+EN,labeling,1
+EN,context,1
+EN,disfluencies,1
+EN,syntactic dependencies,1
+EN,illness,1
+EN,chi - squares,1
+EN,funding,1
+EN,incompleteness,1
+EN,differences,1
+EN,demonstrations,1
+EN,distributions,1
+EN,adj+woman,1
+EN,soap,1
+EN,specialised,1
+EN,text processing,1
+EN,duration,1
+EN,https://www.serbski,1
+EN,referenzkorpus,1
+EN,precedence,1
+EN,routineness,1
+EN,prominence,1
+EN,dialectology,1
+EN,immigration,1
+EN,https://doi.org/10.1515/cllt-2024-0036,1
+EN,collections,1
+EN,disclosures,1
+EN,level.9,1
+EN,evenness,1
+EN,pervasiveness,1
+EN,revolutions,1
+EN,education,1
+EN,investigation,1
+EN,theory.11,1
+EN,notion,1
+EN,misleading,1
+EN,ambassadorpossessor,1
+EN,explaining language,1
+EN,depression,1
+EN,unrecognisable words,1
+EN,https://orcid.org/,1
+EN,casing,1
+EN,exploration,1
+EN,lives.2,1
+EN,recording,1
+EN,reflection,1
+EN,construction,1
+EN,salience,1
+EN,formation,1
+EN,introspection,1
+EN,analysis.3,1
+EN,interaction,1
+EN,criminology,1
+EN,essence,1
+EN,azizbekvosiljonov@gmail.com,1
+EN,utterances,1
+EN,argumentation,1
+EN,program.15,1
+EN,permission,1
+EN,variable,1
+EN,coppus,1
+EN,bundles,1
+EN,algebraic manipulation,1
+EN,/-distribution,1
+EN,efficiency,1
+EN,stubbornness,1
+EN,pp!sqdp-0pscriptions/,1
+EN,cookina-,1
+EN,shqws/,1
+EN,https://www.tasteofhom.com/colle,1
+EN,lifestyl,1
+EN,httpsv,1
+EN,wikipedia.org/wiki/cooki,1
+EN,httosv,1
+EN,novelsrecommendatigns/,1
+EN,dickens,1
+EN,\ition,1
+EN,subpopulation,1
+EN,definition(s,1
+EN,words,1
+EN,evaluations,1
+EN,smuggling,1
+EN,priniaiy“pfedccupafions,1
+EN,remaihs^ne^t,1
+EN,https://cdn.uclouvain.be/public/exports%20reddot/cecl/documents/locnessdes,1
+EN,criptionall.pdf,1
+EN,overgeneralizations,1
+EN,communication.91,1
+EN,corroboration,1
+EN,avoiding,1
+EN,universalism,1
+EN,intuition,1
+EN,nlp.stanford.edu/~manning/papers/d08-1038.pdf,1
+EN,cognitive/,1
+EN,paper303.pdf,1
+EN,www.birming,1
+EN,part - of - speech scheme,1
+EN,social)science,1
+EN,known as likelihood,1
+EN,propensityrepetition,1
+EN,retention,1
+EN,www.natcorp.ox.ac.uk/docs/urg/bncdes.html#bncpurp,1
+EN,standardisation,1
+EN,disposition,1
+EN,ascriptions,1
+EN,falsification,1
+EN,quasiinduction,1
+EN,predicament,1
+EN,migration,1
+EN,equivocation,1
+EN,expansion,1
+EN,repetition,1
+EN,empirical study,1
+EN,function,1
+EN,timorousness,1
+EN,lateness,1
+EN,steadiness,1
+EN,pancake,1
+EN,endings,1
+EN,program,1
+EN,programs,1
+EN,preprocessing,1
+EN,naturalness,1
+EN,collexeme,1
+EN,edge.arrow.size,1
+EN,network_ldl.eps,1
+EN,as.numeric(y,1
+EN,"readline(""what",1
+EN,as.numeric(x,1
+EN,word?\n,1
+EN,freqlist.nouns,1
+EN,fiddle,1
+EN,information.15,1
+EN,blade,1
+EN,predeterminer construction,1
+EN,time_period_long_old psych_state_neg,1
+EN,rownames(data.col.totals,1
+EN,rbind(data,1
+EN,spikyspindly,1
+EN,pca(data,1
+EN,pca.object.2,1
+EN,functions,1
+EN,chance.4,1
+EN,impulsion,1
+EN,peven,1
+EN,file,1
+EN,presentation,1
+EN,anfangen).17,1
+EN,springiness,1
+EN,code,1
+EN,termbank,1
+EN,classification,1
+EN,celebrations,1
+EN,toil,1
+EN,specifications,1
+EN,judgement,1
+EN,currency,1
+EN,theoretical frame,1
+EN,annotated version,1
+EN,spoken interactions,1
+EN,wcnze,1
+EN,digitization,1
+EN,translations,1
+EN,consideration,1
+EN,ordinances,1
+EN,poll,1
+EN,unicode,1
+EN,anthropophonic,1
+EN,validation,1
+EN,collaboration,1
+EN,http://www.antlab.sci.waseda.ac.jp/antconc_index.html,1
+EN,intuitions,1
+EN,versions,1
+EN,omissions,1
+EN,parallel corpus,1
+EN,supervised training,1
+EN,defamation,1
+EN,diachronic,1
+EN,yelling,1
+EN,head(match.positions,1
+EN,match.positions,1
+EN,http://www.alc.manchester.ac.uk/,1
+EN,context words,1
+EN,headwords,1
+EN,affixation,1
+EN,freq.(uency,1
+EN,customised,1
+EN,forms(s,1
+EN,standard word,1
+EN,cards,1
+EN,adve,1
+EN,particular meaning,1
+EN,martinweisser.org,1
+EN,reader,1
+EN,.ps(.gz,1
+EN,1477.xml,1
+EN,split.tv2[node.positions[i,1
+EN,http://clu.uni.no/icame/manuals/hc/,1
+EN,http://americannationalcorpus.org/,1
+EN,resolution,1
+EN,document,1
+EN,dependency,1
+EN,predicate,1
+EN,division,1
+EN,http://www.helsinki.fi/varieng/series/volumes/12/kehoe_gee/,1
+EN,professions,1
+EN,http://www.americannationalcorpus.org/,1
+EN,advancement,1
+EN,experience,1
+EN,sentences,1
+EN,bigrams,1
+EN,coca.asp,1
+EN,weaknesses,1
+EN,cooccurrence,1
+EN,context word,1
+EN,word(s,1
+EN,pos - based,1
+EN,"main=""distribution",1
+EN,clsr.zip,1
+EN,appreciation,1
+EN,excellence,1
+EN,quantification,1
+EN,r]epresentativeness,1
+EN,formulaic expressions,1
+EN,université,1
+EN,buildings,1
+EN,campus,1
+EN,visualization,1
+EN,variation,1
+EN,geographical information,1
+EN,teachers.2,1
+EN,stylometry,1
+EN,stance,1
+EN,normalising,1
+EN,environment,1
+EN,http://www.language-archives.org/,1
+EN,idiomatic expression,1
+EN,distance,1
+EN,http://www.tei-c.org/index.xml,1
+EN,"pos=""ii"">like</word",1
+EN,gets,1
+EN,text application,1
+EN,pathologies,1
+EN,determination,1
+EN,cleansiness,1
+EN,godliness,1
+EN,genuineness,1
+EN,fulfilness,1
+EN,fondness,1
+EN,eyewitnesses,1
+EN,dullness,1
+EN,drowsiness,1
+EN,dizziness,1
+EN,differentness,1
+EN,delightfulness,1
+EN,crispness,1
+EN,cowardliness,1
+EN,clearness,1
+EN,centredness,1
+EN,casuist-,1
+EN,carefulness,1
+EN,bluntness,1
+EN,blandness,1
+EN,blackness,1
+EN,barrenness,1
+EN,awfulness,1
+EN,anxiousness,1
+EN,aloneness,1
+EN,adroitness,1
+EN,abjectness,1
+EN,fiction,1
+EN,egotist-,1
+EN,pedolog-,1
+EN,graciousness,1
+EN,headedness,1
+EN,heartlessness,1
+EN,heinousness,1
+EN,soreness,1
+EN,softness,1
+EN,smugness,1
+EN,shortness,1
+EN,separateness,1
+EN,sameyness,1
+EN,sameness,1
+EN,rudeness,1
+EN,riseness,1
+EN,rightness,1
+EN,reasonableness,1
+EN,quickness,1
+EN,positiveness,1
+EN,plumpness,1
+EN,pleasantness,1
+EN,pettiness,1
+EN,numbness,1
+EN,niceness,1
+EN,neighbourliness,1
+EN,nearness,1
+EN,narrowness,1
+EN,messiness,1
+EN,mentalness,1
+EN,loudness,1
+EN,limitedness,1
+EN,likeliness,1
+EN,keenness,1
+EN,logist-,1
+EN,atheist-,1
+EN,skewedness,1
+EN,profes-,1
+EN,confessions,1
+EN,uselessness,1
+EN,https://paracrawl.eu/index.html,1
+EN,http://www.athel.com/para.html,1
+EN,http://www.laurenceanthony.net/software/antpconc/,1
+EN,compilation,1
+EN,ℎ𝑜𝑤𝑒𝑣𝑒𝑟/𝑐𝑒𝑝𝑒𝑛𝑑𝑎𝑛𝑡=,1
+EN,correspondence,1
+EN,marie-aude.lefer@uclouvain.be,1
+EN,applications,1
+EN,trigrams,1
+EN,referential,1
+EN,text.2,1
+EN,explorations,1
+EN,syllogist-,1
+EN,proportion,1
+EN,http://www.ucl.ac.uk/english-usage/projects/icegb/index,1
+EN,version,1
+EN,addiction,1
+EN,boroughs,1
+EN,accentuation,1
+EN,text databases,1
+EN,germanic,1
+EN,constituency,1
+EN,prescience,1
+EN,consistencies,1
+EN,globalization,1
+EN,lemmatisztion,1
+EN,sations,1
+EN,nonfiction,1
+EN,estimation,1
+EN,missing,1
+EN,realist-,1
+EN,scarceness,1
+EN,transparency,1
+EN,instance,1
+EN,ness,1
+EN,frozenness,1
+EN,causative constructions,1
+EN,particular word,1
+EN,sequences,1
+EN,logistic regression,1
+EN,precaution,1
+EN,indicate,1
+EN,exaltations,1
+EN,recommendation,1
+EN,expansiveness,1
+EN,administration,1
+EN,harmonic,1
+EN,operational definitions,1
+EN,modeling,1
+EN,glish,1
+EN,unspoken,1
+EN,buzz word,1
+EN,part of linguistics,1
+EN,c]orpus,1
+EN,field.4,1
+EN,exclusion,1
+EN,cookbooks.1,1
+EN,onion,1

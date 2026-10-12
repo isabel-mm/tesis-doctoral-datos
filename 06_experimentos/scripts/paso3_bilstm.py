@@ -55,8 +55,8 @@ OUT = Path(os.environ.get("RESULTADOS", HERE.parent / "resultados")) / "bilstm"
 for d in ("runs", "pred", "epocas"):
     (OUT / d).mkdir(parents=True, exist_ok=True)
 
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MAX_LEN = 120
+# Dispositivo: CUDA (Colab) > MPS (Mac) > CPU; DISPOSITIVO=cpu|mps|cuda lo fuerza.
+DEVICE = torch.device(os.environ.get("DISPOSITIVO") or ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"))
 OVERSAMPLE = 4
 BATCH = 16
 MAX_EPOCAS = 50
@@ -76,9 +76,16 @@ class BiLSTMCRF(nn.Module):
         self.crf = TorchCRF(num_tags, batch_first=True)
 
     def forward(self, x, tags=None, mask=None):
-        emissions = self.fc(self.lstm(self.embedding(x))[0])
+        # Las oraciones de un lote se rellenan hasta la más larga; se empaquetan para
+        # que la LSTM (sobre todo en la dirección derecha-izquierda) ignore el relleno.
+        largos = mask.sum(1).cpu()
+        emb = nn.utils.rnn.pack_padded_sequence(self.embedding(x), largos, batch_first=True, enforce_sorted=False)
+        salida, _ = self.lstm(emb)
+        salida, _ = nn.utils.rnn.pad_packed_sequence(salida, batch_first=True, total_length=x.size(1))
+        emissions = self.fc(salida)
         if tags is not None:
-            return -self.crf(emissions, tags, mask=mask)
+            # Pérdida media por oración (REDUCCION=sum recupera la suma de la versión anterior)
+            return -self.crf(emissions, tags, mask=mask, reduction=os.environ.get("REDUCCION", "mean"))
         return self.crf.decode(emissions, mask=mask)
 
 
@@ -108,36 +115,39 @@ def particion_reserva(oraciones, entradas, pct, seed):
     return train, test, reservadas
 
 
-def a_tensores(oraciones, vocab):
-    n = len(oraciones)
-    X = np.zeros((n, MAX_LEN), dtype=np.int64)
-    Y = np.zeros((n, MAX_LEN), dtype=np.int64)
-    M = np.zeros((n, MAX_LEN), dtype=bool)
-    for i, o in enumerate(oraciones):
-        k = min(len(o["tokens"]), MAX_LEN)
-        X[i, :k] = [vocab.get(t, 1) for t in o["tokens"][:k]]
-        Y[i, :k] = [LABELS[l] for l in o["labels"][:k]]
-        M[i, :k] = True
+def codificar(oraciones, vocab):
+    """Cada oración completa como dos listas de enteros (tokens y etiquetas), sin recortar."""
+    return [(np.array([vocab.get(t, 1) for t in o["tokens"]], dtype=np.int64),
+             np.array([LABELS[l] for l in o["labels"]], dtype=np.int64)) for o in oraciones]
+
+
+def lote(datos, idx):
+    """Rellena un lote hasta la longitud de su oración más larga."""
+    largo = max(len(datos[i][0]) for i in idx)
+    X = np.zeros((len(idx), largo), dtype=np.int64)
+    Y = np.zeros((len(idx), largo), dtype=np.int64)
+    M = np.zeros((len(idx), largo), dtype=bool)
+    for k, i in enumerate(idx):
+        n = len(datos[i][0])
+        X[k, :n], Y[k, :n], M[k, :n] = datos[i][0], datos[i][1], True
     return torch.tensor(X), torch.tensor(Y), torch.tensor(M)
 
 
-def predecir(model, X, M):
+def predecir(model, datos):
     model.eval()
     preds = []
     with torch.no_grad():
-        for i in range(0, len(X), 64):
-            out = model(X[i:i + 64].to(DEVICE), mask=M[i:i + 64].to(DEVICE))
-            preds.extend(out)
+        for i in range(0, len(datos), 64):
+            X, _, M = lote(datos, range(i, min(i + 64, len(datos))))
+            preds.extend(model(X.to(DEVICE), mask=M.to(DEVICE)))
     return preds
 
 
 def secuencias(oraciones, preds):
-    """Etiquetas gold y predichas por oración (las oraciones de más de MAX_LEN
-    tokens se evalúan sobre sus primeros MAX_LEN, como en la tesis)."""
+    """Etiquetas gold y predichas por oración completa."""
     yt, yp = [], []
     for o, p in zip(oraciones, preds):
-        k = len(p)
-        yt.append(o["labels"][:k])
+        yt.append(o["labels"])
         yp.append([INV[int(x)] for x in p])
     return yt, yp
 
@@ -149,8 +159,8 @@ def entrenar(train, val, seed, rid, max_epocas):
     for o in train:
         for t in o["tokens"]:
             vocab.setdefault(t, len(vocab))
-    Xtr, Ytr, Mtr = a_tensores(train, vocab)
-    Xva, _, Mva = a_tensores(val, vocab)
+    dtr = codificar(train, vocab)
+    dva = codificar(val, vocab)
     con_t = np.array([any(l != "O" for l in o["labels"]) for o in train])
     idx_t, idx_o = np.where(con_t)[0], np.where(~con_t)[0]
 
@@ -165,14 +175,14 @@ def entrenar(train, val, seed, rid, max_epocas):
         np.random.shuffle(orden)
         perdidas = []
         for i in range(0, len(orden), BATCH):
-            b = torch.tensor(orden[i:i + BATCH])
+            X, Y, M = lote(dtr, orden[i:i + BATCH])
             opt.zero_grad()
-            loss = model(Xtr[b].to(DEVICE), Ytr[b].to(DEVICE), Mtr[b].to(DEVICE))
+            loss = model(X.to(DEVICE), Y.to(DEVICE), M.to(DEVICE))
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=5.0)
             opt.step()
             perdidas.append(loss.item())
-        yt, yp = secuencias(val, predecir(model, Xva, Mva))
+        yt, yp = secuencias(val, predecir(model, dva))
         mv = metricas_completas(yt, yp)
         log.append({"epoca": epoca, "perdida_media": float(np.mean(perdidas)),
                     **{f"val_{k}": v for k, v in mv.items()}, "segundos": round(time.time() - t0, 1)})
@@ -212,8 +222,7 @@ def separar_validacion(train, seed, por_entradas):
 
 
 def evaluar(model, vocab, test, reservadas, rid):
-    Xte, _, Mte = a_tensores(test, vocab)
-    yt, yp = secuencias(test, predecir(model, Xte, Mte))
+    yt, yp = secuencias(test, predecir(model, codificar(test, vocab)))
     m = metricas_completas(yt, yp)
     if reservadas is not None:
         res_t, res_p, vis_t, vis_p = [], [], [], []
@@ -253,6 +262,13 @@ def run(lang, exp, pct=None, seed=0, fold=None, max_epocas=MAX_EPOCAS, datos=Non
             "n_entradas_sorteables": len(entradas), "n_reservadas": len(reservadas) if reservadas else None,
             **info, **m, "segundos": round(time.time() - t0, 1)}
     dest.write_text(json.dumps(fila, ensure_ascii=False, default=float))
+    # Libera la memoria del modelo antes de la siguiente ejecución (en MPS se acumulaba)
+    import gc
+    gc.collect()
+    if DEVICE.type == "mps":
+        torch.mps.empty_cache()
+    elif DEVICE.type == "cuda":
+        torch.cuda.empty_cache()
     print(f"[{rid}] F1 término={m['f1_termino']:.3f} (época {info['epoca_elegida']}) · "
           f"{(time.time()-t0)/60:.1f} min", flush=True)
 
@@ -286,7 +302,7 @@ def main():
     rapido = "--rapido" in args
     langs = [args[args.index("--lang") + 1]] if "--lang" in args else ["en", "es"]
     semillas = [int(s) for s in args[args.index("--semillas") + 1].split(",")] if "--semillas" in args else [0, 1, 2]
-    max_ep = 2 if rapido else MAX_EPOCAS
+    max_ep = int(args[args.index("--epocas") + 1]) if "--epocas" in args else (2 if rapido else MAX_EPOCAS)
     for lang in langs:
         datos = cargar(lang)
         print(f"{lang}: {len(datos[0])} oraciones, {len(datos[1])} entradas de término sorteables", flush=True)

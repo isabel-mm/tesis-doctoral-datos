@@ -13,4 +13,5 @@ Corpus comparable de 100 textos académicos sobre lingüística de corpus: 50 en
   - `entradas_término_distintas`, `entradas_entidad_distintas`: entradas distintas de GLiCor anotadas en el documento.
 - `estadisticos_subcorpus.csv`: totales por subcorpus.
 
-Las pruebas de adecuación terminológica del capítulo 3 (cobertura, Heaps, dispersión DP y estabilidad) se añadirán con las cifras definitivas.
+- `adecuacion_terminologica.csv`: pruebas de adecuación terminológica del capítulo 3, por subcorpus: cobertura de los términos de CASS, exponente de Heaps (orden original y media de 50 órdenes aleatorios), dispersión DP de los 50 términos más frecuentes y estabilidad del inventario (*bootstrap*).
+- `adecuacion_dp_top50.csv`: dispersión DP de cada uno de esos 50 términos.

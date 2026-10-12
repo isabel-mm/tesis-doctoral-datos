@@ -1,0 +1,169 @@
+{
+ "modelo": "crf",
+ "ejecucion": "reserva_en_p20_s1_todas",
+ "spans_gold": 7869,
+ "spans_espurios": 561,
+ "global": {
+  "exacto": 3055,
+  "parcial": 2317,
+  "perdido": 2497
+ },
+ "por_reserva": {
+  "vista": {
+   "exacto": 2572,
+   "perdido": 543,
+   "parcial": 187
+  },
+  "reservada": {
+   "parcial": 2130,
+   "perdido": 1954,
+   "exacto": 483
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "perdido": 2150,
+   "exacto": 2370,
+   "parcial": 206
+  },
+  "poliléxico": {
+   "exacto": 685,
+   "parcial": 2111,
+   "perdido": 347
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "perdido": 1677,
+   "exacto": 394,
+   "parcial": 85
+  },
+  "poliléxico": {
+   "parcial": 2045,
+   "perdido": 277,
+   "exacto": 89
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "construction",
+   18
+  ],
+  [
+   "keywords",
+   10
+  ],
+  [
+   "corpus",
+   9
+  ],
+  [
+   "reality",
+   9
+  ],
+  [
+   "data",
+   7
+  ],
+  [
+   "counterexamples",
+   7
+  ],
+  [
+   "expression",
+   6
+  ],
+  [
+   "definition",
+   6
+  ],
+  [
+   "recordings",
+   5
+  ],
+  [
+   "stance",
+   4
+  ],
+  [
+   "expressions",
+   4
+  ],
+  [
+   "dependency",
+   4
+  ],
+  [
+   "options",
+   4
+  ],
+  [
+   "system",
+   4
+  ],
+  [
+   "processing",
+   4
+  ],
+  [
+   "translation",
+   4
+  ],
+  [
+   "distribution",
+   4
+  ],
+  [
+   "bigram",
+   4
+  ],
+  [
+   "historical linguistics",
+   3
+  ],
+  [
+   "argument",
+   3
+  ],
+  [
+   "representation",
+   3
+  ],
+  [
+   "precision",
+   3
+  ],
+  [
+   "list",
+   3
+  ],
+  [
+   "punctuation",
+   3
+  ],
+  [
+   "information",
+   3
+  ],
+  [
+   "systems",
+   3
+  ],
+  [
+   "some.words",
+   3
+  ],
+  [
+   "national corpus",
+   3
+  ],
+  [
+   "inconsistencies",
+   3
+  ],
+  [
+   "types",
+   3
+  ]
+ ]
+}

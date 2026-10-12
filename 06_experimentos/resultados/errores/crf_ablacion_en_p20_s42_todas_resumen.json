@@ -1,0 +1,169 @@
+{
+ "modelo": "crf",
+ "ejecucion": "ablacion_en_p20_s42_todas",
+ "spans_gold": 9826,
+ "spans_espurios": 755,
+ "global": {
+  "perdido": 3620,
+  "parcial": 2595,
+  "exacto": 3611
+ },
+ "por_reserva": {
+  "vista": {
+   "parcial": 128,
+   "exacto": 3362,
+   "perdido": 602
+  },
+  "reservada": {
+   "perdido": 3018,
+   "parcial": 2467,
+   "exacto": 249
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "parcial": 82,
+   "exacto": 2948,
+   "perdido": 3094
+  },
+  "poliléxico": {
+   "perdido": 526,
+   "parcial": 2513,
+   "exacto": 663
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "parcial": 17,
+   "perdido": 2563,
+   "exacto": 196
+  },
+  "poliléxico": {
+   "perdido": 455,
+   "parcial": 2450,
+   "exacto": 53
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "keywords",
+   13
+  ],
+  [
+   "corpus",
+   12
+  ],
+  [
+   "association",
+   11
+  ],
+  [
+   "headword",
+   9
+  ],
+  [
+   "precision",
+   9
+  ],
+  [
+   "data",
+   8
+  ],
+  [
+   "type",
+   6
+  ],
+  [
+   "consistency",
+   6
+  ],
+  [
+   "considerations",
+   6
+  ],
+  [
+   "readers",
+   6
+  ],
+  [
+   "information",
+   5
+  ],
+  [
+   "representation",
+   5
+  ],
+  [
+   "translation",
+   4
+  ],
+  [
+   "expression",
+   4
+  ],
+  [
+   "spoken",
+   4
+  ],
+  [
+   "richness",
+   4
+  ],
+  [
+   "composition",
+   4
+  ],
+  [
+   "definition",
+   4
+  ],
+  [
+   "citation",
+   4
+  ],
+  [
+   "directions",
+   4
+  ],
+  [
+   "historical linguistics",
+   3
+  ],
+  [
+   "options",
+   3
+  ],
+  [
+   "randomness",
+   3
+  ],
+  [
+   "subgenre",
+   3
+  ],
+  [
+   "evidence",
+   3
+  ],
+  [
+   "business",
+   3
+  ],
+  [
+   "collection",
+   3
+  ],
+  [
+   "sampling",
+   3
+  ],
+  [
+   "biber",
+   3
+  ],
+  [
+   "electronic",
+   3
+  ]
+ ]
+}

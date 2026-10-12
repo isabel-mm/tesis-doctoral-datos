@@ -1,0 +1,168 @@
+{
+ "modelo": "crf",
+ "ejecucion": "reserva_en_p20_s2_todas",
+ "spans_gold": 10470,
+ "spans_espurios": 1080,
+ "global": {
+  "exacto": 3739,
+  "perdido": 5492,
+  "parcial": 1239
+ },
+ "por_reserva": {
+  "vista": {
+   "exacto": 3310,
+   "perdido": 672,
+   "parcial": 111
+  },
+  "reservada": {
+   "perdido": 4820,
+   "parcial": 1128,
+   "exacto": 429
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "exacto": 3069,
+   "perdido": 4434,
+   "parcial": 94
+  },
+  "poliléxico": {
+   "exacto": 670,
+   "perdido": 1058,
+   "parcial": 1145
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "perdido": 3894,
+   "exacto": 429,
+   "parcial": 33
+  },
+  "poliléxico": {
+   "perdido": 926,
+   "parcial": 1095
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "sentence",
+   15
+  ],
+  [
+   "stance",
+   13
+  ],
+  [
+   "data",
+   11
+  ],
+  [
+   "translation",
+   11
+  ],
+  [
+   "correlation",
+   11
+  ],
+  [
+   "corpus",
+   10
+  ],
+  [
+   "keywords",
+   10
+  ],
+  [
+   "argument",
+   8
+  ],
+  [
+   "collexeme",
+   8
+  ],
+  [
+   "sentences",
+   7
+  ],
+  [
+   "construction",
+   6
+  ],
+  [
+   "expression",
+   6
+  ],
+  [
+   "reference",
+   6
+  ],
+  [
+   "exploration",
+   6
+  ],
+  [
+   "compilation",
+   6
+  ],
+  [
+   "contrastive linguistics",
+   6
+  ],
+  [
+   "description",
+   5
+  ],
+  [
+   "separation",
+   5
+  ],
+  [
+   "xlab=\"index",
+   5
+  ],
+  [
+   "system",
+   5
+  ],
+  [
+   "hapax dislegomena",
+   5
+  ],
+  [
+   "advances",
+   5
+  ],
+  [
+   "counterexamples",
+   5
+  ],
+  [
+   "absence",
+   5
+  ],
+  [
+   "usefulness",
+   4
+  ],
+  [
+   "instructions",
+   4
+  ],
+  [
+   "expressions",
+   4
+  ],
+  [
+   "predicate",
+   4
+  ],
+  [
+   "experiments",
+   4
+  ],
+  [
+   "options",
+   4
+  ]
+ ]
+}

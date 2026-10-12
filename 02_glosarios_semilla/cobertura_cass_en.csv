@@ -1,40 +1,39 @@
-forma,ocurrencias,documentos,densidad
-Corpus,12650,50,"0,873%"
-Text,5893,48,"0,407%"
-Type,2019,46,"0,139%"
-Sample,2001,36,"0,138%"
-Annotation,1651,38,"0,114%"
-Keyword,683,28,"0,047%"
-Token,586,29,"0,040%"
-Representativeness,526,22,"0,036%"
-Corpus-based,396,38,"0,027%"
-Collocation,365,22,"0,025%"
-XML,356,22,"0,025%"
-Tagging,299,26,"0,021%"
-Concordance,242,23,"0,017%"
-Metadata,239,23,"0,017%"
-Markup,209,13,"0,014%"
-Node,209,10,"0,014%"
-Diachronic,206,24,"0,014%"
-Frequency list,189,15,"0,013%"
-Balance,159,26,"0,011%"
-Encoding,122,16,"0,008%"
-Lemma,105,13,"0,007%"
-Reference corpus,105,19,"0,007%"
-Synchronic,87,16,"0,006%"
-Sampling frame,46,4,"0,003%"
-Key word in context (KWIC),41,6,"0,003%"
-Monitor corpus,40,7,"0,003%"
-Markup language,39,10,"0,003%"
-Concordancer,36,8,"0,002%"
-Corpus-driven,33,10,"0,002%"
-Lemmatisation,33,5,"0,002%"
-Statistical significance,33,9,"0,002%"
-Lexis,28,17,"0,002%"
-Comparability,26,14,"0,002%"
-Significance test,26,4,"0,002%"
-Colligation,24,4,"0,002%"
-Corpus construction,19,8,"0,001%"
-Type-token ratio,16,5,"0,001%"
-Sample corpus,14,3,"<0,001%"
-Total,29751,50,"2,05%"
+entrada,ocurrencias,documentos,densidad_pct,cubierta
+corpus,14884,50,1.028455975533748,True
+text,6026,48,0.4163850919488287,True
+annotation,1656,38,0.1144264374821208,True
+keyword,718,31,0.0496124288116925,True
+type,2046,46,0.1413746926862435,True
+tagging,1338,34,0.0924532447772208,True
+sample,1839,35,0.1270713880009784,True
+XML,356,22,0.0245989201350453,True
+token,619,30,0.0427717178752613,True
+corpus-based,428,39,0.0295739826342679,True
+markup,209,13,0.014441500865799,True
+diachronic,206,24,0.0142342065949981,True
+metadata,239,23,0.0165144435738085,True
+representativeness,560,22,0.0386949305495094,True
+reference corpus,115,21,0.0079462803807028,True
+concordance,240,23,0.0165835416640754,True
+node,210,10,0.014510598956066,True
+collocation,381,22,0.0263263723917198,True
+balance,158,27,0.010917498262183,True
+synchronic,87,16,0.0060115338532273,True
+frequency list,195,15,0.0134741276020613,True
+encoding,148,16,0.0102265173595132,True
+lemma,126,16,0.0087063593736396,True
+comparability,26,14,0.0017965503469415,True
+significance test,20,4,0.0013819618053396,True
+markup language,39,10,0.0026948255204122,True
+concordancer,35,8,0.0024184331593443,True
+corpus construction,19,8,0.0013128637150726,True
+corpus-driven,33,10,0.0022802369788103,True
+statistical significance,39,10,0.0026948255204122,True
+lexis,38,19,0.0026257274301452,True
+lemmatisation,33,5,0.0022802369788103,True
+monitor corpus,44,8,0.0030403159717471,True
+sampling frame,89,5,0.0061497300337613,True
+type-token ratio,16,5,0.0011055694442716,True
+key word in context (KWIC),43,6,0.0029712178814801,True
+colligation,31,4,0.0021420407982764,True
+sample corpus,16,5,0.0011055694442716,True

@@ -1,0 +1,169 @@
+{
+ "modelo": "crf",
+ "ejecucion": "ablacion_es_p20_s42_todas",
+ "spans_gold": 5145,
+ "spans_espurios": 250,
+ "global": {
+  "exacto": 1967,
+  "perdido": 2575,
+  "parcial": 603
+ },
+ "por_reserva": {
+  "vista": {
+   "exacto": 1843,
+   "parcial": 125,
+   "perdido": 497
+  },
+  "reservada": {
+   "perdido": 2078,
+   "parcial": 478,
+   "exacto": 124
+  }
+ },
+ "por_forma": {
+  "monoléxico": {
+   "perdido": 2341,
+   "parcial": 87,
+   "exacto": 1468
+  },
+  "poliléxico": {
+   "exacto": 499,
+   "perdido": 234,
+   "parcial": 516
+  }
+ },
+ "reservadas_por_forma": {
+  "monoléxico": {
+   "perdido": 1938,
+   "parcial": 35,
+   "exacto": 120
+  },
+  "poliléxico": {
+   "exacto": 4,
+   "perdido": 140,
+   "parcial": 443
+  }
+ },
+ "espurios_mas_frecuentes": [
+  [
+   "corpus",
+   15
+  ],
+  [
+   "secuencias",
+   6
+  ],
+  [
+   "secuencia",
+   5
+  ],
+  [
+   "diferencia",
+   4
+  ],
+  [
+   "transcripciones",
+   4
+  ],
+  [
+   "referencia",
+   4
+  ],
+  [
+   "categoría sintáctica",
+   4
+  ],
+  [
+   "procedencia",
+   3
+  ],
+  [
+   "traducciones",
+   3
+  ],
+  [
+   "género",
+   3
+  ],
+  [
+   "aplicación",
+   3
+  ],
+  [
+   "macrocorpus",
+   3
+  ],
+  [
+   "raíz",
+   3
+  ],
+  [
+   "/palabra",
+   3
+  ],
+  [
+   "importancia",
+   2
+  ],
+  [
+   "dicciones",
+   2
+  ],
+  [
+   "documentos curriculares",
+   2
+  ],
+  [
+   "ciencias",
+   2
+  ],
+  [
+   "definiciones",
+   2
+  ],
+  [
+   "unidad",
+   2
+  ],
+  [
+   "referencias",
+   2
+  ],
+  [
+   "listas de datos",
+   2
+  ],
+  [
+   "tipos de textos",
+   2
+  ],
+  [
+   "facilidad",
+   2
+  ],
+  [
+   "fiabilidad",
+   2
+  ],
+  [
+   "explotación",
+   2
+  ],
+  [
+   "distancia",
+   2
+  ],
+  [
+   "tree-banks",
+   2
+  ],
+  [
+   "elementos gramaticales",
+   2
+  ],
+  [
+   "construcción",
+   2
+  ]
+ ]
+}
