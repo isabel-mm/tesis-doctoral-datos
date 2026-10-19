@@ -7,7 +7,7 @@ Las unidades se validaron durante la anotación del corpus (capítulo 3 de la te
 ## Ficheros
 
 - `inventario_en.csv`, `inventario_es.csv`: una unidad por fila, ordenadas por terminologicidad.
-  - `unit`: la unidad (denominación de la entrada en esa lengua); `forma`: la forma del corpus sobre la que se calculan los valores, que es la más frecuente entre sus formas anotadas; `tipo`: `termino` o `entidad`; `categoria`: categoría temática (capítulo 5).
+  - `unit`: la unidad (denominación de la entrada en esa lengua); `forma`: la forma del corpus sobre la que se calculan los valores, que es la más frecuente entre sus formas anotadas, con su grafía original (en las entidades cuya forma más frecuente no es una forma registrada del glosario, la denominación); `tipo`: `termino` o `entidad`; `categoria`: categoría temática (capítulo 5).
   - `freq`, `df`: frecuencia de esa forma y número de documentos en que aparece.
   - `tfidf`, `cvalue`: TF-IDF y C-value.
   - `nc_frantzi`, `nc_validados`: NC-value según Frantzi et al. (2000), con dos conjuntos de términos de referencia: los primeros candidatos por C-value y los términos del inventario.
