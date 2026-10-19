@@ -1,0 +1,494 @@
+lengua,modelo,entrada_glicor,errores_total,delimitación por defecto,delimitación por exceso,solapamiento parcial,omisión de un término monoléxico,omisión de un término poliléxico,ejemplos_de_prediccion
+EN,BiLSTM-CRF,corpus,37470,0,11610,0,25860,0,corpora → language corpora | corpus → corpus - | corpora → text corpora
+EN,BiLSTM-CRF,corpus_linguistics,6468,6467,1,0,0,0,"corpus linguistics → corpus | corpus linguistics,2 → corpus | corpus linguistics,10 → corpus"
+EN,BiLSTM-CRF,frequency,4696,0,1826,0,2870,0,frequencies → expected frequencies | frequency → token frequency | frequency → type frequency
+EN,BiLSTM-CRF,annotation,4410,53,2161,5,2187,4,annotation → the annotation | annotation → annotation of | annotation → annotation .
+EN,BiLSTM-CRF,grammar,3156,0,11,0,3145,0,grammar → descriptive grammar | grammar → grammar frequency | grammar → lexical grammar
+EN,BiLSTM-CRF,token,2941,0,204,0,2737,0,token → token frequency | token → word token | token → token frequencies
+EN,BiLSTM-CRF,occurrence,2728,0,5,0,2723,0,occurrence → occurrence frequencies | occurrences → frequency occurrences | occurrence → occurrence frequency
+EN,BiLSTM-CRF,sample,2367,0,153,0,2214,0,sample → corpus sample | sample → sample corpus | sample → sample text
+EN,BiLSTM-CRF,collocation,2364,0,0,0,2364,0,
+EN,BiLSTM-CRF,probability,1919,0,4,0,1915,0,"probability → 8.5b , we plot probability densities instead of frequencies | probabilities → whose frequencies are equal to the probabilities ' of the observed frequencies | probabilities → probabilities and frequencies more comparable ."
+EN,BiLSTM-CRF,frequency_list,1800,616,9,135,172,868,frequency list → frequency | frequency lists → frequency | frequency list → a frequency
+EN,BiLSTM-CRF,query,1679,119,2,0,1529,29,corpus queries → corpus | corpus query → corpus | corpus queries → queries
+EN,BiLSTM-CRF,corpus_design,1458,408,0,75,0,975,corpus design → corpus | corpus design → understanding corpus | corpus design → report corpus
+EN,BiLSTM-CRF,speech_corpus,1336,1095,5,36,6,194,speech corpus → corpus | speech corpora → corpora | spoken corpora → corpora
+EN,BiLSTM-CRF,pos_tagging,1320,25,0,4,0,1291,part of speech tagging → part of speech | part - of - speech tagging → part - of - speech | part - of - speech tagging → morphological annotation part
+EN,BiLSTM-CRF,text_type,1285,134,0,8,0,1143,text types → types | text type → type / | text types → corpus text
+EN,BiLSTM-CRF,regular_expression,1192,47,0,0,0,1145,regular expression → expression
+EN,BiLSTM-CRF,population,1156,0,12,0,1144,0,population → population corpora
+EN,BiLSTM-CRF,tagger,1146,0,4,0,1142,0,"tagger → tagger ( constituent likelihood | tagger → content words unknown to the tagger , normally lower - frequency | tagger → tagger , usas,28 the ucrel semantic annotation"
+EN,BiLSTM-CRF,corpus_based,1083,882,1,9,0,191,corpus - based → corpus | corpus - based → corpus - | corpus - based → part of speech of corpus
+EN,BiLSTM-CRF,representativeness,1053,0,13,0,1040,0,representativeness → corpus representativeness | representativeness → evaluating corpus representativeness
+EN,BiLSTM-CRF,keyword,1005,0,203,0,802,0,keyword → keyword frequency | keyword → keyword lists | keyword → keyword list
+EN,BiLSTM-CRF,dispersion,966,0,0,0,966,0,
+EN,BiLSTM-CRF,concordance,912,0,0,0,848,64,
+EN,BiLSTM-CRF,parallel_corpus,896,644,1,21,0,230,parallel corpora → corpora | parallel corpus → corpus | parallel corpus → corpus compilation
+EN,BiLSTM-CRF,synchronic,768,0,1,0,767,0,synchronic → static synchronic
+EN,BiLSTM-CRF,function_word,747,0,1,4,0,742,function word → word lists | function words → types of function words from frequency
+EN,BiLSTM-CRF,collocate,627,0,16,0,611,0,collocate → collocate frequency | collocate → collocate frequency collocate | collocates → frequency collocates
+EN,BiLSTM-CRF,tagset,557,0,0,0,557,0,
+EN,BiLSTM-CRF,tokenization,531,0,1,0,530,0,tokenisation → tokenisation and annotation
+EN,BiLSTM-CRF,general_corpus,527,337,1,15,0,174,general corpus → corpus | general corpora → corpora | general corpus → corpus linguistics
+EN,BiLSTM-CRF,annotated_corpus,490,363,4,16,0,107,annotated corpora → corpora | annotated corpus → corpus | annotated corpora → corpora and annotation
+EN,BiLSTM-CRF,metadata,480,0,0,0,480,0,
+EN,BiLSTM-CRF,n_gram,475,0,0,2,85,388,n - gram → - gram frequency | n - gram → gram frequency
+EN,BiLSTM-CRF,reference_corpus,471,365,0,3,0,103,reference corpus → corpus | reference corpora → corpora | reference corpus → corpus comparable corpus
+EN,BiLSTM-CRF,genre,470,0,0,0,470,0,
+EN,BiLSTM-CRF,corpus_building,462,72,6,30,0,354,corpus building → corpus | corpus compilation → corpus | corpus building → building
+EN,BiLSTM-CRF,balance,455,0,4,0,451,0,balance → corpus balance
+EN,BiLSTM-CRF,learner_corpus,446,276,2,5,0,163,learner corpus → corpus | learner corpora → corpora | learner corpora → learner corpora corpus
+EN,BiLSTM-CRF,sample_size,416,416,0,0,0,0,sample size → sample | sample sizes → sample
+EN,BiLSTM-CRF,annotation_tool,403,290,3,58,0,52,annotation tools → annotation | annotation tool → annotation | annotation tools → corpora and annotation
+EN,BiLSTM-CRF,comparable_corpus,380,326,6,2,0,46,comparable corpus → corpus | comparable corpora → corpora | comparable corpus → corpus comparable corpus
+EN,BiLSTM-CRF,lexeme,355,0,0,0,355,0,
+EN,BiLSTM-CRF,subcorpus,328,0,0,0,328,0,
+EN,BiLSTM-CRF,word_class,316,0,0,0,0,316,
+EN,BiLSTM-CRF,association_measure,291,0,0,0,0,291,
+EN,BiLSTM-CRF,corpus_size,282,282,0,0,0,0,corpus size → corpus | corpus sizes → corpus
+EN,BiLSTM-CRF,multimodal_corpus,280,280,0,0,0,0,multimodal corpora → corpora | multimodal corpus → corpus
+EN,BiLSTM-CRF,inter_annotator_agreement,252,0,0,0,0,252,
+EN,BiLSTM-CRF,standard_deviation,236,2,0,5,0,229,standard deviation → sample standard | standard deviation → standard | standard deviation → corpus standard
+EN,BiLSTM-CRF,treebank,231,0,1,0,230,0,https://github.com/mbkromann/copenhagen-dependency-treebank → tokens https://github.com/mbkromann/copenhagen-dependency-treebank
+EN,BiLSTM-CRF,multilingual_corpus,228,208,1,4,0,15,multilingual corpus → corpus | multilingual corpora → corpora | multilingual corpus → multilingual
+EN,BiLSTM-CRF,syntactic_annotation,218,162,12,7,0,37,syntactic annotation → annotation | syntactic annotations → annotations | syntactic annotation → annotation annotation
+EN,BiLSTM-CRF,header,218,0,0,0,218,0,
+EN,BiLSTM-CRF,computational_linguistics,212,0,0,0,0,212,
+EN,BiLSTM-CRF,stem,212,0,0,0,212,0,
+EN,BiLSTM-CRF,clustering,201,0,0,0,201,0,
+EN,BiLSTM-CRF,historical_corpus,197,131,1,47,0,18,historical corpora → corpora | historical corpus → corpus linguistics | historical corpus → corpus
+EN,BiLSTM-CRF,frequency_per_million_words,196,0,0,0,148,48,
+EN,BiLSTM-CRF,parsing,168,0,5,0,163,0,"parsing → corpus parsing | parsing → other annotation processes like lemmatization , syntactic parsing , semantic annotation | parsing → annotation as when syntactic parsing and semantic annotation"
+EN,BiLSTM-CRF,kwic,164,0,0,0,156,8,
+EN,BiLSTM-CRF,chi_squared,164,1,0,0,0,163,chi - squared-/log → squared-/log
+EN,BiLSTM-CRF,keyness,164,0,0,0,164,0,
+EN,BiLSTM-CRF,accuracy,161,0,0,0,161,0,
+EN,BiLSTM-CRF,statistical_significance,160,0,0,0,0,160,
+EN,BiLSTM-CRF,colligation,155,0,0,0,155,0,
+EN,BiLSTM-CRF,sampling_unit,148,1,0,0,0,147,sampling unit → sampling
+EN,BiLSTM-CRF,relative_frequency,143,83,0,0,0,60,relative frequencies → frequencies | relative frequency → frequency | ∗relative frequency → frequency
+EN,BiLSTM-CRF,lemmatisation,141,0,0,0,141,0,
+EN,BiLSTM-CRF,lemma,140,0,1,0,139,0,lemma → lemma frequency
+EN,BiLSTM-CRF,transcriber,136,0,0,0,136,0,
+EN,BiLSTM-CRF,encoding,136,0,0,0,136,0,
+EN,BiLSTM-CRF,annotation_scheme,121,121,0,0,0,0,annotation scheme → annotation | annotation schemes → annotation | annotation scheme(s → annotation
+EN,BiLSTM-CRF,corpus_driven,113,94,0,1,0,18,corpus - driven → corpus | corpus - driven → corpus - | corpus - driven → intuitions corpus
+EN,BiLSTM-CRF,t_score,112,0,2,0,0,110,"t - score → 273 observed frequency , 208 t - score | t - score → log likelihood , t - score , z - score"
+EN,BiLSTM-CRF,diachronic_corpus,112,112,0,0,0,0,diachronic corpus → corpus | diachronic corpora → corpora
+EN,BiLSTM-CRF,monolingual_corpus,111,41,0,11,6,53,monolingual corpus → corpus | monolingual corpora → corpora | monolingual corpus → corpus linguistics
+EN,BiLSTM-CRF,concordancer,108,0,0,0,108,0,
+EN,BiLSTM-CRF,log_likelihood,108,0,0,0,0,108,
+EN,BiLSTM-CRF,lexical_bundle,92,0,0,0,0,92,
+EN,BiLSTM-CRF,sampling_frame,89,0,0,0,0,89,
+EN,BiLSTM-CRF,segmentation,83,0,0,0,83,0,
+EN,BiLSTM-CRF,specialised_corpus,72,72,0,0,0,0,specialised corpora → corpora | specialized corpora → corpora | specialized corpus → corpus
+EN,BiLSTM-CRF,markup_language,70,0,0,0,0,70,
+EN,BiLSTM-CRF,pragmatic_annotation,67,57,0,10,0,0,pragmatic annotation → annotation | pragmatic annotation → annotation . | pragmatic annotation → annotation annotation speech
+EN,BiLSTM-CRF,written_corpus,66,12,2,3,0,49,written corpora → corpora | written corpora → written corpora corpus | written corpora → corpora corpus
+EN,BiLSTM-CRF,stopword,66,0,0,0,66,0,
+EN,BiLSTM-CRF,balanced_corpus,64,9,0,1,0,54,balanced corpus → corpus | balanced corpora → corpora | balanced corpus → corpus composition
+EN,BiLSTM-CRF,recall,63,0,0,0,63,0,
+EN,BiLSTM-CRF,mutual_information,62,0,0,0,0,62,
+EN,BiLSTM-CRF,opportunistic_corpus,61,27,0,7,0,27,opportunistic corpus → corpus | opportunistic corpora → corpora | opportunistic corpus → corpus building
+EN,BiLSTM-CRF,semantic_prosody,58,0,0,0,0,58,
+EN,BiLSTM-CRF,formulaic_language,54,0,0,0,0,54,
+EN,BiLSTM-CRF,raw_frequency,51,51,0,0,0,0,raw frequencies → frequencies | absolute frequencies → frequencies | raw frequency → frequency
+EN,BiLSTM-CRF,confidence_interval,49,0,0,0,0,49,
+EN,BiLSTM-CRF,text_mining,48,0,0,0,0,48,
+EN,BiLSTM-CRF,word_sense_disambiguation,48,0,0,0,12,36,
+EN,BiLSTM-CRF,web_crawling,45,1,0,0,27,17,web crawling → crawling
+EN,BiLSTM-CRF,mega_corpus,41,24,0,2,2,13,mega corpora → corpora | mega corpora → corpora corpus | mega corpora → corpora expression
+EN,BiLSTM-CRF,normalized_frequency,39,19,7,0,0,13,normalized frequencies → frequencies | normalized frequency → frequency | normalised frequencies → frequencies
+EN,BiLSTM-CRF,content_word,37,0,0,0,0,37,
+EN,BiLSTM-CRF,word_frequency,29,9,4,16,0,0,word frequency → frequency lists | word frequency → frequency | word frequency → frequency word
+EN,BiLSTM-CRF,web_corpus,29,29,0,0,0,0,web corpus → corpus | web corpora → corpora
+EN,BiLSTM-CRF,multiword_expression,28,0,0,0,0,28,
+EN,BiLSTM-CRF,dependency_parsing,24,12,0,0,0,12,dependency parsing → parsing
+EN,BiLSTM-CRF,named_entity_recognition,21,0,0,0,0,21,
+EN,BiLSTM-CRF,lexico_grammar,21,0,0,0,9,12,
+EN,BiLSTM-CRF,corpus_based_translation_studies,21,17,0,0,0,4,corpus - based translation studies → corpus | corpus - based translation studies → corpus -
+EN,BiLSTM-CRF,training_corpus,19,1,0,0,0,18,training corpus → corpus
+EN,BiLSTM-CRF,inferential_statistics,19,0,0,0,0,19,
+EN,BiLSTM-CRF,node_word,18,0,0,0,0,18,
+EN,BiLSTM-CRF,inline_annotation,15,12,1,0,0,2,inline annotation → annotation | inline annotation → lemmatization · inline annotation · multi - tiered annotation
+EN,BiLSTM-CRF,deviation_of_proportions,14,0,0,1,0,13,deviation of proportions → the ' deviation of
+EN,BiLSTM-CRF,z_score,14,2,1,0,0,11,"z - score → log likelihood , t - score , z - score | z - scores → - scores | z - score → - score"
+EN,BiLSTM-CRF,web_as_corpus,13,13,0,0,0,0,web as corpus → corpus
+EN,BiLSTM-CRF,static_corpus,11,7,1,0,0,3,static corpora → corpora | static corpus → corpus | static corpus → static corpus composition
+EN,BiLSTM-CRF,word_sketch,11,0,0,0,0,11,
+EN,BiLSTM-CRF,synchronic_corpus,11,11,0,0,0,0,synchronic corpora → corpora | synchronic corpus → corpus | synchronic corpus → synchronic
+EN,BiLSTM-CRF,phraseology,11,0,0,0,11,0,
+EN,BiLSTM-CRF,stratified_sampling,10,6,0,0,0,4,stratified samples → samples
+EN,BiLSTM-CRF,corpus_based_computational_linguistics,7,7,0,0,0,0,corpus - based computational linguistics → corpus - based | corpus - based computational linguistics → corpus | corpus - based computational linguistics → computational linguistics
+EN,BiLSTM-CRF,pos_disambiguation,7,0,0,0,0,7,
+EN,BiLSTM-CRF,semantic_preference,6,0,0,0,0,6,
+EN,BiLSTM-CRF,stemming,4,0,0,0,4,0,
+EN,BiLSTM-CRF,collocational_strength,2,0,0,0,0,2,
+EN,BiLSTM-CRF,corpus_query_language,2,1,0,0,0,1,corpus query language → corpus
+EN,CRF,corpus,39278,0,3946,0,35332,0,corpus → text corpus | corpora → text corpora | corpus → corpus - linguistic
+EN,CRF,annotation,6620,475,8,24,6019,94,corpus annotation → corpus | corpus annotations → corpus | corpus annotation → annotation corpus
+EN,CRF,corpus_linguistics,6401,6375,0,26,0,0,"corpus linguistics → corpus | corpus linguistics → heart of corpus | corpus linguistics,10 → corpus"
+EN,CRF,frequency,4801,0,81,0,4720,0,frequency → token frequency | frequency → mean frequency | frequency → configural frequency
+EN,CRF,sample,2878,0,23,0,2855,0,sample → corpus sample | sample → sample corpus | samples → corpus samples
+EN,CRF,grammar,2713,0,16,0,2697,0,grammar → grammar - based | grammar → dependency - grammar | grammar → writing grammar
+EN,CRF,token,2690,0,203,0,2487,0,token → token frequency | token → token frequencies | token → hapax - token ratio
+EN,CRF,occurrence,2687,0,0,0,2687,0,
+EN,CRF,probability,1924,0,10,0,1914,0,probability → transitional probability | probabilities → simple probabilities | probability → mean probability
+EN,CRF,frequency_list,1799,570,0,15,173,1041,frequency list → frequency | frequency lists → frequency | word list → bilingual word
+EN,CRF,query,1627,98,0,0,1497,32,corpus queries → corpus | corpus query → corpus | corpus queries → queries
+EN,CRF,speech_corpus,1508,1027,5,52,7,417,speech corpus → corpus | speech corpora → corpora | spoken corpora → corpora
+EN,CRF,corpus_design,1397,324,8,29,0,1036,corpus design → corpus | corpus design → keywords corpus | corpus design → understanding corpus
+EN,CRF,pos_tagging,1320,28,0,0,0,1292,part of speech tagging → part of speech | pos tagging.26 → tagging.26 | pos tagging.10 → tagging.10
+EN,CRF,text_type,1285,374,0,0,0,911,"text types → types | text type → type | ws]text type=\""(\\w+)\ → type=\""(\\w+)\"
+EN,CRF,parallel_corpus,1203,893,0,5,0,305,parallel corpora → corpora | parallel corpus → corpus | parallel corpora/ → corpora/
+EN,CRF,regular_expression,1192,124,0,0,0,1068,regular expressions → expressions | regular expression → expression
+EN,CRF,population,1102,0,6,0,1096,0,population → population corpora | population → population size
+EN,CRF,keyword,1102,0,25,0,1077,0,keyword → keyword list | keyword → keyword lists | keyword → keyword statistics
+EN,CRF,corpus_based,1083,1080,0,1,0,2,corpus - based → corpus | corpus - based → corpus corpus
+EN,CRF,tagger,1074,0,2,0,1072,0,tagger → part of speech tagger
+EN,CRF,collocation,1065,0,7,0,1058,0,collocations → habitual collocations | collocation → habitual collocation | collocation → collocation collocation
+EN,CRF,representativeness,1000,0,131,0,869,0,representativeness → corpus representativeness | representativeness → keywords corpus size representativeness
+EN,CRF,dispersion,966,0,0,0,966,0,
+EN,CRF,concordance,791,8,0,0,727,56,concordance lines → concordance | concordance line → concordance
+EN,CRF,synchronic,778,0,0,0,778,0,
+EN,CRF,function_word,742,206,0,4,0,532,function words → function | function word → function | function word → word lists
+EN,CRF,annotated_corpus,684,525,0,6,0,153,annotated corpora → corpora | annotated corpus → corpus | annotated corpora → corpora corpus description
+EN,CRF,general_corpus,642,433,4,11,0,194,general corpus → corpus | general corpora → corpora | general corpus → corpus linguistics
+EN,CRF,collocate,625,0,0,0,625,0,
+EN,CRF,learner_corpus,539,381,0,1,0,157,learner corpus → corpus | learner corpora → corpora | learner corpus/ → corpus/
+EN,CRF,comparable_corpus,504,335,0,0,0,169,comparable corpus → corpus | comparable corpora → corpora
+EN,CRF,metadata,480,0,0,0,480,0,
+EN,CRF,genre,469,0,3,0,466,0,genre → per text genre | genre → microtext genre
+EN,CRF,n_gram,464,2,0,0,74,388,n - grams → grams
+EN,CRF,balance,454,0,0,0,454,0,
+EN,CRF,sample_size,416,416,0,0,0,0,sample size → sample | sample sizes → sample
+EN,CRF,annotation_tool,408,123,0,0,0,285,annotation tools → annotation | annotation tool → annotation
+EN,CRF,corpus_building,402,79,3,22,0,298,corpus building → building | corpus building → corpus | corpus building → building corpus
+EN,CRF,reference_corpus,380,364,3,0,0,13,reference corpus → corpus | reference corpora → corpora | reference corpus → reference corpus dereko
+EN,CRF,tagset,379,0,1,0,378,0,tagset → tagset corpus
+EN,CRF,lexeme,355,0,0,0,355,0,
+EN,CRF,historical_corpus,337,142,0,49,0,146,historical corpora → corpora | historical corpus → corpus linguistics | historical corpus → corpus
+EN,CRF,word_class,316,3,0,1,0,312,word classes → classes | word class → class | word classes → particular word
+EN,CRF,association_measure,291,24,0,0,0,267,association measures → association | association measure → association
+EN,CRF,multimodal_corpus,280,280,0,0,0,0,multimodal corpora → corpora | multimodal corpus → corpus
+EN,CRF,multilingual_corpus,255,192,0,3,0,60,multilingual corpus → corpus | multilingual corpora → corpora | multilingual corpus → corpus design
+EN,CRF,inter_annotator_agreement,252,4,0,11,0,237,inter - annotator agreement → agreement score | interrater reliability → reliability | inter - annotator agreement → agreement scores
+EN,CRF,standard_deviation,236,158,0,7,0,71,standard deviation → deviation | standard deviations → deviations | standard deviation → mean standard
+EN,CRF,syntactic_annotation,232,36,0,3,0,193,syntactic annotation → annotation | syntactic annotations → annotations | syntactic annotation → annotation scheme
+EN,CRF,treebank,230,0,0,0,230,0,
+EN,CRF,header,218,0,0,0,218,0,
+EN,CRF,tokenization,213,0,3,0,210,0,tokenization → standardized tokenization
+EN,CRF,computational_linguistics,212,0,0,0,0,212,
+EN,CRF,stem,212,0,0,0,212,0,
+EN,CRF,frequency_per_million_words,196,0,0,0,148,48,
+EN,CRF,clustering,196,0,2,0,194,0,clustering → k−means clustering
+EN,CRF,kwic,164,0,0,0,156,8,
+EN,CRF,chi_squared,164,0,0,0,0,164,
+EN,CRF,monolingual_corpus,163,81,0,10,8,64,monolingual corpus → corpus | monolingual corpora → corpora | monolingual corpus → corpus linguistics
+EN,CRF,statistical_significance,160,8,0,0,0,152,statistical significance → significance | statistical significance.4 → significance.4
+EN,CRF,relative_frequency,159,56,0,0,0,103,relative frequencies → frequencies | relative frequency → frequency | ∗relative frequency → ∗relative
+EN,CRF,accuracy,157,0,0,0,157,0,
+EN,CRF,sampling_unit,148,0,0,0,0,148,
+EN,CRF,corpus_size,147,147,0,0,0,0,corpus size → corpus | corpus sizes → corpus
+EN,CRF,lemmatisation,140,0,0,0,140,0,
+EN,CRF,lemma,140,0,0,0,140,0,
+EN,CRF,transcriber,136,0,0,0,136,0,
+EN,CRF,encoding,135,0,1,0,134,0,encoding → corpus encoding
+EN,CRF,subcorpus,130,0,10,0,120,0,subcorpora → philippine subcorpora | subcorpora → create subcorpora | subcorpora → philippines subcorpora
+EN,CRF,annotation_scheme,121,4,0,0,0,117,annotation scheme → annotation
+EN,CRF,parsing,119,0,2,0,117,0,parsing → corpus parsing | parsing → syntactic parsing
+EN,CRF,t_score,112,0,0,0,0,112,
+EN,CRF,diachronic_corpus,112,112,0,0,0,0,diachronic corpus → corpus | diachronic corpora → corpora
+EN,CRF,concordancer,108,0,0,0,108,0,
+EN,CRF,log_likelihood,108,0,0,0,0,108,
+EN,CRF,corpus_driven,107,107,0,0,0,0,corpus - driven → corpus
+EN,CRF,balanced_corpus,99,36,0,0,0,63,balanced corpus → corpus | balanced corpora → corpora
+EN,CRF,written_corpus,96,21,0,0,0,75,written corpora → corpora | written corpus → corpus
+EN,CRF,lexical_bundle,92,0,0,0,0,92,
+EN,CRF,word_frequency,90,77,1,12,0,0,word frequency → frequency | word frequencies → frequencies | word frequency → frequency lists
+EN,CRF,sampling_frame,89,1,0,0,0,88,sampling frames → sampling
+EN,CRF,keyness,82,0,0,0,82,0,
+EN,CRF,segmentation,74,0,2,0,72,0,segmentation → text segmentation | segmentation → initial segmentation
+EN,CRF,specialised_corpus,72,72,0,0,0,0,specialised corpora → corpora | specialized corpora → corpora | specialized corpus → corpus
+EN,CRF,markup_language,70,0,0,0,0,70,
+EN,CRF,pragmatic_annotation,68,14,0,0,0,54,pragmatic annotation → annotation
+EN,CRF,colligation,65,0,2,0,63,0,colligation → colligation colligation
+EN,CRF,opportunistic_corpus,64,29,1,6,0,28,opportunistic corpus → corpus | opportunistic corpus → corpus building | opportunistic corpus → corpus collateral corpus
+EN,CRF,normalized_frequency,63,37,0,0,0,26,normalized frequencies → frequencies | normalized frequency → frequency | normalized frequency → normalized
+EN,CRF,recall,63,0,0,0,63,0,
+EN,CRF,mutual_information,62,6,0,0,0,56,mutual information → information
+EN,CRF,semantic_prosody,58,0,0,0,0,58,
+EN,CRF,formulaic_language,54,2,0,0,0,52,formulaic language/ → language/
+EN,CRF,raw_frequency,51,51,0,0,0,0,raw frequencies → frequencies | absolute frequencies → frequencies | raw frequency → frequency
+EN,CRF,confidence_interval,49,2,0,0,0,47,confidence interval → confidence | 95%-confidence intervals → 95%-confidence
+EN,CRF,text_mining,48,14,0,0,0,34,text mining → mining
+EN,CRF,word_sense_disambiguation,48,0,0,0,12,36,
+EN,CRF,mega_corpus,44,0,0,1,1,42,mega corpora → corpora corpus description
+EN,CRF,web_crawling,41,7,0,0,23,11,web crawling → crawling
+EN,CRF,stopword,37,0,8,0,29,0,stopword → stopword list | stopword → stopword lists
+EN,CRF,content_word,37,3,0,0,0,34,content words → content
+EN,CRF,training_corpus,35,0,0,0,0,35,
+EN,CRF,multiword_expression,28,23,0,0,0,5,multi - word expressions → expressions | multi - word expression → expression | multiword expression → multiword
+EN,CRF,web_corpus,27,25,0,2,0,0,web corpus → corpus | web corpora → corpora | web corpus → corpus generation
+EN,CRF,dependency_parsing,24,17,0,0,0,7,dependency parsing → dependency | dependency parsing → parsing
+EN,CRF,named_entity_recognition,21,2,0,0,0,19,named entity recognition → recognition
+EN,CRF,lexico_grammar,21,1,0,0,9,11,lexico - grammar → grammar
+EN,CRF,corpus_based_translation_studies,21,21,0,0,0,0,corpus - based translation studies → corpus
+EN,CRF,static_corpus,20,8,0,0,0,12,static corpora → corpora | static corpus → corpus
+EN,CRF,inferential_statistics,19,0,0,0,0,19,
+EN,CRF,node_word,18,6,0,0,0,12,node word → node | node words → node
+EN,CRF,synchronic_corpus,17,10,0,0,0,7,synchronic corpora → corpora | synchronic corpus → corpus
+EN,CRF,inline_annotation,16,4,0,0,0,12,inline annotation → annotation
+EN,CRF,deviation_of_proportions,14,3,0,0,0,11,deviation of proportions → deviation | deviation of proportions → proportions
+EN,CRF,z_score,14,1,0,0,0,13,z - score → score
+EN,CRF,web_as_corpus,13,13,0,0,0,0,web as corpus → corpus
+EN,CRF,word_sketch,12,0,0,0,0,12,
+EN,CRF,phraseology,11,0,0,0,11,0,
+EN,CRF,stratified_sampling,10,6,0,0,0,4,stratified samples → samples
+EN,CRF,corpus_based_computational_linguistics,7,7,0,0,0,0,corpus - based computational linguistics → corpus - based | corpus - based computational linguistics → corpus
+EN,CRF,pos_disambiguation,7,0,0,0,0,7,
+EN,CRF,semantic_preference,6,0,0,0,0,6,
+EN,CRF,stemming,3,0,0,0,3,0,
+EN,CRF,collocational_strength,2,0,0,0,0,2,
+EN,CRF,corpus_query_language,2,2,0,0,0,0,corpus query language → corpus query | corpus query language → corpus
+ES,BiLSTM-CRF,corpus,35154,0,13703,0,21451,0,corpus → corpus en | corpus → corpus de | corpus → corpus que
+ES,BiLSTM-CRF,sample,3689,0,113,0,3576,0,muestras → muestras orales | muestras → corpus de muestras | muestras → corpus recopila muestras
+ES,BiLSTM-CRF,lemma,3226,0,55,0,3171,0,lemas → frecuencias de lemas | lemas → lemas 4.23 frecuencias normalizadas de los cuatro lemas 4.24 frecuencias normalizadas de los cuatro lemas | lemas → frecuencias normalizadas de los cuatro lemas
+ES,BiLSTM-CRF,corpus_linguistics,2077,2064,2,5,0,6,lingüística de corpus → corpus | linguística de corpus → corpus | lingüística de corpus → lingüística
+ES,BiLSTM-CRF,grammar,1973,0,29,0,1944,0,gramáticas → gramáticas descriptivas | gramática → gramática generativo-transformacional | gramática → clase de gramática
+ES,BiLSTM-CRF,representativeness,1171,0,20,0,1151,0,representatividad → representatividad del corpus | representatividad → representatividad – representatividad | representatividad → representatividad que afecten
+ES,BiLSTM-CRF,annotation,1020,43,472,2,501,2,anotación → anotación morfosintáctica | anotación del corpus → anotación | anotación → tipos de anotación
+ES,BiLSTM-CRF,collocation,990,0,17,0,973,0,"colocaciones → lista de colocaciones | colocaciones → listas de colocaciones | colocaciones → colocaciones , concordancias"
+ES,BiLSTM-CRF,reference_corpus,966,497,1,6,0,462,corpus de referencia → corpus | corpus de referência → corpus | corpus de referencia → corpus de
+ES,BiLSTM-CRF,corpus_based,847,451,0,17,379,0,basados en corpus → corpus | basada en corpus → corpus | basado en corpus → corpus
+ES,BiLSTM-CRF,text_type,840,0,0,0,0,840,
+ES,BiLSTM-CRF,tagger,838,0,23,0,815,0,"etiquetador → etiquetador morfosintáctico | etiquetadores → 75.228.898 267.459,28 26,75% verbo 42.039.989 149.463,64 14,95% adjetivo 18.697.604 66.475,08 6,65% adverbio 13.713.496 48.755,22 4,88% etiquetadores | etiquetadores → etiquetadores morfosintácticos corpus"
+ES,BiLSTM-CRF,genre,810,0,3,0,807,0,géneros → corpus de géneros | géneros → géneros orales académicos en | géneros → conjunto de géneros
+ES,BiLSTM-CRF,subcorpus,756,0,0,0,756,0,
+ES,BiLSTM-CRF,concordance,751,5,57,1,676,12,concordancias → concordancias bilingües | concordancias → análisis de concordancias | líneas de concordancia → concordancia
+ES,BiLSTM-CRF,population,700,0,0,0,700,0,
+ES,BiLSTM-CRF,query,693,9,32,0,652,0,consulta de corpus → corpus | consulta de corpus → consulta de corpus paralelo | consulta → subcorpus de consulta
+ES,BiLSTM-CRF,word_class,687,0,0,0,0,687,
+ES,BiLSTM-CRF,computational_linguistics,558,0,0,0,0,558,
+ES,BiLSTM-CRF,plain_text,473,0,0,1,0,472,texto plano → corpus estén en texto
+ES,BiLSTM-CRF,raw_frequency,463,462,0,1,0,0,frecuencia absoluta → frecuencia | frecuencias absolutas → frecuencias | frecuencia bruta → frecuencia
+ES,BiLSTM-CRF,diachronic_corpus,456,363,0,4,0,89,corpus diacrónicos → corpus | corpus diacrónico → corpus | corpus diacrónicos → clases de corpus
+ES,BiLSTM-CRF,annotated_corpus,397,279,12,8,0,98,corpus anotados → corpus | corpus anotado → corpus | corpus anotados → corpus anotados semántica
+ES,BiLSTM-CRF,balance,384,0,1,0,383,0,equilibrio → equilibrio del corpus
+ES,BiLSTM-CRF,comparable_corpus,334,259,2,3,0,70,corpus comparables → corpus | corpus comparable → corpus | corpus comparable → corpus cordisdial como corpus
+ES,BiLSTM-CRF,n_gram,316,0,4,0,312,0,n-gramas → listas de n-gramas | n-gramas → kwords -- palabras clave oneclick terms -- palabras clave kfngram -- n-gramas kits | n-gramas → n-gramas de etiquetas
+ES,BiLSTM-CRF,learner_corpus,311,270,1,1,0,39,corpus de aprendientes → corpus | corpus de aprendices → corpus | corpus de aprendientes.70 → corpus
+ES,BiLSTM-CRF,probability,278,0,10,0,268,0,probabilidades → probabilidades pronosticadas | probabilidad → corpus paralelos la información mutua calcula la probabilidad | probabilidad → probabilidad hasta rivalizar
+ES,BiLSTM-CRF,frequency_list,270,158,1,13,12,86,listas de frecuencias → frecuencias | lista de frecuencias → frecuencias | listas de frecuencia → frecuencia
+ES,BiLSTM-CRF,parallel_corpus,269,269,0,0,0,0,corpus paralelos → corpus | corpus paralelo → corpus
+ES,BiLSTM-CRF,synchronic,240,0,2,0,238,0,sincrónicos → corpus pueden ser sincrónicos | sincrónicos → corpus diacrónicos y sincrónicos
+ES,BiLSTM-CRF,historical_corpus,239,186,0,6,0,47,corpus histórico → corpus | corpus históricos → corpus | corpus histórico-diacrónicos → corpus
+ES,BiLSTM-CRF,general_corpus,216,214,1,1,0,0,"corpus generales → corpus | corpus general → corpus | corpus generales → corpus generales o monolingües,2"
+ES,BiLSTM-CRF,metadata,196,0,0,0,196,0,
+ES,BiLSTM-CRF,relative_frequency,184,184,0,0,0,0,frecuencia relativa → frecuencia | frecuencias relativas → frecuencias
+ES,BiLSTM-CRF,corpus_building,177,11,1,101,0,64,construcción de corpus → corpus | compilación de corpus → corpus paralelos | construcción de corpus → corpus multimodales
+ES,BiLSTM-CRF,specialised_corpus,174,77,2,5,0,90,corpus especializados → corpus | corpus especializado → corpus | corpus especializados → especializados
+ES,BiLSTM-CRF,virtual_corpus,172,170,1,1,0,0,corpus virtual → corpus | corpus virtuales → corpus | corpus virtuales → tus propios corpus
+ES,BiLSTM-CRF,tagset,160,0,5,0,117,38,conjunto de etiquetas → conjunto de etiquetas descriptivas | etiquetario → etiquetario morfosintáctico
+ES,BiLSTM-CRF,ttr,153,15,0,0,93,45,relación entre los types y tokens → tokens | relación entre los type y token → token | cociente types / tokens → tokens
+ES,BiLSTM-CRF,corpus_size,152,152,0,0,0,0,tamaño del corpus → corpus
+ES,BiLSTM-CRF,parsing,150,0,0,0,0,150,
+ES,BiLSTM-CRF,treebank,150,12,1,0,131,6,corpus sintácticamente anotado → corpus | corpus anotados sintácticamente → corpus | corpus anotado sintácticamente → corpus
+ES,BiLSTM-CRF,written_corpus,139,71,8,4,0,56,corpus escritos → corpus | corpus escrito → corpus | corpus escrito → corpus escrito corpus oral corpus
+ES,BiLSTM-CRF,corpus_design,125,39,2,30,0,54,diseño de corpus → corpus | diseño de corpus → corpus textuales | diseño de corpus → corpus orales
+ES,BiLSTM-CRF,recall,114,0,2,0,112,0,exhaustividad → exhaustividad tropieza | exhaustividad → esgrimirse pretensiones de exhaustividad
+ES,BiLSTM-CRF,alignment,109,0,0,0,109,0,
+ES,BiLSTM-CRF,natural_language_processing,108,0,0,0,0,108,
+ES,BiLSTM-CRF,multilingual_corpus,106,103,0,3,0,0,corpus multilingüe → corpus | corpus multilingües → corpus | corpus multilingües).25 → corpus
+ES,BiLSTM-CRF,token,106,0,15,0,91,0,tokens → los tokens de un corpus | tokens → de los tokens | tokens → de types y de tokens
+ES,BiLSTM-CRF,transcriber,104,0,0,0,104,0,
+ES,BiLSTM-CRF,monitor_corpus,100,43,1,1,55,0,corpus monitor → corpus | corpus monitor → corpus de referencia corpus | monitor → monitor tamaño de las muestras
+ES,BiLSTM-CRF,dispersion,100,0,0,0,100,0,
+ES,BiLSTM-CRF,clustering,97,0,2,0,65,30,clustering → clustering * svc | clustering → neighbor-based clustering
+ES,BiLSTM-CRF,training_corpus,96,80,0,1,0,15,corpus de entrenamiento → corpus | corpus de entrenamiento → corpus de | corpus de entrenamiento → basadas en “ corpus
+ES,BiLSTM-CRF,web_as_corpus,96,96,0,0,0,0,web como corpus → corpus | web as corpus → corpus
+ES,BiLSTM-CRF,regular_expression,94,0,0,0,0,94,
+ES,BiLSTM-CRF,multiword_expression,90,0,0,0,0,90,
+ES,BiLSTM-CRF,keyword,89,0,4,0,21,64,palabras clave → kwords -- palabras clave oneclick terms -- palabras clave kfngram -- n-gramas kits | palabras clave → conjunto de palabras clave | palabras clave → 1.24 palabras clave
+ES,BiLSTM-CRF,monolingual_corpus,86,57,2,3,0,24,corpus monolingües → corpus | corpus monolingüe → corpus | corpus monolingüe → n21 corpus
+ES,BiLSTM-CRF,web_corpus,75,75,0,0,0,0,corpus web → corpus
+ES,BiLSTM-CRF,sampling_unit,72,7,0,0,0,65,unidad de muestra → muestra
+ES,BiLSTM-CRF,corpus_driven,66,32,1,0,33,0,guiado por corpus → corpus | guiada por corpus → corpus | guiados por corpus → corpus
+ES,BiLSTM-CRF,moving_average,64,0,0,0,0,64,
+ES,BiLSTM-CRF,corpus_based_computational_linguistics,64,63,1,0,0,0,lingüística computacional de corpus → corpus | lingüística computacional de corpus → lingüística computacional | lingüística computacional de corpus → de corpus
+ES,BiLSTM-CRF,gold_standard,63,6,0,0,0,57,gold standard → gold
+ES,BiLSTM-CRF,kwic,62,0,1,0,33,28,kwic → concordancia de kwic
+ES,BiLSTM-CRF,sample_size,60,11,0,0,0,49,tamaño de las muestras → muestras | tamaños de las muestras → muestras
+ES,BiLSTM-CRF,text_mining,60,1,0,0,0,59,14.5.minería de textos → 14.5.minería
+ES,BiLSTM-CRF,pragmatic_annotation,57,53,0,0,0,4,anotación pragmática → anotación
+ES,BiLSTM-CRF,corpus_based_translation_studies,54,24,0,0,30,0,estudios de traducción con corpus → corpus | estudios de la traducción basados en corpus → corpus | estudios de traducción basados en corpus → corpus
+ES,BiLSTM-CRF,syntactic_annotation,52,52,0,0,0,0,anotación sintáctica → anotación
+ES,BiLSTM-CRF,wildcard,52,0,0,0,52,0,
+ES,BiLSTM-CRF,stem,52,0,2,0,50,0,"raíz → raíz corpus | raíz → raíz , corpus"
+ES,BiLSTM-CRF,synchronic_corpus,50,50,0,0,0,0,corpus sincrónico → corpus | corpus sincrónicos → corpus
+ES,BiLSTM-CRF,dependency_parsing,48,0,0,0,0,48,
+ES,BiLSTM-CRF,accuracy,48,0,0,0,48,0,
+ES,BiLSTM-CRF,word_sketch,45,0,0,0,0,45,
+ES,BiLSTM-CRF,statistical_significance,44,0,0,0,0,44,
+ES,BiLSTM-CRF,function_word,40,0,0,0,0,40,
+ES,BiLSTM-CRF,phraseology,37,0,0,0,37,0,
+ES,BiLSTM-CRF,collocate,33,0,0,0,33,0,
+ES,BiLSTM-CRF,mega_corpus,30,0,0,0,30,0,
+ES,BiLSTM-CRF,computational_corpus_linguistics,26,26,0,0,0,0,lingüística de corpus computacional → corpus
+ES,BiLSTM-CRF,annotation_tool,24,24,0,0,0,0,herramientas de anotación → anotación | herramienta de anotación → anotación
+ES,BiLSTM-CRF,frequency_per_million_words,24,8,0,0,0,16,frecuencia por millón de palabras → frecuencia
+ES,BiLSTM-CRF,t_score,24,0,0,0,0,24,
+ES,BiLSTM-CRF,balanced_corpus,23,0,4,4,0,15,corpus equilibrado → corpus grande corpus | corpus equilibrados → corpus equilibrados de referencia | corpus equilibrado → corpus grande corpus equilibrado corpus piramidal
+ES,BiLSTM-CRF,markup_language,22,0,0,0,0,22,
+ES,BiLSTM-CRF,normalized_dispersion_index,21,15,0,0,0,6,índice normalizado de dispersión → dispersión
+ES,BiLSTM-CRF,annotation_scheme,20,20,0,0,0,0,esquema de anotación → anotación | esquemas de anotación → anotación
+ES,BiLSTM-CRF,association_measure,18,0,0,2,0,16,medidas de asociación → de asociación ( información mutua
+ES,BiLSTM-CRF,telematic_corpus,17,17,0,0,0,0,corpus telemático → corpus | corpus telemáticos → corpus
+ES,BiLSTM-CRF,web_crawling,15,0,1,0,8,6,web crawling → web crawling for corpus
+ES,BiLSTM-CRF,stemming,13,0,1,0,12,0,stemming → postagging ) • stemming
+ES,BiLSTM-CRF,tokenization,13,0,0,0,13,0,
+ES,BiLSTM-CRF,log_likelihood,12,0,0,0,12,0,
+ES,BiLSTM-CRF,chi_squared,12,0,0,0,2,10,
+ES,BiLSTM-CRF,static_corpus,12,12,0,0,0,0,corpus estático → corpus | corpus estáticos → corpus
+ES,BiLSTM-CRF,concordancer,12,12,0,0,0,0,programas de concordancias → concordancias | programa de concordancias → concordancias
+ES,BiLSTM-CRF,standard_deviation,10,0,0,0,0,10,
+ES,BiLSTM-CRF,keyword_analysis,10,8,0,0,0,2,análisis de palabras clave → palabras clave
+ES,BiLSTM-CRF,stopword,10,0,0,0,0,10,
+ES,BiLSTM-CRF,colligation,9,0,0,0,9,0,
+ES,BiLSTM-CRF,inter_annotator_agreement,9,0,0,0,0,9,
+ES,BiLSTM-CRF,mean_score,8,0,0,0,0,8,
+ES,BiLSTM-CRF,collocational_strength,8,0,0,0,0,8,
+ES,BiLSTM-CRF,corpus_query_language,8,3,0,1,0,4,corpus query language → corpus | corpus query language → poderoso corpus | lenguaje de búsqueda de corpus → corpus
+ES,BiLSTM-CRF,lexical_bundle,7,0,0,0,0,7,
+ES,BiLSTM-CRF,opportunistic_corpus,7,7,0,0,0,0,corpus oportunistas → corpus | corpus oportunista → corpus
+ES,BiLSTM-CRF,named_entity_recognition,6,0,0,0,0,6,
+ES,BiLSTM-CRF,keyness,4,0,0,0,4,0,
+ES,BiLSTM-CRF,semantic_annotation,4,0,4,0,0,0,anotación semántica → anotación semántica para corpus | anotación semántica → tipos de anotación semántica | anotación semántica → corpus que hubiera incorporado anotación semántica
+ES,BiLSTM-CRF,semantic_prosody,4,0,0,0,0,4,
+ES,BiLSTM-CRF,content_word,4,0,0,0,0,4,
+ES,BiLSTM-CRF,national_corpus,3,3,0,0,0,0,corpus nacionales → corpus
+ES,BiLSTM-CRF,semantic_preference,3,0,0,0,0,3,
+ES,BiLSTM-CRF,type,2,0,0,0,0,2,
+ES,BiLSTM-CRF,node_word,2,0,0,0,0,2,
+ES,BiLSTM-CRF,lexeme,1,0,1,0,0,0,lexema → lexema democr
+ES,BiLSTM-CRF,hapax_legomenon,1,0,0,0,1,0,
+ES,CRF,corpus,24566,0,8186,0,16380,0,corpus → corpus de | corpus → corpus textuales | corpus → corpus lingüísticos
+ES,CRF,sample,4121,0,148,0,3973,0,muestras → corpus de muestras | muestras → cantidad de muestras | muestras → fijación de muestras
+ES,CRF,lemma,3224,0,20,0,3204,0,lemas → lemas en períodos | lemas → lemas en el | lemas → lemas para un corpus
+ES,CRF,annotation,2483,154,7,8,2306,8,anotación de corpus → corpus | anotación del corpus → corpus | anotación del corpus → anotación
+ES,CRF,corpus_linguistics,2124,2089,7,6,0,22,lingüística de corpus → corpus | linguística de corpus → corpus | lingüistica de corpus → corpus
+ES,CRF,grammar,1972,0,49,0,1923,0,gramática → gramática descriptiva | gramáticas → gramáticas descritivas | gramáticas → gramáticas descriptivas
+ES,CRF,collocation,1033,0,18,0,1015,0,colocaciones → lista de colocaciones | colocaciones → comparación de colocaciones | colocaciones → listas de colocaciones
+ES,CRF,representativeness,992,0,0,0,992,0,
+ES,CRF,tagger,873,0,34,0,839,0,etiquetadores → etiquetadores morfosintácticos | etiquetadores → etiquetadores morfológicos | etiquetadores → etiquetadores automáticos
+ES,CRF,query,844,13,45,4,782,0,consulta → aplicación de consulta | consulta → aplicaciones de consulta | consulta de corpus → corpus
+ES,CRF,corpus_based,841,450,0,18,373,0,basados en corpus → corpus | basada en corpus → corpus | basado en corpus → corpus
+ES,CRF,text_type,840,0,0,0,0,840,
+ES,CRF,concordance,795,0,9,1,768,17,concordancias → concordancias bilingües | concordancias → corpus de concordancias | concordancias → lista de concordancias
+ES,CRF,word_class,687,22,0,0,0,665,categoría gramatical → categoría | categorías gramaticales → categorías
+ES,CRF,population,641,0,0,0,641,0,
+ES,CRF,computational_linguistics,552,1,0,0,0,551,lingüística computacional → lingüística
+ES,CRF,genre,542,0,15,0,527,0,géneros → géneros orales | géneros → géneros textuales | géneros → géneros divulgativos
+ES,CRF,plain_text,473,0,0,1,0,472,texto plano → plano de las palabras clave
+ES,CRF,raw_frequency,464,359,0,2,0,103,frecuencia absoluta → frecuencia | frecuencias absolutas → frecuencias | frecuencia bruta → frecuencia
+ES,CRF,comparable_corpus,460,322,1,30,0,107,corpus comparables → corpus | corpus comparable → corpus | corpus comparables → aprovechamiento de corpus
+ES,CRF,annotated_corpus,459,417,1,4,0,37,corpus anotado → corpus | corpus anotados → corpus | corpus anotados → explotación de corpus
+ES,CRF,diachronic_corpus,456,446,0,2,0,8,corpus diacrónicos → corpus | corpus diacrónico → corpus | corpus diacrónicos → clases de corpus
+ES,CRF,probability,340,0,2,0,338,0,probabilidad → probabilidad pronosticada
+ES,CRF,n_gram,319,0,8,0,311,0,n-gramas → n-gramas de etiquetas | n-gramas → listas de n-gramas | n-gramas → n-gramas los grandes
+ES,CRF,learner_corpus,309,268,0,6,0,35,corpus de aprendientes → corpus | corpus de aprendices → corpus | corpus de aprendices → explotación de corpus
+ES,CRF,balance,297,0,9,0,288,0,equilibrio → equilibrio de un corpus | equilibrio → equilibrio en el | equilibrio → equilibrio del corpus
+ES,CRF,frequency_list,280,132,0,14,22,112,listas de frecuencias → frecuencias | lista de frecuencias → frecuencias | listas de frecuencia → frecuencia
+ES,CRF,parallel_corpus,268,249,0,18,0,1,corpus paralelos → corpus | corpus paralelo → corpus | corpus paralelo → creación del corpus
+ES,CRF,synchronic,238,0,0,0,238,0,
+ES,CRF,historical_corpus,232,193,0,7,0,32,corpus histórico → corpus | corpus históricos → corpus | corpus histórico-diacrónicos → corpus
+ES,CRF,general_corpus,216,216,0,0,0,0,corpus generales → corpus | corpus general → corpus
+ES,CRF,written_corpus,202,145,2,6,0,49,corpus escritos → corpus | corpus escrito → corpus | corpus escrito → corpus escrito corpus oral
+ES,CRF,metadata,196,0,1,0,195,0,metadatos → conjunto de metadatos
+ES,CRF,relative_frequency,184,164,0,0,0,20,frecuencia relativa → frecuencia | frecuencias relativas → frecuencias
+ES,CRF,reference_corpus,181,125,6,6,0,44,corpus de referencia → corpus | corpus de referencia → corpus de | corpus de referencia → corpus de referencia corpus
+ES,CRF,virtual_corpus,171,171,0,0,0,0,corpus virtual → corpus | corpus virtuales → corpus
+ES,CRF,ttr,153,55,0,0,93,5,type-token ratio → type-token | relación entre los types y tokens → tokens | ratio estandarizada tipo-token → tipo-token
+ES,CRF,parsing,150,0,0,0,0,150,
+ES,CRF,corpus_size,135,134,0,1,0,0,tamaño del corpus → corpus | tamaño del corpus → corpus analizado
+ES,CRF,dispersion,132,0,1,0,131,0,dispersión → medidas de dispersión
+ES,CRF,treebank,128,14,1,2,109,2,corpus sintácticamente anotado → corpus | corpus anotados sintácticamente → corpus | corpus anotado sintácticamente → corpus
+ES,CRF,subcorpus,125,0,78,0,47,0,subcorpus → subcorpus divulgativo | subcorpus → subcorpus de | subcorpus → subcorpus especializado
+ES,CRF,specialised_corpus,114,90,8,8,0,8,corpus especializados → corpus | corpus especializado → corpus | corpus especializado → corpus especializado corpus genérico
+ES,CRF,natural_language_processing,108,3,0,0,0,105,procesamiento del lenguaje natural → procesamiento
+ES,CRF,clustering,108,0,0,0,78,30,
+ES,CRF,alignment,105,0,5,0,100,0,alineación → alineación de corpus | alineamiento → alineamiento de corpus
+ES,CRF,tagset,104,0,1,0,61,42,etiquetario → etiquetario del corpus
+ES,CRF,monitor_corpus,100,42,0,1,56,1,corpus monitor → corpus | corpus monitor → corpus de referencia corpus
+ES,CRF,web_as_corpus,96,96,0,0,0,0,web como corpus → corpus | web as corpus → corpus
+ES,CRF,training_corpus,95,76,0,5,0,14,corpus de entrenamiento → corpus | corpus de entrenamiento → corpus de | corpus de entrenamiento → entrenamiento
+ES,CRF,regular_expression,94,8,0,1,0,85,expresiones regulares → expresiones | expresiones regulares → gramática de expresiones | expresión regular → expresión
+ES,CRF,recall,90,0,0,0,90,0,
+ES,CRF,multiword_expression,90,18,0,0,0,72,unidades pluriverbales → unidades | unidades multipalabra → unidades | expresiones multipalabra → expresiones
+ES,CRF,transcriber,80,0,0,0,80,0,
+ES,CRF,corpus_design,79,61,1,11,0,6,diseño de corpus → corpus | diseño de corpus → corpus orales | diseño de corpus → diseño
+ES,CRF,web_corpus,75,66,0,1,0,8,corpus web → corpus | corpus web → palabras del corpus
+ES,CRF,semantic_annotation,72,29,0,0,0,43,anotación semántica → anotación
+ES,CRF,sampling_unit,70,27,0,0,0,43,unidad de muestra → muestra
+ES,CRF,keyword,70,4,9,6,2,49,palabras clave → -- palabras clave | palabras clave → clave | palabra clave → búsquedas por palabra
+ES,CRF,kwic,69,11,0,0,41,17,key word in context → word | key words in context → words | key word in context → context
+ES,CRF,corpus_driven,69,32,0,0,37,0,guiado por corpus → corpus | guiada por corpus → corpus | guiados por corpus → corpus
+ES,CRF,gold_standard,63,6,0,0,0,57,gold standard → gold
+ES,CRF,synchronic_corpus,63,63,0,0,0,0,corpus sincrónico → corpus | corpus sincrónicos → corpus
+ES,CRF,sample_size,60,0,0,0,0,60,
+ES,CRF,text_mining,60,6,0,0,0,54,minería de textos → minería | 14.5.minería de textos → 14.5.minería | minería de texto → minería
+ES,CRF,moving_average,59,10,0,0,0,49,medias móviles → medias | media móvil → media
+ES,CRF,pragmatic_annotation,59,20,0,0,0,39,anotación pragmática → anotación
+ES,CRF,corpus_building,55,26,3,25,0,1,compilación de corpus → compilación | construcción de corpus → construcción | compilación de corpus → corpus paralelos
+ES,CRF,corpus_based_translation_studies,54,24,0,0,30,0,estudios de traducción con corpus → corpus | estudios de la traducción basados en corpus → corpus | estudios de traducción basados en corpus → corpus
+ES,CRF,multilingual_corpus,54,48,2,0,0,4,corpus multilingüe → corpus | corpus multilingües → corpus | corpus multilingües).25 → corpus
+ES,CRF,syntactic_annotation,52,10,0,0,0,42,anotación sintáctica → anotación
+ES,CRF,corpus_based_computational_linguistics,52,50,0,0,0,2,lingüística computacional de corpus → lingüística computacional | lingüística computacional de corpus → corpus | lingüística computacional de corpus → computacional de corpus
+ES,CRF,wildcard,51,0,0,0,51,0,
+ES,CRF,accuracy,48,0,0,0,48,0,
+ES,CRF,dependency_parsing,46,11,0,0,0,35,análisis sintáctico de dependencias → dependencias | análisis de dependencias → dependencias
+ES,CRF,word_sketch,45,18,0,0,0,27,word sketch → word | word sketches → sketches
+ES,CRF,statistical_significance,44,14,0,0,0,30,significación estadística → significación | significatividad estadística → significatividad
+ES,CRF,function_word,40,0,0,4,0,36,palabras funcionales → eliminación de palabras | palabras funcionales → aparición de palabras
+ES,CRF,phraseology,40,0,3,0,37,0,fraseología → fraseología especializada | fraseología → fraseología contrastiva
+ES,CRF,monolingual_corpus,40,34,1,2,0,3,corpus monolingüe → corpus | corpus monolingües → corpus | corpus monolingües → corpus monolingües corpus bilingües
+ES,CRF,collocate,33,0,0,0,33,0,
+ES,CRF,hapax_legomenon,30,0,0,0,30,0,
+ES,CRF,computational_corpus_linguistics,26,26,0,0,0,0,lingüística de corpus computacional → corpus | lingüística de corpus computacional → corpus computacional
+ES,CRF,balanced_corpus,24,16,4,0,0,4,corpus equilibrado → corpus | corpus equilibrados → corpus | corpus equilibrado → corpus grande corpus equilibrado
+ES,CRF,annotation_tool,24,0,0,0,0,24,
+ES,CRF,frequency_per_million_words,24,10,0,0,0,14,frecuencia por millón de palabras → frecuencia | por millón de palabras → millón de palabras | frecuencia por millón de palabras → millón de palabras
+ES,CRF,t_score,24,1,0,0,0,23,puntuación t. → puntuación
+ES,CRF,markup_language,22,2,0,0,0,20,lenguaje de marcado</cd → marcado</cd | lenguaje de marcado → marcado
+ES,CRF,normalized_dispersion_index,21,6,0,0,0,15,índice normalizado de dispersión → normalizado de dispersión | índice normalizado de dispersión → índice normalizado
+ES,CRF,annotation_scheme,20,11,0,0,0,9,esquema de anotación → anotación | esquemas de anotación → anotación
+ES,CRF,token,20,0,3,0,17,0,token → diferencia entre token y | tokens → tokens de un corpus | tokens → tokens del corpus
+ES,CRF,lexeme,20,0,0,0,20,0,
+ES,CRF,association_measure,18,1,0,0,0,17,medidas de asociación → medidas
+ES,CRF,telematic_corpus,14,13,1,0,0,0,corpus telemático → corpus | corpus telemáticos → corpus telemáticos orales
+ES,CRF,chi_squared,12,1,0,0,2,9,chi cuadrado → chi
+ES,CRF,static_corpus,12,12,0,0,0,0,corpus estático → corpus | corpus estáticos → corpus
+ES,CRF,stemming,12,0,0,0,12,0,
+ES,CRF,concordancer,12,7,0,0,0,5,programas de concordancias → concordancias | programa de concordancias → concordancias
+ES,CRF,web_crawling,12,4,0,0,4,4,web crawling → crawling | web crawling → web
+ES,CRF,standard_deviation,10,0,0,0,0,10,
+ES,CRF,keyword_analysis,10,10,0,0,0,0,análisis de palabras clave → palabras clave
+ES,CRF,stopword,10,0,0,0,0,10,
+ES,CRF,inter_annotator_agreement,9,1,0,0,0,8,acuerdo entre anotadores → anotadores
+ES,CRF,colligation,8,0,0,0,8,0,
+ES,CRF,collocational_strength,8,3,0,0,0,5,fuerza de asociación → fuerza de | fuerza de la asociación → fuerza | grado de asociación → grado de
+ES,CRF,corpus_query_language,8,4,0,0,0,4,lenguaje de consulta → consulta | lenguaje de búsqueda de corpus → búsqueda de corpus | corpus query language → corpus
+ES,CRF,mean_score,7,1,0,0,0,6,media aritmética → aritmética
+ES,CRF,lexical_bundle,7,0,0,0,0,7,
+ES,CRF,opportunistic_corpus,7,7,0,0,0,0,corpus oportunistas → corpus | corpus oportunista → corpus
+ES,CRF,named_entity_recognition,6,0,0,0,0,6,
+ES,CRF,log_likelihood,4,0,0,0,4,0,
+ES,CRF,keyness,4,0,0,0,4,0,
+ES,CRF,semantic_prosody,4,0,0,0,0,4,
+ES,CRF,content_word,4,0,0,0,0,4,
+ES,CRF,national_corpus,3,2,1,0,0,0,corpus nacionales → corpus | corpus nacionales → corpus nacionales corpus
+ES,CRF,semantic_preference,3,0,0,0,0,3,
+ES,CRF,stem,2,0,1,0,1,0,raíz → raíz corpus
+ES,CRF,type,2,1,0,0,0,1,type / token → token
+ES,CRF,node_word,2,0,0,0,0,2,
+ES,CRF,mega_corpus,1,0,0,0,1,0,
