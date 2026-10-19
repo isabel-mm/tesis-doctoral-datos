@@ -8,7 +8,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 R, IMG = sys.argv[1], sys.argv[2]
 plt.rcParams.update({"font.family": "Times New Roman", "font.size": 19})
-MORADO, CORAL = "#6A4C93", "#D9603B"
+MORADO, CORAL = "#6A4C93", "#12897B"  # CORAL = verde de la paleta de la tesis
 def cargar(f, col):
     d = defaultdict(list)
     for r in csv.DictReader(open(f, encoding="utf-8")):

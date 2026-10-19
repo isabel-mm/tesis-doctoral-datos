@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[2]
 RES = ROOT / "colab_reanotacion/resultados"
 IMG = ROOT / "tesis/maquetacion/images"
 
-MORADO, CORAL = "#6A4C93", "#D9603B"
+MORADO, CORAL = "#6A4C93", "#12897B"  # CORAL = verde de la paleta de la tesis
 if any("Times New Roman" in f.name for f in font_manager.fontManager.ttflist):
     plt.rcParams["font.family"] = "Times New Roman"
 plt.rcParams.update({"font.size": 13, "axes.spines.top": False, "axes.spines.right": False})
