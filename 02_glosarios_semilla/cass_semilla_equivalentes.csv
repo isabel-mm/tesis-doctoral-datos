@@ -1,19 +1,19 @@
 termino_en,equivalente_es,fuente_equivalente
-Annotation,Anotación,Gestor ILA
+Annotation,Anotación,GeterDoc
 Balance,Equilibrio,Propuesta
 Colligation,Coligación,Propuesta
 Collocation,Colocación,CercaTerm
-Comparability,Comparabilidad,Gestor ILA
-Concordance,Concordancia,Gestor ILA
+Comparability,Comparabilidad,GeterDoc
+Concordance,Concordancia,GeterDoc
 Concordancer,Programa de concordancias,TERMIUM Plus
 Corpus,Corpus (textual),TERMIUM Plus
-Corpus construction,Construcción de corpus,Gestor ILA
-Corpus-based,Basado en corpus,Gestor ILA
-Corpus-driven,Guiado por el corpus*,Gestor ILA
+Corpus construction,Construcción de corpus,GeterDoc
+Corpus-based,Basado en corpus,GeterDoc
+Corpus-driven,Guiado por el corpus*,GeterDoc
 Diachronic,Diacrónico,CercaTerm
 Encoding,Codificación,CercaTerm
-Frequency list,Lista de frecuencias,Gestor ILA
-Key word in context (KWIC),Palabra clave en contexto*,Gestor ILA
+Frequency list,Lista de frecuencias,GeterDoc
+Key word in context (KWIC),Palabra clave en contexto*,GeterDoc
 Keyword,Palabra clave,CercaTerm
 Lemma,Lema,CercaTerm
 Lemmatisation,Lematización,CercaTerm
@@ -21,9 +21,9 @@ Lexis,Léxico,Propuesta
 Markup,Marcado,CercaTerm
 Markup language,Lenguaje de marcado,TERMIUM Plus
 Metadata,Metadato/s,CercaTerm
-Monitor corpus,Corpus monitor,Gestor ILA
-Node,Nodo,Gestor ILA
-Reference corpus,Corpus de referencia,Gestor ILA
+Monitor corpus,Corpus monitor,GeterDoc
+Node,Nodo,GeterDoc
+Reference corpus,Corpus de referencia,GeterDoc
 Representativeness,Representatividad,Propuesta
 Sample,Muestra,CercaTerm
 Sample corpus,Corpus de muestra/muestral,rojo2021introduccion
@@ -33,7 +33,7 @@ Statistical significance,Significación estadística,TERMIUM Plus
 Synchronic,Sincrónico,CercaTerm
 Tagging,Etiquetado,Propuesta
 Text,Texto,CercaTerm
-Token,Token,Gestor ILA
-Type,Tipo,Gestor ILA
-Type-token ratio,Type-token ratio,Gestor ILA
+Token,Token,GeterDoc
+Type,Tipo,GeterDoc
+Type-token ratio,Type-token ratio,GeterDoc
 XML,XML,"TERMIUM Plus, CercaTerm"
