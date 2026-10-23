@@ -15,6 +15,7 @@ Una fila por ejecución, con todas las métricas descritas en el README de la ca
 
 - `bilstm_reserva_*`: reserva de tipos, tres semillas (las mismas particiones que las semillas 0-2 del CRF); incluye la época elegida en validación.
 - `bilstm_cv_todas.csv`: validación cruzada aleatoria de 5 pliegues.
+- `epocas/`: registro por época de cada ejecución (`reserva_<lengua>_p<nivel>_s<semilla>.csv` y `cv_<lengua>_f<pliegue>.csv`): pérdida media y métricas en el conjunto de validación. Una pérdida vacía indica que el entrenamiento divergió (valor no numérico); ocurre en cinco ejecuciones en inglés, siempre después de la época elegida.
 
 ## `clasificadores/` (*baseline*)
 
