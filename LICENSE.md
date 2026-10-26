@@ -2,7 +2,7 @@
 
 **Datos** (todos los ficheros CSV, JSON y Markdown, y las figuras): Creative Commons Atribución 4.0 Internacional (CC BY 4.0). <https://creativecommons.org/licenses/by/4.0/legalcode.es>
 
-**Código** (`06_experimentos/scripts/`): licencia MIT.
+**Código** (`cap6_experimentos/scripts/`): licencia MIT.
 
 Copyright (c) 2026 Isabel Moyano Moreno
 

@@ -29,10 +29,14 @@ Clasificadores por *token*, con los mismos rasgos que el CRF y sin secuencia.
 - `crf_aciertos_por_termino.csv`, `crf_falsos_positivos_{en,es}.csv` y `crf_*_resumen.json`: análisis de errores del CRF (unidades reconocidas enteras, en parte o perdidas; términos espurios).
 - `span_longitud_secuenciales.csv`: unidades monoléxicas y poliléxicas delimitadas exactamente por el CRF y el BiLSTM-CRF.
 - `vocabulario_reservados.csv`: recuperación de los términos reservados según contengan o no palabras fuera del vocabulario de entrenamiento del BiLSTM-CRF.
-- `errores_reservados.csv.gz`: todos los errores de los dos modelos ante los términos reservados, en los cuatro niveles de reserva y las tres particiones comunes al CRF y al BiLSTM-CRF. Cada fila es un error: el término que el modelo debería haber reconocido (`termino_esperado`, con su entrada de GLiCor), lo que predijo (`prediccion`) y el tipo de error (`delimitación por defecto`, `delimitación por exceso`, `solapamiento parcial`, `omisión de un término monoléxico`, `omisión de un término poliléxico` o `falso positivo`). Se identifican el documento y la oración, pero no se incluye su texto. La tabla de errores del capítulo 6 (Tabla 6.7) se calcula a partir de este fichero, excluyendo la entrada `corpus`.
+- `errores_reservados.csv.gz`: todos los errores de los dos modelos ante los términos reservados, en los cuatro niveles de reserva y las tres particiones comunes al CRF y al BiLSTM-CRF. Cada fila es un error: el término que el modelo debería haber reconocido (`termino_esperado`, con su entrada de GLiCor), lo que predijo (`prediccion`) y el tipo de error (`delimitación por defecto`, `delimitación por exceso`, `solapamiento parcial`, `omisión de un término monoléxico`, `omisión de un término poliléxico` o `falso positivo`). Se identifican el documento y la oración, pero no se incluye su texto. La tabla de errores del capítulo 6 (Tabla 6.8) se calcula a partir de este fichero, excluyendo la entrada `corpus`.
 - `errores_por_termino.csv`: resumen del fichero anterior por entrada de GLiCor: número de errores de cada tipo y ejemplos de predicción.
 - `falsos_positivos.csv`: unidades propuestas por cada modelo que no coinciden con ningún término, con el número de veces que aparecen.
 
 ## `predicciones/`
 
 Predicciones de las ejecuciones de reserva de tipos y de validación cruzada de los dos modelos. Cada fichero tiene una fila por *token* con el documento, la oración, la posición y las etiquetas real (`gold`) y predicha (`pred`). No incluyen las palabras, para que no puedan reconstruirse los textos del corpus. Las predicciones del resto de las ejecuciones están disponibles a petición.
+
+## `recall_frecuencia.txt`
+
+Recuperación de los términos reservados según la frecuencia del tipo (raros, ≤ 10 apariciones; medios, 11–100; frecuentes, > 100), con una reserva del 20 %: cifras de la Tabla 6.7 y de la figura `figuras/cap6/14_recall_frecuencia.png`; las genera `scripts/paso9_recall_frecuencia.py`.

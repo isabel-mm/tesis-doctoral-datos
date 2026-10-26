@@ -23,7 +23,7 @@ sys.path.insert(0, str(ROOT / "tesis/terminologicidad_2026-10"))
 import recalculo_ncvalue as rc  # noqa: E402
 
 rc.OUT = HERE
-FORMAS = ROOT.parent / "tesis_material_tribunal/04_anotacion/formas_por_entrada.csv"
+FORMAS = ROOT.parent / "tesis_material_tribunal/cap3_anotacion/formas_por_entrada.csv"
 
 
 def glicor_units(lang):

@@ -9,7 +9,7 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 AP = ROOT / "tesis/maquetacion/chapters/anexo_terminos_entidades.tex"
-FORMAS = ROOT.parent / "tesis_material_tribunal/04_anotacion/formas_por_entrada.csv"
+FORMAS = ROOT.parent / "tesis_material_tribunal/cap3_anotacion/formas_por_entrada.csv"
 CATS_T = [("Metodología y diseño", "MET-DI"), ("Procesamiento lingüístico", "PROC-LIN"),
           ("Estadística y léxico", "EST-LEX"), ("Tecnología y formatos", "TEC-FOR")]
 CATS_E = [("Recursos y corpus", "REC-COR"), ("Herramientas y software", "HER-SOFT"),
