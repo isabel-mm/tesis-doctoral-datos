@@ -3,7 +3,7 @@
 Figuras de datos de los capítulos 5, 6 y 7 en alta resolución, con la paleta de la tesis (morado para el CRF y verde para el BiLSTM-CRF), organizadas en una subcarpeta por capítulo.
 
 - `cap5/`: `10_saturacion_terminologica.png`, `11_zipf_general_vs_termino.png`, `12_zipf_visual_simple.png`.
-- `cap6/`: `01_holdout_tecla_barras.png` (F1 global), `10_holdout_termino_barras.png` (F1 de término), `confusion_matrices.png`, `13_acter_validacion.png`, `11_bilstm_epocas_simple.png` (F1 de término en validación por época, 20 % reservado), `14_recall_frecuencia.png` (recuperación de los términos reservados según la frecuencia del tipo) y `11_bilstm_epocas.png` (F1 de término en validación por época, todos los niveles de reserva; Apéndice V).
+- `cap6/`: `01_holdout_tecla_barras.png` (F1 global), `10_holdout_termino_barras.png` (F1 de término), `confusion_matrices.png`, `13_acter_validacion.png`, `11_bilstm_epocas_simple.png` (F1 de término en validación por época, 20 % reservado), `14_recall_frecuencia.png` (recuperación de los términos reservados según la frecuencia del tipo) y `11_bilstm_epocas.png` (F1 de término en validación por época, todos los niveles de reserva; Figura 6.4 de la tesis).
 - `cap7/`: `fig_categorias_glosario.png`.
 
 ## Scripts

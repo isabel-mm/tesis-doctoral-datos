@@ -4,7 +4,7 @@ Corpus comparable de 100 textos académicos sobre lingüística de corpus: 50 en
 
 ## Ficheros
 
-- `referencias_corpus.csv`: referencia bibliográfica de cada documento, con su lengua, tipo y enlace (DOI o URL) cuando existe. Es el Apéndice I de la tesis.
+- `referencias_corpus.csv`: referencia bibliográfica de cada documento, con su lengua, tipo y enlace (DOI o URL) cuando existe. La misma relación, en versión legible, está en `registro_documental_corpus.pdf`.
 - `documentos_en.csv`, `documentos_es.csv`: un documento por fila.
   - `documento`: identificador (nombre del fichero de texto); `año`, `autoría`, `título`, `fuente`, `tipo`.
   - `tokens`, `oraciones`: tamaño según el análisis de spaCy (`en_core_web_trf`, `es_dep_news_trf`), sin espacios en blanco.
