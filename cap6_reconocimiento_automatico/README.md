@@ -1,5 +1,7 @@
 # Experimentos
 
+Datos del capítulo 6 de la tesis (y del diseño experimental del capítulo 4). Para una lectura de conjunto, empiece por `resultados_completos.pdf`, que reúne en tablas el entorno de trabajo, los hiperparámetros y los resultados desglosados. Los términos técnicos se explican en el README principal.
+
 La tesis compara dos modelos de reconocimiento de términos, uno por cada respuesta posible a la pregunta de si hacen falta rasgos o basta con la distribución de las palabras en el texto, y un *baseline* de clasificadores que deciden sobre cada palabra por separado:
 
 1. **Modelo de aprendizaje automático basado en rasgos**: un CRF que recibe, para cada palabra, 27 rasgos lingüísticos y estadísticos (`rasgos_crf.csv`).
@@ -14,7 +16,7 @@ Los hiperparámetros están en `hiperparametros.csv`.
 - **Reserva de tipos** (protocolo principal): se reserva al azar un 10, 20, 30 o 50 % de las entradas de término de GLiCor; toda oración que contenga alguna de ellas va al conjunto de prueba, y el resto, al de entrenamiento. Así ningún término evaluado se ha visto al entrenar, y todas las formas de un mismo concepto caen en la misma partición. Se repite con 10 semillas (CRF) y 3 semillas (BiLSTM-CRF).
 - **Sin fuga de datos**: los rasgos estadísticos (frecuencia, frecuencia documental, TF-IDF, dispersión contextual, PMI) se calculan solo con las oraciones de entrenamiento de cada partición.
 - **Dos etiquetas**: misma reserva, pero con términos y entidades etiquetados por separado (`B-T/I-T` y `B-E/I-E`).
-- **Ablación**: con la reserva del 20 %, se reentrena el CRF sin cada una de las 9 familias de rasgos.
+- **Ablación**: se reentrena el CRF sin cada una de las 9 familias de rasgos, con 10 repeticiones en cada nivel de reserva y, como contraste, con la validación cruzada. Se mide cuánto cambia el F1 de término y cuánto cambia la recuperación de los términos reservados, los que el modelo no ha visto.
 - **Validación cruzada estándar** de 5 pliegues, con particiones aleatorias, como contraste: mide cuánto se sobrestima el rendimiento cuando las apariciones de un mismo término se reparten entre entrenamiento y prueba.
 
 ## Métricas

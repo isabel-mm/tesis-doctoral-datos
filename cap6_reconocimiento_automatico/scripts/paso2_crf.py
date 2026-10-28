@@ -8,11 +8,14 @@ la tesis (27 rasgos, estadísticos y PMI recalculados solo con el entrenamiento)
                -> cifras principales del cap. 6
   dos          configuración de dos etiquetas (B-T/I-T + B-E/I-E), mismas
                particiones -> tabla de las tres configuraciones
-  ablacion     reserva del 20 %: semilla 42 sin cada una de las 9 familias
+  ablacion     reserva del 20 %: semilla 0 sin cada una de las 9 familias
                (tabla de ablación) + semillas 1-9 sin morfología, morfosintaxis
                y sintaxis (comprobación multisemilla). Con --ablacion-completa,
                las 9 familias en las 10 semillas.
   cv           validación cruzada estándar de 5 pliegues (particiones aleatorias)
+  ablacv       ablación por familias con la validación cruzada de 5 pliegues
+               (evaluación convencional), para contrastarla con la reserva de tipos
+Opción --todos-niveles: la ablación se repite en los cuatro niveles de reserva.
 
 Cada ejecución guarda (en $RESULTADOS/crf/):
   runs/<id>.json         todas las métricas (metricas.py) del conjunto de prueba
@@ -52,7 +55,7 @@ for d in ("runs", "pred", "reservadas"):
 
 NIVELES = [10, 20, 30, 50]
 SEMILLAS = list(range(10))
-SEMILLAS_ABL = [42] + list(range(1, 10))
+SEMILLAS_ABL = list(range(10))   # las mismas semillas que la reserva (0-9)
 FAMILIAS_MULTI = ["morfologia", "morfosintaxis", "sintaxis"]
 N_FOLDS = 5
 
@@ -73,7 +76,11 @@ def cargar(lang, completa):
 
 def run_id(t):
     fam = t.get("familia") or "todas"
-    return f"{t['exp']}_{t['lang']}_p{t['pct']}_s{t['seed']}_{fam}" if t["exp"] != "cv" else f"cv_{t['lang']}_f{t['fold']}"
+    if t["exp"] == "cv":
+        return f"cv_{t['lang']}_f{t['fold']}"
+    if t["exp"] == "ablacv":
+        return f"ablacv_{t['lang']}_f{t['fold']}_{fam}"
+    return f"{t['exp']}_{t['lang']}_p{t['pct']}_s{t['seed']}_{fam}"
 
 
 def entrenar_y_evaluar(train_sents, test_sents, lang, familia=None):
@@ -116,15 +123,19 @@ def ejecutar(t):
     sentences, span_types = cargar(lang, completa)
     fila = {k: v for k, v in t.items()}
 
-    if t["exp"] == "cv":
+    if t["exp"] in ("cv", "ablacv"):
         from sklearn.model_selection import StratifiedKFold
         y_strat = np.array([any(r["label_bio"] != "O" for r in s["rows"]) for s in sentences], dtype=int)
         folds = list(StratifiedKFold(n_splits=N_FOLDS, shuffle=True, random_state=42).split(np.zeros(len(sentences)), y_strat))
         tr_idx, te_idx = folds[t["fold"] - 1]
         train_sents = [sentences[i] for i in tr_idx]
         test_sents = [sentences[i] for i in te_idx]
-        crf, X_te, y_te, y_pr = entrenar_y_evaluar(train_sents, test_sents, lang)
+        crf, X_te, y_te, y_pr = entrenar_y_evaluar(train_sents, test_sents, lang, t.get("familia"))
         fila.update(metricas_completas(y_te, y_pr))
+        if t["exp"] == "ablacv":
+            fila["segundos"] = round(time.time() - t0, 1)
+            dest.write_text(json.dumps(fila, ensure_ascii=False, default=float))
+            return rid, f"F1 término={fila['f1_termino']:.3f} ({fila['segundos']:.0f}s)"
         marg = crf.predict_marginals(X_te)
         filas = [{"y_true": int(a != "O"), "p_term": m.get("B-T", 0.0) + m.get("I-T", 0.0)}
                  for yt, mm in zip(y_te, marg) for a, m in zip(yt, mm)]
@@ -145,7 +156,7 @@ def ejecutar(t):
     return rid, f"F1 término={fila['f1_termino']:.3f} ({fila['segundos']:.0f}s)"
 
 
-def tareas(exp, langs, rapido, abl_completa):
+def tareas(exp, langs, rapido, abl_completa, todos_niveles=False):
     out = []
     for lang in langs:
         if exp in ("reserva", "dos", "todo"):
@@ -155,10 +166,15 @@ def tareas(exp, langs, rapido, abl_completa):
                         out.append({"exp": e, "lang": lang, "pct": pct, "seed": seed, "familia": None})
         if exp in ("ablacion", "todo"):
             fams_all = list(base.FAMILIAS)
-            for seed in (SEMILLAS_ABL[:1] if rapido else SEMILLAS_ABL):
-                fams = fams_all if (seed == 42 or abl_completa) else FAMILIAS_MULTI
-                for fam in [None] + fams:
-                    out.append({"exp": "ablacion", "lang": lang, "pct": 20, "seed": seed, "familia": fam})
+            for pct in (NIVELES if todos_niveles else [20]):
+                for seed in (SEMILLAS_ABL[:1] if rapido else SEMILLAS_ABL):
+                    fams = fams_all if (seed == SEMILLAS_ABL[0] or abl_completa) else FAMILIAS_MULTI
+                    for fam in [None] + fams:
+                        out.append({"exp": "ablacion", "lang": lang, "pct": pct, "seed": seed, "familia": fam})
+        if exp == "ablacv":
+            for fold in range(1, N_FOLDS + 1):
+                for fam in [None] + list(base.FAMILIAS):
+                    out.append({"exp": "ablacv", "lang": lang, "fold": fold, "pct": None, "seed": 42, "familia": fam})
         if exp in ("cv", "todo"):
             for fold in ([1] if rapido else range(1, N_FOLDS + 1)):
                 out.append({"exp": "cv", "lang": lang, "fold": fold, "pct": None, "seed": 42, "familia": None})
@@ -184,15 +200,25 @@ def consolidar():
     g = df[df.exp == "ablacion"].copy()
     if len(g):
         g["familia"] = g["familia"].fillna("BASELINE")
-        base_f1 = g[g.familia == "BASELINE"].set_index(["lang", "seed"])[["f1_termino", "res_r_termino"]]
-        g = g.join(base_f1, on=["lang", "seed"], rsuffix="_base")
+        base_f1 = g[g.familia == "BASELINE"].set_index(["lang", "pct", "seed"])[["f1_termino", "res_r_termino"]]
+        g = g.join(base_f1, on=["lang", "pct", "seed"], rsuffix="_base")
         g["delta_f1_termino"] = g["f1_termino"] - g["f1_termino_base"]
         if "res_r_termino" in g:
             g["delta_recall_reservadas"] = g["res_r_termino"] - g["res_r_termino_base"]
         g.to_csv(OUT / "crf_ablacion_todas.csv", index=False)
-        r = g.groupby(["lang", "familia"])[["delta_f1_termino", "delta_recall_reservadas", "f1_termino"]].agg(["mean", "std", "count"])
+        r = g.groupby(["lang", "pct", "familia"])[["delta_f1_termino", "delta_recall_reservadas", "f1_termino"]].agg(["mean", "std", "count"])
         r.columns = [f"{a}_{b}" for a, b in r.columns]
         r.reset_index().to_csv(OUT / "crf_ablacion_resumen.csv", index=False)
+    g = df[df.exp == "ablacv"].copy()
+    if len(g):
+        g["familia"] = g["familia"].fillna("BASELINE")
+        base_f1 = g[g.familia == "BASELINE"].set_index(["lang", "fold"])[["f1_termino"]]
+        g = g.join(base_f1, on=["lang", "fold"], rsuffix="_base")
+        g["delta_f1_termino"] = g["f1_termino"] - g["f1_termino_base"]
+        g.to_csv(OUT / "crf_ablacv_todas.csv", index=False)
+        r = g.groupby(["lang", "familia"])[["delta_f1_termino", "f1_termino"]].agg(["mean", "std", "count"])
+        r.columns = [f"{a}_{b}" for a, b in r.columns]
+        r.reset_index().to_csv(OUT / "crf_ablacv_resumen.csv", index=False)
     print(f"Consolidado: {len(df)} ejecuciones -> {OUT}")
 
 
@@ -207,7 +233,7 @@ def main():
         return
     jobs = int(args[args.index("--jobs") + 1]) if "--jobs" in args else 1
     langs = [args[args.index("--lang") + 1]] if "--lang" in args else ["en", "es"]
-    ts = tareas(exp, langs, "--rapido" in args, "--ablacion-completa" in args)
+    ts = tareas(exp, langs, "--rapido" in args, "--ablacion-completa" in args, "--todos-niveles" in args)
     pendientes = [t for t in ts if not (OUT / "runs" / f"{run_id(t)}.json").exists()]
     print(f"{len(ts)} ejecuciones ({len(ts) - len(pendientes)} ya hechas), {jobs} en paralelo", flush=True)
     for t in pendientes:                      # carga los datos antes de crear los procesos

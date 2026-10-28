@@ -2,7 +2,7 @@
 
 Unidades del inventario validado (GLiCor) presentes en cada subcorpus, con sus valores de terminologicidad (capítulo 5 de la tesis): 202 unidades en inglés (146 términos y 56 entidades) y 250 en español (142 términos y 108 entidades). Una unidad está presente en un subcorpus si aparece anotada en él con alguna de sus formas.
 
-Las unidades se validaron durante la anotación del corpus (capítulo 3 de la tesis) y se unificaron por concepto en las 261 entradas del glosario, que están en `cap7_glicor/`. Las formas de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `cap3_anotacion/formas_por_entrada.csv`.
+Las unidades se validaron durante la anotación del corpus (capítulo 3 de la tesis) y se unificaron por concepto en las 261 entradas del glosario, que están en `cap7_glosario_GLiCor/`. Las formas de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `cap3_anotacion_de_terminos/formas_por_entrada.csv`.
 
 ## Ficheros
 

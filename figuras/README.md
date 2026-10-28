@@ -10,9 +10,9 @@ Figuras de datos de los capítulos 5, 6 y 7 en alta resolución, con la paleta d
 
 Tal como se ejecutaron en el repositorio de trabajo de la tesis (las rutas remiten a él):
 
-- `figuras_distribucion.py`: las tres figuras del capítulo 5, a partir de las salidas del análisis de distribución (recogidas en `cap5_distribucion/`).
-- `figuras_modelos.py`: `confusion_matrices.png`, a partir de `cap6_experimentos/resultados/`.
+- `figuras_distribucion.py`: las tres figuras del capítulo 5, a partir de las salidas del análisis de distribución (recogidas en `cap5_distribucion_de_los_terminos/`).
+- `figuras_modelos.py`: `confusion_matrices.png`, a partir de `cap6_reconocimiento_automatico/resultados/`.
 - `figuras_categorias_acter.py`: `fig_categorias_glosario.png` y `13_acter_validacion.png`.
-- Las dos figuras de barras del capítulo 6 las genera `cap6_experimentos/scripts/figuras_cap6_barras.py`.
-- Las dos figuras de épocas las genera `cap6_experimentos/scripts/figuras_cap6_epocas.py`, a partir de los registros por época de `cap6_experimentos/resultados/bilstm/epocas/`.
-- La figura de la recuperación según la frecuencia la genera `cap6_experimentos/scripts/figuras_cap6_frecuencia.py`, con las cifras de `cap6_experimentos/resultados/recall_frecuencia.txt`.
+- Las dos figuras de barras del capítulo 6 las genera `cap6_reconocimiento_automatico/scripts/figuras_cap6_barras.py`.
+- Las dos figuras de épocas las genera `cap6_reconocimiento_automatico/scripts/figuras_cap6_epocas.py`, a partir de los registros por época de `cap6_reconocimiento_automatico/resultados/bilstm/epocas/`.
+- La figura de la recuperación según la frecuencia la genera `cap6_reconocimiento_automatico/scripts/figuras_cap6_frecuencia.py`, con las cifras de `cap6_reconocimiento_automatico/resultados/recall_frecuencia.txt`.
