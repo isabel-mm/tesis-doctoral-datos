@@ -1,7 +1,7 @@
 {
   "descripcion": "Registro de las decisiones de estructuración del inventario de GLiCor: unificación de variantes formales y de sinónimos, lema en singular, notas conceptuales y formas que se cuentan para cada entrada. convert.py lo aplica al generar entries.json y normalizacion.html lo muestra. Las frecuencias no se guardan aquí: las calcula _dev/recount_variants.py y las escribe en frecuencias.json.",
   "fecha": "2026-09-23",
-  "referencia": "Criterio de variación formal (Capítulo 3, p. 182) y Apéndice III de la tesis.",
+  "referencia": "Criterio de variación formal (Capítulo 3, p. 182) y inventario validado de la tesis.",
   "tipos": {
     "variante_formal": {
       "es": "Variantes formales",
@@ -520,7 +520,7 @@
         "word_list"
       ],
       "tipo": "sinonimia",
-      "criterio": "Parasinónimos que designan la lista de formas de un corpus ordenada por frecuencia. «Wordlist» se trata como variante ortográfica de «word list». En español se documenta además el préstamo «wordlist», que el Apéndice III recoge como término del subcorpus español.",
+      "criterio": "Parasinónimos que designan la lista de formas de un corpus ordenada por frecuencia. «Wordlist» se trata como variante ortográfica de «word list». En español se documenta además el préstamo «wordlist», que el inventario validado de la tesis recoge como término del subcorpus español.",
       "criterio_en": "Near-synonyms for the list of a corpus's word forms ordered by frequency. «Wordlist» is treated as a spelling variant of «word list». In Spanish the loanword «wordlist» is also attested; Appendix III lists it as a term of the Spanish subcorpus.",
       "formas": {
         "en": [
@@ -1108,7 +1108,7 @@
       "fuente": "keyword",
       "absorbe": [],
       "tipo": "sinonimia",
-      "criterio": "En español conviven «palabra clave» y el préstamo «keyword», que el Apéndice III recoge como término del subcorpus español («keywords»).",
+      "criterio": "En español conviven «palabra clave» y el préstamo «keyword», que el inventario validado de la tesis recoge como término del subcorpus español («keywords»).",
       "criterio_en": "In Spanish, «palabra clave» coexists with the loanword «keyword», which Appendix III lists as a term of the Spanish subcorpus («keywords»).",
       "formas": {
         "en": [
@@ -1155,7 +1155,7 @@
       "fuente": "type_token_ratio",
       "absorbe": [],
       "tipo": "variante_formal",
-      "criterio": "Sigla y forma desarrollada. La sigla es más frecuente en los dos subcorpus, pero se concentra en muy pocos documentos. En español, la forma desarrollada se documenta como «relación entre (los) types y tokens» y como préstamo («type-token ratio», normalmente junto a la sigla); «relación tipo-token», el equivalente que figuraba antes, no aparece. El Apéndice III recoge «TTR» como término del subcorpus español.",
+      "criterio": "Sigla y forma desarrollada. La sigla es más frecuente en los dos subcorpus, pero se concentra en muy pocos documentos. En español, la forma desarrollada se documenta como «relación entre (los) types y tokens» y como préstamo («type-token ratio», normalmente junto a la sigla); «relación tipo-token», el equivalente que figuraba antes, no aparece. El inventario validado de la tesis recoge «TTR» como término del subcorpus español.",
       "criterio_en": "Acronym and full form. The acronym is more frequent in both subcorpora but concentrated in very few documents. In Spanish, the full form is attested as «relación entre (los) types y tokens» and as a loanword («type-token ratio», usually next to the acronym); «relación tipo-token», the equivalent listed before, is not attested. Appendix III lists «TTR» as a term of the Spanish subcorpus.",
       "formas": {
         "en": [
@@ -2092,7 +2092,7 @@
       "fuente": "monitor_corpus",
       "absorbe": [],
       "tipo": "variante_formal",
-      "criterio": "En español, «monitor» se usa también solo, como reducción de «corpus monitor» («corpus abierto o monitor»). Por eso el Apéndice III recoge solo «corpus monitor».",
+      "criterio": "En español, «monitor» se usa también solo, como reducción de «corpus monitor» («corpus abierto o monitor»). Por eso el inventario validado de la tesis recoge solo «corpus monitor».",
       "criterio_en": "In Spanish, «monitor» is also used alone as a reduction of «corpus monitor» («corpus abierto o monitor»). This is why Appendix III lists only «corpus monitor».",
       "formas": {
         "en": [
@@ -4553,7 +4553,7 @@
       "fuente": "stemming",
       "absorbe": [],
       "tipo": "sinonimia",
-      "criterio": "Entrada añadida en el glosario (no está en el Apéndice III). En español solo se documenta el préstamo «stemming» (Martí y Taulé, 2022). En inglés se excluyen los usos del verbo («stemming from», «stemming its decline»).",
+      "criterio": "Entrada añadida en el glosario (no está en el inventario validado de la tesis). En español solo se documenta el préstamo «stemming» (Martí y Taulé, 2022). En inglés se excluyen los usos del verbo («stemming from», «stemming its decline»).",
       "criterio_en": "Entry added in the glossary (not in Appendix III). In Spanish only the loanword «stemming» is attested (Martí and Taulé, 2022). In English, uses of the verb («stemming from», «stemming its decline») are excluded.",
       "formas": {
         "en": [
@@ -6470,7 +6470,7 @@
     "excluye": "Las siglas internacionales, los nombres propios de estándares y los términos latinos compartidos por las dos lenguas (corpus, subcorpus, KWIC, XML, HTML, SGML, TEI, UTF-8, Unicode, EAGLES, Universal Dependencies, Universal POS) no se consideran préstamos."
   },
   "inventario_tesis": {
-    "_nota": "Cómo se incorporan al glosario las unidades del Apéndice III que no tenían ficha (septiembre de 2026).",
+    "_nota": "Cómo se incorporan al glosario las unidades del inventario validado de la tesis que no tenían ficha (septiembre de 2026).",
     "unificadas": [
       {
         "tesis": "monitor",
@@ -6540,11 +6540,11 @@
     "anadidas": [
       {
         "glosario": "corpus query language",
-        "motivo": "No está en el Apéndice III, pero se documenta en el corpus (lenguaje de consulta, Corpus Query Language): se mantiene."
+        "motivo": "No está en el inventario validado de la tesis, pero se documenta en el corpus (lenguaje de consulta, Corpus Query Language): se mantiene."
       },
       {
         "glosario": "NOW Corpus",
-        "motivo": "No está en el Apéndice III, pero se documenta en el corpus (NOW, News on the Web): se mantiene."
+        "motivo": "No está en el inventario validado de la tesis, pero se documenta en el corpus (NOW, News on the Web): se mantiene."
       }
     ]
   },
