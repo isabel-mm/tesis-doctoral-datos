@@ -1,6 +1,6 @@
 # Experimentos
 
-Datos del capítulo 6 de la tesis (y del diseño experimental del capítulo 4). Para una lectura de conjunto, empiece por `resultados_completos.pdf`, que reúne en tablas el entorno de trabajo, los hiperparámetros y los resultados desglosados. Los términos técnicos se explican en el README principal.
+Datos del capítulo 8 de la tesis (y del diseño experimental del capítulo 4). Para una lectura de conjunto, empiece por `resultados_completos.pdf`, que reúne en tablas el entorno de trabajo, los hiperparámetros y los resultados desglosados. Los términos técnicos se explican en el README principal.
 
 La tesis compara dos modelos de reconocimiento de términos, uno por cada respuesta posible a la pregunta de si hacen falta rasgos o basta con la distribución de las palabras en el texto, y un *baseline* de clasificadores que deciden sobre cada palabra por separado:
 
@@ -30,6 +30,6 @@ Para cada ejecución se guardan, sobre el conjunto de prueba completo y, por sep
 
 ## Código
 
-`scripts/` contiene el código completo: generación de la anotación (`paso1_generar_bio.py`, `glicor_match.py`), CRF (`crf_base.py`, `paso2_crf.py`), BiLSTM-CRF (`paso3_bilstm.py`), análisis de errores (`paso4_errores.py`), análisis de palabras fuera de vocabulario (`paso5_vocabulario.py`), *baseline* (`paso6_clasificadores.py`), sensibilidad y convergencia del CRF (`paso7_sensibilidad_crf.py`, `paso8_convergencia_crf.py`), recuperación por frecuencia del tipo (`paso9_recall_frecuencia.py`), tipología y tabla de errores (`paso10_tipologia_errores.py`, `paso11_tabla_errores.py`), figuras de barras del capítulo 6 (`figuras_cap6_barras.py`), figuras de épocas del BiLSTM-CRF (`figuras_cap6_epocas.py`) y métricas (`metricas.py`).
+`scripts/` contiene el código completo: generación de la anotación (`paso1_generar_bio.py`, `glicor_match.py`), CRF (`crf_base.py`, `paso2_crf.py`), BiLSTM-CRF (`paso3_bilstm.py`), análisis de errores (`paso4_errores.py`), análisis de palabras fuera de vocabulario (`paso5_vocabulario.py`), *baseline* (`paso6_clasificadores.py`), sensibilidad y convergencia del CRF (`paso7_sensibilidad_crf.py`, `paso8_convergencia_crf.py`), recuperación por frecuencia del tipo (`paso9_recall_frecuencia.py`), tipología y tabla de errores (`paso10_tipologia_errores.py`, `paso11_tabla_errores.py`), figuras de barras del capítulo 8 (`figuras_cap6_barras.py`), figuras de épocas del BiLSTM-CRF (`figuras_cap6_epocas.py`) y métricas (`metricas.py`).
 
 Los resultados de todas las ejecuciones están en `resultados/` (véase su README).

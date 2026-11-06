@@ -7,7 +7,7 @@ Una fila por ejecución, con todas las métricas descritas en el README de la ca
 - `crf_reserva_*`: reserva de tipos (10, 20, 30 y 50 %; 10 semillas), solo términos.
 - `crf_dos_*`: la misma reserva con términos y entidades etiquetados por separado.
 - `crf_ablacion_todas.csv`, `crf_ablacion_resumen.csv`: ablación por familias de rasgos en los cuatro niveles de reserva (10 semillas, las mismas que `crf_reserva_*`). `delta_f1_termino` es la variación del F1 de término al retirar la familia, y `delta_recall_reservadas`, la de la recuperación de los términos reservados (un valor negativo indica que la familia aporta).
-- `crf_ablacion_pruebas.csv`: pruebas estadísticas de la ablación (Tablas 6.10 y 6.11 de la tesis). Para cada familia, lengua, nivel y medida: la diferencia media en puntos, su desviación típica, cuántas de las 10 repeticiones son negativas y el valor *p* de una prueba *t*, sin corregir y con la corrección de Holm para comparaciones múltiples.
+- `crf_ablacion_pruebas.csv`: pruebas estadísticas de la ablación (Tablas 8.10 y 8.11 de la tesis). Para cada familia, lengua, nivel y medida: la diferencia media en puntos, su desviación típica, cuántas de las 10 repeticiones son negativas y el valor *p* de una prueba *t*, sin corregir y con la corrección de Holm para comparaciones múltiples.
 - `crf_ablacv_*`: la misma ablación con la validación cruzada de 5 pliegues.
 - `crf_cv_todas.csv`: validación cruzada aleatoria de 5 pliegues.
 - `crf_sensibilidad.csv`: seis combinaciones de regularización (`c1`, `c2`) con la reserva del 20 % y tres semillas.
@@ -31,7 +31,7 @@ Clasificadores por *token*, con los mismos rasgos que el CRF y sin secuencia.
 - `crf_aciertos_por_termino.csv`, `crf_falsos_positivos_{en,es}.csv` y `crf_*_resumen.json`: análisis de errores del CRF (unidades reconocidas enteras, en parte o perdidas; términos espurios).
 - `span_longitud_secuenciales.csv`: unidades monoléxicas y poliléxicas delimitadas exactamente por el CRF y el BiLSTM-CRF.
 - `vocabulario_reservados.csv`: recuperación de los términos reservados según contengan o no palabras fuera del vocabulario de entrenamiento del BiLSTM-CRF.
-- `errores_reservados.csv.gz`: todos los errores de los dos modelos ante los términos reservados, en los cuatro niveles de reserva y las tres particiones comunes al CRF y al BiLSTM-CRF. Cada fila es un error: el término que el modelo debería haber reconocido (`termino_esperado`, con su entrada de GLiCor), lo que predijo (`prediccion`) y el tipo de error (`delimitación por defecto`, `delimitación por exceso`, `solapamiento parcial`, `omisión de un término monoléxico`, `omisión de un término poliléxico` o `falso positivo`). Se identifican el documento y la oración, pero no se incluye su texto. La tabla de errores del capítulo 6 (Tabla 6.9) se calcula a partir de este fichero, excluyendo la entrada `corpus`.
+- `errores_reservados.csv.gz`: todos los errores de los dos modelos ante los términos reservados, en los cuatro niveles de reserva y las tres particiones comunes al CRF y al BiLSTM-CRF. Cada fila es un error: el término que el modelo debería haber reconocido (`termino_esperado`, con su entrada de GLiCor), lo que predijo (`prediccion`) y el tipo de error (`delimitación por defecto`, `delimitación por exceso`, `solapamiento parcial`, `omisión de un término monoléxico`, `omisión de un término poliléxico` o `falso positivo`). Se identifican el documento y la oración, pero no se incluye su texto. La tabla de errores del capítulo 8 (Tabla 8.9) se calcula a partir de este fichero, excluyendo la entrada `corpus`.
 - `errores_por_termino.csv`: resumen del fichero anterior por entrada de GLiCor: número de errores de cada tipo y ejemplos de predicción.
 - `falsos_positivos.csv`: unidades propuestas por cada modelo que no coinciden con ningún término, con el número de veces que aparecen.
 
@@ -41,4 +41,4 @@ Predicciones de las ejecuciones de reserva de tipos y de validación cruzada de 
 
 ## `recall_frecuencia.txt`
 
-Recuperación de los términos reservados según la frecuencia del tipo (raros, ≤ 10 apariciones; medios, 11–100; frecuentes, > 100), con una reserva del 20 %: cifras de la Tabla 6.7 y de la figura `figuras/cap6/14_recall_frecuencia.png`; las genera `scripts/paso9_recall_frecuencia.py`.
+Recuperación de los términos reservados según la frecuencia del tipo (raros, ≤ 10 apariciones; medios, 11–100; frecuentes, > 100), con una reserva del 20 %: cifras de la Tabla 8.8 y de la figura `figuras/cap8/14_recall_frecuencia.png`; las genera `scripts/paso9_recall_frecuencia.py`.

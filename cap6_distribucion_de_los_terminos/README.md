@@ -1,6 +1,6 @@
 # Distribución de los términos
 
-Datos del análisis de distribución del capítulo 5, calculados sobre la anotación final (un tipo = una unidad normalizada, con todas sus formas).
+Datos del análisis de distribución del capítulo 6, calculados sobre la anotación final (un tipo = una unidad normalizada, con todas sus formas).
 
 ## Ficheros
 
