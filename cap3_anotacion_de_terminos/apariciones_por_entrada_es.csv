@@ -1,205 +1,201 @@
 entrada,denominacion,clase,categoria,apariciones
-corpus,corpus,término,Metodología y diseño,9182
-frequency,frecuencia,término,Estadística y léxico,1148
-corpus_linguistics,lingüística de corpus,término,Metodología y diseño,715
+corpus,corpus,término,Metodología y diseño,7855
+frequency,frecuencia,término,Estadística y léxico,1116
 lemma,lema,término,Procesamiento lingüístico,631
-annotation,anotación,término,Procesamiento lingüístico,561
-sample,muestra,término,Estadística y léxico,539
-query,consulta,término,Metodología y diseño,422
-genre,género,término,Metodología y diseño,405
-crea,CREA,entidad,Recursos y corpus,383
-corde,CORDE,entidad,Recursos y corpus,360
-concordance,concordancia,término,Metodología y diseño,347
-parallel_corpus,corpus paralelo,término,Metodología y diseño,269
-encoding,codificación,término,Tecnología y formatos,263
-normalized_frequency,frecuencia normalizada,término,Estadística y léxico,263
-representativeness,representatividad,término,Metodología y diseño,229
-word_class,categoría gramatical,término,Procesamiento lingüístico,229
-html,HTML,entidad,Estándares y formatos técnicos,221
-speech_corpus,corpus oral,término,Metodología y diseño,220
-xml,XML,entidad,Estándares y formatos técnicos,219
-corpus_based,basado en corpus,término,Metodología y diseño,212
-grammar,gramática,término,Estadística y léxico,194
-collocation,colocación,término,Estadística y léxico,189
-subcorpus,subcorpus,término,Metodología y diseño,189
+corpus_linguistics,lingüística de corpus,término,Metodología y diseño,603
+annotation,anotación,término,Procesamiento lingüístico,541
+sample,muestra,término,Estadística y léxico,533
+query,consulta,término,Metodología y diseño,402
+genre,género,término,Metodología y diseño,385
+crea,CREA,entidad,Recursos y corpus,352
+concordance,concordancia,término,Metodología y diseño,340
+corde,CORDE,entidad,Recursos y corpus,317
+normalized_frequency,frecuencia normalizada,término,Estadística y léxico,260
+parallel_corpus,corpus paralelo,término,Metodología y diseño,253
+encoding,codificación,término,Tecnología y formatos,245
+word_class,categoría gramatical,término,Procesamiento lingüístico,227
+representativeness,representatividad,término,Metodología y diseño,222
+xml,XML,entidad,Estándares y formatos técnicos,209
+html,HTML,entidad,Estándares y formatos técnicos,199
+speech_corpus,corpus oral,término,Metodología y diseño,195
+subcorpus,subcorpus,término,Metodología y diseño,188
+collocation,colocación,término,Estadística y léxico,186
 tagger,etiquetador,término,Procesamiento lingüístico,165
-reference_corpus,corpus de referencia,término,Metodología y diseño,161
-frequency_list,lista de frecuencias,término,Estadística y léxico,140
-text_type,tipo de texto,término,Metodología y diseño,140
+reference_corpus,corpus de referencia,término,Metodología y diseño,157
+grammar,gramática,término,Estadística y léxico,153
+corpus_based,basado en corpus,término,Metodología y diseño,140
+frequency_list,lista de frecuencias,término,Estadística y léxico,139
+text_type,tipo de texto,término,Metodología y diseño,139
 occurrence,ocurrencia,término,Estadística y léxico,134
 probability,probabilidad,término,Estadística y léxico,134
-freeling,FreeLing,entidad,Herramientas y software,121
-sketch_engine,Sketch Engine,entidad,Herramientas y software,117
-corpes_xxi,CORPES XXI,entidad,Recursos y corpus,116
-preseea,PRESEEA,entidad,Recursos y corpus,114
-diachronic_corpus,corpus diacrónico,término,Metodología y diseño,114
-cdh,CDH,entidad,Recursos y corpus,114
-alignment,alineación,término,Procesamiento lingüístico,109
-token,token,término,Procesamiento lingüístico,106
-lemmatisation,lematización,término,Procesamiento lingüístico,102
-caes,CAES,entidad,Recursos y corpus,102
+cdh,CDH,entidad,Recursos y corpus,110
+sketch_engine,Sketch Engine,entidad,Herramientas y software,109
+alignment,alineación,término,Procesamiento lingüístico,108
+freeling,FreeLing,entidad,Herramientas y software,106
+token,token,término,Procesamiento lingüístico,104
+lemmatisation,lematización,término,Procesamiento lingüístico,100
 population,población,término,Estadística y léxico,100
-metadata,metadato,término,Tecnología y formatos,98
-balance,equilibrio,término,Metodología y diseño,96
-web_as_corpus,web como corpus,término,Metodología y diseño,96
-computational_linguistics,lingüística computacional,término,Metodología y diseño,93
-keyword,palabra clave,término,Estadística y léxico,89
+diachronic_corpus,corpus diacrónico,término,Metodología y diseño,98
+preseea,PRESEEA,entidad,Recursos y corpus,97
+metadata,metadato,término,Tecnología y formatos,97
+balance,equilibrio,término,Metodología y diseño,95
+corpes_xxi,CORPES XXI,entidad,Recursos y corpus,94
+caes,CAES,entidad,Recursos y corpus,88
+computational_linguistics,lingüística computacional,término,Metodología y diseño,87
+keyword,palabra clave,término,Estadística y léxico,87
 tagset,etiquetario,término,Procesamiento lingüístico,80
-learner_corpus,corpus de aprendices,término,Metodología y diseño,78
-iula,IULA,entidad,Recursos y corpus,76
-annotated_corpus,corpus anotado,término,Metodología y diseño,75
-specialised_corpus,corpus especializado,término,Metodología y diseño,73
-general_corpus,corpus general,término,Metodología y diseño,72
-cemc,CEMC,entidad,Recursos y corpus,69
-brown_corpus,Brown Corpus,entidad,Recursos y corpus,65
-seu,SEU,entidad,Recursos y corpus,64
-comparable_corpus,corpus comparable,término,Metodología y diseño,64
-codea,CODEA+,entidad,Recursos y corpus,63
-bnc,BNC,entidad,Recursos y corpus,61
-bootcat,BootCaT,entidad,Herramientas y software,61
+web_as_corpus,web como corpus,término,Metodología y diseño,76
+general_corpus,corpus general,término,Metodología y diseño,71
+annotated_corpus,corpus anotado,término,Metodología y diseño,70
+learner_corpus,corpus de aprendices,término,Metodología y diseño,69
+cemc,CEMC,entidad,Recursos y corpus,67
+specialised_corpus,corpus especializado,término,Metodología y diseño,65
+iula,IULA,entidad,Recursos y corpus,63
+brown_corpus,Brown Corpus,entidad,Recursos y corpus,62
+seu,SEU,entidad,Recursos y corpus,62
+comparable_corpus,corpus comparable,término,Metodología y diseño,62
 synchronic,sincrónico,término,Metodología y diseño,60
-cwb,CWB,entidad,Herramientas y software,60
-corpus_building,construcción de corpus,término,Metodología y diseño,59
-treetagger,TreeTagger,entidad,Herramientas y software,59
-raw_frequency,frecuencia absoluta,término,Estadística y léxico,58
-valesco,Val.Es.Co,entidad,Recursos y corpus,54
-natural_language_processing,procesamiento del lenguaje natural,término,Metodología y diseño,54
-multilingual_corpus,corpus multilingüe,término,Metodología y diseño,53
-estenten,esTenTen18,entidad,Recursos y corpus,53
+bootcat,BootCaT,entidad,Herramientas y software,58
+treetagger,TreeTagger,entidad,Herramientas y software,58
+raw_frequency,frecuencia absoluta,término,Estadística y léxico,57
+corpus_building,construcción de corpus,término,Metodología y diseño,55
+bnc,BNC,entidad,Recursos y corpus,54
+cwb,CWB,entidad,Herramientas y software,52
 stem,raíz,término,Procesamiento lingüístico,52
-treebank,corpus anotado sintácticamente,término,Procesamiento lingüístico,52
-n_gram,n-grama,término,Estadística y léxico,52
-ttr,relación entre types y tokens,término,Estadística y léxico,51
-regular_expression,expresión regular,término,Procesamiento lingüístico,47
-charta,CHARTA,entidad,Recursos y corpus,46
-relative_frequency,frecuencia relativa,término,Estadística y léxico,46
-tei,TEI,entidad,Estándares y formatos técnicos,45
-dataset,conjunto de datos,término,Procesamiento lingüístico,44
+codea,CODEA+,entidad,Recursos y corpus,50
+n_gram,n-grama,término,Estadística y léxico,50
+ttr,relación entre types y tokens,término,Estadística y léxico,50
+multilingual_corpus,corpus multilingüe,término,Metodología y diseño,48
+estenten,esTenTen18,entidad,Recursos y corpus,47
+regular_expression,expresión regular,término,Procesamiento lingüístico,46
+relative_frequency,frecuencia relativa,término,Estadística y léxico,45
+valesco,Val.Es.Co,entidad,Recursos y corpus,44
+treebank,corpus anotado sintácticamente,término,Procesamiento lingüístico,43
+dataset,conjunto de datos,término,Procesamiento lingüístico,43
 plain_text,texto plano,término,Tecnología y formatos,43
-virtual_corpus,corpus virtual,término,Metodología y diseño,43
-corpus_design,diseño de corpus,término,Metodología y diseño,42
-corlec,CORLEC,entidad,Recursos y corpus,42
-eagles,EAGLES,entidad,Estándares y formatos técnicos,41
-cobuild,COBUILD,entidad,Recursos y corpus,40
-historical_corpus,corpus histórico,término,Metodología y diseño,40
-wordnet,WordNet,entidad,Recursos y corpus,39
+virtual_corpus,corpus virtual,término,Metodología y diseño,41
+tei,TEI,entidad,Estándares y formatos técnicos,39
+cobuild,COBUILD,entidad,Recursos y corpus,39
+charta,CHARTA,entidad,Recursos y corpus,38
 corpus_size,tamaño del corpus,término,Metodología y diseño,38
-semantic_annotation,anotación semántica,término,Procesamiento lingüístico,36
-written_corpus,corpus escrito,término,Metodología y diseño,36
-cedel2,CEDEL2,entidad,Recursos y corpus,36
-clustering,agrupamiento,término,Procesamiento lingüístico,36
-antconc,AntConc,entidad,Herramientas y software,36
+corlec,CORLEC,entidad,Recursos y corpus,37
+historical_corpus,corpus histórico,término,Metodología y diseño,35
+written_corpus,corpus escrito,término,Metodología y diseño,35
+antconc,AntConc,entidad,Herramientas y software,35
 gensim,Gensim,entidad,Herramientas y software,34
-dispersion,dispersión,término,Estadística y léxico,33
-lob,LOB,entidad,Recursos y corpus,30
-text_mining,minería de textos,término,Procesamiento lingüístico,30
-sgml,SGML,entidad,Estándares y formatos técnicos,30
-bilingual_corpus,corpus bilingüe,término,Metodología y diseño,30
-hapax_legomenon,hápax,término,Estadística y léxico,30
-wordsmith_tools,WordSmith Tools,entidad,Herramientas y software,29
-monolingual_corpus,corpus monolingüe,término,Metodología y diseño,29
-segmentation,segmentación,término,Procesamiento lingüístico,29
-mutual_information,información mutua,término,Estadística y léxico,27
+natural_language_processing,procesamiento del lenguaje natural,término,Metodología y diseño,32
+semantic_annotation,anotación semántica,término,Procesamiento lingüístico,31
+clustering,agrupamiento,término,Procesamiento lingüístico,30
+eagles,EAGLES,entidad,Estándares y formatos técnicos,29
+text_mining,minería de textos,término,Procesamiento lingüístico,29
+hapax_legomenon,hápax,término,Estadística y léxico,29
+cedel2,CEDEL2,entidad,Recursos y corpus,28
+dispersion,dispersión,término,Estadística y léxico,28
+sgml,SGML,entidad,Estándares y formatos técnicos,28
+bilingual_corpus,corpus bilingüe,término,Metodología y diseño,28
+monolingual_corpus,corpus monolingüe,término,Metodología y diseño,28
+segmentation,segmentación,término,Procesamiento lingüístico,28
+lob,LOB,entidad,Recursos y corpus,27
+wordsmith_tools,WordSmith Tools,entidad,Herramientas y software,27
 pos_tagging,etiquetado morfosintáctico,término,Procesamiento lingüístico,26
-transcriber,transcriptor,término,Procesamiento lingüístico,26
-wildcard,comodín,término,Metodología y diseño,26
-multimodal_corpus,corpus multimodal,término,Metodología y diseño,26
-parsing,análisis sintáctico,término,Procesamiento lingüístico,25
-monitor_corpus,corpus monitor,término,Metodología y diseño,25
-accuracy,exactitud,término,Procesamiento lingüístico,24
-trados,Trados,entidad,Herramientas y software,24
+wildcard,comodín,término,Metodología y diseño,25
+mutual_information,información mutua,término,Estadística y léxico,24
+multimodal_corpus,corpus multimodal,término,Metodología y diseño,24
+parsing,análisis sintáctico,término,Procesamiento lingüístico,24
+monitor_corpus,corpus monitor,término,Metodología y diseño,24
 grampal,Grampal,entidad,Herramientas y software,24
-c_oral_rom,C-ORAL-ROM,entidad,Recursos y corpus,21
+transcriber,transcriptor,término,Procesamiento lingüístico,23
+accuracy,exactitud,término,Procesamiento lingüístico,23
+corpus_design,diseño de corpus,término,Metodología y diseño,22
+wordnet,WordNet,entidad,Recursos y corpus,22
+trados,Trados,entidad,Herramientas y software,22
 sample_size,tamaño de la muestra,término,Metodología y diseño,20
-llc,LLC,entidad,Recursos y corpus,20
 lexeme,lexema,término,Procesamiento lingüístico,20
-mallet,MALLET,entidad,Herramientas y software,20
 cleae,CLEAE,entidad,Recursos y corpus,20
-splloc,SPLLOC,entidad,Recursos y corpus,19
-corpus_driven,guiado por corpus,término,Metodología y diseño,19
+llc,LLC,entidad,Recursos y corpus,18
 kwic,KWIC,término,Metodología y diseño,18
-europarl,Europarl,entidad,Recursos y corpus,18
-cqp,CQP,entidad,Herramientas y software,18
-multiword_expression,expresión multipalabra,término,Estadística y léxico,18
 corpus_based_translation_studies,estudios de la traducción basados en corpus,término,Metodología y diseño,18
+multiword_expression,expresión multipalabra,término,Estadística y léxico,17
+c_oral_rom,C-ORAL-ROM,entidad,Recursos y corpus,16
+splloc,SPLLOC,entidad,Recursos y corpus,16
 header,encabezado,término,Tecnología y formatos,16
-synchronic_corpus,corpus sincrónico,término,Metodología y diseño,16
 moving_average,media móvil,término,Estadística y léxico,16
-bidtea,BiDTEA,entidad,Recursos y corpus,16
-training_corpus,corpus de entrenamiento,término,Metodología y diseño,16
 utf_8,UTF-8,entidad,Estándares y formatos técnicos,16
 recall,exhaustividad,término,Procesamiento lingüístico,16
-now_corpus,NOW Corpus,entidad,Recursos y corpus,16
-stanza,Stanza,entidad,Herramientas y software,16
+europarl,Europarl,entidad,Recursos y corpus,15
+cqp,CQP,entidad,Herramientas y software,15
+synchronic_corpus,corpus sincrónico,término,Metodología y diseño,15
+training_corpus,corpus de entrenamiento,término,Metodología y diseño,15
 word_sketch,word sketch,término,Estadística y léxico,15
 web_corpus,corpus web,término,Metodología y diseño,15
-spt,SPT,entidad,Recursos y corpus,15
-corlexin,CorLexIn,entidad,Recursos y corpus,14
+mallet,MALLET,entidad,Herramientas y software,14
+corpus_driven,guiado por corpus,término,Metodología y diseño,14
+bidtea,BiDTEA,entidad,Recursos y corpus,14
+stanza,Stanza,entidad,Herramientas y software,14
+now_corpus,NOW Corpus,entidad,Recursos y corpus,13
+spt,SPT,entidad,Recursos y corpus,13
 computational_corpus_linguistics,lingüística de corpus computacional,término,Metodología y diseño,13
-syntactic_annotation,anotación sintáctica,término,Procesamiento lingüístico,13
 balanced_corpus,corpus equilibrado,término,Metodología y diseño,13
-word_sense_disambiguation,desambiguación semántica,término,Procesamiento lingüístico,13
-tokenization,tokenización,término,Procesamiento lingüístico,13
-ode,ODE,entidad,Recursos y corpus,13
+syntactic_annotation,anotación sintáctica,término,Procesamiento lingüístico,12
+tokenization,tokenización,término,Procesamiento lingüístico,12
 corpus_based_computational_linguistics,lingüística computacional de corpus,término,Procesamiento lingüístico,12
 morphological_annotation,anotación morfológica,término,Procesamiento lingüístico,11
-opus,OPUS,entidad,Recursos y corpus,11
 collocate,colocado,término,Estadística y léxico,11
 markup_language,lenguaje de marcado,término,Procesamiento lingüístico,11
 statistical_significance,significación estadística,término,Estadística y léxico,11
-zipfs_law,ley de Zipf,término,Estadística y léxico,11
-tagant,TagAnt,entidad,Herramientas y software,11
 actres,ACTRES,entidad,Recursos y corpus,11
+corlexin,CorLexIn,entidad,Recursos y corpus,10
+word_sense_disambiguation,desambiguación semántica,término,Procesamiento lingüístico,10
+zipfs_law,ley de Zipf,término,Estadística y léxico,10
+tagant,TagAnt,entidad,Herramientas y software,10
 mega_corpus,megacorpus,término,Metodología y diseño,10
-pragmatic_annotation,anotación pragmática,término,Procesamiento lingüístico,10
 word_frequency,frecuencia de palabras,término,Estadística y léxico,10
 sse,SSE,entidad,Recursos y corpus,10
 function_word,palabra funcional,término,Estadística y léxico,10
 annotation_scheme,esquema de anotación,término,Procesamiento lingüístico,10
 perl,Perl,entidad,Herramientas y software,10
-mellange,MeLLANGE,entidad,Recursos y corpus,10
+ode,ODE,entidad,Recursos y corpus,9
+pragmatic_annotation,anotación pragmática,término,Procesamiento lingüístico,9
 sampling_unit,unidad de muestra,término,Metodología y diseño,9
 unicode,Unicode,entidad,Estándares y formatos técnicos,9
-phraseology,fraseología,término,Estadística y léxico,9
-inter_annotator_agreement,acuerdo entre anotadores,término,Procesamiento lingüístico,9
+opus,OPUS,entidad,Recursos y corpus,8
+mellange,MeLLANGE,entidad,Recursos y corpus,8
 coha,COHA,entidad,Recursos y corpus,8
 collocational_strength,fuerza de asociación,término,Estadística y léxico,8
 dependency_parsing,análisis sintáctico de dependencias,término,Procesamiento lingüístico,8
 bank_of_english,Bank of English,entidad,Recursos y corpus,8
-web_for_corpus,web para corpus,término,Metodología y diseño,8
-web_crawling,web crawling,término,Metodología y diseño,8
-xbench,Xbench,entidad,Herramientas y software,8
-nltk,NLTK,entidad,Herramientas y software,8
-gentt,GENTT,entidad,Recursos y corpus,8
-multinot,MULTINOT,entidad,Recursos y corpus,8
 ecpc,ECPC,entidad,Recursos y corpus,8
+phraseology,fraseología,término,Estadística y léxico,7
+inter_annotator_agreement,acuerdo entre anotadores,término,Procesamiento lingüístico,7
+web_for_corpus,web para corpus,término,Metodología y diseño,7
+xbench,Xbench,entidad,Herramientas y software,7
+gentt,GENTT,entidad,Recursos y corpus,7
 opportunistic_corpus,corpus oportunista,término,Metodología y diseño,7
 cate,CATE,entidad,Recursos y corpus,7
 fono_ele,Fono.Ele,entidad,Recursos y corpus,7
 gold_standard,estándar de oro,término,Procesamiento lingüístico,7
-international_corpus_of_english,International Corpus of English,entidad,Recursos y corpus,6
+nltk,NLTK,entidad,Herramientas y software,6
 coca,COCA,entidad,Recursos y corpus,6
 frequency_per_million_words,frecuencia por millón de palabras,término,Estadística y léxico,6
 association_measure,medida de asociación,término,Estadística y léxico,6
-penn_treebank,Penn Treebank,entidad,Recursos y corpus,6
 concordancer,programa de concordancias,término,Procesamiento lingüístico,6
-corane,CORANE,entidad,Recursos y corpus,6
 chi_squared,chi cuadrado,término,Estadística y léxico,6
-t_score,puntuación t,término,Estadística y léxico,6
-wmatrix,Wmatrix,entidad,Herramientas y software,6
-universal_dependencies,Universal Dependencies,entidad,Estándares y formatos técnicos,6
-ukb,UKB,entidad,Herramientas y software,6
-letrac,LETRAC,entidad,Recursos y corpus,6
-rtweet,rtweet,entidad,Herramientas y software,6
 telematic_corpus,corpus telemático,término,Metodología y diseño,6
-glowbe,GloWbE,entidad,Recursos y corpus,5
+multinot,MULTINOT,entidad,Recursos y corpus,5
+international_corpus_of_english,International Corpus of English,entidad,Recursos y corpus,5
+penn_treebank,Penn Treebank,entidad,Recursos y corpus,5
+wmatrix,Wmatrix,entidad,Herramientas y software,5
+rtweet,rtweet,entidad,Herramientas y software,5
 notepad_plus_plus,Notepad++,entidad,Herramientas y software,5
 transit,Transit,entidad,Herramientas y software,5
 lf_aligner,LF Aligner,entidad,Herramientas y software,5
 inferential_statistics,estadística inferencial,término,Estadística y léxico,5
 stopword,palabra vacía,término,Estadística y léxico,5
 helsinki_corpus,Helsinki Corpus,entidad,Recursos y corpus,5
-t_hoarder,T-Hoarder,entidad,Herramientas y software,5
+t_score,puntuación t,término,Estadística y léxico,4
+universal_dependencies,Universal Dependencies,entidad,Estándares y formatos técnicos,4
+ukb,UKB,entidad,Herramientas y software,4
+t_hoarder,T-Hoarder,entidad,Herramientas y software,4
 content_word,palabra de contenido,término,Estadística y léxico,4
 corpus_query_language,lenguaje de consulta,término,Metodología y diseño,4
 semantic_prosody,prosodia semántica,término,Estadística y léxico,4
@@ -207,24 +203,27 @@ descriptive_statistics,estadística descriptiva,término,Estadística y léxico,
 log_likelihood,log-verosimilitud,término,Estadística y léxico,4
 cde_web,CdE-Web,entidad,Recursos y corpus,4
 ixa_pipes,IXA,entidad,Herramientas y software,4
-lesk_algorithm,Lesk,entidad,Anotación y procesamiento lingüístico,4
-must,MUST,entidad,Recursos y corpus,4
 stemming,stemming,término,Procesamiento lingüístico,4
-dmi_tcat,DMI-TCAT,entidad,Herramientas y software,4
+web_crawling,web crawling,término,Metodología y diseño,3
+glowbe,GloWbE,entidad,Recursos y corpus,3
+dmi_tcat,DMI-TCAT,entidad,Herramientas y software,3
 pos_disambiguation,desambiguación morfosintáctica,término,Procesamiento lingüístico,3
 normalized_dispersion_index,índice normalizado de dispersión,término,Estadística y léxico,3
 national_corpus,corpus nacional,término,Metodología y diseño,3
 semantic_preference,preferencia semántica,término,Estadística y léxico,3
 bitext2tmx,Bitext2tmx,entidad,Herramientas y software,3
 cde_now,CdE-NOW,entidad,Recursos y corpus,3
-concgram,ConcGram,entidad,Herramientas y software,3
 annotation_tool,herramienta de anotación,término,Procesamiento lingüístico,3
 global_voices,Global Voices,entidad,Recursos y corpus,3
 static_corpus,corpus estático,término,Metodología y diseño,3
-gephi,Gephi,entidad,Herramientas y software,3
-chorus,Chorus,entidad,Herramientas y software,3
-cows_l2h,COWS-L2H,entidad,Recursos y corpus,3
-bncweb,BNCWeb,entidad,Recursos y corpus,2
+corane,CORANE,entidad,Recursos y corpus,2
+letrac,LETRAC,entidad,Recursos y corpus,2
+lesk_algorithm,Lesk,entidad,Anotación y procesamiento lingüístico,2
+must,MUST,entidad,Recursos y corpus,2
+concgram,ConcGram,entidad,Herramientas y software,2
+gephi,Gephi,entidad,Herramientas y software,2
+chorus,Chorus,entidad,Herramientas y software,2
+cows_l2h,COWS-L2H,entidad,Recursos y corpus,2
 mean_score,media aritmética,término,Estadística y léxico,2
 type,tipo,término,Metodología y diseño,2
 colligation,coligación,término,Estadística y léxico,2
@@ -238,14 +237,15 @@ cqpweb,CQPweb,entidad,Herramientas y software,2
 standard_deviation,desviación estándar,término,Estadística y léxico,2
 corespi,CORESPI,entidad,Recursos y corpus,2
 tweepy,Tweepy,entidad,Herramientas y software,2
-keyword_analysis,análisis de palabras clave,término,Estadística y léxico,2
 gdex,GDEX,entidad,Herramientas y software,2
 genex,GenEx,entidad,Herramientas y software,2
-langsnap,LANGSNAP,entidad,Recursos y corpus,2
 eleactar,ELEACTAR,entidad,Recursos y corpus,2
+langsnap,LANGSNAP,entidad,Recursos y corpus,1
 stingray,Stingray,entidad,Herramientas y software,1
 stanford_parser,Stanford Parser,entidad,Herramientas y software,1
 node_word,palabra nodo,término,Estadística y léxico,1
 pencil,PENCIL,entidad,Herramientas y software,1
 plus_align,+Align,entidad,Herramientas y software,1
-lexical_bundle,grupo léxico,término,Estadística y léxico,1
+bncweb,BNCWeb,entidad,Recursos y corpus,0
+keyword_analysis,análisis de palabras clave,término,Estadística y léxico,0
+lexical_bundle,grupo léxico,término,Estadística y léxico,0

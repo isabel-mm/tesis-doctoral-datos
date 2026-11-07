@@ -35,7 +35,10 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
-BIO = ROOT / "colab_reanotacion/datos_generados"
+# Anotación sin las bibliografías (tesis/sin_bibliografia_2026-11): las secciones de
+# referencias no forman parte del discurso especializado (cap. 3). TESIS_BIO permite
+# usar otra carpeta, p. ej. colab_reanotacion/datos_generados (con bibliografías).
+BIO = Path(__import__("os").environ.get("TESIS_BIO", ROOT / "colab_reanotacion/datos_generados_sinbib"))
 ENTRIES = {e["slug"]: e for e in json.load(open(ROOT / "colab_reanotacion/datos/glicor/entradas.json"))}
 CONTENT = {"NOUN", "PROPN", "ADJ"}
 NO_NESTING = {"type"}

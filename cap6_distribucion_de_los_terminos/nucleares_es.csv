@@ -1,16 +1,15 @@
 entrada,denominacion,forma,pos,n_tokens,patron,principal_documentada,frec_autonoma,formas,frec_incrustada,cadenas,frec_total
-corpus,corpus,corpus,NOUN,1,Monoléxico,True,9168,140,2642,40,11810
-frequency,frecuencia,frecuencia,NOUN,1,Monoléxico,True,1148,6,462,6,1610
-annotation,anotación,anotación,NOUN,1,Monoléxico,True,561,7,83,6,644
-sample,muestra,muestra,NOUN,1,Monoléxico,True,539,3,27,2,566
-token,token,token,PROPN,1,Monoléxico,True,106,7,7,2,113
-corpus_linguistics,lingüística de corpus,lingüística de corpus,NOUN ADP NOUN,3,N+ de N+,True,715,5,13,1,728
-query,consulta,consulta,NOUN,1,Monoléxico,True,422,5,1,1,423
-concordance,concordancia,concordancia,NOUN,1,Monoléxico,True,347,4,6,1,353
-corpus_based,basado en corpus,basado en corpus,ADJ ADP NOUN,3,Otros,True,212,5,3,1,215
-computational_linguistics,lingüística computacional,lingüística computacional,NOUN ADJ,2,N ADJ+,True,93,1,12,1,105
-keyword,palabra clave,palabra clave,NOUN NOUN,2,N N+,True,89,5,2,1,91
-annotated_corpus,corpus anotado,corpus anotado,NOUN ADJ,2,N ADJ+,True,75,2,3,1,78
-synchronic,sincrónico,sincrónico,ADJ,1,Monoléxico,True,60,4,16,1,76
-dispersion,dispersión,dispersión,NOUN,1,Monoléxico,True,33,2,3,1,36
-parsing,análisis sintáctico,análisis sintáctico,NOUN ADJ,2,N ADJ+,True,25,1,6,1,31
+corpus,corpus,corpus,NOUN,1,Monoléxico,True,7841,110,2362,40,10203
+frequency,frecuencia,frecuencia,NOUN,1,Monoléxico,True,1116,6,456,6,1572
+annotation,anotación,anotación,NOUN,1,Monoléxico,True,541,6,76,6,617
+sample,muestra,muestra,NOUN,1,Monoléxico,True,533,3,27,2,560
+token,token,token,PROPN,1,Monoléxico,True,104,6,7,2,111
+corpus_linguistics,lingüística de corpus,lingüística de corpus,NOUN ADP NOUN,3,N+ de N+,True,603,5,13,1,616
+query,consulta,consulta,NOUN,1,Monoléxico,True,402,5,1,1,403
+concordance,concordancia,concordancia,NOUN,1,Monoléxico,True,340,4,6,1,346
+corpus_based,basado en corpus,basado en corpus,ADJ ADP NOUN,3,Otros,True,140,5,3,1,143
+computational_linguistics,lingüística computacional,lingüística computacional,NOUN ADJ,2,N ADJ+,True,87,1,12,1,99
+synchronic,sincrónico,sincrónico,ADJ,1,Monoléxico,True,60,4,15,1,75
+annotated_corpus,corpus anotado,corpus anotado,NOUN ADJ,2,N ADJ+,True,70,2,3,1,73
+dispersion,dispersión,dispersión,NOUN,1,Monoléxico,True,28,1,3,1,31
+parsing,análisis sintáctico,análisis sintáctico,NOUN ADJ,2,N ADJ+,True,24,1,6,1,30

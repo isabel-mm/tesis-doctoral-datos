@@ -1,3 +1,3 @@
 lengua,tokens,tipos_lema,heaps_beta_orden_original,heaps_beta_media_ordenes,heaps_beta_dt_ordenes,tipos_termino,dp_top50_media,dp_top50_prop_menor_0_4,dp_top50_un_documento,estabilidad_top30_media,cobertura_cass
-EN,1447218,26603,0.575,0.578,0.03,146,0.531,0.18,0,0.843,38/38
-ES,951595,23245,0.56,0.576,0.023,142,0.497,0.16,0,0.886,37/38
+EN,1331446,23174,0.564,0.567,0.026,145,0.536,0.18,0,0.839,38/38
+ES,848958,20164,0.538,0.564,0.02,140,0.499,0.18,0,0.89,37/38

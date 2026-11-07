@@ -28,7 +28,10 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / "tesis/terminologicidad_2026-10"))
 import distribucion_terminos as base  # noqa: E402
 
-BIO = ROOT / "colab_reanotacion/datos_generados"
+# Anotación sin las bibliografías (tesis/sin_bibliografia_2026-11): las secciones de
+# referencias no forman parte del discurso especializado (cap. 3). TESIS_BIO permite
+# usar otra carpeta, p. ej. colab_reanotacion/datos_generados (con bibliografías).
+BIO = Path(__import__("os").environ.get("TESIS_BIO", ROOT / "colab_reanotacion/datos_generados_sinbib"))
 
 
 def term_spans(lang, unit="entrada", exclude=None):

@@ -1,6 +1,6 @@
 # Inventario terminológico
 
-Unidades del inventario validado (GLiCor) presentes en cada subcorpus, con sus valores de terminologicidad (capítulo 6 de la tesis): 202 unidades en inglés (146 términos y 56 entidades) y 250 en español (142 términos y 108 entidades). Una unidad está presente en un subcorpus si aparece anotada en él con alguna de sus formas.
+Unidades del inventario validado (GLiCor) presentes en cada subcorpus, con sus valores de terminologicidad (capítulo 6 de la tesis): 200 unidades en inglés (145 términos y 55 entidades) y 247 en español (140 términos y 107 entidades). Todas las cifras se calculan sin las secciones de referencias bibliográficas de los documentos (capítulo 3). Una unidad está presente en un subcorpus si aparece anotada en él con alguna de sus formas.
 
 Las unidades se validaron durante la anotación del corpus (capítulo 3 de la tesis) y se unificaron por concepto en las 261 entradas del glosario, que están en `cap7_glosario_GLiCor/`. Las formas de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `cap3_anotacion_de_terminos/formas_por_entrada.csv`.
 
@@ -24,7 +24,8 @@ Los números decimales usan punto.
 En `scripts/`, tal como se ejecutaron en el repositorio de trabajo de la tesis (las rutas remiten a él):
 
 - `recalculo_ncvalue.py`: cálculo de TF-IDF, C-value, NC-value y del índice T.
-- `indice_T_glicor.py`: aplica ese cálculo a las unidades de GLiCor presentes en cada subcorpus, con las formas anotadas en el corpus.
-- `forma_representante.py`: añade la columna `forma`.
+- `indice_T_sinbib.py`: aplica ese cálculo a las unidades de GLiCor presentes en cada subcorpus, con las formas anotadas en el corpus y sin las referencias bibliográficas (`indice_T_glicor.py` es la versión anterior, sobre los textos completos).
+- `forma_representante_sinbib.py`: añade la columna `forma` (`forma_representante.py`, versión anterior).
+- `primeros_candidatos.py`: proporción de unidades validadas entre los 100 primeros candidatos según el índice, el TF-IDF y el NC-value (nota del capítulo 6).
 - `resumen_T.py`: cifras del capítulo 6 (correlaciones de Spearman, peso del factor de contexto, medianas).
-- `apendice_glicor.py`: genera las tablas de `inventario_bilingue.pdf`.
+- `inventario_bilingue.py`: genera y compila `inventario_bilingue.pdf` con los valores sin referencias bibliográficas (`apendice_glicor.py`, versión anterior de sus tablas).
