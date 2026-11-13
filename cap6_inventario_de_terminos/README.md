@@ -4,18 +4,21 @@ Unidades del inventario validado (GLiCor) presentes en cada subcorpus, con sus v
 
 Las unidades se validaron durante la anotación del corpus (capítulo 3 de la tesis) y se unificaron por concepto en las 261 entradas del glosario, que están en `cap7_glosario_GLiCor/`. Las formas de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `cap3_anotacion_de_terminos/formas_por_entrada.csv`.
 
+Las cifras se calculan sobre las apariciones que la revisión experta anotó como término o entidad, con todas las formas de cada unidad, y no sobre todas las apariciones de la forma en el texto, que es lo que cuenta TECLA al ordenar los candidatos antes de la revisión (capítulo 5). Así, una forma que también funciona en la lengua general, como *muestra* (también del verbo *mostrar*) o *tipo* (*este tipo de análisis*), solo cuenta sus usos terminológicos.
+
 ## Ficheros
 
-- `inventario_bilingue.pdf`: el inventario completo en forma de tablas, con los términos y las entidades de cada lengua ordenados por terminologicidad.
+- `inventario_bilingue.pdf`: el inventario completo en forma de tablas, con los términos y las entidades de cada lengua agrupados por categoría y ordenados por terminologicidad.
 
 - `inventario_en.csv`, `inventario_es.csv`: una unidad por fila, ordenadas por terminologicidad.
-  - `unit`: la unidad (denominación de la entrada en esa lengua); `forma`: la forma del corpus sobre la que se calculan los valores, que es la más frecuente entre sus formas anotadas, con su grafía original (en las entidades cuya forma más frecuente no es una forma registrada del glosario, la denominación); `tipo`: `termino` o `entidad`; `categoria`: categoría temática (capítulo 6).
-  - `freq`, `df`: frecuencia de esa forma y número de documentos en que aparece.
-  - `tfidf`, `cvalue`: TF-IDF y C-value.
-  - `nc_frantzi`, `nc_validados`: NC-value según Frantzi et al. (2000), con dos conjuntos de términos de referencia: los primeros candidatos por C-value y los términos del inventario.
-  - `context_factor`, `containers`, `containers_mean_freq`, `chains`, `nested`: magnitudes intermedias del cálculo (factor de contexto, candidatos que contienen a la unidad y apariciones incrustadas).
+  - `unit`: la unidad (denominación de la entrada en esa lengua); `forma`: su forma anotada más frecuente, que es la que figura en las tablas; `tipo`: `termino` o `entidad`; `categoria`: categoría temática (capítulo 6).
+  - `freq`: número de apariciones anotadas de la unidad (todas sus formas); `df`: número de documentos en que se anota.
+  - `tfidf`: TF-IDF, `freq · (log2((N+1)/(df+1)) + 1)`, con N = 50 documentos.
+  - `cvalue`: C-value de Frantzi et al. (2000): a la frecuencia de la unidad, sumadas las apariciones de su forma dentro de unidades anotadas más largas, se le resta la media de las apariciones de esas unidades que la contienen.
+  - `nc_frantzi`: NC-value, `0,8 · C-value + 0,2 · factor de contexto`; el factor (`context_factor`) pondera las palabras de contexto (sustantivos, adjetivos y verbos a dos posiciones) de las apariciones anotadas por la proporción de términos del inventario en cuyo contexto aparecen.
+  - `containers`: unidades anotadas que contienen la forma; `chains`: términos del inventario que la contienen (cadenas terminológicas); `nested`: apariciones de la unidad incrustadas en esos términos; `total`: `freq + nested` (tablas de términos nucleares del capítulo 6).
   - `*_norm`: valores normalizados por el máximo entre las unidades de la lengua.
-  - `T`: índice de terminologicidad de la tesis, media del TF-IDF y el NC-value normalizados. `T_validados` y `T_cvalue` son variantes de comprobación.
+  - `T`: índice de terminologicidad de la tesis, media del TF-IDF y el NC-value normalizados.
 
 Los números decimales usan punto.
 
@@ -23,9 +26,8 @@ Los números decimales usan punto.
 
 En `scripts/`, tal como se ejecutaron en el repositorio de trabajo de la tesis (las rutas remiten a él):
 
-- `recalculo_ncvalue.py`: cálculo de TF-IDF, C-value, NC-value y del índice T.
-- `indice_T_sinbib.py`: aplica ese cálculo a las unidades de GLiCor presentes en cada subcorpus, con las formas anotadas en el corpus y sin las referencias bibliográficas (`indice_T_glicor.py` es la versión anterior, sobre los textos completos).
-- `forma_representante_sinbib.py`: añade la columna `forma` (`forma_representante.py`, versión anterior).
-- `primeros_candidatos.py`: proporción de unidades validadas entre los 100 primeros candidatos según el índice, el TF-IDF y el NC-value (nota del capítulo 6).
-- `resumen_T.py`: cifras del capítulo 6 (correlaciones de Spearman, peso del factor de contexto, medianas).
-- `inventario_bilingue.py`: genera y compila `inventario_bilingue.pdf` con los valores sin referencias bibliográficas (`apendice_glicor.py`, versión anterior de sus tablas).
+- `indice_T_anotado.py`: cálculo de TF-IDF, C-value, NC-value y del índice T sobre las apariciones anotadas, sin las referencias bibliográficas.
+- `resumen_T_anotado.py`: cifras del capítulo 6 (correlaciones de Spearman, peso del factor de contexto, medianas, incrustación).
+- `inventario_bilingue.py`: genera `inventario_bilingue.pdf`.
+- `primeros_candidatos.py`: proporción de unidades validadas entre los 100 primeros candidatos de TECLA según el índice, el TF-IDF y el NC-value (nota del capítulo 5); se calcula sobre las formas, porque ordena candidatos antes de la revisión.
+- `recalculo_ncvalue.py`, `indice_T_sinbib.py`, `forma_representante_sinbib.py`, `resumen_T.py`: cálculo anterior sobre las formas, conservado como referencia.

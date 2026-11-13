@@ -1,7 +1,8 @@
 """Inventario bilingüe de términos y entidades (material complementario, carpeta
 cap6_inventario_de_terminos): reconstruye el documento con las tablas de
 apendice_glicor.py y los valores de {en,es}_terminologicidad.csv sin bibliografías.
-Uso: python3 apendice_III/generar.py  (escribe y compila apendice_III/inventario_bilingue.tex)"""
+2026-11-10: lee los CSV calculados sobre las apariciones anotadas (carpeta superior).
+Uso: python3 tesis/terminologicidad_anotada_2026-11/inventario_bilingue/generar.py"""
 import csv, re, subprocess, os
 from pathlib import Path
 import pandas as pd
@@ -35,7 +36,7 @@ def body(lang, tipo):
 
 def table(lang, tipo, caption):
     rows, n = body(lang, tipo); col = "Término" if tipo == "termino" else "Entidad"
-    head = rf"\textbf{{{col}}} & \textbf{{Frec.\ extr.}} & \textbf{{DF}} & \textbf{{\textit{{TF-IDF}}}} & \textbf{{\textit{{C-value}}}} & \textbf{{\textit{{NC-value}}}} & \textbf{{Terminologicidad}} \\"
+    head = rf"\textbf{{{col}}} & \textbf{{Frec.}} & \textbf{{DF}} & \textbf{{\textit{{TF-IDF}}}} & \textbf{{\textit{{C-value}}}} & \textbf{{\textit{{NC-value}}}} & \textbf{{Terminologicidad}} \\"
     return (r"""{\footnotesize\setlength{\tabcolsep}{4pt}
 \begin{longtable}{@{} >{\raggedright\arraybackslash}p{3.6cm} r r r r r r @{}}
 \toprule
@@ -58,7 +59,7 @@ def table(lang, tipo, caption):
 
 doc = r"""\setcounter{chapter}{1}
 \section{Términos}
-Los términos listados en esta sección designan conceptos, procesos, propiedades y metodologías centrales al dominio de la lingüística de corpus. Se presentan agrupados por categoría temática dentro de cada lengua, siguiendo una clasificación común de cuatro categorías ---Metodología y diseño (\texttt{MET-DI}), Procesamiento lingüístico (\texttt{PROC-LIN}), Estadística y léxico (\texttt{EST-LEX}) y Tecnología y formatos (\texttt{TEC-FOR})--- aplicada de manera idéntica al inglés y al español para facilitar la comparación interlingüística directa entre ambos inventarios. Dentro de cada categoría, las unidades se ordenan por terminologicidad. Todas las cifras se calculan sin las secciones de referencias bibliográficas de los documentos. Las frecuencias de este inventario cuentan cada forma por separado, tal como la registra la extracción; el glosario (capítulo 7 de la tesis), en cambio, agrupa las formas de cada concepto y las recuenta con el método descrito en el registro de normalización del glosario (carpeta \texttt{cap7\_glosario\_GLiCor} de este material), por lo que algunas cifras difieren ligeramente entre ambos.
+Los términos listados en esta sección designan conceptos, procesos, propiedades y metodologías centrales al dominio de la lingüística de corpus. Se presentan agrupados por categoría temática dentro de cada lengua, siguiendo una clasificación común de cuatro categorías ---Metodología y diseño (\texttt{MET-DI}), Procesamiento lingüístico (\texttt{PROC-LIN}), Estadística y léxico (\texttt{EST-LEX}) y Tecnología y formatos (\texttt{TEC-FOR})--- aplicada de manera idéntica al inglés y al español para facilitar la comparación interlingüística directa entre ambos inventarios. Dentro de cada categoría, las unidades se ordenan por terminologicidad. Todas las cifras se calculan sin las secciones de referencias bibliográficas de los documentos. Las frecuencias y las métricas se calculan sobre las apariciones que la revisión experta anotó como término o entidad, con todas las formas de cada unidad (la que figura en la tabla es la más frecuente), y no sobre todas las apariciones de la forma en el texto, que es lo que cuenta la extracción con TECLA para ordenar los candidatos (capítulo 5 de la tesis): así, una forma que también funciona en la lengua general, como \textit{muestra} (también del verbo \textit{mostrar}), solo cuenta sus usos terminológicos. El glosario (capítulo 7 de la tesis) recuenta las formas de cada concepto con el método descrito en el registro de normalización del glosario (carpeta \texttt{cap7\_glosario\_GLiCor} de este material), por lo que algunas cifras pueden diferir ligeramente entre ambos.
 
 \subsection{Términos en inglés}
 Léxico especializado organizado en las cuatro categorías comunes: Metodología y diseño (\textit{corpus linguistics}, \textit{representativeness}, \textit{query}, \textit{natural language processing}), Procesamiento lingüístico (\textit{annotation}, \textit{\texttt{POS} tagging}, \textit{token}, \textit{lemma}, \textit{parsing}), Estadística y léxico (\textit{frequency}, \textit{probability}, \textit{collocation}, \textit{keyword}) y Tecnología y formatos (\textit{metadata}, \textit{encoding}). \textit{Unicode} se clasifica como entidad y figura en la sección de estándares técnicos.
