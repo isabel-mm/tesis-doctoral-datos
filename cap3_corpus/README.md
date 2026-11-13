@@ -19,3 +19,13 @@ Todas las cifras de esta carpeta, salvo las de `referencias_corpus.csv`, se calc
 
 - `adecuacion_terminologica.csv`: pruebas de adecuación terminológica del capítulo 3, por subcorpus: cobertura de los términos de CASS, exponente de Heaps (orden original y media de 50 órdenes aleatorios), dispersión DP de los 50 términos más frecuentes y estabilidad del inventario (*bootstrap*).
 - `adecuacion_dp_top50.csv`: dispersión DP de cada uno de esos 50 términos.
+
+- `lineas_tematicas.csv`: cobertura de las ocho líneas temáticas del diseño del corpus (capítulo 3) en cada documento, sin las referencias bibliográficas.
+  - `documento`, `año`, `autoría`, `título`, `tipo`: como en `documentos_en.csv` y `documentos_es.csv`; `palabras`: palabras del texto.
+  - `L1 … L8 (rel.)`: densidad de cada línea (apariciones de su léxico semilla por cada 10 000 palabras) dividida por la media de esa línea en el subcorpus; 1 equivale a la media.
+  - `líneas asignadas`: líneas cuya densidad relativa es de al menos 1,25 (un 25 % por encima de la media); `línea principal`: la de mayor densidad relativa entre ellas (vacía si ninguna llega al umbral).
+- `lexicos_semilla_lineas.csv`: léxico semilla de cada línea en cada lengua, como expresión regular sobre el texto en minúsculas y sin tildes.
+- `lineas_tematicas.pdf`: figura del capítulo 3 con el número de textos por línea en cada lengua.
+- `scripts/mapeo_lineas.py` y `scripts/figura_lineas.py`: cálculo de la tabla y de la figura.
+
+La asignación es una aproximación léxica y orientativa: no sustituye a la lectura de los textos, pero aplica el mismo criterio a los dos subcorpus.

@@ -1,0 +1,17 @@
+línea,lengua,expresión regular (texto en minúsculas y sin tildes)
+L1 Historiografía,EN,histor\w*|pioneer\w*|forerunner|predecessor|brown corpus|\blob\b|survey of english usage|quirk|sinclair|firth|pre-?electronic|early corpus|first corpus|origins?|precursor\w*|chomsky\w*|decades? ago|twentieth century|1960s|1950s
+L2 Teoría y epistemología,EN,theor\w*|epistem\w*|empiric\w*|rationalis\w*|introspect\w*|intuition\w*|paradigm\w*|corpus-driven|corpus-based|usage-based|hypothes\w*|philosoph\w*|scientific method|falsif\w*|definition of corpus linguistics
+L3 Muestreo y representatividad,EN,representativ\w*|sampl\w*|balanc\w*|population|stratif\w*|corpus size|saturation|sampling frame|proportion\w*|generaliz\w*|generalis\w*
+L4 Diseño y construcción,EN,design\w*|compil\w*|construct\w*|build\w*|collect\w*|transcri\w*|digiti[sz]\w*|\bocr\b|copyright|permission\w*|consent|recording\w*|data collection|source texts?
+L5 Documentación y presentación,EN,documentation|documented|metadata|reporting|report\w*|interface\w*|online|available|availability|access\w*|release\w*|licen[cs]\w*|user\w*|web ?site|download\w*|distribut\w*|manual
+L6 Tipología,EN,parallel|comparable|diachronic|synchronic|learner corp\w*|spoken|specialized|specialised|reference corp\w*|general corp\w*|monitor corp\w*|multilingual|monolingual|bilingual|typolog\w*|types of corp\w*|historical corp\w*
+L7 Problemas metodológicos,EN,problem\w*|limitation\w*|bias\w*|challeng\w*|pitfall\w*|issues?|errors?|reliab\w*|validity|caveat\w*|drawback\w*|difficult\w*|shortcoming\w*|misleading|inconsisten\w*
+L8 Anotación y herramientas,EN,annotat\w*|tag\w*|tagger\w*|pos\b|part-of-speech|pars\w*|lemmati[sz]\w*|lemma\w*|tokeni[sz]\w*|concordanc\w*|software|\bxml\b|\btei\b|tools?|quer\w*|cqp|sketch engine|antconc|wordsmith|script\w*|\br\b|python|algorithm\w*
+L1 Historiografía,ES,histori\w*|antecedente\w*|pioner\w*|precursor\w*|corpus brown|\blob\b|survey of english usage|quirk|sinclair|firth|bello|cuervo|primeros? corpus|origen\w*|siglo xx|decada de 19\d0|chomsky\w*|predecesor\w*
+L2 Teoría y epistemología,ES,teori\w*|teoric\w*|epistem\w*|empiri\w*|empirismo|racionalis\w*|introspecci\w*|intuici\w*|paradigma\w*|guiad\w* por (el )?corpus|basad\w* en (el )?corpus|corpus-driven|corpus-based|hipotesis|filosof\w*|metodo cientifico|disciplina
+L3 Muestreo y representatividad,ES,representativ\w*|muestr\w*|equilibr\w*|poblacion|estratific\w*|tamano|saturaci\w*|proporci\w*|generaliz\w*
+L4 Diseño y construcción,ES,disen\w*|compila\w*|construcci\w*|construir|recopila\w*|recogida|transcri\w*|digitaliz\w*|\bocr\b|derechos de autor|permiso\w*|consentimiento|grabaci\w*|fuentes? textual\w*
+L5 Documentación y presentación,ES,documentaci\w*|documentad\w*|metadatos?|interfaz\w*|interfaces|en linea|disponib\w*|acceso\w*|accesib\w*|usuari\w*|pagina web|sitio web|descarga\w*|distribu\w*|licencia\w*|consulta\w*
+L6 Tipología,ES,paralel\w*|comparable\w*|diacronic\w*|sincronic\w*|aprendient\w*|oral\w*|especializad\w*|de referencia|corpus general\w*|monitor|multilingu\w*|monolingu\w*|bilingu\w*|tipolog\w*|tipos de corpus
+L7 Problemas metodológicos,ES,problema\w*|limitaci\w*|sesgo\w*|dificultad\w*|reto\w*|desafio\w*|error\w*|fiabil\w*|validez|inconvenient\w*|carencia\w*|deficiencia\w*|inconsistencia\w*
+L8 Anotación y herramientas,ES,anota\w*|etiquet\w*|lematiz\w*|lema\w*|tokeniz\w*|analizador\w*|parser\w*|concordanc\w*|herramienta\w*|programa\w*|software|\bxml\b|\btei\b|algoritmo\w*|script\w*|python|sketch engine|antconc|wordsmith|cqp
