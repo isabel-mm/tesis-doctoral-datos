@@ -13,10 +13,11 @@ Los hiperparámetros están en `hiperparametros.csv`.
 
 ## Protocolo de evaluación
 
-- **Reserva de tipos** (protocolo principal): se reserva al azar un 10, 20, 30 o 50 % de las entradas de término de GLiCor; toda oración que contenga alguna de ellas va al conjunto de prueba, y el resto, al de entrenamiento. Así ningún término evaluado se ha visto al entrenar, y todas las formas de un mismo concepto caen en la misma partición. Se repite con 10 semillas (CRF) y 3 semillas (BiLSTM-CRF).
+- **Reserva de tipos** (protocolo principal): se reserva al azar un 10, 20, 30 o 50 % de las entradas de término de GLiCor; toda oración que contenga alguna de ellas va al conjunto de prueba, y el resto, al de entrenamiento. Así ningún término evaluado se ha visto al entrenar, y todas las formas de un mismo concepto caen en la misma partición. Se repite con 10 semillas, las mismas para el CRF y el BiLSTM-CRF; los dos modelos se comparan partición a partición con la prueba de Wilcoxon y la corrección de Holm.
 - **Sin fuga de datos**: los rasgos estadísticos (frecuencia, frecuencia documental, TF-IDF, dispersión contextual, PMI) se calculan solo con las oraciones de entrenamiento de cada partición.
 - **Dos etiquetas**: misma reserva, pero con términos y entidades etiquetados por separado (`B-T/I-T` y `B-E/I-E`).
 - **Ablación**: se reentrena el CRF sin cada una de las 9 familias de rasgos, con 10 repeticiones en cada nivel de reserva y, como contraste, con la validación cruzada. Se mide cuánto cambia el F1 de término y cuánto cambia la recuperación de los términos reservados, los que el modelo no ha visto.
+- **Validación externa en ACTER** (inglés): reserva del 20 % de los tipos con las mismas 10 semillas y *leave-one-domain-out* (LODO), con el CRF y el BiLSTM-CRF (cinco semillas por dominio).
 - **Validación cruzada estándar** de 5 pliegues, con particiones aleatorias, como contraste: mide cuánto se sobrestima el rendimiento cuando las apariciones de un mismo término se reparten entre entrenamiento y prueba.
 
 ## Métricas
