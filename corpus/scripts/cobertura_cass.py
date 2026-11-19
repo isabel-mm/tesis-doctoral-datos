@@ -9,7 +9,7 @@ import spacy
 HERE = Path(__file__).resolve().parent; ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / "tesis/reanotacion_2026-10"))
 import adecuacion_reanotacion as A          # lee la anotación sin bibliografías por defecto
-SEM = Path.home() / "Desktop/Repositorios/tesis-doctoral-datos/cap3_glosario_de_partida_CASS/cass_semilla_equivalentes.csv"
+SEM = Path.home() / "Desktop/Repositorios/tesis-doctoral-datos/glosario_de_partida_CASS/cass_semilla_equivalentes.csv"
 pares = [(r["termino_en"], r["equivalente_es"]) for r in csv.DictReader(open(SEM, encoding="utf-8"))]
 for lang, model in (("en", "en_core_web_trf"), ("es", "es_dep_news_trf")):
     df = A.load(lang); nlp = spacy.load(model)

@@ -4,7 +4,7 @@ Columnas: línea principal vacía si ninguna línea supera el umbral.
 Una línea se asigna a un texto si su densidad relativa >= 1,25 (25 % por encima de la media); la principal es la de mayor densidad relativa."""
 import re,unicodedata,glob,os,csv,statistics as st
 BASE='../sin_bibliografia_2026-11/corpus_glicor_sinbib'
-META=os.path.expanduser('~/Desktop/Repositorios/tesis-doctoral-datos/cap3_corpus/documentos_{}.csv')  # año, autoría, título, tipo
+META=os.path.expanduser('~/Desktop/Repositorios/tesis-doctoral-datos/corpus/documentos_{}.csv')  # año, autoría, título, tipo
 LINEAS=['L1 Historiografía','L2 Teoría y epistemología','L3 Muestreo y representatividad','L4 Diseño y construcción',
         'L5 Documentación y presentación','L6 Tipología','L7 Problemas metodológicos','L8 Anotación y herramientas']
 LEX={'en':[

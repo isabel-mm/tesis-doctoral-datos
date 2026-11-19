@@ -1,5 +1,5 @@
 """Inventario bilingüe de términos y entidades (material complementario, carpeta
-cap6_inventario_de_terminos): reconstruye el documento con las tablas de
+inventario_de_terminos): reconstruye el documento con las tablas de
 apendice_glicor.py y los valores de {en,es}_terminologicidad.csv sin bibliografías.
 2026-11-10: lee los CSV calculados sobre las apariciones anotadas (carpeta superior).
 Uso: python3 tesis/terminologicidad_anotada_2026-11/inventario_bilingue/generar.py"""

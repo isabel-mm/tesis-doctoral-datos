@@ -41,7 +41,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 DATOS = ROOT / "colab_reanotacion/datos_generados_sinbib"   # sin las referencias bibliográficas, como la tesis
 FORMAS = ROOT.parent / "tesis_material_tribunal/cap3_anotacion/formas_por_entrada.csv"
-PREVIO = ROOT.parent / "tesis-doctoral-datos/cap6_inventario_de_terminos"   # forma que representa a cada unidad
+PREVIO = ROOT.parent / "tesis-doctoral-datos/inventario_de_terminos"   # forma que representa a cada unidad
 CONTEXT_POS = {"NOUN", "ADJ", "VERB"}
 WINDOW = 2
 

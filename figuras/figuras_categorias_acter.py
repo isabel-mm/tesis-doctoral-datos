@@ -1,5 +1,5 @@
 """Figuras con la paleta de la tesis (morados y verdes):
-- images/fig_categorias_glosario.png (cap. 7): entradas de GLiCor por categoría (cap7_glosario_GLiCor/entries.json, 261 entradas).
+- images/fig_categorias_glosario.png (cap. 7): entradas de GLiCor por categoría (glosario_GLiCor/entries.json, 261 entradas).
 - images/13_acter_validacion.png (cap. 6): F1 de término en ACTER (Tabla tab:acter_results).
 Uso: python figuras_categorias_acter.py <carpeta_images>"""
 import sys

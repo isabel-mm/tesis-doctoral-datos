@@ -15,24 +15,24 @@ La tesis resume en tablas y figuras lo que aquí se ofrece completo: la relació
 
 | Si quiere… | Abra… |
 |---|---|
-| ver qué textos forman el corpus | [`cap3_corpus/registro_documental_corpus.pdf`](cap3_corpus/registro_documental_corpus.pdf) |
-| ver los criterios con que se anotaron los términos | [`cap3_anotacion_de_terminos/README.md`](cap3_anotacion_de_terminos/README.md) |
-| ver los 38 términos de partida (glosario CASS) y sus equivalentes en español | [`cap3_glosario_de_partida_CASS/cobertura_glosario_cass.pdf`](cap3_glosario_de_partida_CASS/cobertura_glosario_cass.pdf) |
-| consultar todos los términos y entidades del corpus, con su frecuencia y su terminologicidad | [`cap6_inventario_de_terminos/inventario_bilingue.pdf`](cap6_inventario_de_terminos/inventario_bilingue.pdf) |
+| ver qué textos forman el corpus | [`corpus/registro_documental_corpus.pdf`](corpus/registro_documental_corpus.pdf) |
+| ver los criterios con que se anotaron los términos | [`anotacion_de_terminos/README.md`](anotacion_de_terminos/README.md) |
+| ver los 38 términos de partida (glosario CASS) y sus equivalentes en español | [`glosario_de_partida_CASS/cobertura_glosario_cass.pdf`](glosario_de_partida_CASS/cobertura_glosario_cass.pdf) |
+| consultar todos los términos y entidades del corpus, con su frecuencia y su terminologicidad | [`inventario_de_terminos/inventario_bilingue.pdf`](inventario_de_terminos/inventario_bilingue.pdf) |
 | consultar el glosario bilingüe GLiCor | su versión web: <https://isabel-mm.github.io/GLiCor/> |
-| saber por qué el glosario agrupa, separa o nombra así cada entrada | [`cap7_glosario_GLiCor/registro_normalizacion_glosario.pdf`](cap7_glosario_GLiCor/registro_normalizacion_glosario.pdf) |
-| consultar todos los resultados de los modelos de reconocimiento de términos | [`cap8_reconocimiento_automatico/resultados_completos.pdf`](cap8_reconocimiento_automatico/resultados_completos.pdf) |
+| saber por qué el glosario agrupa, separa o nombra así cada entrada | [`glosario_GLiCor/registro_normalizacion_glosario.pdf`](glosario_GLiCor/registro_normalizacion_glosario.pdf) |
+| consultar todos los resultados de los modelos de reconocimiento de términos | [`reconocimiento_automatico/resultados_completos.pdf`](reconocimiento_automatico/resultados_completos.pdf) |
 | ver las figuras de la tesis en alta resolución | [`figuras/`](figuras/) |
 
 ## Documentos para leer (PDF)
 
 Tienen el mismo formato que la tesis y pueden leerse por separado.
 
-- **Registro documental del corpus** (`cap3_corpus/`, 11 págs.): la referencia bibliográfica de los 100 documentos del corpus, 50 en inglés y 50 en español, ordenados por lengua y tipo de publicación.
-- **Cobertura del glosario de referencia** (`cap3_glosario_de_partida_CASS/`, 2 págs.): los 38 términos del glosario CASS que sirvieron de punto de partida de la anotación, con sus equivalentes en español y la fuente de cada uno.
-- **Inventario bilingüe de términos y entidades** (`cap6_inventario_de_terminos/`, 18 págs.): todas las unidades validadas de cada lengua, ordenadas por terminologicidad, con sus frecuencias y medidas estadísticas.
-- **Registro de normalización del glosario** (`cap7_glosario_GLiCor/`, 29 págs.): las decisiones con que se reúnen en una sola entrada las variantes, siglas y sinónimos de cada concepto, y el método con que se cuentan sus frecuencias.
-- **Resultados completos e hiperparámetros** (`cap8_reconocimiento_automatico/`, 8 págs.): el entorno de trabajo, la configuración de los modelos y los resultados desglosados que el capítulo 8 resume.
+- **Registro documental del corpus** (`corpus/`, 11 págs.): la referencia bibliográfica de los 100 documentos del corpus, 50 en inglés y 50 en español, ordenados por lengua y tipo de publicación.
+- **Cobertura del glosario de referencia** (`glosario_de_partida_CASS/`, 2 págs.): los 38 términos del glosario CASS que sirvieron de punto de partida de la anotación, con sus equivalentes en español y la fuente de cada uno.
+- **Inventario bilingüe de términos y entidades** (`inventario_de_terminos/`, 18 págs.): todas las unidades validadas de cada lengua, ordenadas por terminologicidad, con sus frecuencias y medidas estadísticas.
+- **Registro de normalización del glosario** (`glosario_GLiCor/`, 29 págs.): las decisiones con que se reúnen en una sola entrada las variantes, siglas y sinónimos de cada concepto, y el método con que se cuentan sus frecuencias.
+- **Resultados completos e hiperparámetros** (`reconocimiento_automatico/`, 8 págs.): el entorno de trabajo, la configuración de los modelos y los resultados desglosados que el capítulo 8 resume.
 
 ## Datos en tablas (CSV)
 
@@ -40,19 +40,19 @@ Cada carpeta corresponde a un capítulo de la tesis y lleva su propio README, qu
 
 | Carpeta | Qué contiene | Capítulo |
 |---|---|---|
-| [`cap3_corpus/`](cap3_corpus/) | Los documentos del corpus: referencia, año, autoría, tipo y tamaño de cada uno; totales por lengua; pruebas de que el corpus es adecuado para estudiar la terminología del dominio (cobertura, crecimiento del vocabulario, dispersión, estabilidad). | 3 |
-| [`cap3_glosario_de_partida_CASS/`](cap3_glosario_de_partida_CASS/) | Los términos de CASS y sus equivalentes, y cuántas veces aparece cada uno en el corpus. | 3 |
-| [`cap3_anotacion_de_terminos/`](cap3_anotacion_de_terminos/) | Criterios de anotación; todas las formas que se anotan de cada entrada (siglas, variantes, sinónimos, préstamos); apariciones anotadas de cada entrada. | 3 |
-| [`cap6_inventario_de_terminos/`](cap6_inventario_de_terminos/) | El inventario de términos y entidades de cada lengua con sus medidas: frecuencia, número de documentos, *TF-IDF*, *C-value*, *NC-value* e índice de terminologicidad. | 5 |
-| [`cap6_distribucion_de_los_terminos/`](cap6_distribucion_de_los_terminos/) | Distribución de los términos: frecuencias ordenadas (ley de Zipf), curvas de saturación (cuántos términos nuevos aparecen al añadir textos) y estructura de las unidades. | 5 |
-| [`cap7_glosario_GLiCor/`](cap7_glosario_GLiCor/) | Las 261 entradas de GLiCor y su registro de normalización, en formato JSON (el que usa la versión web). | 7 |
-| [`cap8_reconocimiento_automatico/`](cap8_reconocimiento_automatico/) | Rasgos e hiperparámetros de los modelos y resultados de todas las ejecuciones: rendimiento, comparación con clasificadores sencillos, ablación por familias de rasgos, análisis de errores. | 4 y 6 |
+| [`corpus/`](corpus/) | Los documentos del corpus: referencia, año, autoría, tipo y tamaño de cada uno; totales por lengua; pruebas de que el corpus es adecuado para estudiar la terminología del dominio (cobertura, crecimiento del vocabulario, dispersión, estabilidad). | 3 |
+| [`glosario_de_partida_CASS/`](glosario_de_partida_CASS/) | Los términos de CASS y sus equivalentes, y cuántas veces aparece cada uno en el corpus. | 3 |
+| [`anotacion_de_terminos/`](anotacion_de_terminos/) | Criterios de anotación; todas las formas que se anotan de cada entrada (siglas, variantes, sinónimos, préstamos); apariciones anotadas de cada entrada. | 3 |
+| [`inventario_de_terminos/`](inventario_de_terminos/) | El inventario de términos y entidades de cada lengua con sus medidas: frecuencia, número de documentos, *TF-IDF*, *C-value*, *NC-value* e índice de terminologicidad. | 5 |
+| [`distribucion_de_los_terminos/`](distribucion_de_los_terminos/) | Distribución de los términos: frecuencias ordenadas (ley de Zipf), curvas de saturación (cuántos términos nuevos aparecen al añadir textos) y estructura de las unidades. | 5 |
+| [`glosario_GLiCor/`](glosario_GLiCor/) | Las 261 entradas de GLiCor y su registro de normalización, en formato JSON (el que usa la versión web). | 7 |
+| [`reconocimiento_automatico/`](reconocimiento_automatico/) | Rasgos e hiperparámetros de los modelos y resultados de todas las ejecuciones: rendimiento, comparación con clasificadores sencillos, ablación por familias de rasgos, análisis de errores. | 4 y 6 |
 
 **Cómo abrir un CSV en Excel con la configuración española.** Si las columnas aparecen juntas o los decimales salen mal, no abra el fichero con doble clic: use *Datos → Obtener datos → Desde texto/CSV* y elija como origen *UTF-8*, como delimitador la *coma* y, como configuración regional, una que use el *punto* como separador decimal (por ejemplo, *Inglés (Estados Unidos)*). LibreOffice Calc pregunta todo esto al abrir el fichero.
 
 ## Código
 
-Las carpetas `scripts/` contienen el código, en Python, con que se han obtenido los datos y los resultados, tal como se ejecutó. La lista de librerías necesarias está en `cap8_reconocimiento_automatico/scripts/requirements.txt`. TECLA, la librería de extracción terminológica desarrollada en la tesis (capítulo 5), tiene su propio repositorio: <https://github.com/isabel-mm/TECLA>.
+Las carpetas `scripts/` contienen el código, en Python, con que se han obtenido los datos y los resultados, tal como se ejecutó. La lista de librerías necesarias está en `reconocimiento_automatico/scripts/requirements.txt`. TECLA, la librería de extracción terminológica desarrollada en la tesis (capítulo 5), tiene su propio repositorio: <https://github.com/isabel-mm/TECLA>.
 
 ## Qué no se publica
 
