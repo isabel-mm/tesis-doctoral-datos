@@ -43,7 +43,7 @@ Clasificadores por *token*, con los mismos rasgos que el CRF y sin secuencia.
 - `crf_aciertos_por_termino.csv`, `crf_falsos_positivos_{en,es}.csv` y `crf_*_resumen.json`: análisis de errores del CRF (unidades reconocidas enteras, en parte o perdidas; términos espurios).
 - `apariciones_reservadas.csv.gz`: cada aparición de un término reservado en la prueba, para el CRF y el BiLSTM-CRF, en todas las particiones (también ACTER): el término esperado (`entrada`, `forma_esperada`), lo que predijo el modelo (`forma_predicha`), el resultado (`exacta`, `por_defecto`, `por_exceso`, `solapamiento` u `omitida`), si contiene alguna palabra desconocida (`con_oov`) y la frecuencia del tipo. Se identifican el documento y la oración, pero no se incluye su texto.
 - `falsos_positivos.csv.gz`: unidades propuestas por cada modelo que no coinciden con ningún término, por partición.
-- `analisis_por_nivel.csv`: medias por modelo, lengua y nivel de las proporciones de apariciones reconocidas enteras o en parte, de la delimitación exacta de monoléxicos y poliléxicos, de la recuperación de los términos reservados con y sin palabras desconocidas y por franja de frecuencia, y del reparto de errores sin la entrada `corpus` (`errsc_pct_*`), que es el que recoge la tabla de errores del capítulo 8.
+- `analisis_por_nivel.csv`: medias por modelo, lengua y nivel de las proporciones de apariciones reconocidas enteras o en parte, de la delimitación exacta de monoléxicos y poliléxicos, de la recuperación de los términos reservados con y sin palabras desconocidas y por franja de frecuencia, y del reparto de errores sin la entrada `cap4_corpus` (`errsc_pct_*`), que es el que recoge la tabla de errores del capítulo 8.
 
 ## `predicciones/`
 
