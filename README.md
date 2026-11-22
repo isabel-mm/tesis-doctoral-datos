@@ -5,18 +5,6 @@
 Isabel Moyano Moreno · Universidad de Cádiz, 2026
 Dirección: Prof. Dr. Miguel Casas Gómez y Prof. Dr. Mario Crespo Miguel
 
-<p align="center">
-  <a href="https://isabel-mm.github.io/GLiCor/"><img src="figuras/logos/glicor.png" alt="GLiCor" height="110"></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://isabel-mm.github.io/TECLA/"><img src="figuras/logos/tecla.png" alt="TECLA" height="110"></a>
-</p>
-
-<p align="center">
-  <a href="https://isabel-mm.github.io/GLiCor/"><b>GLiCor</b>, glosario bilingüe de lingüística de corpus</a> ·
-  <a href="https://isabel-mm.github.io/TECLA/"><b>TECLA</b>, estación de trabajo terminográfico</a> ·
-  <a href="https://github.com/isabel-mm/TECLA">código de TECLA</a>
-</p>
-
 ## La tesis en una figura
 
 La tesis se organiza en cuatro partes y nueve capítulos. En la base de todo está el corpus anotado y revisado a mano, del que salen el inventario de términos, la evaluación de los modelos y el glosario.
@@ -35,7 +23,18 @@ This thesis asks what makes a lexical unit a term and to what extent that status
 
 Term candidates are obtained through a hybrid extraction, which combines a grammar of morphosyntactic patterns with a termhood index, before being validated in context. The resulting inventory comprises 261 normalised units (151 terms, 110 entities). Its description shows that the two languages share a conceptual core although they form their terms differently, whereas terminology follows the statistical laws of the general lexicon in an even more concentrated form. Measured against this inventory, as well as on ACTER, the hybrid extraction retrieves more terms at the top of the list than a purely statistical or purely linguistic method. Contrasting machine learning models with the expert annotation reveals that standard evaluation in NLP does not fit the terminographic task addressed in this thesis, since it mainly measures the memory of terms already seen during training. An evaluation protocol is therefore designed that holds out whole terms for testing and measures the ability to recognise new terms, and two models are tested with it, one based on explicit, manually designed features (CRF) and a neural one (BiLSTM-CRF). Both generalise in complementary ways, and their results are brought together in a theoretical-computational model of the term that takes into account its formal or linguistic, statistical, contextual and relational dimensions. Finally, the procedure is systematised in two open resources, the bilingual digital glossary GLiCor, with 261 entries documented in the corpus, as well as TECLA, an open-source terminographic workstation with a graphical interface that allows it to be replicated in other domains. The results support the general hypothesis, with some qualifications, since none of the ten working hypotheses is refuted, six are confirmed as formulated, whereas four are partially confirmed.
 
-## Dos resultados clave
+## Resultados destacados
+
+**Un corpus bilingüe anotado con términos.** 100 textos académicos de lingüística de corpus, 50 en inglés y 50 en español (1,33 millones de *tokens* en inglés y 849 000 en español, sin las referencias bibliográficas), anotados y revisados a mano, aparición por aparición: 30 540 apariciones de términos en inglés y 18 469 en español, además de las de las entidades. Es el estándar de referencia de toda la tesis y uno de los pocos conjuntos de datos en español anotados con términos. La relación de los textos está en el [registro documental del corpus](corpus/registro_documental_corpus.pdf), y sus estadísticas, en [`corpus/`](corpus/).
+
+**Un marco para evaluar la adecuación terminológica de un corpus.** No se pregunta si el corpus es representativo en abstracto, sino si sirve para lo que se usa: describir la terminología, compilar un glosario y entrenar y evaluar modelos. Combina cuatro pruebas, aplicables a cualquier corpus especializado e integradas en [TECLA](https://isabel-mm.github.io/TECLA/):
+
+| Prueba | Qué mide | Inglés | Español |
+|---|---|---|---|
+| Cobertura | Términos del glosario de referencia CASS presentes en el corpus | 38/38 (100 %) | 37/38 (97,4 %) |
+| Saturación | Exponente β de la ley de Heaps (cuanto más bajo, antes deja de crecer el vocabulario) | 0,564 | 0,538 |
+| Dispersión | DP medio de los 50 términos más frecuentes (0 = repartidos; 1 = concentrados) | 0,536 | 0,499 |
+| Estabilidad | Proporción de los 30 términos más frecuentes que se mantienen al remuestrear los documentos | 0,839 | 0,890 |
 
 **La evaluación habitual mide, sobre todo, memoria.** Cuando los términos de la prueba ya se han visto en el entrenamiento, los dos modelos parecen casi perfectos. Cuando se les piden términos nuevos (protocolo de reserva de tipos), el rendimiento cae de forma notable. Las cifras completas están en [`reconocimiento_automatico/`](reconocimiento_automatico/).
 
@@ -46,6 +45,18 @@ Term candidates are obtained through a hybrid extraction, which combines a gramm
 ![Modelo teórico-computacional del término](figuras/modelo_teorico_computacional.png)
 
 ## Recursos que derivan de la tesis
+
+<p align="center">
+  <a href="https://isabel-mm.github.io/GLiCor/"><img src="figuras/logos/glicor.png" alt="GLiCor" height="110"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://isabel-mm.github.io/TECLA/"><img src="figuras/logos/tecla.png" alt="TECLA" height="110"></a>
+</p>
+
+<p align="center">
+  <a href="https://isabel-mm.github.io/GLiCor/"><b>GLiCor</b>, glosario bilingüe de lingüística de corpus</a> ·
+  <a href="https://isabel-mm.github.io/TECLA/"><b>TECLA</b>, estación de trabajo terminográfico</a> ·
+  <a href="https://github.com/isabel-mm/TECLA">código de TECLA</a>
+</p>
 
 - **[GLiCor](https://isabel-mm.github.io/GLiCor/)**: glosario bilingüe inglés-español de lingüística de corpus, con 261 entradas (151 términos y 110 entidades), documentadas en el corpus. Sus datos y su registro de normalización están en [`glosario_GLiCor/`](glosario_GLiCor/).
 - **[TECLA](https://isabel-mm.github.io/TECLA/)** (*Term Extraction and Corpus Linguistics Application*): estación de trabajo terminográfico de código abierto, con aplicación de escritorio para Windows y macOS y librería de Python, que reproduce todo el procedimiento de la tesis. Código: <https://github.com/isabel-mm/TECLA>.
