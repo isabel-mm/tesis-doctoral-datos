@@ -5,6 +5,8 @@
 Isabel Moyano Moreno · Universidad de Cádiz, 2026
 Dirección: Prof. Dr. Miguel Casas Gómez y Prof. Dr. Mario Crespo Miguel
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24445224.svg)](https://doi.org/10.5281/zenodo.24445224)
+
 **Índice:** [Estructura de la tesis](#estructura-de-la-tesis) · [Resumen](#resumen) · [Abstract](#abstract) · [Resultados destacados](#resultados-destacados) · [Recursos que derivan de la tesis](#recursos-que-derivan-de-la-tesis) · [Qué es este material](#qué-es-este-material) · [Por dónde empezar](#por-dónde-empezar) · [Documentos para leer (PDF)](#documentos-para-leer-pdf) · [Datos en tablas (CSV)](#datos-en-tablas-csv) · [Código](#código) · [Qué no se publica](#qué-no-se-publica) · [Términos técnicos que aparecen en los ficheros](#términos-técnicos-que-aparecen-en-los-ficheros) · [Uso de inteligencia artificial](#uso-de-inteligencia-artificial) · [Licencia y cita](#licencia-y-cita)
 
 ## Estructura de la tesis
@@ -134,5 +136,5 @@ El uso que se ha hecho de herramientas de inteligencia artificial en la tesis se
 
 ## Licencia y cita
 
-Los datos se publican con licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) y el código, con licencia MIT (véase `LICENSE.md`). Para citar este material, véase `CITATION.cff`.
+Los datos se publican con licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) y el código, con licencia MIT (véase `LICENSE.md`). Para citar este material, véase `CITATION.cff`, o cítelo así: Moyano Moreno, I. (2026). *Material complementario de la tesis doctoral «Modelo teórico-computacional para la extracción automática de términos: una aproximación desde las tecnologías del lenguaje»* [Conjunto de datos]. Zenodo. https://doi.org/10.5281/zenodo.24445224
 

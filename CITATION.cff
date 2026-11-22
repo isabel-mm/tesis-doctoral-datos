@@ -6,6 +6,7 @@ authors:
     given-names: "Isabel"
     affiliation: "Universidad de Cádiz"
 version: 1.0.0
+doi: 10.5281/zenodo.24445224
 date-released: 2026-11-22
 license: CC-BY-4.0
 repository-code: "https://github.com/isabel-mm/tesis-doctoral-datos"
