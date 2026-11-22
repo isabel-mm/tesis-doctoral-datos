@@ -5,7 +5,7 @@
 Isabel Moyano Moreno · Universidad de Cádiz, 2026
 Dirección: Prof. Dr. Miguel Casas Gómez y Prof. Dr. Mario Crespo Miguel
 
-**Índice:** [Estructura de la tesis](#estructura-de-la-tesis) · [Resumen](#resumen) · [Abstract](#abstract) · [Resultados destacados](#resultados-destacados) · [Recursos que derivan de la tesis](#recursos-que-derivan-de-la-tesis) · [Qué es este material](#qué-es-este-material) · [Por dónde empezar](#por-dónde-empezar) · [Documentos para leer (PDF)](#documentos-para-leer-pdf) · [Datos en tablas (CSV)](#datos-en-tablas-csv) · [Código](#código) · [Qué no se publica](#qué-no-se-publica) · [Términos técnicos que aparecen en los ficheros](#términos-técnicos-que-aparecen-en-los-ficheros) · [Licencia y cita](#licencia-y-cita)
+**Índice:** [Estructura de la tesis](#estructura-de-la-tesis) · [Resumen](#resumen) · [Abstract](#abstract) · [Resultados destacados](#resultados-destacados) · [Recursos que derivan de la tesis](#recursos-que-derivan-de-la-tesis) · [Qué es este material](#qué-es-este-material) · [Por dónde empezar](#por-dónde-empezar) · [Documentos para leer (PDF)](#documentos-para-leer-pdf) · [Datos en tablas (CSV)](#datos-en-tablas-csv) · [Código](#código) · [Qué no se publica](#qué-no-se-publica) · [Términos técnicos que aparecen en los ficheros](#términos-técnicos-que-aparecen-en-los-ficheros) · [Uso de inteligencia artificial](#uso-de-inteligencia-artificial) · [Licencia y cita](#licencia-y-cita)
 
 ## Estructura de la tesis
 
@@ -127,6 +127,10 @@ Los **textos del corpus** son publicaciones académicas sujetas a derechos de au
 - ***Baseline***: los clasificadores sencillos con que se comparan los modelos.
 - **Ablación**: experimento en que se retira una familia de rasgos y se mide cuánto empeora el modelo, para saber qué aporta cada una.
 - ***TF-IDF***, ***C-value***, ***NC-value*** e **índice de terminologicidad**: medidas estadísticas de hasta qué punto una unidad es característica del dominio; el índice de terminologicidad de la tesis combina el *TF-IDF* y el *NC-value*.
+
+## Uso de inteligencia artificial
+
+El uso que se ha hecho de herramientas de inteligencia artificial en la tesis se detalla en la [declaración sobre el uso de inteligencia artificial](declaracion_IA.md).
 
 ## Licencia y cita
 
