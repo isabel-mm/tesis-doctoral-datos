@@ -5,6 +5,8 @@
 Isabel Moyano Moreno · Universidad de Cádiz, 2026
 Dirección: Prof. Dr. Miguel Casas Gómez y Prof. Dr. Mario Crespo Miguel
 
+**Índice:** [La tesis en una figura](#la-tesis-en-una-figura) · [Resumen](#resumen) · [Abstract](#abstract) · [Resultados destacados](#resultados-destacados) · [Recursos que derivan de la tesis](#recursos-que-derivan-de-la-tesis) · [Qué es este material](#qué-es-este-material) · [Por dónde empezar](#por-dónde-empezar) · [Documentos para leer (PDF)](#documentos-para-leer-pdf) · [Datos en tablas (CSV)](#datos-en-tablas-csv) · [Código](#código) · [Qué no se publica](#qué-no-se-publica) · [Términos técnicos que aparecen en los ficheros](#términos-técnicos-que-aparecen-en-los-ficheros) · [Licencia y cita](#licencia-y-cita)
+
 ## La tesis en una figura
 
 La tesis se organiza en cuatro partes y nueve capítulos. En la base de todo está el corpus anotado y revisado a mano, del que salen el inventario de términos, la evaluación de los modelos y el glosario.
