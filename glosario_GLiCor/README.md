@@ -4,7 +4,7 @@ Los datos del glosario del capítulo 7 de la tesis: 261 entradas (151 términos 
 
 ## Documento
 
-Las frecuencias se cuentan sobre los textos del corpus sin sus secciones de referencias bibliográficas.
+Las frecuencias son las apariciones anotadas de cada entrada en el corpus, sin sus secciones de referencias bibliográficas.
 
 - `registro_normalizacion_glosario.pdf`: las decisiones con que se reúnen en una sola entrada las variantes, siglas, sinónimos y préstamos de cada concepto, el método con que se cuentan sus frecuencias y la comprobación de las formas que el glosario da como no documentadas.
 

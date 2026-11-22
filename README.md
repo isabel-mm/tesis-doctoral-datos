@@ -5,6 +5,51 @@
 Isabel Moyano Moreno · Universidad de Cádiz, 2026
 Dirección: Prof. Dr. Miguel Casas Gómez y Prof. Dr. Mario Crespo Miguel
 
+<p align="center">
+  <a href="https://isabel-mm.github.io/GLiCor/"><img src="figuras/logos/glicor.png" alt="GLiCor" height="110"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://isabel-mm.github.io/TECLA/"><img src="figuras/logos/tecla.png" alt="TECLA" height="110"></a>
+</p>
+
+<p align="center">
+  <a href="https://isabel-mm.github.io/GLiCor/"><b>GLiCor</b>, glosario bilingüe de lingüística de corpus</a> ·
+  <a href="https://isabel-mm.github.io/TECLA/"><b>TECLA</b>, estación de trabajo terminográfico</a> ·
+  <a href="https://github.com/isabel-mm/TECLA">código de TECLA</a>
+</p>
+
+## La tesis en una figura
+
+La tesis se organiza en cuatro partes y nueve capítulos. En la base de todo está el corpus anotado y revisado a mano, del que salen el inventario de términos, la evaluación de los modelos y el glosario.
+
+![Estructura de la tesis: marco teórico, metodología, resultados y recursos terminográficos](figuras/estructura_tesis.png)
+
+## Resumen
+
+Esta tesis se pregunta qué hace de una unidad léxica un término y hasta qué punto esa condición puede reconocerse automáticamente y sistematizarse en recursos terminográficos abiertos, a partir del caso de la lingüística de corpus. Su hipótesis general es que la terminologicidad no es una propiedad intrínseca ni categórica de las unidades, sino gradual, pues surge de su uso en el discurso especializado, donde se manifiesta en regularidades lingüísticas, estadísticas o contextuales observables. Ninguna de ellas basta por sí sola, pero su análisis conjunto permite caracterizar el término, formalizarlo en un modelo computacional, así como sistematizar el trabajo terminográfico en recursos reproducibles. La tesis sostiene, en consecuencia, que la descripción lingüística, con su capacidad de abstracción, y los medios computacionales son enfoques complementarios. La lingüística aporta los criterios que definen el término, los rasgos con que se representa, así como la anotación con que se evalúa, mientras que la computación permite contrastarlos a gran escala para devolver a la teoría qué propiedades son realmente constitutivas del término. La investigación se desarrolla en el dominio de la lingüística de corpus, a partir de un corpus comparable inglés-español de 100 textos académicos (alrededor de 1,3 millones de *tokens* en inglés, 850 000 en español), anotado y revisado manualmente, término a término, por una especialista del dominio. Ese corpus, estándar de referencia humano de toda la investigación, se somete a un marco de cuatro pruebas (cobertura, saturación, dispersión, estabilidad) que comprueba su adecuación para las tareas a las que sirve.
+
+Los candidatos a término se obtienen mediante una extracción híbrida, que combina una gramática de patrones morfosintácticos con un índice de terminologicidad, para validarse después en contexto. El inventario resultante reúne 261 unidades normalizadas (151 términos, 110 entidades). Su descripción muestra que las dos lenguas comparten un núcleo conceptual, aunque forman sus términos de manera distinta, mientras que la terminología sigue las leyes estadísticas del léxico general de forma aún más concentrada. Frente a este inventario, como también en ACTER, la extracción híbrida recupera más términos en la parte alta de la lista que un método solo estadístico o solo lingüístico. El contraste de los modelos de aprendizaje automático con la anotación experta pone de manifiesto que la evaluación habitual en PLN no se ajusta a la tarea terminográfica que plantea esta tesis, ya que mide sobre todo la memoria de términos ya vistos durante el entrenamiento. Por ello, se diseña un protocolo de evaluación que reserva términos completos para la prueba y mide la capacidad de reconocer términos nuevos, con el que se ponen a prueba dos modelos, uno basado en rasgos explícitos y diseñados manualmente (CRF) y otro neuronal (BiLSTM-CRF). Ambos generalizan de manera complementaria, y sus resultados se integran en un modelo teórico-computacional del término que tiene en cuenta su dimensión formal o lingüística, estadística, contextual y relacional. Por último, el procedimiento se sistematiza en dos recursos abiertos, el glosario digital bilingüe GLiCor, con 261 entradas documentadas en el corpus, así como TECLA, una estación de trabajo terminográfico de código abierto, con interfaz gráfica, que permite replicarlo en otros dominios. Los resultados respaldan, con matices, la hipótesis general, ya que de las diez hipótesis de trabajo ninguna resulta refutada, seis se confirman tal como se formularon, mientras que cuatro lo hacen parcialmente.
+
+## Abstract
+
+This thesis asks what makes a lexical unit a term and to what extent that status can be recognised automatically and systematised in open terminographic resources, taking corpus linguistics as a case study. Its general hypothesis is that termhood is neither an intrinsic nor a categorical property of lexical units but a gradual one, since it emerges from their use in specialised discourse, where it manifests itself in observable linguistic, statistical or contextual regularities. None of them suffices on its own, but their joint analysis makes it possible to characterise the term, to formalise it in a computational model, as well as to systematise terminographic work in reproducible resources. The thesis consequently argues that linguistic description, with its capacity for abstraction, and computational means are complementary approaches. Linguistics provides the criteria that define the term, the features with which it is represented, as well as the annotation with which it is evaluated, whereas computation makes it possible to test them on a large scale in order to feed back into theory which properties are truly constitutive of the term. The research is carried out in the domain of corpus linguistics, on the basis of a comparable English–Spanish corpus of 100 academic texts (around 1.3 million *tokens* in English, 850,000 in Spanish), manually annotated and revised term by term by a domain expert. This corpus, the human gold standard of the whole study, undergoes a framework of four tests (coverage, saturation, dispersion, stability) that assesses its adequacy for the tasks it serves.
+
+Term candidates are obtained through a hybrid extraction, which combines a grammar of morphosyntactic patterns with a termhood index, before being validated in context. The resulting inventory comprises 261 normalised units (151 terms, 110 entities). Its description shows that the two languages share a conceptual core although they form their terms differently, whereas terminology follows the statistical laws of the general lexicon in an even more concentrated form. Measured against this inventory, as well as on ACTER, the hybrid extraction retrieves more terms at the top of the list than a purely statistical or purely linguistic method. Contrasting machine learning models with the expert annotation reveals that standard evaluation in NLP does not fit the terminographic task addressed in this thesis, since it mainly measures the memory of terms already seen during training. An evaluation protocol is therefore designed that holds out whole terms for testing and measures the ability to recognise new terms, and two models are tested with it, one based on explicit, manually designed features (CRF) and a neural one (BiLSTM-CRF). Both generalise in complementary ways, and their results are brought together in a theoretical-computational model of the term that takes into account its formal or linguistic, statistical, contextual and relational dimensions. Finally, the procedure is systematised in two open resources, the bilingual digital glossary GLiCor, with 261 entries documented in the corpus, as well as TECLA, an open-source terminographic workstation with a graphical interface that allows it to be replicated in other domains. The results support the general hypothesis, with some qualifications, since none of the ten working hypotheses is refuted, six are confirmed as formulated, whereas four are partially confirmed.
+
+## Dos resultados clave
+
+**La evaluación habitual mide, sobre todo, memoria.** Cuando los términos de la prueba ya se han visto en el entrenamiento, los dos modelos parecen casi perfectos. Cuando se les piden términos nuevos (protocolo de reserva de tipos), el rendimiento cae de forma notable. Las cifras completas están en [`reconocimiento_automatico/`](reconocimiento_automatico/).
+
+![F₁ de término de los dos modelos con validación cruzada y con reserva del 10 % de los tipos](figuras/memoria_frente_a_generalizacion.png)
+
+**Un modelo teórico-computacional del término.** Los resultados se reúnen en un modelo con cuatro dimensiones (formal, estadística, contextual y relacional) que operan en dos niveles: el del tipo, en el que la extracción con [TECLA](https://github.com/isabel-mm/TECLA) delimita y ordena los candidatos, y el de cada aparición en el texto, en el que los modelos reconocen los términos. La dimensión relacional, la relación con los términos ya conocidos, es la que más ayuda a reconocer términos nuevos.
+
+![Modelo teórico-computacional del término](figuras/modelo_teorico_computacional.png)
+
+## Recursos que derivan de la tesis
+
+- **[GLiCor](https://isabel-mm.github.io/GLiCor/)**: glosario bilingüe inglés-español de lingüística de corpus, con 261 entradas (151 términos y 110 entidades), documentadas en el corpus. Sus datos y su registro de normalización están en [`glosario_GLiCor/`](glosario_GLiCor/).
+- **[TECLA](https://isabel-mm.github.io/TECLA/)** (*Term Extraction and Corpus Linguistics Application*): estación de trabajo terminográfico de código abierto, con aplicación de escritorio para Windows y macOS y librería de Python, que reproduce todo el procedimiento de la tesis. Código: <https://github.com/isabel-mm/TECLA>.
+
 ## Qué es este material
 
 La tesis resume en tablas y figuras lo que aquí se ofrece completo: la relación de los textos del corpus, el inventario de términos, el registro de las decisiones del glosario y los resultados de todos los experimentos. Sirve para consultar con detalle lo que el texto resume y para comprobar sus cifras.
@@ -31,8 +76,8 @@ Tienen el mismo formato que la tesis y pueden leerse por separado.
 - **Registro documental del corpus** (`corpus/`, 11 págs.): la referencia bibliográfica de los 100 documentos del corpus, 50 en inglés y 50 en español, ordenados por lengua y tipo de publicación.
 - **Cobertura del glosario de referencia** (`glosario_de_partida_CASS/`, 2 págs.): los 38 términos del glosario CASS que sirvieron de punto de partida de la anotación, con sus equivalentes en español y la fuente de cada uno.
 - **Inventario bilingüe de términos y entidades** (`inventario_de_terminos/`, 18 págs.): todas las unidades validadas de cada lengua, ordenadas por terminologicidad, con sus frecuencias y medidas estadísticas.
-- **Registro de normalización del glosario** (`glosario_GLiCor/`, 29 págs.): las decisiones con que se reúnen en una sola entrada las variantes, siglas y sinónimos de cada concepto, y el método con que se cuentan sus frecuencias.
-- **Resultados completos e hiperparámetros** (`reconocimiento_automatico/`, 8 págs.): el entorno de trabajo, la configuración de los modelos y los resultados desglosados que el capítulo 8 resume.
+- **Registro de normalización del glosario** (`glosario_GLiCor/`, 28 págs.): las decisiones con que se reúnen en una sola entrada las variantes, siglas y sinónimos de cada concepto, y el método con que se cuentan sus frecuencias.
+- **Resultados completos e hiperparámetros** (`reconocimiento_automatico/`, 8 págs.): el entorno de trabajo, la configuración de los modelos y los resultados desglosados que el capítulo 7 resume.
 
 ## Datos en tablas (CSV)
 
@@ -40,19 +85,19 @@ Cada carpeta corresponde a un capítulo de la tesis y lleva su propio README, qu
 
 | Carpeta | Qué contiene | Capítulo |
 |---|---|---|
-| [`corpus/`](corpus/) | Los documentos del corpus: referencia, año, autoría, tipo y tamaño de cada uno; totales por lengua; pruebas de que el corpus es adecuado para estudiar la terminología del dominio (cobertura, crecimiento del vocabulario, dispersión, estabilidad). | 3 |
-| [`glosario_de_partida_CASS/`](glosario_de_partida_CASS/) | Los términos de CASS y sus equivalentes, y cuántas veces aparece cada uno en el corpus. | 3 |
-| [`anotacion_de_terminos/`](anotacion_de_terminos/) | Criterios de anotación; todas las formas que se anotan de cada entrada (siglas, variantes, sinónimos, préstamos); apariciones anotadas de cada entrada. | 3 |
-| [`inventario_de_terminos/`](inventario_de_terminos/) | El inventario de términos y entidades de cada lengua con sus medidas: frecuencia, número de documentos, *TF-IDF*, *C-value*, *NC-value* e índice de terminologicidad. | 5 |
-| [`distribucion_de_los_terminos/`](distribucion_de_los_terminos/) | Distribución de los términos: frecuencias ordenadas (ley de Zipf), curvas de saturación (cuántos términos nuevos aparecen al añadir textos) y estructura de las unidades. | 5 |
-| [`glosario_GLiCor/`](glosario_GLiCor/) | Las 261 entradas de GLiCor y su registro de normalización, en formato JSON (el que usa la versión web). | 7 |
-| [`reconocimiento_automatico/`](reconocimiento_automatico/) | Rasgos e hiperparámetros de los modelos y resultados de todas las ejecuciones: rendimiento, comparación con clasificadores sencillos, ablación por familias de rasgos, análisis de errores. | 4 y 6 |
+| [`corpus/`](corpus/) | Los documentos del corpus: referencia, año, autoría, tipo y tamaño de cada uno; totales por lengua; pruebas de que el corpus es adecuado para estudiar la terminología del dominio (cobertura, crecimiento del vocabulario, dispersión, estabilidad). | 4 |
+| [`glosario_de_partida_CASS/`](glosario_de_partida_CASS/) | Los términos de CASS y sus equivalentes, y cuántas veces aparece cada uno en el corpus. | 4 |
+| [`anotacion_de_terminos/`](anotacion_de_terminos/) | Criterios de anotación; todas las formas que se anotan de cada entrada (siglas, variantes, sinónimos, préstamos); apariciones anotadas de cada entrada. | 4 |
+| [`inventario_de_terminos/`](inventario_de_terminos/) | El inventario de términos y entidades de cada lengua con sus medidas: frecuencia, número de documentos, *TF-IDF*, *C-value*, *NC-value* e índice de terminologicidad. | 6 |
+| [`distribucion_de_los_terminos/`](distribucion_de_los_terminos/) | Distribución de los términos: frecuencias ordenadas (ley de Zipf), curvas de saturación (cuántos términos nuevos aparecen al añadir textos) y estructura de las unidades. | 6 |
+| [`glosario_GLiCor/`](glosario_GLiCor/) | Las 261 entradas de GLiCor y su registro de normalización, en formato JSON (el que usa la versión web). | 8 |
+| [`reconocimiento_automatico/`](reconocimiento_automatico/) | Rasgos e hiperparámetros de los modelos y resultados de todas las ejecuciones: rendimiento, comparación con clasificadores sencillos, ablación por familias de rasgos, análisis de errores. | 5 y 7 |
 
 **Cómo abrir un CSV en Excel con la configuración española.** Si las columnas aparecen juntas o los decimales salen mal, no abra el fichero con doble clic: use *Datos → Obtener datos → Desde texto/CSV* y elija como origen *UTF-8*, como delimitador la *coma* y, como configuración regional, una que use el *punto* como separador decimal (por ejemplo, *Inglés (Estados Unidos)*). LibreOffice Calc pregunta todo esto al abrir el fichero.
 
 ## Código
 
-Las carpetas `scripts/` contienen el código, en Python, con que se han obtenido los datos y los resultados, tal como se ejecutó. La lista de librerías necesarias está en `reconocimiento_automatico/scripts/requirements.txt`. TECLA, la librería de extracción terminológica desarrollada en la tesis (capítulo 5), tiene su propio repositorio: <https://github.com/isabel-mm/TECLA>.
+Las carpetas `scripts/` contienen el código, en Python, con que se han obtenido los datos y los resultados, tal como se ejecutó. La lista de librerías necesarias está en `reconocimiento_automatico/scripts/requirements.txt`. TECLA, la librería de extracción terminológica desarrollada en la tesis (capítulo 9), tiene su propio repositorio: <https://github.com/isabel-mm/TECLA>.
 
 ## Qué no se publica
 
@@ -80,6 +125,3 @@ Los **textos del corpus** son publicaciones académicas sujetas a derechos de au
 
 Los datos se publican con licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es) y el código, con licencia MIT (véase `LICENSE.md`). Para citar este material, véase `CITATION.cff`.
 
----
-
-*English summary.* Supplementary material for the PhD thesis "A theoretical-computational model for automatic term extraction: an approach from language technologies" (Universidad de Cádiz, 2026). Readable PDF documents (corpus record, terminological inventory, glossary normalisation record, seed glossary coverage and full experimental results) and the underlying CSV data: corpus metadata and statistics, seed glossaries, annotation criteria and forms, terminological inventory, term distribution data, model features, hyperparameters and full results, and the data of the bilingual glossary GLiCor. The corpus texts and token-level annotation are not distributed for copyright reasons.

@@ -21,7 +21,7 @@
       "es": {
         "abs": "1",
         "rel": "0.000001",
-        "pmw": "1.17"
+        "pmw": "1.18"
       }
     },
     "equiv_es": "+Align",
@@ -98,12 +98,12 @@
       "en": {
         "abs": "158",
         "rel": "0.000119",
-        "pmw": "118.58"
+        "pmw": "118.67"
       },
       "es": {
         "abs": "23",
         "rel": "0.000027",
-        "pmw": "27.00"
+        "pmw": "27.09"
       }
     },
     "equiv_es": "exactitud",
@@ -198,9 +198,9 @@
         "pmw": "0.75"
       },
       "es": {
-        "abs": "9",
-        "rel": "0.000011",
-        "pmw": "10.56"
+        "abs": "11",
+        "rel": "0.000013",
+        "pmw": "12.96"
       }
     },
     "equiv_es": "ACTRES",
@@ -253,12 +253,12 @@
         {
           "form": "ACTRES",
           "rel": "sigla",
-          "n": 7,
+          "n": 9,
           "docs": 3,
           "strings": [
             [
               "ACTRES",
-              3
+              5
             ],
             [
               "P-ACTRES",
@@ -313,12 +313,12 @@
       "en": {
         "abs": "123",
         "rel": "0.000092",
-        "pmw": "92.31"
+        "pmw": "92.38"
       },
       "es": {
         "abs": "108",
         "rel": "0.000127",
-        "pmw": "126.77"
+        "pmw": "127.21"
       }
     },
     "equiv_es": "alineación",
@@ -438,12 +438,12 @@
       "en": {
         "abs": "102",
         "rel": "0.000077",
-        "pmw": "76.55"
+        "pmw": "76.61"
       },
       "es": {
-        "abs": "75",
-        "rel": "0.000088",
-        "pmw": "88.04"
+        "abs": "70",
+        "rel": "0.000082",
+        "pmw": "82.45"
       }
     },
     "equiv_es": "corpus anotado",
@@ -487,16 +487,16 @@
         {
           "form": "corpus anotado",
           "rel": "lema",
-          "n": 75,
+          "n": 70,
           "docs": 15,
           "strings": [
             [
               "corpus anotado",
-              40
+              39
             ],
             [
               "corpus anotados",
-              35
+              31
             ]
           ]
         }
@@ -543,14 +543,14 @@
     },
     "freq": {
       "en": {
-        "abs": "1.569",
-        "rel": "0.001177",
-        "pmw": "1177.50"
+        "abs": "1.333",
+        "rel": "0.001001",
+        "pmw": "1001.17"
       },
       "es": {
-        "abs": "617",
-        "rel": "0.000724",
-        "pmw": "724.25"
+        "abs": "541",
+        "rel": "0.000637",
+        "pmw": "637.25"
       }
     },
     "equiv_es": "anotación",
@@ -568,8 +568,8 @@
     ],
     "norm": "sinonimia",
     "docs": {
-      "en": 37,
-      "es": 36
+      "en": 33,
+      "es": 35
     },
     "proposed": {
       "en": false,
@@ -580,16 +580,16 @@
         {
           "form": "annotation",
           "rel": "sinonimo",
-          "n": 1466,
-          "docs": 37,
+          "n": 1230,
+          "docs": 33,
           "strings": [
             [
               "annotation",
-              1259
+              1026
             ],
             [
               "annotations",
-              207
+              204
             ]
           ]
         },
@@ -615,12 +615,12 @@
         {
           "form": "anotación",
           "rel": "sinonimo",
-          "n": 583,
-          "docs": 35,
+          "n": 507,
+          "docs": 34,
           "strings": [
             [
               "anotación",
-              522
+              446
             ],
             [
               "anotaciones",
@@ -692,14 +692,14 @@
     },
     "freq": {
       "en": {
-        "abs": "119",
-        "rel": "0.000089",
-        "pmw": "89.31"
+        "abs": "117",
+        "rel": "0.000088",
+        "pmw": "87.87"
       },
       "es": {
         "abs": "10",
         "rel": "0.000012",
-        "pmw": "11.74"
+        "pmw": "11.78"
       }
     },
     "equiv_es": "esquema de anotación",
@@ -724,16 +724,16 @@
         {
           "form": "annotation scheme",
           "rel": "lema",
-          "n": 119,
+          "n": 117,
           "docs": 15,
           "strings": [
             [
               "annotation scheme",
-              86
+              83
             ],
             [
               "annotation schemes",
-              33
+              34
             ]
           ]
         }
@@ -801,12 +801,12 @@
       "en": {
         "abs": "47",
         "rel": "0.000035",
-        "pmw": "35.27"
+        "pmw": "35.30"
       },
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "herramienta de anotación",
@@ -907,12 +907,12 @@
       "en": {
         "abs": "125",
         "rel": "0.000094",
-        "pmw": "93.81"
+        "pmw": "93.88"
       },
       "es": {
-        "abs": "32",
-        "rel": "0.000038",
-        "pmw": "37.56"
+        "abs": "35",
+        "rel": "0.000041",
+        "pmw": "41.23"
       }
     },
     "equiv_es": "AntConc",
@@ -953,12 +953,12 @@
         {
           "form": "AntConc",
           "rel": "lema",
-          "n": 32,
+          "n": 35,
           "docs": 10,
           "strings": [
             [
               "AntConc",
-              32
+              35
             ]
           ]
         }
@@ -988,14 +988,14 @@
     },
     "freq": {
       "en": {
-        "abs": "1",
-        "rel": "0.000001",
-        "pmw": "0.75"
+        "abs": "2",
+        "rel": "0.000002",
+        "pmw": "1.50"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "AntPConc",
@@ -1018,12 +1018,12 @@
         {
           "form": "AntPConc",
           "rel": "lema",
-          "n": 1,
+          "n": 2,
           "docs": 1,
           "strings": [
             [
               "AntPConc",
-              1
+              2
             ]
           ]
         }
@@ -1070,12 +1070,12 @@
       "en": {
         "abs": "92",
         "rel": "0.000069",
-        "pmw": "69.04"
+        "pmw": "69.10"
       },
       "es": {
         "abs": "6",
         "rel": "0.000007",
-        "pmw": "7.04"
+        "pmw": "7.07"
       }
     },
     "equiv_es": "medida de asociación",
@@ -1185,12 +1185,12 @@
       "en": {
         "abs": "111",
         "rel": "0.000083",
-        "pmw": "83.30"
+        "pmw": "83.37"
       },
       "es": {
         "abs": "95",
         "rel": "0.000112",
-        "pmw": "111.51"
+        "pmw": "111.90"
       }
     },
     "equiv_es": "equilibrio",
@@ -1285,12 +1285,12 @@
       "en": {
         "abs": "33",
         "rel": "0.000025",
-        "pmw": "24.77"
+        "pmw": "24.79"
       },
       "es": {
         "abs": "13",
         "rel": "0.000015",
-        "pmw": "15.26"
+        "pmw": "15.31"
       }
     },
     "equiv_es": "corpus equilibrado",
@@ -1391,12 +1391,12 @@
       "en": {
         "abs": "42",
         "rel": "0.000032",
-        "pmw": "31.52"
+        "pmw": "31.54"
       },
       "es": {
         "abs": "8",
         "rel": "0.000009",
-        "pmw": "9.39"
+        "pmw": "9.42"
       }
     },
     "equiv_es": "Bank of English",
@@ -1476,7 +1476,7 @@
       "es": {
         "abs": "14",
         "rel": "0.000016",
-        "pmw": "16.43"
+        "pmw": "16.49"
       }
     },
     "equiv_es": "BiDTEA",
@@ -1586,12 +1586,12 @@
       "en": {
         "abs": "20",
         "rel": "0.000015",
-        "pmw": "15.01"
+        "pmw": "15.02"
       },
       "es": {
         "abs": "28",
         "rel": "0.000033",
-        "pmw": "32.87"
+        "pmw": "32.98"
       }
     },
     "equiv_es": "corpus bilingüe",
@@ -1688,7 +1688,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "Bitext2tmx",
@@ -1772,14 +1772,14 @@
     },
     "freq": {
       "en": {
-        "abs": "812",
-        "rel": "0.000609",
-        "pmw": "609.39"
+        "abs": "826",
+        "rel": "0.000620",
+        "pmw": "620.38"
       },
       "es": {
         "abs": "53",
         "rel": "0.000062",
-        "pmw": "62.21"
+        "pmw": "62.43"
       }
     },
     "equiv_es": "BNC",
@@ -1809,12 +1809,12 @@
         {
           "form": "BNC",
           "rel": "sigla",
-          "n": 732,
+          "n": 746,
           "docs": 21,
           "strings": [
             [
               "BNC",
-              732
+              746
             ]
           ]
         },
@@ -1899,9 +1899,9 @@
     },
     "freq": {
       "en": {
-        "abs": "176",
-        "rel": "0.000132",
-        "pmw": "132.08"
+        "abs": "180",
+        "rel": "0.000135",
+        "pmw": "135.19"
       },
       "es": null
     },
@@ -1916,7 +1916,7 @@
       "La interfaz puede aprovechar los datos anotados del BNC para mejorar la calidad del análisis lingüístico."
     ],
     "docs": {
-      "en": 2,
+      "en": 3,
       "es": 0
     },
     "proposed": {
@@ -1928,12 +1928,12 @@
         {
           "form": "BNCWeb",
           "rel": "lema",
-          "n": 176,
-          "docs": 2,
+          "n": 180,
+          "docs": 3,
           "strings": [
             [
               "BNCWeb",
-              176
+              180
             ]
           ]
         }
@@ -1981,9 +1981,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "56",
-        "rel": "0.000066",
-        "pmw": "65.73"
+        "abs": "58",
+        "rel": "0.000068",
+        "pmw": "68.32"
       }
     },
     "equiv_es": "BootCaT",
@@ -2020,12 +2020,12 @@
         {
           "form": "BootCaT",
           "rel": "lema",
-          "n": 56,
+          "n": 58,
           "docs": 5,
           "strings": [
             [
               "BootCaT",
-              56
+              58
             ]
           ]
         }
@@ -2060,12 +2060,12 @@
       "en": {
         "abs": "185",
         "rel": "0.000139",
-        "pmw": "138.84"
+        "pmw": "138.95"
       },
       "es": {
         "abs": "62",
         "rel": "0.000073",
-        "pmw": "72.78"
+        "pmw": "73.03"
       }
     },
     "equiv_es": "Brown Corpus",
@@ -2153,9 +2153,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "15",
-        "rel": "0.000018",
-        "pmw": "17.61"
+        "abs": "16",
+        "rel": "0.000019",
+        "pmw": "18.85"
       }
     },
     "equiv_es": "C-ORAL-ROM",
@@ -2192,12 +2192,12 @@
         {
           "form": "C-ORAL-ROM",
           "rel": "lema",
-          "n": 15,
+          "n": 16,
           "docs": 8,
           "strings": [
             [
               "C-ORAL-ROM",
-              15
+              16
             ]
           ]
         }
@@ -2233,8 +2233,8 @@
       "en": null,
       "es": {
         "abs": "88",
-        "rel": "0.000103",
-        "pmw": "103.30"
+        "rel": "0.000104",
+        "pmw": "103.66"
       }
     },
     "equiv_es": "CAES",
@@ -2339,7 +2339,7 @@
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "CATE",
@@ -2444,7 +2444,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "CdE-NOW",
@@ -2547,7 +2547,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "CdE-Web",
@@ -2657,8 +2657,8 @@
       "en": null,
       "es": {
         "abs": "110",
-        "rel": "0.000129",
-        "pmw": "129.12"
+        "rel": "0.000130",
+        "pmw": "129.57"
       }
     },
     "equiv_es": "CDH",
@@ -2768,9 +2768,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "25",
-        "rel": "0.000029",
-        "pmw": "29.35"
+        "abs": "28",
+        "rel": "0.000033",
+        "pmw": "32.98"
       }
     },
     "equiv_es": "CEDEL2",
@@ -2825,12 +2825,12 @@
         {
           "form": "CEDEL2",
           "rel": "sigla",
-          "n": 17,
+          "n": 20,
           "docs": 9,
           "strings": [
             [
               "CEDEL2",
-              17
+              20
             ]
           ]
         },
@@ -2885,9 +2885,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "36",
-        "rel": "0.000042",
-        "pmw": "42.26"
+        "abs": "38",
+        "rel": "0.000045",
+        "pmw": "44.76"
       }
     },
     "equiv_es": "CHARTA",
@@ -2938,12 +2938,12 @@
         {
           "form": "CHARTA",
           "rel": "sigla",
-          "n": 25,
+          "n": 27,
           "docs": 10,
           "strings": [
             [
               "CHARTA",
-              25
+              27
             ]
           ]
         },
@@ -2990,14 +2990,14 @@
     },
     "freq": {
       "en": {
-        "abs": "75",
-        "rel": "0.000056",
-        "pmw": "56.29"
+        "abs": "78",
+        "rel": "0.000059",
+        "pmw": "58.58"
       },
       "es": {
         "abs": "6",
         "rel": "0.000007",
-        "pmw": "7.04"
+        "pmw": "7.07"
       }
     },
     "equiv_es": "chi cuadrado",
@@ -3023,16 +3023,16 @@
         {
           "form": "chi-square",
           "rel": "variante_ortografica",
-          "n": 37,
+          "n": 40,
           "docs": 8,
           "strings": [
             [
               "chi-square",
-              34
+              40
             ],
             [
               "chi square",
-              3
+              0
             ]
           ]
         },
@@ -3058,11 +3058,11 @@
           "strings": [
             [
               "chi cuadrado",
-              1
+              2
             ],
             [
               "chi-cuadrado",
-              1
+              0
             ],
             [
               "χ cuadrado",
@@ -3135,7 +3135,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "Chorus",
@@ -3216,9 +3216,9 @@
     },
     "freq": {
       "en": {
-        "abs": "99",
-        "rel": "0.000074",
-        "pmw": "74.30"
+        "abs": "102",
+        "rel": "0.000077",
+        "pmw": "76.61"
       },
       "es": null
     },
@@ -3244,12 +3244,12 @@
         {
           "form": "CLAWS",
           "rel": "sigla",
-          "n": 92,
+          "n": 95,
           "docs": 13,
           "strings": [
             [
               "CLAWS",
-              92
+              95
             ]
           ]
         },
@@ -3323,8 +3323,8 @@
       "en": null,
       "es": {
         "abs": "20",
-        "rel": "0.000023",
-        "pmw": "23.48"
+        "rel": "0.000024",
+        "pmw": "23.56"
       }
     },
     "equiv_es": "CLEAE",
@@ -3428,14 +3428,14 @@
     },
     "freq": {
       "en": {
-        "abs": "60",
-        "rel": "0.000045",
-        "pmw": "45.03"
+        "abs": "63",
+        "rel": "0.000047",
+        "pmw": "47.32"
       },
       "es": {
         "abs": "30",
         "rel": "0.000035",
-        "pmw": "35.21"
+        "pmw": "35.34"
       }
     },
     "equiv_es": "agrupamiento",
@@ -3461,12 +3461,12 @@
         {
           "form": "clustering",
           "rel": "lema",
-          "n": 60,
+          "n": 63,
           "docs": 3,
           "strings": [
             [
               "clustering",
-              60
+              63
             ]
           ]
         }
@@ -3577,12 +3577,12 @@
       "en": {
         "abs": "15",
         "rel": "0.000011",
-        "pmw": "11.26"
+        "pmw": "11.27"
       },
       "es": {
-        "abs": "37",
-        "rel": "0.000043",
-        "pmw": "43.43"
+        "abs": "39",
+        "rel": "0.000046",
+        "pmw": "45.94"
       }
     },
     "equiv_es": "COBUILD",
@@ -3633,12 +3633,12 @@
         {
           "form": "COBUILD",
           "rel": "sigla",
-          "n": 32,
+          "n": 34,
           "docs": 15,
           "strings": [
             [
               "COBUILD",
-              32
+              34
             ]
           ]
         },
@@ -3689,14 +3689,14 @@
     },
     "freq": {
       "en": {
-        "abs": "284",
-        "rel": "0.000213",
-        "pmw": "213.14"
+        "abs": "286",
+        "rel": "0.000215",
+        "pmw": "214.80"
       },
       "es": {
         "abs": "6",
         "rel": "0.000007",
-        "pmw": "7.04"
+        "pmw": "7.07"
       }
     },
     "equiv_es": "COCA",
@@ -3727,12 +3727,12 @@
         {
           "form": "COCA",
           "rel": "sigla",
-          "n": 253,
+          "n": 255,
           "docs": 12,
           "strings": [
             [
               "COCA",
-              253
+              255
             ]
           ]
         },
@@ -3825,9 +3825,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "48",
-        "rel": "0.000056",
-        "pmw": "56.34"
+        "abs": "50",
+        "rel": "0.000059",
+        "pmw": "58.90"
       }
     },
     "equiv_es": "CODEA+",
@@ -3882,12 +3882,12 @@
         {
           "form": "CODEA+",
           "rel": "sigla",
-          "n": 37,
+          "n": 39,
           "docs": 7,
           "strings": [
             [
               "CODEA+",
-              24
+              26
             ],
             [
               "CODEA",
@@ -3943,14 +3943,14 @@
     },
     "freq": {
       "en": {
-        "abs": "67",
-        "rel": "0.000050",
-        "pmw": "50.28"
+        "abs": "68",
+        "rel": "0.000051",
+        "pmw": "51.07"
       },
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "COHA",
@@ -3976,12 +3976,12 @@
         {
           "form": "COHA",
           "rel": "sigla",
-          "n": 49,
+          "n": 50,
           "docs": 9,
           "strings": [
             [
               "COHA",
-              49
+              50
             ]
           ]
         },
@@ -4058,12 +4058,12 @@
       "en": {
         "abs": "29",
         "rel": "0.000022",
-        "pmw": "21.76"
+        "pmw": "21.78"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "coligación",
@@ -4164,12 +4164,12 @@
       "en": {
         "abs": "314",
         "rel": "0.000236",
-        "pmw": "235.65"
+        "pmw": "235.83"
       },
       "es": {
         "abs": "11",
         "rel": "0.000013",
-        "pmw": "12.91"
+        "pmw": "12.96"
       }
     },
     "equiv_es": "colocado",
@@ -4268,14 +4268,14 @@
     },
     "freq": {
       "en": {
-        "abs": "347",
-        "rel": "0.000260",
-        "pmw": "260.42"
+        "abs": "349",
+        "rel": "0.000262",
+        "pmw": "262.12"
       },
       "es": {
-        "abs": "185",
-        "rel": "0.000217",
-        "pmw": "217.16"
+        "abs": "186",
+        "rel": "0.000219",
+        "pmw": "219.09"
       }
     },
     "equiv_es": "colocación",
@@ -4301,12 +4301,12 @@
         {
           "form": "collocation",
           "rel": "lema",
-          "n": 347,
+          "n": 349,
           "docs": 21,
           "strings": [
             [
               "collocation",
-              233
+              235
             ],
             [
               "collocations",
@@ -4319,12 +4319,12 @@
         {
           "form": "colocación",
           "rel": "lema",
-          "n": 185,
+          "n": 186,
           "docs": 18,
           "strings": [
             [
               "colocación",
-              41
+              42
             ],
             [
               "colocaciones",
@@ -4378,7 +4378,7 @@
       "es": {
         "abs": "8",
         "rel": "0.000009",
-        "pmw": "9.39"
+        "pmw": "9.42"
       }
     },
     "equiv_es": "fuerza de asociación",
@@ -4490,12 +4490,12 @@
       "en": {
         "abs": "57",
         "rel": "0.000043",
-        "pmw": "42.78"
+        "pmw": "42.81"
       },
       "es": {
-        "abs": "64",
-        "rel": "0.000075",
-        "pmw": "75.12"
+        "abs": "62",
+        "rel": "0.000073",
+        "pmw": "73.03"
       }
     },
     "equiv_es": "corpus comparable",
@@ -4539,7 +4539,7 @@
         {
           "form": "corpus comparable",
           "rel": "lema",
-          "n": 64,
+          "n": 62,
           "docs": 15,
           "strings": [
             [
@@ -4548,7 +4548,7 @@
             ],
             [
               "corpus comparables",
-              42
+              40
             ]
           ]
         }
@@ -4594,7 +4594,7 @@
       "es": {
         "abs": "13",
         "rel": "0.000015",
-        "pmw": "15.26"
+        "pmw": "15.31"
       }
     },
     "equiv_es": "lingüística de corpus computacional",
@@ -4687,12 +4687,12 @@
       "en": {
         "abs": "34",
         "rel": "0.000026",
-        "pmw": "25.52"
+        "pmw": "25.54"
       },
       "es": {
-        "abs": "99",
-        "rel": "0.000116",
-        "pmw": "116.21"
+        "abs": "87",
+        "rel": "0.000102",
+        "pmw": "102.48"
       }
     },
     "equiv_es": "lingüística computacional",
@@ -4732,12 +4732,12 @@
         {
           "form": "lingüística computacional",
           "rel": "lema",
-          "n": 99,
+          "n": 87,
           "docs": 18,
           "strings": [
             [
               "lingüística computacional",
-              99
+              87
             ]
           ]
         }
@@ -4782,7 +4782,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "ConcGram",
@@ -4870,12 +4870,12 @@
       "en": {
         "abs": "214",
         "rel": "0.000161",
-        "pmw": "160.60"
+        "pmw": "160.73"
       },
       "es": {
-        "abs": "345",
-        "rel": "0.000405",
-        "pmw": "404.97"
+        "abs": "340",
+        "rel": "0.000400",
+        "pmw": "400.49"
       }
     },
     "equiv_es": "concordancia",
@@ -4940,16 +4940,16 @@
         {
           "form": "concordancia",
           "rel": "sinonimo",
-          "n": 339,
+          "n": 334,
           "docs": 32,
           "strings": [
             [
               "concordancia",
-              58
+              59
             ],
             [
               "concordancias",
-              281
+              275
             ]
           ]
         },
@@ -5020,12 +5020,12 @@
       "en": {
         "abs": "35",
         "rel": "0.000026",
-        "pmw": "26.27"
+        "pmw": "26.29"
       },
       "es": {
         "abs": "6",
         "rel": "0.000007",
-        "pmw": "7.04"
+        "pmw": "7.07"
       }
     },
     "equiv_es": "programa de concordancias",
@@ -5122,7 +5122,7 @@
       "en": {
         "abs": "48",
         "rel": "0.000036",
-        "pmw": "36.02"
+        "pmw": "36.05"
       },
       "es": null
     },
@@ -5153,11 +5153,11 @@
           "strings": [
             [
               "confidence interval",
-              38
+              39
             ],
             [
               "confidence intervals",
-              10
+              9
             ]
           ]
         }
@@ -5218,12 +5218,12 @@
       "en": {
         "abs": "37",
         "rel": "0.000028",
-        "pmw": "27.77"
+        "pmw": "27.79"
       },
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "palabra de contenido",
@@ -5326,7 +5326,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "CORANE",
@@ -5430,8 +5430,8 @@
       "en": null,
       "es": {
         "abs": "317",
-        "rel": "0.000372",
-        "pmw": "372.10"
+        "rel": "0.000373",
+        "pmw": "373.40"
       }
     },
     "equiv_es": "CORDE",
@@ -5534,7 +5534,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "CORESPI",
@@ -5641,9 +5641,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "32",
-        "rel": "0.000038",
-        "pmw": "37.56"
+        "abs": "37",
+        "rel": "0.000044",
+        "pmw": "43.58"
       }
     },
     "equiv_es": "CORLEC",
@@ -5694,12 +5694,12 @@
         {
           "form": "CORLEC",
           "rel": "sigla",
-          "n": 23,
+          "n": 28,
           "docs": 10,
           "strings": [
             [
               "CORLEC",
-              23
+              28
             ]
           ]
         },
@@ -5746,9 +5746,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "9",
-        "rel": "0.000011",
-        "pmw": "10.56"
+        "abs": "10",
+        "rel": "0.000012",
+        "pmw": "11.78"
       }
     },
     "equiv_es": "CorLexIn",
@@ -5799,12 +5799,12 @@
         {
           "form": "CorLexIn",
           "rel": "sigla",
-          "n": 5,
+          "n": 6,
           "docs": 2,
           "strings": [
             [
               "CorLexIn",
-              5
+              6
             ]
           ]
         },
@@ -5855,14 +5855,14 @@
     },
     "freq": {
       "en": {
-        "abs": "15.005",
-        "rel": "0.011261",
-        "pmw": "11260.91"
+        "abs": "10.926",
+        "rel": "0.008206",
+        "pmw": "8206.12"
       },
       "es": {
-        "abs": "10.510",
-        "rel": "0.012337",
-        "pmw": "12336.90"
+        "abs": "7.841",
+        "rel": "0.009236",
+        "pmw": "9236.03"
       }
     },
     "equiv_es": "corpus",
@@ -5889,16 +5889,16 @@
         {
           "form": "corpus",
           "rel": "lema",
-          "n": 15005,
+          "n": 10926,
           "docs": 50,
           "strings": [
             [
               "corpus",
-              11443
+              8027
             ],
             [
               "corpora",
-              3562
+              2899
             ]
           ]
         }
@@ -5907,16 +5907,16 @@
         {
           "form": "corpus",
           "rel": "lema",
-          "n": 10510,
+          "n": 7841,
           "docs": 50,
           "strings": [
             [
               "corpus",
-              10281
+              7617
             ],
             [
               "córpora",
-              229
+              224
             ]
           ]
         }
@@ -5962,14 +5962,14 @@
     },
     "freq": {
       "en": {
-        "abs": "123",
-        "rel": "0.000092",
-        "pmw": "92.31"
+        "abs": "116",
+        "rel": "0.000087",
+        "pmw": "87.12"
       },
       "es": {
         "abs": "55",
         "rel": "0.000065",
-        "pmw": "64.56"
+        "pmw": "64.79"
       }
     },
     "equiv_es": "construcción de corpus",
@@ -5986,7 +5986,7 @@
     ],
     "norm": "sinonimia",
     "docs": {
-      "en": 17,
+      "en": 15,
       "es": 20
     },
     "proposed": {
@@ -5998,25 +5998,25 @@
         {
           "form": "corpus compilation",
           "rel": "sinonimo",
-          "n": 37,
-          "docs": 15,
+          "n": 33,
+          "docs": 13,
           "strings": [
             [
               "corpus compilation",
-              37
+              33
             ]
           ]
         },
         {
           "form": "corpus building",
           "rel": "sinonimo",
-          "n": 86,
+          "n": 83,
           "docs": 8,
           "consolidated": true,
           "strings": [
             [
               "corpus building",
-              86
+              83
             ]
           ]
         }
@@ -6097,8 +6097,8 @@
       },
       "es": {
         "abs": "94",
-        "rel": "0.000110",
-        "pmw": "110.34"
+        "rel": "0.000111",
+        "pmw": "110.72"
       }
     },
     "equiv_es": "CORPES XXI",
@@ -6219,9 +6219,9 @@
         "pmw": "0.75"
       },
       "es": {
-        "abs": "57",
-        "rel": "0.000067",
-        "pmw": "66.91"
+        "abs": "58",
+        "rel": "0.000068",
+        "pmw": "68.32"
       }
     },
     "equiv_es": "CEMC",
@@ -6272,12 +6272,12 @@
         {
           "form": "CEMC",
           "rel": "sigla",
-          "n": 33,
+          "n": 34,
           "docs": 10,
           "strings": [
             [
               "CEMC",
-              33
+              34
             ]
           ]
         },
@@ -6328,14 +6328,14 @@
     },
     "freq": {
       "en": {
-        "abs": "273",
-        "rel": "0.000205",
-        "pmw": "204.88"
+        "abs": "267",
+        "rel": "0.000201",
+        "pmw": "200.53"
       },
       "es": {
         "abs": "22",
         "rel": "0.000026",
-        "pmw": "25.82"
+        "pmw": "25.91"
       }
     },
     "equiv_es": "diseño de corpus",
@@ -6362,12 +6362,12 @@
         {
           "form": "corpus design",
           "rel": "lema",
-          "n": 273,
+          "n": 267,
           "docs": 17,
           "strings": [
             [
               "corpus design",
-              271
+              265
             ],
             [
               "corpus designs",
@@ -6436,14 +6436,14 @@
     },
     "freq": {
       "en": {
-        "abs": "1.162",
-        "rel": "0.000872",
-        "pmw": "872.05"
+        "abs": "1.150",
+        "rel": "0.000864",
+        "pmw": "863.72"
       },
       "es": {
-        "abs": "616",
-        "rel": "0.000723",
-        "pmw": "723.08"
+        "abs": "603",
+        "rel": "0.000710",
+        "pmw": "710.28"
       }
     },
     "equiv_es": "lingüística de corpus",
@@ -6470,12 +6470,12 @@
         {
           "form": "corpus linguistics",
           "rel": "lema",
-          "n": 1162,
+          "n": 1150,
           "docs": 43,
           "strings": [
             [
               "corpus linguistics",
-              1162
+              1150
             ]
           ]
         }
@@ -6484,12 +6484,12 @@
         {
           "form": "lingüística de corpus",
           "rel": "lema",
-          "n": 616,
+          "n": 603,
           "docs": 48,
           "strings": [
             [
               "lingüística de corpus",
-              616
+              603
             ]
           ]
         }
@@ -6543,7 +6543,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "lenguaje de consulta",
@@ -6680,12 +6680,12 @@
       "en": {
         "abs": "98",
         "rel": "0.000074",
-        "pmw": "73.55"
+        "pmw": "73.60"
       },
       "es": {
         "abs": "38",
         "rel": "0.000045",
-        "pmw": "44.61"
+        "pmw": "44.76"
       }
     },
     "equiv_es": "tamaño del corpus",
@@ -6784,14 +6784,14 @@
     },
     "freq": {
       "en": {
-        "abs": "262",
-        "rel": "0.000197",
-        "pmw": "196.63"
+        "abs": "256",
+        "rel": "0.000192",
+        "pmw": "192.27"
       },
       "es": {
-        "abs": "143",
-        "rel": "0.000168",
-        "pmw": "167.86"
+        "abs": "140",
+        "rel": "0.000165",
+        "pmw": "164.91"
       }
     },
     "equiv_es": "basado en corpus",
@@ -6820,12 +6820,12 @@
         {
           "form": "corpus-based",
           "rel": "lema",
-          "n": 262,
+          "n": 256,
           "docs": 33,
           "strings": [
             [
               "corpus-based",
-              262
+              256
             ]
           ]
         }
@@ -6834,7 +6834,7 @@
         {
           "form": "basado en corpus",
           "rel": "sinonimo",
-          "n": 108,
+          "n": 105,
           "docs": 27,
           "strings": [
             [
@@ -6847,7 +6847,7 @@
             ],
             [
               "basados en corpus",
-              44
+              41
             ],
             [
               "basadas en corpus",
@@ -6918,7 +6918,7 @@
       "es": {
         "abs": "12",
         "rel": "0.000014",
-        "pmw": "14.09"
+        "pmw": "14.13"
       }
     },
     "equiv_es": "lingüística computacional de corpus",
@@ -7015,12 +7015,12 @@
       "en": {
         "abs": "5",
         "rel": "0.000004",
-        "pmw": "3.75"
+        "pmw": "3.76"
       },
       "es": {
         "abs": "18",
         "rel": "0.000021",
-        "pmw": "21.13"
+        "pmw": "21.20"
       }
     },
     "equiv_es": "estudios de la traducción basados en corpus",
@@ -7147,12 +7147,12 @@
       "en": {
         "abs": "15",
         "rel": "0.000011",
-        "pmw": "11.26"
+        "pmw": "11.27"
       },
       "es": {
         "abs": "14",
         "rel": "0.000016",
-        "pmw": "16.43"
+        "pmw": "16.49"
       }
     },
     "equiv_es": "guiado por corpus",
@@ -7274,7 +7274,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "COWS-L2H",
@@ -7385,12 +7385,12 @@
       "en": {
         "abs": "18",
         "rel": "0.000014",
-        "pmw": "13.51"
+        "pmw": "13.52"
       },
       "es": {
         "abs": "15",
         "rel": "0.000018",
-        "pmw": "17.61"
+        "pmw": "17.67"
       }
     },
     "equiv_es": "CQP",
@@ -7492,14 +7492,14 @@
     },
     "freq": {
       "en": {
-        "abs": "15",
-        "rel": "0.000011",
-        "pmw": "11.26"
+        "abs": "17",
+        "rel": "0.000013",
+        "pmw": "12.77"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "CQPweb",
@@ -7513,7 +7513,7 @@
       "CQPweb permite generar líneas de concordancia, esenciales para examinar el uso de las palabras en contexto."
     ],
     "docs": {
-      "en": 6,
+      "en": 7,
       "es": 2
     },
     "proposed": {
@@ -7525,12 +7525,12 @@
         {
           "form": "CQPweb",
           "rel": "lema",
-          "n": 15,
-          "docs": 6,
+          "n": 17,
+          "docs": 7,
           "strings": [
             [
               "CQPweb",
-              15
+              17
             ]
           ]
         }
@@ -7579,9 +7579,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "352",
-        "rel": "0.000413",
-        "pmw": "413.19"
+        "abs": "350",
+        "rel": "0.000412",
+        "pmw": "412.27"
       }
     },
     "equiv_es": "CREA",
@@ -7632,12 +7632,12 @@
         {
           "form": "CREA",
           "rel": "sigla",
-          "n": 316,
+          "n": 314,
           "docs": 27,
           "strings": [
             [
               "CREA",
-              316
+              314
             ]
           ]
         },
@@ -7683,14 +7683,14 @@
     },
     "freq": {
       "en": {
-        "abs": "6",
-        "rel": "0.000005",
-        "pmw": "4.50"
+        "abs": "8",
+        "rel": "0.000006",
+        "pmw": "6.01"
       },
       "es": {
-        "abs": "46",
-        "rel": "0.000054",
-        "pmw": "54.00"
+        "abs": "52",
+        "rel": "0.000061",
+        "pmw": "61.25"
       }
     },
     "equiv_es": "CWB",
@@ -7716,12 +7716,12 @@
         {
           "form": "CWB",
           "rel": "sigla",
-          "n": 2,
-          "docs": 2,
+          "n": 4,
+          "docs": 3,
           "strings": [
             [
               "CWB",
-              2
+              4
             ]
           ]
         },
@@ -7750,12 +7750,12 @@
         {
           "form": "CWB",
           "rel": "sigla",
-          "n": 32,
+          "n": 38,
           "docs": 1,
           "strings": [
             [
               "CWB",
-              32
+              38
             ]
           ]
         },
@@ -7812,14 +7812,14 @@
     },
     "freq": {
       "en": {
-        "abs": "167",
-        "rel": "0.000125",
-        "pmw": "125.33"
+        "abs": "168",
+        "rel": "0.000126",
+        "pmw": "126.18"
       },
       "es": {
-        "abs": "42",
-        "rel": "0.000049",
-        "pmw": "49.30"
+        "abs": "43",
+        "rel": "0.000051",
+        "pmw": "50.65"
       }
     },
     "equiv_es": "conjunto de datos",
@@ -7835,7 +7835,7 @@
     "aliases": [],
     "norm": "sinonimia",
     "docs": {
-      "en": 26,
+      "en": 27,
       "es": 11
     },
     "proposed": {
@@ -7847,12 +7847,12 @@
         {
           "form": "dataset",
           "rel": "lema",
-          "n": 167,
-          "docs": 26,
+          "n": 168,
+          "docs": 27,
           "strings": [
             [
               "dataset",
-              115
+              116
             ],
             [
               "datasets",
@@ -7865,12 +7865,12 @@
         {
           "form": "conjunto de datos",
           "rel": "sinonimo",
-          "n": 37,
+          "n": 38,
           "docs": 10,
           "strings": [
             [
               "conjunto de datos",
-              23
+              24
             ],
             [
               "conjuntos de datos",
@@ -7945,7 +7945,7 @@
       "es": {
         "abs": "8",
         "rel": "0.000009",
-        "pmw": "9.39"
+        "pmw": "9.42"
       }
     },
     "equiv_es": "análisis sintáctico de dependencias",
@@ -8051,12 +8051,12 @@
       "en": {
         "abs": "55",
         "rel": "0.000041",
-        "pmw": "41.28"
+        "pmw": "41.31"
       },
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "estadística descriptiva",
@@ -8242,12 +8242,12 @@
       "en": {
         "abs": "44",
         "rel": "0.000033",
-        "pmw": "33.02"
+        "pmw": "33.05"
       },
       "es": {
-        "abs": "136",
-        "rel": "0.000160",
-        "pmw": "159.64"
+        "abs": "98",
+        "rel": "0.000115",
+        "pmw": "115.44"
       }
     },
     "equiv_es": "corpus diacrónico",
@@ -8261,7 +8261,7 @@
     ],
     "docs": {
       "en": 11,
-      "es": 28
+      "es": 23
     },
     "proposed": {
       "en": false,
@@ -8290,16 +8290,16 @@
         {
           "form": "corpus diacrónico",
           "rel": "lema",
-          "n": 136,
-          "docs": 28,
+          "n": 98,
+          "docs": 23,
           "strings": [
             [
               "corpus diacrónico",
-              77
+              41
             ],
             [
               "corpus diacrónicos",
-              59
+              57
             ]
           ]
         }
@@ -8345,13 +8345,13 @@
     "freq": {
       "en": {
         "abs": "303",
-        "rel": "0.000227",
-        "pmw": "227.39"
+        "rel": "0.000228",
+        "pmw": "227.57"
       },
       "es": {
-        "abs": "31",
-        "rel": "0.000036",
-        "pmw": "36.39"
+        "abs": "28",
+        "rel": "0.000033",
+        "pmw": "32.98"
       }
     },
     "equiv_es": "dispersión",
@@ -8391,12 +8391,12 @@
         {
           "form": "dispersión",
           "rel": "lema",
-          "n": 31,
+          "n": 28,
           "docs": 7,
           "strings": [
             [
               "dispersión",
-              31
+              28
             ]
           ]
         }
@@ -8441,7 +8441,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "DMI-TCAT",
@@ -8499,11 +8499,11 @@
           "strings": [
             [
               "DMI-TCAT",
-              1
+              3
             ],
             [
               "DMI_TCAT",
-              2
+              0
             ]
           ]
         },
@@ -8561,9 +8561,9 @@
         "pmw": "3.00"
       },
       "es": {
-        "abs": "27",
-        "rel": "0.000032",
-        "pmw": "31.69"
+        "abs": "28",
+        "rel": "0.000033",
+        "pmw": "32.98"
       }
     },
     "equiv_es": "EAGLES",
@@ -8613,12 +8613,12 @@
         {
           "form": "EAGLES",
           "rel": "sigla",
-          "n": 25,
+          "n": 26,
           "docs": 7,
           "strings": [
             [
               "EAGLES",
-              25
+              26
             ]
           ]
         },
@@ -8666,9 +8666,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "5",
-        "rel": "0.000006",
-        "pmw": "5.87"
+        "abs": "8",
+        "rel": "0.000009",
+        "pmw": "9.42"
       }
     },
     "equiv_es": "ECPC",
@@ -8719,12 +8719,12 @@
         {
           "form": "ECPC",
           "rel": "sigla",
-          "n": 3,
+          "n": 6,
           "docs": 2,
           "strings": [
             [
               "ECPC",
-              3
+              6
             ]
           ]
         },
@@ -8772,9 +8772,9 @@
     },
     "freq": {
       "en": {
-        "abs": "52",
-        "rel": "0.000039",
-        "pmw": "39.02"
+        "abs": "53",
+        "rel": "0.000040",
+        "pmw": "39.81"
       },
       "es": null
     },
@@ -8801,12 +8801,12 @@
         {
           "form": "effect size",
           "rel": "lema",
-          "n": 52,
+          "n": 53,
           "docs": 7,
           "strings": [
             [
               "effect size",
-              43
+              44
             ],
             [
               "effect sizes",
@@ -8871,7 +8871,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "ELEACTAR",
@@ -8978,14 +8978,14 @@
     },
     "freq": {
       "en": {
-        "abs": "132",
-        "rel": "0.000099",
-        "pmw": "99.06"
+        "abs": "121",
+        "rel": "0.000091",
+        "pmw": "90.88"
       },
       "es": {
-        "abs": "241",
-        "rel": "0.000283",
-        "pmw": "282.89"
+        "abs": "245",
+        "rel": "0.000289",
+        "pmw": "288.59"
       }
     },
     "equiv_es": "codificación",
@@ -9012,12 +9012,12 @@
         {
           "form": "encoding",
           "rel": "lema",
-          "n": 132,
+          "n": 121,
           "docs": 16,
           "strings": [
             [
               "encoding",
-              115
+              104
             ],
             [
               "encodings",
@@ -9030,12 +9030,12 @@
         {
           "form": "codificación",
           "rel": "lema",
-          "n": 241,
+          "n": 245,
           "docs": 25,
           "strings": [
             [
               "codificación",
-              237
+              241
             ],
             [
               "codificaciones",
@@ -9092,9 +9092,9 @@
         "pmw": "1.50"
       },
       "es": {
-        "abs": "41",
-        "rel": "0.000048",
-        "pmw": "48.13"
+        "abs": "45",
+        "rel": "0.000053",
+        "pmw": "53.01"
       }
     },
     "equiv_es": "esTenTen18",
@@ -9135,12 +9135,12 @@
         {
           "form": "esTenTen18",
           "rel": "lema",
-          "n": 41,
+          "n": 45,
           "docs": 14,
           "strings": [
             [
               "esTenTen18",
-              14
+              18
             ],
             [
               "esTenTen",
@@ -9187,9 +9187,9 @@
         "pmw": "9.76"
       },
       "es": {
-        "abs": "12",
-        "rel": "0.000014",
-        "pmw": "14.09"
+        "abs": "15",
+        "rel": "0.000018",
+        "pmw": "17.67"
       }
     },
     "equiv_es": "Europarl",
@@ -9240,12 +9240,12 @@
         {
           "form": "Europarl",
           "rel": "sigla",
-          "n": 9,
-          "docs": 4,
+          "n": 12,
+          "docs": 5,
           "strings": [
             [
               "Europarl",
-              9
+              12
             ]
           ]
         },
@@ -9292,9 +9292,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "6",
-        "rel": "0.000007",
-        "pmw": "7.04"
+        "abs": "7",
+        "rel": "0.000008",
+        "pmw": "8.25"
       }
     },
     "equiv_es": "Fono.Ele",
@@ -9335,16 +9335,16 @@
         {
           "form": "Fono.Ele",
           "rel": "lema",
-          "n": 6,
+          "n": 7,
           "docs": 2,
           "strings": [
             [
               "Fono.Ele",
-              5
+              7
             ],
             [
               "FonoELE",
-              1
+              0
             ]
           ]
         }
@@ -9378,7 +9378,7 @@
       "en": {
         "abs": "5",
         "rel": "0.000004",
-        "pmw": "3.75"
+        "pmw": "3.76"
       },
       "es": null
     },
@@ -9488,14 +9488,14 @@
     },
     "freq": {
       "en": {
-        "abs": "8",
-        "rel": "0.000006",
-        "pmw": "6.00"
+        "abs": "9",
+        "rel": "0.000007",
+        "pmw": "6.76"
       },
       "es": {
-        "abs": "96",
-        "rel": "0.000113",
-        "pmw": "112.69"
+        "abs": "106",
+        "rel": "0.000125",
+        "pmw": "124.86"
       }
     },
     "equiv_es": "FreeLing",
@@ -9507,7 +9507,7 @@
     ],
     "docs": {
       "en": 3,
-      "es": 12
+      "es": 13
     },
     "proposed": {
       "en": false,
@@ -9518,12 +9518,12 @@
         {
           "form": "FreeLing",
           "rel": "lema",
-          "n": 8,
+          "n": 9,
           "docs": 3,
           "strings": [
             [
               "FreeLing",
-              8
+              9
             ]
           ]
         }
@@ -9532,12 +9532,12 @@
         {
           "form": "FreeLing",
           "rel": "lema",
-          "n": 96,
-          "docs": 12,
+          "n": 106,
+          "docs": 13,
           "strings": [
             [
               "FreeLing",
-              96
+              106
             ]
           ]
         }
@@ -9570,14 +9570,14 @@
     },
     "freq": {
       "en": {
-        "abs": "2.064",
-        "rel": "0.001549",
-        "pmw": "1548.99"
+        "abs": "1.705",
+        "rel": "0.001281",
+        "pmw": "1280.56"
       },
       "es": {
-        "abs": "1.572",
-        "rel": "0.001845",
-        "pmw": "1845.25"
+        "abs": "1.116",
+        "rel": "0.001315",
+        "pmw": "1314.55"
       }
     },
     "equiv_es": "frecuencia",
@@ -9593,7 +9593,7 @@
     ],
     "docs": {
       "en": 41,
-      "es": 45
+      "es": 43
     },
     "proposed": {
       "en": false,
@@ -9604,16 +9604,16 @@
         {
           "form": "frequency",
           "rel": "lema",
-          "n": 2064,
+          "n": 1705,
           "docs": 41,
           "strings": [
             [
               "frequency",
-              1557
+              1292
             ],
             [
               "frequencies",
-              507
+              413
             ]
           ]
         }
@@ -9622,16 +9622,16 @@
         {
           "form": "frecuencia",
           "rel": "lema",
-          "n": 1572,
-          "docs": 45,
+          "n": 1116,
+          "docs": 43,
           "strings": [
             [
               "frecuencia",
-              996
+              791
             ],
             [
               "frecuencias",
-              576
+              325
             ]
           ]
         }
@@ -9683,12 +9683,12 @@
       "en": {
         "abs": "49",
         "rel": "0.000037",
-        "pmw": "36.77"
+        "pmw": "36.80"
       },
       "es": {
         "abs": "6",
         "rel": "0.000007",
-        "pmw": "7.04"
+        "pmw": "7.07"
       }
     },
     "equiv_es": "frecuencia por millón de palabras",
@@ -9806,12 +9806,12 @@
       "en": {
         "abs": "81",
         "rel": "0.000061",
-        "pmw": "60.79"
+        "pmw": "60.84"
       },
       "es": {
         "abs": "10",
         "rel": "0.000012",
-        "pmw": "11.74"
+        "pmw": "11.78"
       }
     },
     "equiv_es": "palabra funcional",
@@ -9914,7 +9914,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "GDEX",
@@ -10022,12 +10022,12 @@
       "en": {
         "abs": "107",
         "rel": "0.000080",
-        "pmw": "80.30"
+        "pmw": "80.36"
       },
       "es": {
         "abs": "71",
-        "rel": "0.000083",
-        "pmw": "83.34"
+        "rel": "0.000084",
+        "pmw": "83.63"
       }
     },
     "equiv_es": "corpus general",
@@ -10125,7 +10125,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "GenEx",
@@ -10209,14 +10209,14 @@
     },
     "freq": {
       "en": {
-        "abs": "424",
-        "rel": "0.000318",
-        "pmw": "318.20"
+        "abs": "433",
+        "rel": "0.000325",
+        "pmw": "325.21"
       },
       "es": {
-        "abs": "387",
-        "rel": "0.000454",
-        "pmw": "454.27"
+        "abs": "385",
+        "rel": "0.000453",
+        "pmw": "453.50"
       }
     },
     "equiv_es": "género",
@@ -10231,7 +10231,7 @@
     "aliases": [],
     "norm": "lema_singular",
     "docs": {
-      "en": 39,
+      "en": 40,
       "es": 40
     },
     "proposed": {
@@ -10243,16 +10243,16 @@
         {
           "form": "genre",
           "rel": "lema",
-          "n": 424,
-          "docs": 39,
+          "n": 433,
+          "docs": 40,
           "strings": [
             [
               "genre",
-              247
+              255
             ],
             [
               "genres",
-              177
+              178
             ]
           ]
         }
@@ -10261,7 +10261,7 @@
         {
           "form": "género",
           "rel": "lema",
-          "n": 387,
+          "n": 385,
           "docs": 40,
           "strings": [
             [
@@ -10270,7 +10270,7 @@
             ],
             [
               "géneros",
-              185
+              183
             ]
           ]
         }
@@ -10314,9 +10314,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "33",
-        "rel": "0.000039",
-        "pmw": "38.74"
+        "abs": "34",
+        "rel": "0.000040",
+        "pmw": "40.05"
       }
     },
     "equiv_es": "Gensim",
@@ -10353,12 +10353,12 @@
         {
           "form": "Gensim",
           "rel": "lema",
-          "n": 33,
+          "n": 34,
           "docs": 2,
           "strings": [
             [
               "Gensim",
-              33
+              34
             ]
           ]
         }
@@ -10392,9 +10392,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "5",
-        "rel": "0.000006",
-        "pmw": "5.87"
+        "abs": "7",
+        "rel": "0.000008",
+        "pmw": "8.25"
       }
     },
     "equiv_es": "GENTT",
@@ -10445,12 +10445,12 @@
         {
           "form": "GENTT",
           "rel": "sigla",
-          "n": 3,
+          "n": 5,
           "docs": 3,
           "strings": [
             [
               "GENTT",
-              3
+              5
             ]
           ]
         },
@@ -10505,7 +10505,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "Gephi",
@@ -10581,7 +10581,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "Global Voices",
@@ -10656,12 +10656,12 @@
       "en": {
         "abs": "38",
         "rel": "0.000029",
-        "pmw": "28.52"
+        "pmw": "28.54"
       },
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "GloWbE",
@@ -10782,12 +10782,12 @@
       "en": {
         "abs": "16",
         "rel": "0.000012",
-        "pmw": "12.01"
+        "pmw": "12.02"
       },
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "estándar de oro",
@@ -10818,11 +10818,11 @@
           "strings": [
             [
               "gold standard",
-              13
+              16
             ],
             [
               "gold-standard",
-              3
+              0
             ],
             [
               "gold standards",
@@ -10902,14 +10902,14 @@
     },
     "freq": {
       "en": {
-        "abs": "350",
-        "rel": "0.000263",
-        "pmw": "262.67"
+        "abs": "351",
+        "rel": "0.000264",
+        "pmw": "263.62"
       },
       "es": {
-        "abs": "143",
-        "rel": "0.000168",
-        "pmw": "167.86"
+        "abs": "153",
+        "rel": "0.000180",
+        "pmw": "180.22"
       }
     },
     "equiv_es": "gramática",
@@ -10936,7 +10936,7 @@
         {
           "form": "grammar",
           "rel": "lema",
-          "n": 350,
+          "n": 351,
           "docs": 25,
           "strings": [
             [
@@ -10945,7 +10945,7 @@
             ],
             [
               "grammars",
-              48
+              49
             ]
           ]
         }
@@ -10954,12 +10954,12 @@
         {
           "form": "gramática",
           "rel": "lema",
-          "n": 143,
+          "n": 153,
           "docs": 37,
           "strings": [
             [
               "gramática",
-              107
+              117
             ],
             [
               "gramáticas",
@@ -11007,9 +11007,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "22",
-        "rel": "0.000026",
-        "pmw": "25.82"
+        "abs": "24",
+        "rel": "0.000028",
+        "pmw": "28.27"
       }
     },
     "equiv_es": "Grampal",
@@ -11050,12 +11050,12 @@
         {
           "form": "Grampal",
           "rel": "lema",
-          "n": 22,
+          "n": 24,
           "docs": 2,
           "strings": [
             [
               "Grampal",
-              22
+              24
             ],
             [
               "GRAMPAL",
@@ -11089,14 +11089,14 @@
     },
     "freq": {
       "en": {
-        "abs": "156",
-        "rel": "0.000117",
-        "pmw": "117.07"
+        "abs": "181",
+        "rel": "0.000136",
+        "pmw": "135.94"
       },
       "es": {
         "abs": "29",
         "rel": "0.000034",
-        "pmw": "34.04"
+        "pmw": "34.16"
       }
     },
     "equiv_es": "hápax",
@@ -11125,12 +11125,12 @@
         {
           "form": "hapax legomenon",
           "rel": "forma_completa",
-          "n": 73,
+          "n": 98,
           "docs": 7,
           "strings": [
             [
               "hapax legomenon",
-              9
+              34
             ],
             [
               "hapax legomena",
@@ -11237,14 +11237,14 @@
     },
     "freq": {
       "en": {
-        "abs": "86",
-        "rel": "0.000065",
-        "pmw": "64.54"
+        "abs": "106",
+        "rel": "0.000080",
+        "pmw": "79.61"
       },
       "es": {
         "abs": "16",
         "rel": "0.000019",
-        "pmw": "18.78"
+        "pmw": "18.85"
       }
     },
     "equiv_es": "encabezado",
@@ -11269,16 +11269,16 @@
         {
           "form": "header",
           "rel": "lema",
-          "n": 86,
+          "n": 106,
           "docs": 7,
           "strings": [
             [
               "header",
-              72
+              93
             ],
             [
               "headers",
-              14
+              13
             ]
           ]
         }
@@ -11345,12 +11345,12 @@
       "en": {
         "abs": "40",
         "rel": "0.000030",
-        "pmw": "30.02"
+        "pmw": "30.04"
       },
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "Helsinki Corpus",
@@ -11433,12 +11433,12 @@
       "en": {
         "abs": "45",
         "rel": "0.000034",
-        "pmw": "33.77"
+        "pmw": "33.80"
       },
       "es": {
-        "abs": "36",
-        "rel": "0.000042",
-        "pmw": "42.26"
+        "abs": "35",
+        "rel": "0.000041",
+        "pmw": "41.23"
       }
     },
     "equiv_es": "corpus histórico",
@@ -11480,7 +11480,7 @@
         {
           "form": "corpus histórico",
           "rel": "lema",
-          "n": 36,
+          "n": 35,
           "docs": 9,
           "strings": [
             [
@@ -11489,7 +11489,7 @@
             ],
             [
               "corpus históricos",
-              14
+              13
             ]
           ]
         }
@@ -11534,14 +11534,14 @@
     },
     "freq": {
       "en": {
-        "abs": "80",
-        "rel": "0.000060",
-        "pmw": "60.04"
+        "abs": "162",
+        "rel": "0.000122",
+        "pmw": "121.67"
       },
       "es": {
-        "abs": "60",
-        "rel": "0.000070",
-        "pmw": "70.43"
+        "abs": "137",
+        "rel": "0.000161",
+        "pmw": "161.37"
       }
     },
     "equiv_es": "HTML",
@@ -11554,8 +11554,8 @@
       "Los documentos HTML pueden convertirse en texto plano, con lo que pierden el formato pero conservan el contenido esencial."
     ],
     "docs": {
-      "en": 7,
-      "es": 13
+      "en": 22,
+      "es": 23
     },
     "proposed": {
       "en": false,
@@ -11566,12 +11566,12 @@
         {
           "form": "HTML",
           "rel": "sigla",
-          "n": 77,
-          "docs": 7,
+          "n": 159,
+          "docs": 22,
           "strings": [
             [
               "HTML",
-              77
+              159
             ]
           ]
         },
@@ -11596,12 +11596,12 @@
         {
           "form": "HTML",
           "rel": "sigla",
-          "n": 55,
-          "docs": 13,
+          "n": 132,
+          "docs": 23,
           "strings": [
             [
               "HTML",
-              55
+              132
             ]
           ]
         },
@@ -11657,12 +11657,12 @@
       "en": {
         "abs": "19",
         "rel": "0.000014",
-        "pmw": "14.26"
+        "pmw": "14.27"
       },
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "estadística inferencial",
@@ -11856,12 +11856,12 @@
       "en": {
         "abs": "33",
         "rel": "0.000025",
-        "pmw": "24.77"
+        "pmw": "24.79"
       },
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "acuerdo entre anotadores",
@@ -11893,7 +11893,7 @@
           "strings": [
             [
               "inter-annotator agreement",
-              21
+              22
             ],
             [
               "inter annotator agreement",
@@ -11901,7 +11901,7 @@
             ],
             [
               "interannotator agreement",
-              1
+              0
             ]
           ]
         },
@@ -11914,7 +11914,7 @@
           "strings": [
             [
               "inter-rater reliability",
-              0
+              11
             ],
             [
               "inter rater reliability",
@@ -11922,7 +11922,7 @@
             ],
             [
               "interrater reliability",
-              11
+              0
             ]
           ]
         }
@@ -11997,12 +11997,12 @@
       "en": {
         "abs": "34",
         "rel": "0.000026",
-        "pmw": "25.52"
+        "pmw": "25.54"
       },
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "International Corpus of English",
@@ -12086,14 +12086,14 @@
     },
     "freq": {
       "en": {
-        "abs": "1",
-        "rel": "0.000001",
-        "pmw": "0.75"
+        "abs": "2",
+        "rel": "0.000002",
+        "pmw": "1.50"
       },
       "es": {
-        "abs": "46",
-        "rel": "0.000054",
-        "pmw": "54.00"
+        "abs": "63",
+        "rel": "0.000074",
+        "pmw": "74.21"
       }
     },
     "equiv_es": "IULA",
@@ -12107,7 +12107,7 @@
     "norm": "variante_formal",
     "docs": {
       "en": 1,
-      "es": 11
+      "es": 12
     },
     "proposed": {
       "en": false,
@@ -12118,12 +12118,12 @@
         {
           "form": "IULA",
           "rel": "sigla",
-          "n": 1,
+          "n": 2,
           "docs": 1,
           "strings": [
             [
               "IULA",
-              1
+              2
             ]
           ]
         },
@@ -12144,12 +12144,12 @@
         {
           "form": "IULA",
           "rel": "sigla",
-          "n": 39,
-          "docs": 10,
+          "n": 56,
+          "docs": 11,
           "strings": [
             [
               "IULA",
-              39
+              56
             ]
           ]
         },
@@ -12207,7 +12207,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "IXA",
@@ -12291,12 +12291,12 @@
       "en": {
         "abs": "78",
         "rel": "0.000059",
-        "pmw": "58.54"
+        "pmw": "58.58"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "keyness",
@@ -12386,14 +12386,14 @@
     },
     "freq": {
       "en": {
-        "abs": "668",
-        "rel": "0.000501",
-        "pmw": "501.32"
+        "abs": "549",
+        "rel": "0.000412",
+        "pmw": "412.33"
       },
       "es": {
-        "abs": "92",
-        "rel": "0.000108",
-        "pmw": "107.99"
+        "abs": "87",
+        "rel": "0.000102",
+        "pmw": "102.48"
       }
     },
     "equiv_es": "palabra clave",
@@ -12409,7 +12409,7 @@
     "aliases": [],
     "norm": "sinonimia",
     "docs": {
-      "en": 21,
+      "en": 19,
       "es": 18
     },
     "proposed": {
@@ -12421,16 +12421,16 @@
         {
           "form": "keyword",
           "rel": "lema",
-          "n": 668,
-          "docs": 21,
+          "n": 549,
+          "docs": 19,
           "strings": [
             [
               "keyword",
-              282
+              162
             ],
             [
               "keywords",
-              386
+              387
             ]
           ]
         }
@@ -12439,7 +12439,7 @@
         {
           "form": "palabra clave",
           "rel": "sinonimo",
-          "n": 71,
+          "n": 66,
           "docs": 18,
           "strings": [
             [
@@ -12448,7 +12448,7 @@
             ],
             [
               "palabras clave",
-              56
+              51
             ],
             [
               "palabras claves",
@@ -12512,9 +12512,9 @@
     },
     "freq": {
       "en": {
-        "abs": "118",
+        "abs": "119",
         "rel": "0.000089",
-        "pmw": "88.56"
+        "pmw": "89.38"
       },
       "es": null
     },
@@ -12540,12 +12540,12 @@
         {
           "form": "keyword analysis",
           "rel": "lema",
-          "n": 118,
+          "n": 119,
           "docs": 10,
           "strings": [
             [
               "keyword analysis",
-              110
+              111
             ],
             [
               "keyword analyses",
@@ -12609,14 +12609,14 @@
     },
     "freq": {
       "en": {
-        "abs": "42",
-        "rel": "0.000032",
-        "pmw": "31.52"
+        "abs": "38",
+        "rel": "0.000029",
+        "pmw": "28.54"
       },
       "es": {
-        "abs": "27",
-        "rel": "0.000032",
-        "pmw": "31.69"
+        "abs": "18",
+        "rel": "0.000021",
+        "pmw": "21.20"
       }
     },
     "equiv_es": "KWIC",
@@ -12633,7 +12633,7 @@
     "norm": "variante_formal",
     "docs": {
       "en": 5,
-      "es": 8
+      "es": 7
     },
     "proposed": {
       "en": false,
@@ -12656,20 +12656,20 @@
         {
           "form": "Key Word in Context",
           "rel": "forma_desarrollada",
-          "n": 6,
-          "docs": 3,
+          "n": 2,
+          "docs": 2,
           "strings": [
             [
               "Key Word in Context",
-              1
+              2
             ],
             [
               "Keyword in Context",
-              1
+              0
             ],
             [
               "Key-Word-In-Context",
-              1
+              0
             ],
             [
               "Key Words in Context",
@@ -12677,7 +12677,7 @@
             ],
             [
               "Keywords in Context",
-              3
+              0
             ]
           ]
         }
@@ -12726,17 +12726,17 @@
         {
           "form": "palabra clave en contexto",
           "rel": "sinonimo",
-          "n": 9,
-          "docs": 4,
-          "consolidated": true,
+          "n": 0,
+          "docs": 0,
+          "consolidated": false,
           "strings": [
             [
               "palabra clave en contexto",
-              3
+              0
             ],
             [
               "palabras clave en contexto",
-              6
+              0
             ]
           ]
         },
@@ -12797,7 +12797,7 @@
       "es": {
         "abs": "1",
         "rel": "0.000001",
-        "pmw": "1.17"
+        "pmw": "1.18"
       }
     },
     "equiv_es": "LANGSNAP",
@@ -12901,14 +12901,14 @@
     },
     "freq": {
       "en": {
-        "abs": "62",
+        "abs": "63",
         "rel": "0.000047",
-        "pmw": "46.53"
+        "pmw": "47.32"
       },
       "es": {
-        "abs": "95",
-        "rel": "0.000112",
-        "pmw": "111.51"
+        "abs": "69",
+        "rel": "0.000081",
+        "pmw": "81.28"
       }
     },
     "equiv_es": "corpus de aprendices",
@@ -12925,7 +12925,7 @@
     "norm": "sinonimia",
     "docs": {
       "en": 10,
-      "es": 10
+      "es": 9
     },
     "proposed": {
       "en": false,
@@ -12936,12 +12936,12 @@
         {
           "form": "learner corpus",
           "rel": "lema",
-          "n": 62,
+          "n": 63,
           "docs": 10,
           "strings": [
             [
               "learner corpus",
-              45
+              46
             ],
             [
               "learner corpora",
@@ -12954,25 +12954,25 @@
         {
           "form": "corpus de aprendices",
           "rel": "sinonimo",
-          "n": 34,
-          "docs": 10,
+          "n": 16,
+          "docs": 6,
           "strings": [
             [
               "corpus de aprendices",
-              34
+              16
             ]
           ]
         },
         {
           "form": "corpus de aprendientes",
           "rel": "sinonimo",
-          "n": 61,
+          "n": 53,
           "docs": 5,
           "consolidated": true,
           "strings": [
             [
               "corpus de aprendientes",
-              61
+              53
             ]
           ]
         }
@@ -13018,14 +13018,14 @@
     },
     "freq": {
       "en": {
-        "abs": "129",
-        "rel": "0.000097",
-        "pmw": "96.81"
+        "abs": "137",
+        "rel": "0.000103",
+        "pmw": "102.90"
       },
       "es": {
-        "abs": "611",
-        "rel": "0.000717",
-        "pmw": "717.21"
+        "abs": "631",
+        "rel": "0.000743",
+        "pmw": "743.26"
       }
     },
     "equiv_es": "lema",
@@ -13051,12 +13051,12 @@
         {
           "form": "lemma",
           "rel": "lema",
-          "n": 129,
+          "n": 137,
           "docs": 15,
           "strings": [
             [
               "lemma",
-              80
+              88
             ],
             [
               "lemmas",
@@ -13073,16 +13073,16 @@
         {
           "form": "lema",
           "rel": "lema",
-          "n": 611,
+          "n": 631,
           "docs": 27,
           "strings": [
             [
               "lema",
-              294
+              313
             ],
             [
               "lemas",
-              317
+              318
             ]
           ]
         }
@@ -13127,12 +13127,12 @@
       "en": {
         "abs": "45",
         "rel": "0.000034",
-        "pmw": "33.77"
+        "pmw": "33.80"
       },
       "es": {
         "abs": "100",
-        "rel": "0.000117",
-        "pmw": "117.38"
+        "rel": "0.000118",
+        "pmw": "117.79"
       }
     },
     "equiv_es": "lematización",
@@ -13249,7 +13249,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "Lesk",
@@ -13360,7 +13360,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "LETRAC",
@@ -13464,12 +13464,12 @@
       "en": {
         "abs": "71",
         "rel": "0.000053",
-        "pmw": "53.28"
+        "pmw": "53.33"
       },
       "es": {
         "abs": "20",
-        "rel": "0.000023",
-        "pmw": "23.48"
+        "rel": "0.000024",
+        "pmw": "23.56"
       }
     },
     "equiv_es": "lexema",
@@ -13569,7 +13569,7 @@
       "en": {
         "abs": "42",
         "rel": "0.000032",
-        "pmw": "31.52"
+        "pmw": "31.54"
       },
       "es": null
     },
@@ -13673,7 +13673,7 @@
       "en": {
         "abs": "7",
         "rel": "0.000005",
-        "pmw": "5.25"
+        "pmw": "5.26"
       },
       "es": null
     },
@@ -13703,11 +13703,11 @@
           "strings": [
             [
               "lexico-grammar",
-              4
+              7
             ],
             [
               "lexicogrammar",
-              3
+              0
             ]
           ]
         }
@@ -13780,7 +13780,7 @@
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "LF Aligner",
@@ -13864,12 +13864,12 @@
       "en": {
         "abs": "63",
         "rel": "0.000047",
-        "pmw": "47.28"
+        "pmw": "47.32"
       },
       "es": {
-        "abs": "16",
-        "rel": "0.000019",
-        "pmw": "18.78"
+        "abs": "17",
+        "rel": "0.000020",
+        "pmw": "20.02"
       }
     },
     "equiv_es": "LLC",
@@ -13911,7 +13911,7 @@
           "strings": [
             [
               "London-Lund Corpus",
-              7
+              18
             ],
             [
               "London-Lund Corpus of Spoken English",
@@ -13919,7 +13919,7 @@
             ],
             [
               "London Lund Corpus",
-              11
+              0
             ]
           ]
         }
@@ -13928,12 +13928,12 @@
         {
           "form": "LLC",
           "rel": "sigla",
-          "n": 8,
+          "n": 9,
           "docs": 5,
           "strings": [
             [
               "LLC",
-              8
+              9
             ]
           ]
         },
@@ -13991,14 +13991,14 @@
     },
     "freq": {
       "en": {
-        "abs": "289",
-        "rel": "0.000217",
-        "pmw": "216.89"
+        "abs": "292",
+        "rel": "0.000219",
+        "pmw": "219.31"
       },
       "es": {
-        "abs": "22",
-        "rel": "0.000026",
-        "pmw": "25.82"
+        "abs": "24",
+        "rel": "0.000028",
+        "pmw": "28.27"
       }
     },
     "equiv_es": "LOB",
@@ -14027,12 +14027,12 @@
         {
           "form": "LOB",
           "rel": "sigla",
-          "n": 165,
+          "n": 168,
           "docs": 11,
           "strings": [
             [
               "LOB",
-              165
+              168
             ]
           ]
         },
@@ -14056,19 +14056,19 @@
           "strings": [
             [
               "Lancaster-Oslo/Bergen Corpus",
-              4
+              8
             ],
             [
               "Lancaster-Oslo/Bergen",
-              2
+              5
             ],
             [
               "Lancaster-Oslo-Bergen Corpus",
-              4
+              0
             ],
             [
               "Lancaster-Oslo-Bergen",
-              3
+              0
             ],
             [
               "Lancaster Oslo/Bergen",
@@ -14093,12 +14093,12 @@
         {
           "form": "LOB",
           "rel": "sigla",
-          "n": 11,
+          "n": 13,
           "docs": 7,
           "strings": [
             [
               "LOB",
-              11
+              13
             ],
             [
               "LOB Corpus",
@@ -14114,31 +14114,31 @@
           "strings": [
             [
               "Lancaster-Oslo/Bergen Corpus",
-              2
+              3
             ],
             [
               "Lancaster-Oslo/Bergen",
-              2
+              8
             ],
             [
               "Lancaster-Oslo-Bergen Corpus",
-              1
+              0
             ],
             [
               "Lancaster-Oslo-Bergen",
-              2
+              0
             ],
             [
               "Lancaster Oslo/Bergen",
-              2
+              0
             ],
             [
               "Lancaster Oslo-Bergen",
-              1
+              0
             ],
             [
               "Lancaster – Oslo/Bergen",
-              1
+              0
             ],
             [
               "Lancaster–Oslo/Bergen",
@@ -14180,14 +14180,14 @@
     },
     "freq": {
       "en": {
-        "abs": "32",
-        "rel": "0.000024",
-        "pmw": "24.02"
+        "abs": "34",
+        "rel": "0.000026",
+        "pmw": "25.54"
       },
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "log-verosimilitud",
@@ -14214,12 +14214,12 @@
         {
           "form": "log-likelihood",
           "rel": "lema",
-          "n": 32,
+          "n": 34,
           "docs": 11,
           "strings": [
             [
               "log-likelihood",
-              32
+              34
             ]
           ]
         }
@@ -14277,9 +14277,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "12",
-        "rel": "0.000014",
-        "pmw": "14.09"
+        "abs": "14",
+        "rel": "0.000016",
+        "pmw": "16.49"
       }
     },
     "equiv_es": "MALLET",
@@ -14330,12 +14330,12 @@
         {
           "form": "MALLET",
           "rel": "sigla",
-          "n": 12,
+          "n": 14,
           "docs": 2,
           "strings": [
             [
               "MALLET",
-              12
+              14
             ]
           ]
         },
@@ -14384,14 +14384,14 @@
     },
     "freq": {
       "en": {
-        "abs": "33",
-        "rel": "0.000025",
-        "pmw": "24.77"
+        "abs": "14",
+        "rel": "0.000011",
+        "pmw": "10.51"
       },
       "es": {
-        "abs": "10",
-        "rel": "0.000012",
-        "pmw": "11.74"
+        "abs": "11",
+        "rel": "0.000013",
+        "pmw": "12.96"
       }
     },
     "equiv_es": "lenguaje de marcado",
@@ -14404,7 +14404,7 @@
       "La elección del lenguaje de marcado puede depender del tipo de texto que se anota, lo que influye en cómo se estructura y presenta la información."
     ],
     "docs": {
-      "en": 10,
+      "en": 5,
       "es": 4
     },
     "proposed": {
@@ -14416,12 +14416,12 @@
         {
           "form": "markup language",
           "rel": "lema",
-          "n": 33,
-          "docs": 10,
+          "n": 14,
+          "docs": 5,
           "strings": [
             [
               "markup language",
-              27
+              8
             ],
             [
               "markup languages",
@@ -14434,12 +14434,12 @@
         {
           "form": "lenguaje de marcado",
           "rel": "lema",
-          "n": 10,
+          "n": 11,
           "docs": 4,
           "strings": [
             [
               "lenguaje de marcado",
-              7
+              8
             ],
             [
               "lenguajes de marcado",
@@ -14489,12 +14489,12 @@
       "en": {
         "abs": "77",
         "rel": "0.000058",
-        "pmw": "57.79"
+        "pmw": "57.83"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "media aritmética",
@@ -14610,12 +14610,12 @@
       "en": {
         "abs": "46",
         "rel": "0.000035",
-        "pmw": "34.52"
+        "pmw": "34.55"
       },
       "es": {
         "abs": "10",
         "rel": "0.000012",
-        "pmw": "11.74"
+        "pmw": "11.78"
       }
     },
     "equiv_es": "megacorpus",
@@ -14654,7 +14654,7 @@
             ],
             [
               "mega corpora",
-              39
+              44
             ],
             [
               "mega-corpus",
@@ -14662,7 +14662,7 @@
             ],
             [
               "mega-corpora",
-              3
+              0
             ],
             [
               "megacorpus",
@@ -14670,7 +14670,7 @@
             ],
             [
               "megacorpora",
-              2
+              0
             ]
           ]
         }
@@ -14684,7 +14684,7 @@
           "strings": [
             [
               "megacorpus",
-              8
+              10
             ],
             [
               "mega corpus",
@@ -14692,7 +14692,7 @@
             ],
             [
               "mega-corpus",
-              2
+              0
             ],
             [
               "megacorpora",
@@ -14752,7 +14752,7 @@
       "es": {
         "abs": "6",
         "rel": "0.000007",
-        "pmw": "7.04"
+        "pmw": "7.07"
       }
     },
     "equiv_es": "MeLLANGE",
@@ -14860,12 +14860,12 @@
       "en": {
         "abs": "238",
         "rel": "0.000179",
-        "pmw": "178.61"
+        "pmw": "178.75"
       },
       "es": {
-        "abs": "95",
-        "rel": "0.000112",
-        "pmw": "111.51"
+        "abs": "97",
+        "rel": "0.000114",
+        "pmw": "114.26"
       }
     },
     "equiv_es": "metadato",
@@ -14907,12 +14907,12 @@
         {
           "form": "metadato",
           "rel": "lema",
-          "n": 95,
+          "n": 97,
           "docs": 21,
           "strings": [
             [
               "metadato",
-              2
+              4
             ],
             [
               "metadatos",
@@ -14958,9 +14958,9 @@
     },
     "freq": {
       "en": {
-        "abs": "26",
-        "rel": "0.000020",
-        "pmw": "19.51"
+        "abs": "32",
+        "rel": "0.000024",
+        "pmw": "24.03"
       },
       "es": null
     },
@@ -14985,12 +14985,12 @@
         {
           "form": "MICASE",
           "rel": "sigla",
-          "n": 17,
+          "n": 23,
           "docs": 5,
           "strings": [
             [
               "MICASE",
-              17
+              23
             ]
           ]
         },
@@ -15071,12 +15071,12 @@
       "en": {
         "abs": "42",
         "rel": "0.000032",
-        "pmw": "31.52"
+        "pmw": "31.54"
       },
       "es": {
-        "abs": "29",
-        "rel": "0.000034",
-        "pmw": "34.04"
+        "abs": "24",
+        "rel": "0.000028",
+        "pmw": "28.27"
       }
     },
     "equiv_es": "corpus monitor",
@@ -15134,12 +15134,12 @@
         {
           "form": "monitor",
           "rel": "reduccion",
-          "n": 19,
-          "docs": 7,
+          "n": 14,
+          "docs": 6,
           "strings": [
             [
               "monitor",
-              19
+              14
             ]
           ]
         }
@@ -15185,12 +15185,12 @@
       "en": {
         "abs": "33",
         "rel": "0.000025",
-        "pmw": "24.77"
+        "pmw": "24.79"
       },
       "es": {
         "abs": "28",
         "rel": "0.000033",
-        "pmw": "32.87"
+        "pmw": "32.98"
       }
     },
     "equiv_es": "corpus monolingüe",
@@ -15287,12 +15287,12 @@
       "en": {
         "abs": "5",
         "rel": "0.000004",
-        "pmw": "3.75"
+        "pmw": "3.76"
       },
       "es": {
         "abs": "11",
         "rel": "0.000013",
-        "pmw": "12.91"
+        "pmw": "12.96"
       }
     },
     "equiv_es": "anotación morfológica",
@@ -15389,7 +15389,7 @@
       "es": {
         "abs": "16",
         "rel": "0.000019",
-        "pmw": "18.78"
+        "pmw": "18.85"
       }
     },
     "equiv_es": "media móvil",
@@ -15490,12 +15490,12 @@
       "en": {
         "abs": "54",
         "rel": "0.000041",
-        "pmw": "40.53"
+        "pmw": "40.56"
       },
       "es": {
         "abs": "48",
-        "rel": "0.000056",
-        "pmw": "56.34"
+        "rel": "0.000057",
+        "pmw": "56.54"
       }
     },
     "equiv_es": "corpus multilingüe",
@@ -15592,12 +15592,12 @@
       "en": {
         "abs": "46",
         "rel": "0.000035",
-        "pmw": "34.52"
+        "pmw": "34.55"
       },
       "es": {
-        "abs": "27",
-        "rel": "0.000032",
-        "pmw": "31.69"
+        "abs": "24",
+        "rel": "0.000028",
+        "pmw": "28.27"
       }
     },
     "equiv_es": "corpus multimodal",
@@ -15612,7 +15612,7 @@
     ],
     "docs": {
       "en": 3,
-      "es": 10
+      "es": 9
     },
     "proposed": {
       "en": false,
@@ -15641,8 +15641,8 @@
         {
           "form": "corpus multimodal",
           "rel": "lema",
-          "n": 27,
-          "docs": 10,
+          "n": 24,
+          "docs": 9,
           "strings": [
             [
               "corpus multimodal",
@@ -15650,7 +15650,7 @@
             ],
             [
               "corpus multimodales",
-              18
+              15
             ]
           ]
         }
@@ -15697,7 +15697,7 @@
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "MULTINOT",
@@ -15773,7 +15773,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "MultiTrans",
@@ -15864,12 +15864,12 @@
       "en": {
         "abs": "7",
         "rel": "0.000005",
-        "pmw": "5.25"
+        "pmw": "5.26"
       },
       "es": {
         "abs": "17",
         "rel": "0.000020",
-        "pmw": "19.96"
+        "pmw": "20.02"
       }
     },
     "equiv_es": "expresión multipalabra",
@@ -15900,19 +15900,19 @@
           "strings": [
             [
               "multiword expression",
-              1
+              3
             ],
             [
               "multiword expressions",
-              1
+              4
             ],
             [
               "multi-word expression",
-              2
+              0
             ],
             [
               "multi-word expressions",
-              3
+              0
             ]
           ]
         }
@@ -16020,7 +16020,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "MUST",
@@ -16124,12 +16124,12 @@
       "en": {
         "abs": "26",
         "rel": "0.000020",
-        "pmw": "19.51"
+        "pmw": "19.53"
       },
       "es": {
         "abs": "24",
         "rel": "0.000028",
-        "pmw": "28.17"
+        "pmw": "28.27"
       }
     },
     "equiv_es": "información mutua",
@@ -16219,14 +16219,14 @@
     },
     "freq": {
       "en": {
-        "abs": "85",
-        "rel": "0.000064",
-        "pmw": "63.79"
+        "abs": "87",
+        "rel": "0.000065",
+        "pmw": "65.34"
       },
       "es": {
-        "abs": "48",
-        "rel": "0.000056",
-        "pmw": "56.34"
+        "abs": "50",
+        "rel": "0.000059",
+        "pmw": "58.90"
       }
     },
     "equiv_es": "n-grama",
@@ -16252,32 +16252,32 @@
         {
           "form": "n-gram",
           "rel": "variante_ortografica",
-          "n": 72,
+          "n": 87,
           "docs": 9,
           "strings": [
             [
               "n-gram",
-              33
+              47
             ],
             [
               "n-grams",
-              39
+              40
             ]
           ]
         },
         {
           "form": "ngram",
           "rel": "variante_ortografica",
-          "n": 13,
-          "docs": 3,
+          "n": 0,
+          "docs": 0,
           "strings": [
             [
               "ngram",
-              12
+              0
             ],
             [
               "ngrams",
-              1
+              0
             ]
           ]
         }
@@ -16286,16 +16286,16 @@
         {
           "form": "n-grama",
           "rel": "variante_ortografica",
-          "n": 36,
+          "n": 37,
           "docs": 9,
           "strings": [
             [
               "n-grama",
-              2
+              3
             ],
             [
               "n-gramas",
-              33
+              34
             ],
             [
               "ngrama",
@@ -16303,28 +16303,28 @@
             ],
             [
               "ngramas",
-              1
+              0
             ]
           ]
         },
         {
           "form": "n-gram",
           "rel": "prestamo",
-          "n": 12,
+          "n": 13,
           "docs": 3,
           "consolidated": false,
           "strings": [
             [
               "n-gram",
-              3
-            ],
-            [
-              "n-grams",
               6
             ],
             [
+              "n-grams",
+              7
+            ],
+            [
               "ngram",
-              3
+              0
             ],
             [
               "ngrams",
@@ -16379,7 +16379,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "reconocimiento de entidades nombradas",
@@ -16466,14 +16466,14 @@
     },
     "freq": {
       "en": {
-        "abs": "132",
-        "rel": "0.000099",
-        "pmw": "99.06"
+        "abs": "52",
+        "rel": "0.000039",
+        "pmw": "39.06"
       },
       "es": {
-        "abs": "4",
-        "rel": "0.000005",
-        "pmw": "4.70"
+        "abs": "3",
+        "rel": "0.000004",
+        "pmw": "3.53"
       }
     },
     "equiv_es": "corpus nacional",
@@ -16488,8 +16488,8 @@
       "Un corpus nacional suele incluir un componente oral para recoger el uso hablado de la lengua en el país."
     ],
     "docs": {
-      "en": 22,
-      "es": 3
+      "en": 11,
+      "es": 2
     },
     "proposed": {
       "en": false,
@@ -16500,12 +16500,12 @@
         {
           "form": "national corpus",
           "rel": "lema",
-          "n": 132,
-          "docs": 22,
+          "n": 52,
+          "docs": 11,
           "strings": [
             [
               "national corpus",
-              126
+              46
             ],
             [
               "national corpora",
@@ -16518,12 +16518,12 @@
         {
           "form": "corpus nacional",
           "rel": "lema",
-          "n": 4,
-          "docs": 3,
+          "n": 3,
+          "docs": 2,
           "strings": [
             [
               "corpus nacional",
-              1
+              0
             ],
             [
               "corpus nacionales",
@@ -16574,12 +16574,12 @@
       "en": {
         "abs": "47",
         "rel": "0.000035",
-        "pmw": "35.27"
+        "pmw": "35.30"
       },
       "es": {
         "abs": "32",
         "rel": "0.000038",
-        "pmw": "37.56"
+        "pmw": "37.69"
       }
     },
     "equiv_es": "procesamiento del lenguaje natural",
@@ -16668,14 +16668,14 @@
     },
     "freq": {
       "en": {
-        "abs": "5",
-        "rel": "0.000004",
-        "pmw": "3.75"
+        "abs": "8",
+        "rel": "0.000006",
+        "pmw": "6.01"
       },
       "es": {
-        "abs": "5",
-        "rel": "0.000006",
-        "pmw": "5.87"
+        "abs": "6",
+        "rel": "0.000007",
+        "pmw": "7.07"
       }
     },
     "equiv_es": "NLTK",
@@ -16689,8 +16689,8 @@
       "NLTK puede generar concordancias para examinar el uso de las palabras en los corpus."
     ],
     "docs": {
-      "en": 2,
-      "es": 3
+      "en": 3,
+      "es": 4
     },
     "proposed": {
       "en": false,
@@ -16701,12 +16701,12 @@
         {
           "form": "NLTK",
           "rel": "sigla",
-          "n": 4,
-          "docs": 2,
+          "n": 7,
+          "docs": 3,
           "strings": [
             [
               "NLTK",
-              4
+              7
             ]
           ]
         },
@@ -16727,12 +16727,12 @@
         {
           "form": "NLTK",
           "rel": "sigla",
-          "n": 3,
-          "docs": 3,
+          "n": 4,
+          "docs": 4,
           "strings": [
             [
               "NLTK",
-              3
+              4
             ]
           ]
         },
@@ -16786,12 +16786,12 @@
       "en": {
         "abs": "18",
         "rel": "0.000014",
-        "pmw": "13.51"
+        "pmw": "13.52"
       },
       "es": {
         "abs": "1",
         "rel": "0.000001",
-        "pmw": "1.17"
+        "pmw": "1.18"
       }
     },
     "equiv_es": "palabra nodo",
@@ -16889,7 +16889,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "índice normalizado de dispersión",
@@ -16986,12 +16986,12 @@
       "en": {
         "abs": "16",
         "rel": "0.000012",
-        "pmw": "12.01"
+        "pmw": "12.02"
       },
       "es": {
         "abs": "260",
-        "rel": "0.000305",
-        "pmw": "305.19"
+        "rel": "0.000306",
+        "pmw": "306.26"
       }
     },
     "equiv_es": "frecuencia normalizada",
@@ -17117,7 +17117,7 @@
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "Notepad++",
@@ -17197,9 +17197,9 @@
         "pmw": "8.26"
       },
       "es": {
-        "abs": "16",
-        "rel": "0.000019",
-        "pmw": "18.78"
+        "abs": "13",
+        "rel": "0.000015",
+        "pmw": "15.31"
       }
     },
     "equiv_es": "NOW Corpus",
@@ -17260,12 +17260,12 @@
         {
           "form": "NOW Corpus",
           "rel": "sigla",
-          "n": 13,
-          "docs": 4,
+          "n": 10,
+          "docs": 3,
           "strings": [
             [
               "NOW Corpus",
-              1
+              2
             ],
             [
               "corpus NOW",
@@ -17273,7 +17273,7 @@
             ],
             [
               "NOW",
-              10
+              6
             ]
           ]
         },
@@ -17328,14 +17328,14 @@
     },
     "freq": {
       "en": {
-        "abs": "451",
-        "rel": "0.000338",
-        "pmw": "338.47"
+        "abs": "453",
+        "rel": "0.000340",
+        "pmw": "340.23"
       },
       "es": {
         "abs": "134",
-        "rel": "0.000157",
-        "pmw": "157.29"
+        "rel": "0.000158",
+        "pmw": "157.84"
       }
     },
     "equiv_es": "ocurrencia",
@@ -17360,16 +17360,16 @@
         {
           "form": "occurrence",
           "rel": "lema",
-          "n": 451,
+          "n": 453,
           "docs": 32,
           "strings": [
             [
               "occurrence",
-              301
+              300
             ],
             [
               "occurrences",
-              150
+              153
             ]
           ]
         }
@@ -17433,7 +17433,7 @@
       "es": {
         "abs": "9",
         "rel": "0.000011",
-        "pmw": "10.56"
+        "pmw": "10.60"
       }
     },
     "equiv_es": "ODE",
@@ -17546,9 +17546,9 @@
         "pmw": "9.76"
       },
       "es": {
-        "abs": "8",
-        "rel": "0.000009",
-        "pmw": "9.39"
+        "abs": "7",
+        "rel": "0.000008",
+        "pmw": "8.25"
       }
     },
     "equiv_es": "corpus oportunista",
@@ -17590,7 +17590,7 @@
         {
           "form": "corpus oportunista",
           "rel": "lema",
-          "n": 8,
+          "n": 7,
           "docs": 5,
           "strings": [
             [
@@ -17599,7 +17599,7 @@
             ],
             [
               "corpus oportunistas",
-              5
+              4
             ]
           ]
         }
@@ -17656,7 +17656,7 @@
       "es": {
         "abs": "8",
         "rel": "0.000009",
-        "pmw": "9.39"
+        "pmw": "9.42"
       }
     },
     "equiv_es": "OPUS",
@@ -17734,14 +17734,14 @@
     },
     "freq": {
       "en": {
-        "abs": "263",
+        "abs": "262",
         "rel": "0.000197",
-        "pmw": "197.38"
+        "pmw": "196.78"
       },
       "es": {
-        "abs": "260",
-        "rel": "0.000305",
-        "pmw": "305.19"
+        "abs": "253",
+        "rel": "0.000298",
+        "pmw": "298.01"
       }
     },
     "equiv_es": "corpus paralelo",
@@ -17767,12 +17767,12 @@
         {
           "form": "parallel corpus",
           "rel": "lema",
-          "n": 263,
+          "n": 262,
           "docs": 12,
           "strings": [
             [
               "parallel corpus",
-              113
+              112
             ],
             [
               "parallel corpora",
@@ -17785,16 +17785,16 @@
         {
           "form": "corpus paralelo",
           "rel": "lema",
-          "n": 260,
+          "n": 253,
           "docs": 24,
           "strings": [
             [
               "corpus paralelo",
-              123
+              119
             ],
             [
               "corpus paralelos",
-              137
+              134
             ]
           ]
         }
@@ -17840,14 +17840,14 @@
     },
     "freq": {
       "en": {
-        "abs": "39",
-        "rel": "0.000029",
-        "pmw": "29.27"
+        "abs": "36",
+        "rel": "0.000027",
+        "pmw": "27.04"
       },
       "es": {
-        "abs": "30",
-        "rel": "0.000035",
-        "pmw": "35.21"
+        "abs": "24",
+        "rel": "0.000028",
+        "pmw": "28.27"
       }
     },
     "equiv_es": "análisis sintáctico",
@@ -17859,8 +17859,8 @@
       "Tipo concreto de análisis sintáctico centrado en las dependencias entre las palabras de la oración, frente al análisis de estructura sintagmática."
     ],
     "docs": {
-      "en": 16,
-      "es": 12
+      "en": 15,
+      "es": 10
     },
     "proposed": {
       "en": false,
@@ -17871,12 +17871,12 @@
         {
           "form": "parsing",
           "rel": "lema",
-          "n": 39,
-          "docs": 16,
+          "n": 36,
+          "docs": 15,
           "strings": [
             [
               "parsing",
-              39
+              36
             ]
           ]
         }
@@ -17885,12 +17885,12 @@
         {
           "form": "análisis sintáctico",
           "rel": "lema",
-          "n": 30,
-          "docs": 12,
+          "n": 24,
+          "docs": 10,
           "strings": [
             [
               "análisis sintáctico",
-              30
+              24
             ]
           ]
         }
@@ -17933,14 +17933,14 @@
     },
     "freq": {
       "en": {
-        "abs": "160",
-        "rel": "0.000120",
-        "pmw": "120.08"
+        "abs": "156",
+        "rel": "0.000117",
+        "pmw": "117.17"
       },
       "es": {
-        "abs": "225",
-        "rel": "0.000264",
-        "pmw": "264.11"
+        "abs": "227",
+        "rel": "0.000267",
+        "pmw": "267.39"
       }
     },
     "equiv_es": "categoría gramatical",
@@ -17957,7 +17957,7 @@
     ],
     "norm": "sinonimia",
     "docs": {
-      "en": 18,
+      "en": 17,
       "es": 19
     },
     "proposed": {
@@ -17969,12 +17969,12 @@
         {
           "form": "part of speech",
           "rel": "sinonimo",
-          "n": 73,
-          "docs": 15,
+          "n": 69,
+          "docs": 14,
           "strings": [
             [
               "part of speech",
-              37
+              33
             ],
             [
               "parts of speech",
@@ -18020,7 +18020,7 @@
         {
           "form": "clase de palabras",
           "rel": "sinonimo",
-          "n": 136,
+          "n": 138,
           "docs": 8,
           "consolidated": true,
           "strings": [
@@ -18034,7 +18034,7 @@
             ],
             [
               "clase de palabra",
-              7
+              9
             ],
             [
               "clases de palabra",
@@ -18089,7 +18089,7 @@
       "es": {
         "abs": "1",
         "rel": "0.000001",
-        "pmw": "1.17"
+        "pmw": "1.18"
       }
     },
     "equiv_es": "PENCIL",
@@ -18165,12 +18165,12 @@
       "en": {
         "abs": "29",
         "rel": "0.000022",
-        "pmw": "21.76"
+        "pmw": "21.78"
       },
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "Penn Treebank",
@@ -18246,14 +18246,14 @@
     },
     "freq": {
       "en": {
-        "abs": "16",
-        "rel": "0.000012",
-        "pmw": "12.01"
+        "abs": "69",
+        "rel": "0.000052",
+        "pmw": "51.82"
       },
       "es": {
-        "abs": "9",
-        "rel": "0.000011",
-        "pmw": "10.56"
+        "abs": "10",
+        "rel": "0.000012",
+        "pmw": "11.78"
       }
     },
     "equiv_es": "Perl",
@@ -18279,12 +18279,12 @@
         {
           "form": "Perl",
           "rel": "lema",
-          "n": 16,
+          "n": 69,
           "docs": 6,
           "strings": [
             [
               "Perl",
-              16
+              69
             ]
           ]
         }
@@ -18293,12 +18293,12 @@
         {
           "form": "Perl",
           "rel": "lema",
-          "n": 9,
+          "n": 10,
           "docs": 3,
           "strings": [
             [
               "Perl",
-              9
+              10
             ]
           ]
         }
@@ -18333,12 +18333,12 @@
       "en": {
         "abs": "10",
         "rel": "0.000008",
-        "pmw": "7.50"
+        "pmw": "7.51"
       },
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "fraseología",
@@ -18431,12 +18431,12 @@
       "en": {
         "abs": "32",
         "rel": "0.000024",
-        "pmw": "24.02"
+        "pmw": "24.03"
       },
       "es": {
         "abs": "43",
-        "rel": "0.000050",
-        "pmw": "50.47"
+        "rel": "0.000051",
+        "pmw": "50.65"
       }
     },
     "equiv_es": "texto plano",
@@ -18526,13 +18526,13 @@
     "freq": {
       "en": {
         "abs": "287",
-        "rel": "0.000215",
-        "pmw": "215.39"
+        "rel": "0.000216",
+        "pmw": "215.56"
       },
       "es": {
         "abs": "100",
-        "rel": "0.000117",
-        "pmw": "117.38"
+        "rel": "0.000118",
+        "pmw": "117.79"
       }
     },
     "equiv_es": "población",
@@ -18564,11 +18564,11 @@
           "strings": [
             [
               "population",
-              267
+              266
             ],
             [
               "populations",
-              20
+              21
             ]
           ]
         }
@@ -18639,7 +18639,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "desambiguación morfosintáctica",
@@ -18739,12 +18739,12 @@
       "en": {
         "abs": "146",
         "rel": "0.000110",
-        "pmw": "109.57"
+        "pmw": "109.66"
       },
       "es": {
         "abs": "26",
         "rel": "0.000031",
-        "pmw": "30.52"
+        "pmw": "30.63"
       }
     },
     "equiv_es": "etiquetado morfosintáctico",
@@ -18779,11 +18779,11 @@
           "strings": [
             [
               "POS tagging",
-              67
+              87
             ],
             [
               "POS-tagging",
-              20
+              0
             ]
           ]
         },
@@ -18795,11 +18795,11 @@
           "strings": [
             [
               "part-of-speech tagging",
-              55
+              59
             ],
             [
               "part of speech tagging",
-              4
+              0
             ]
           ]
         }
@@ -18874,12 +18874,12 @@
       "en": {
         "abs": "15",
         "rel": "0.000011",
-        "pmw": "11.26"
+        "pmw": "11.27"
       },
       "es": {
         "abs": "9",
         "rel": "0.000011",
-        "pmw": "10.56"
+        "pmw": "10.60"
       }
     },
     "equiv_es": "anotación pragmática",
@@ -18980,12 +18980,12 @@
       "en": {
         "abs": "5",
         "rel": "0.000004",
-        "pmw": "3.75"
+        "pmw": "3.76"
       },
       "es": {
-        "abs": "86",
-        "rel": "0.000101",
-        "pmw": "100.95"
+        "abs": "96",
+        "rel": "0.000113",
+        "pmw": "113.08"
       }
     },
     "equiv_es": "PRESEEA",
@@ -19036,12 +19036,12 @@
         {
           "form": "PRESEEA",
           "rel": "sigla",
-          "n": 77,
+          "n": 87,
           "docs": 14,
           "strings": [
             [
               "PRESEEA",
-              77
+              87
             ]
           ]
         },
@@ -19093,12 +19093,12 @@
       "en": {
         "abs": "454",
         "rel": "0.000341",
-        "pmw": "340.72"
+        "pmw": "340.98"
       },
       "es": {
         "abs": "134",
-        "rel": "0.000157",
-        "pmw": "157.29"
+        "rel": "0.000158",
+        "pmw": "157.84"
       }
     },
     "equiv_es": "probabilidad",
@@ -19196,14 +19196,14 @@
     },
     "freq": {
       "en": {
-        "abs": "551",
-        "rel": "0.000414",
-        "pmw": "413.51"
+        "abs": "553",
+        "rel": "0.000415",
+        "pmw": "415.34"
       },
       "es": {
         "abs": "402",
-        "rel": "0.000472",
-        "pmw": "471.88"
+        "rel": "0.000474",
+        "pmw": "473.52"
       }
     },
     "equiv_es": "consulta",
@@ -19221,8 +19221,8 @@
     ],
     "norm": "sinonimia",
     "docs": {
-      "en": 19,
-      "es": 34
+      "en": 18,
+      "es": 33
     },
     "proposed": {
       "en": false,
@@ -19233,12 +19233,12 @@
         {
           "form": "query",
           "rel": "sinonimo",
-          "n": 496,
+          "n": 503,
           "docs": 17,
           "strings": [
             [
               "query",
-              384
+              391
             ],
             [
               "queries",
@@ -19249,13 +19249,13 @@
         {
           "form": "corpus query",
           "rel": "sinonimo",
-          "n": 55,
-          "docs": 8,
+          "n": 50,
+          "docs": 6,
           "consolidated": true,
           "strings": [
             [
               "corpus query",
-              19
+              14
             ],
             [
               "corpus queries",
@@ -19269,7 +19269,7 @@
           "form": "consulta",
           "rel": "sinonimo",
           "n": 393,
-          "docs": 33,
+          "docs": 32,
           "strings": [
             [
               "consulta",
@@ -19343,12 +19343,12 @@
       "en": {
         "abs": "50",
         "rel": "0.000038",
-        "pmw": "37.52"
+        "pmw": "37.55"
       },
       "es": {
         "abs": "57",
         "rel": "0.000067",
-        "pmw": "66.91"
+        "pmw": "67.14"
       }
     },
     "equiv_es": "frecuencia absoluta",
@@ -19485,12 +19485,12 @@
       "en": {
         "abs": "63",
         "rel": "0.000047",
-        "pmw": "47.28"
+        "pmw": "47.32"
       },
       "es": {
         "abs": "16",
         "rel": "0.000019",
-        "pmw": "18.78"
+        "pmw": "18.85"
       }
     },
     "equiv_es": "exhaustividad",
@@ -19580,12 +19580,12 @@
       "en": {
         "abs": "106",
         "rel": "0.000080",
-        "pmw": "79.55"
+        "pmw": "79.61"
       },
       "es": {
-        "abs": "193",
-        "rel": "0.000227",
-        "pmw": "226.55"
+        "abs": "157",
+        "rel": "0.000185",
+        "pmw": "184.93"
       }
     },
     "equiv_es": "corpus de referencia",
@@ -19600,7 +19600,7 @@
     ],
     "docs": {
       "en": 20,
-      "es": 30
+      "es": 22
     },
     "proposed": {
       "en": false,
@@ -19629,12 +19629,12 @@
         {
           "form": "corpus de referencia",
           "rel": "lema",
-          "n": 193,
-          "docs": 30,
+          "n": 157,
+          "docs": 22,
           "strings": [
             [
               "corpus de referencia",
-              193
+              157
             ]
           ]
         }
@@ -19682,12 +19682,12 @@
       "en": {
         "abs": "147",
         "rel": "0.000110",
-        "pmw": "110.32"
+        "pmw": "110.41"
       },
       "es": {
         "abs": "46",
         "rel": "0.000054",
-        "pmw": "54.00"
+        "pmw": "54.18"
       }
     },
     "equiv_es": "expresión regular",
@@ -19786,12 +19786,12 @@
       "en": {
         "abs": "53",
         "rel": "0.000040",
-        "pmw": "39.78"
+        "pmw": "39.81"
       },
       "es": {
         "abs": "45",
         "rel": "0.000053",
-        "pmw": "52.82"
+        "pmw": "53.01"
       }
     },
     "equiv_es": "frecuencia relativa",
@@ -19890,12 +19890,12 @@
       "en": {
         "abs": "539",
         "rel": "0.000405",
-        "pmw": "404.51"
+        "pmw": "404.82"
       },
       "es": {
         "abs": "222",
         "rel": "0.000261",
-        "pmw": "260.59"
+        "pmw": "261.50"
       }
     },
     "equiv_es": "representatividad",
@@ -19986,7 +19986,7 @@
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "rtweet",
@@ -20060,14 +20060,14 @@
     },
     "freq": {
       "en": {
-        "abs": "1.707",
-        "rel": "0.001281",
-        "pmw": "1281.07"
+        "abs": "1.501",
+        "rel": "0.001127",
+        "pmw": "1127.35"
       },
       "es": {
-        "abs": "552",
-        "rel": "0.000648",
-        "pmw": "647.95"
+        "abs": "533",
+        "rel": "0.000628",
+        "pmw": "627.83"
       }
     },
     "equiv_es": "muestra",
@@ -20095,16 +20095,16 @@
         {
           "form": "sample",
           "rel": "lema",
-          "n": 1707,
+          "n": 1501,
           "docs": 35,
           "strings": [
             [
               "sample",
-              1070
+              870
             ],
             [
               "samples",
-              637
+              631
             ]
           ]
         }
@@ -20113,16 +20113,16 @@
         {
           "form": "muestra",
           "rel": "lema",
-          "n": 552,
+          "n": 533,
           "docs": 45,
           "strings": [
             [
               "muestra",
-              206
+              198
             ],
             [
               "muestras",
-              346
+              335
             ]
           ]
         }
@@ -20168,12 +20168,12 @@
       "en": {
         "abs": "207",
         "rel": "0.000155",
-        "pmw": "155.35"
+        "pmw": "155.47"
       },
       "es": {
         "abs": "20",
-        "rel": "0.000023",
-        "pmw": "23.48"
+        "rel": "0.000024",
+        "pmw": "23.56"
       }
     },
     "equiv_es": "tamaño de la muestra",
@@ -20295,7 +20295,7 @@
       "en": {
         "abs": "87",
         "rel": "0.000065",
-        "pmw": "65.29"
+        "pmw": "65.34"
       },
       "es": null
     },
@@ -20388,14 +20388,14 @@
     },
     "freq": {
       "en": {
-        "abs": "77",
-        "rel": "0.000058",
-        "pmw": "57.79"
+        "abs": "74",
+        "rel": "0.000056",
+        "pmw": "55.58"
       },
       "es": {
         "abs": "9",
         "rel": "0.000011",
-        "pmw": "10.56"
+        "pmw": "10.60"
       }
     },
     "equiv_es": "unidad de muestra",
@@ -20419,12 +20419,12 @@
         {
           "form": "sampling unit",
           "rel": "lema",
-          "n": 77,
+          "n": 74,
           "docs": 1,
           "strings": [
             [
               "sampling unit",
-              71
+              68
             ],
             [
               "sampling units",
@@ -20497,12 +20497,12 @@
       "en": {
         "abs": "22",
         "rel": "0.000017",
-        "pmw": "16.51"
+        "pmw": "16.52"
       },
       "es": {
         "abs": "28",
         "rel": "0.000033",
-        "pmw": "32.87"
+        "pmw": "32.98"
       }
     },
     "equiv_es": "segmentación",
@@ -20593,12 +20593,12 @@
       "en": {
         "abs": "27",
         "rel": "0.000020",
-        "pmw": "20.26"
+        "pmw": "20.28"
       },
       "es": {
         "abs": "31",
-        "rel": "0.000036",
-        "pmw": "36.39"
+        "rel": "0.000037",
+        "pmw": "36.52"
       }
     },
     "equiv_es": "anotación semántica",
@@ -20701,7 +20701,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "preferencia semántica",
@@ -20798,12 +20798,12 @@
       "en": {
         "abs": "25",
         "rel": "0.000019",
-        "pmw": "18.76"
+        "pmw": "18.78"
       },
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "prosodia semántica",
@@ -20909,12 +20909,12 @@
       "en": {
         "abs": "35",
         "rel": "0.000026",
-        "pmw": "26.27"
+        "pmw": "26.29"
       },
       "es": {
         "abs": "62",
         "rel": "0.000073",
-        "pmw": "72.78"
+        "pmw": "73.03"
       }
     },
     "equiv_es": "SEU",
@@ -21023,12 +21023,12 @@
       "en": {
         "abs": "62",
         "rel": "0.000047",
-        "pmw": "46.53"
+        "pmw": "46.57"
       },
       "es": {
         "abs": "28",
         "rel": "0.000033",
-        "pmw": "32.87"
+        "pmw": "32.98"
       }
     },
     "equiv_es": "SGML",
@@ -21145,12 +21145,12 @@
       "en": {
         "abs": "19",
         "rel": "0.000014",
-        "pmw": "14.26"
+        "pmw": "14.27"
       },
       "es": {
-        "abs": "110",
-        "rel": "0.000129",
-        "pmw": "129.12"
+        "abs": "109",
+        "rel": "0.000128",
+        "pmw": "128.39"
       }
     },
     "equiv_es": "Sketch Engine",
@@ -21165,7 +21165,7 @@
     ],
     "docs": {
       "en": 8,
-      "es": 15
+      "es": 14
     },
     "proposed": {
       "en": false,
@@ -21190,12 +21190,12 @@
         {
           "form": "Sketch Engine",
           "rel": "lema",
-          "n": 110,
-          "docs": 15,
+          "n": 109,
+          "docs": 14,
           "strings": [
             [
               "Sketch Engine",
-              110
+              109
             ]
           ]
         }
@@ -21231,12 +21231,12 @@
       "en": {
         "abs": "67",
         "rel": "0.000050",
-        "pmw": "50.28"
+        "pmw": "50.32"
       },
       "es": {
-        "abs": "66",
+        "abs": "65",
         "rel": "0.000077",
-        "pmw": "77.47"
+        "pmw": "76.56"
       }
     },
     "equiv_es": "corpus especializado",
@@ -21299,7 +21299,7 @@
         {
           "form": "corpus especializado",
           "rel": "lema",
-          "n": 66,
+          "n": 65,
           "docs": 17,
           "strings": [
             [
@@ -21308,7 +21308,7 @@
             ],
             [
               "corpus especializados",
-              36
+              35
             ]
           ]
         }
@@ -21354,9 +21354,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "12",
-        "rel": "0.000014",
-        "pmw": "14.09"
+        "abs": "16",
+        "rel": "0.000019",
+        "pmw": "18.85"
       }
     },
     "equiv_es": "SPLLOC",
@@ -21407,12 +21407,12 @@
         {
           "form": "SPLLOC",
           "rel": "sigla",
-          "n": 7,
-          "docs": 4,
+          "n": 11,
+          "docs": 5,
           "strings": [
             [
               "SPLLOC",
-              7
+              11
             ]
           ]
         },
@@ -21464,12 +21464,12 @@
       "en": {
         "abs": "284",
         "rel": "0.000213",
-        "pmw": "213.14"
+        "pmw": "213.30"
       },
       "es": {
-        "abs": "210",
-        "rel": "0.000247",
-        "pmw": "246.50"
+        "abs": "195",
+        "rel": "0.000230",
+        "pmw": "229.69"
       }
     },
     "equiv_es": "corpus oral",
@@ -21486,7 +21486,7 @@
     "norm": "sinonimia",
     "docs": {
       "en": 19,
-      "es": 22
+      "es": 21
     },
     "proposed": {
       "en": false,
@@ -21532,16 +21532,16 @@
         {
           "form": "corpus oral",
           "rel": "lema",
-          "n": 210,
-          "docs": 22,
+          "n": 195,
+          "docs": 21,
           "strings": [
             [
               "corpus oral",
-              98
+              89
             ],
             [
               "corpus orales",
-              112
+              106
             ]
           ]
         }
@@ -21588,7 +21588,7 @@
       "es": {
         "abs": "13",
         "rel": "0.000015",
-        "pmw": "15.26"
+        "pmw": "15.31"
       }
     },
     "equiv_es": "SPT",
@@ -21706,12 +21706,12 @@
       "en": {
         "abs": "8",
         "rel": "0.000006",
-        "pmw": "6.00"
+        "pmw": "6.01"
       },
       "es": {
         "abs": "10",
         "rel": "0.000012",
-        "pmw": "11.74"
+        "pmw": "11.78"
       }
     },
     "equiv_es": "SSE",
@@ -21817,12 +21817,12 @@
       "en": {
         "abs": "117",
         "rel": "0.000088",
-        "pmw": "87.81"
+        "pmw": "87.87"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "desviación estándar",
@@ -21919,7 +21919,7 @@
       "es": {
         "abs": "1",
         "rel": "0.000001",
-        "pmw": "1.17"
+        "pmw": "1.18"
       }
     },
     "equiv_es": "Stanford Parser",
@@ -21995,7 +21995,7 @@
       "es": {
         "abs": "14",
         "rel": "0.000016",
-        "pmw": "16.43"
+        "pmw": "16.49"
       }
     },
     "equiv_es": "Stanza",
@@ -22074,12 +22074,12 @@
       "en": {
         "abs": "7",
         "rel": "0.000005",
-        "pmw": "5.25"
+        "pmw": "5.26"
       },
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "corpus estático",
@@ -22177,12 +22177,12 @@
       "en": {
         "abs": "37",
         "rel": "0.000028",
-        "pmw": "27.77"
+        "pmw": "27.79"
       },
       "es": {
         "abs": "11",
         "rel": "0.000013",
-        "pmw": "12.91"
+        "pmw": "12.96"
       }
     },
     "equiv_es": "significación estadística",
@@ -22288,12 +22288,12 @@
       "en": {
         "abs": "105",
         "rel": "0.000079",
-        "pmw": "78.80"
+        "pmw": "78.86"
       },
       "es": {
         "abs": "52",
         "rel": "0.000061",
-        "pmw": "61.04"
+        "pmw": "61.25"
       }
     },
     "equiv_es": "raíz",
@@ -22417,7 +22417,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "stemming",
@@ -22513,7 +22513,7 @@
       "es": {
         "abs": "1",
         "rel": "0.000001",
-        "pmw": "1.17"
+        "pmw": "1.18"
       }
     },
     "equiv_es": "Stingray",
@@ -22592,9 +22592,9 @@
         "pmw": "8.26"
       },
       "es": {
-        "abs": "7",
-        "rel": "0.000008",
-        "pmw": "8.22"
+        "abs": "5",
+        "rel": "0.000006",
+        "pmw": "5.89"
       }
     },
     "equiv_es": "palabra vacía",
@@ -22624,11 +22624,11 @@
           "strings": [
             [
               "stopword",
-              4
+              5
             ],
             [
               "stopwords",
-              7
+              6
             ]
           ]
         }
@@ -22637,7 +22637,7 @@
         {
           "form": "palabra vacía",
           "rel": "lema",
-          "n": 7,
+          "n": 5,
           "docs": 4,
           "strings": [
             [
@@ -22646,7 +22646,7 @@
             ],
             [
               "palabras vacías",
-              7
+              5
             ]
           ]
         }
@@ -22697,7 +22697,7 @@
       "en": {
         "abs": "10",
         "rel": "0.000008",
-        "pmw": "7.50"
+        "pmw": "7.51"
       },
       "es": null
     },
@@ -22802,12 +22802,12 @@
       "en": {
         "abs": "163",
         "rel": "0.000122",
-        "pmw": "122.33"
+        "pmw": "122.42"
       },
       "es": {
         "abs": "188",
         "rel": "0.000221",
-        "pmw": "220.68"
+        "pmw": "221.45"
       }
     },
     "equiv_es": "subcorpus",
@@ -22907,14 +22907,14 @@
     },
     "freq": {
       "en": {
-        "abs": "83",
-        "rel": "0.000062",
-        "pmw": "62.29"
+        "abs": "73",
+        "rel": "0.000055",
+        "pmw": "54.83"
       },
       "es": {
-        "abs": "75",
-        "rel": "0.000088",
-        "pmw": "88.04"
+        "abs": "60",
+        "rel": "0.000071",
+        "pmw": "70.67"
       }
     },
     "equiv_es": "sincrónico",
@@ -22928,8 +22928,8 @@
       "Las prácticas de anotación pueden variar según si el corpus se destina a estudios sincrónicos o diacrónicos."
     ],
     "docs": {
-      "en": 14,
-      "es": 23
+      "en": 13,
+      "es": 21
     },
     "proposed": {
       "en": false,
@@ -22940,12 +22940,12 @@
         {
           "form": "synchronic",
           "rel": "lema",
-          "n": 83,
-          "docs": 14,
+          "n": 73,
+          "docs": 13,
           "strings": [
             [
               "synchronic",
-              83
+              73
             ]
           ]
         }
@@ -22954,20 +22954,20 @@
         {
           "form": "sincrónico",
           "rel": "lema",
-          "n": 75,
-          "docs": 23,
+          "n": 60,
+          "docs": 21,
           "strings": [
             [
               "sincrónico",
-              41
+              34
             ],
             [
               "sincrónica",
-              16
+              14
             ],
             [
               "sincrónicos",
-              18
+              12
             ],
             [
               "sincrónicas",
@@ -23025,12 +23025,12 @@
       "en": {
         "abs": "10",
         "rel": "0.000008",
-        "pmw": "7.50"
+        "pmw": "7.51"
       },
       "es": {
         "abs": "15",
         "rel": "0.000018",
-        "pmw": "17.61"
+        "pmw": "17.67"
       }
     },
     "equiv_es": "corpus sincrónico",
@@ -23127,12 +23127,12 @@
       "en": {
         "abs": "28",
         "rel": "0.000021",
-        "pmw": "21.01"
+        "pmw": "21.03"
       },
       "es": {
         "abs": "12",
         "rel": "0.000014",
-        "pmw": "14.09"
+        "pmw": "14.13"
       }
     },
     "equiv_es": "anotación sintáctica",
@@ -23230,7 +23230,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "T-Hoarder",
@@ -23304,12 +23304,12 @@
       "en": {
         "abs": "15",
         "rel": "0.000011",
-        "pmw": "11.26"
+        "pmw": "11.27"
       },
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "puntuación t",
@@ -23406,9 +23406,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "8",
-        "rel": "0.000009",
-        "pmw": "9.39"
+        "abs": "10",
+        "rel": "0.000012",
+        "pmw": "11.78"
       }
     },
     "equiv_es": "TagAnt",
@@ -23445,12 +23445,12 @@
         {
           "form": "TagAnt",
           "rel": "lema",
-          "n": 8,
+          "n": 10,
           "docs": 3,
           "strings": [
             [
               "TagAnt",
-              8
+              10
             ]
           ]
         }
@@ -23486,14 +23486,14 @@
     },
     "freq": {
       "en": {
-        "abs": "172",
-        "rel": "0.000129",
-        "pmw": "129.08"
+        "abs": "174",
+        "rel": "0.000131",
+        "pmw": "130.68"
       },
       "es": {
-        "abs": "162",
-        "rel": "0.000190",
-        "pmw": "190.16"
+        "abs": "165",
+        "rel": "0.000194",
+        "pmw": "194.36"
       }
     },
     "equiv_es": "etiquetador",
@@ -23518,12 +23518,12 @@
         {
           "form": "tagger",
           "rel": "lema",
-          "n": 172,
+          "n": 174,
           "docs": 25,
           "strings": [
             [
               "tagger",
-              117
+              119
             ],
             [
               "taggers",
@@ -23536,12 +23536,12 @@
         {
           "form": "etiquetador",
           "rel": "lema",
-          "n": 162,
+          "n": 165,
           "docs": 12,
           "strings": [
             [
               "etiquetador",
-              57
+              60
             ],
             [
               "etiquetadores",
@@ -23590,14 +23590,14 @@
     },
     "freq": {
       "en": {
-        "abs": "183",
+        "abs": "182",
         "rel": "0.000137",
-        "pmw": "137.34"
+        "pmw": "136.69"
       },
       "es": {
-        "abs": "79",
-        "rel": "0.000093",
-        "pmw": "92.73"
+        "abs": "80",
+        "rel": "0.000094",
+        "pmw": "94.23"
       }
     },
     "equiv_es": "etiquetario",
@@ -23614,7 +23614,7 @@
     "norm": "sinonimia",
     "docs": {
       "en": 15,
-      "es": 9
+      "es": 10
     },
     "proposed": {
       "en": false,
@@ -23625,12 +23625,12 @@
         {
           "form": "tagset",
           "rel": "lema",
-          "n": 183,
+          "n": 182,
           "docs": 15,
           "strings": [
             [
               "tagset",
-              138
+              137
             ],
             [
               "tagsets",
@@ -23643,12 +23643,12 @@
         {
           "form": "etiquetario",
           "rel": "sinonimo",
-          "n": 40,
-          "docs": 6,
+          "n": 41,
+          "docs": 7,
           "strings": [
             [
               "etiquetario",
-              23
+              24
             ],
             [
               "etiquetarios",
@@ -23732,14 +23732,14 @@
     },
     "freq": {
       "en": {
-        "abs": "58",
-        "rel": "0.000044",
-        "pmw": "43.53"
+        "abs": "64",
+        "rel": "0.000048",
+        "pmw": "48.07"
       },
       "es": {
-        "abs": "32",
-        "rel": "0.000038",
-        "pmw": "37.56"
+        "abs": "35",
+        "rel": "0.000041",
+        "pmw": "41.23"
       }
     },
     "equiv_es": "TEI",
@@ -23764,12 +23764,12 @@
         {
           "form": "TEI",
           "rel": "sigla",
-          "n": 43,
-          "docs": 10,
+          "n": 49,
+          "docs": 11,
           "strings": [
             [
               "TEI",
-              43
+              49
             ]
           ]
         },
@@ -23790,24 +23790,24 @@
         {
           "form": "TEI",
           "rel": "sigla",
-          "n": 25,
+          "n": 27,
           "docs": 9,
           "strings": [
             [
               "TEI",
-              25
+              27
             ]
           ]
         },
         {
           "form": "Text Encoding Initiative",
           "rel": "forma_desarrollada",
-          "n": 7,
+          "n": 8,
           "docs": 7,
           "strings": [
             [
               "Text Encoding Initiative",
-              7
+              8
             ]
           ]
         }
@@ -23842,9 +23842,9 @@
     "freq": {
       "en": null,
       "es": {
-        "abs": "7",
-        "rel": "0.000008",
-        "pmw": "8.22"
+        "abs": "6",
+        "rel": "0.000007",
+        "pmw": "7.07"
       }
     },
     "equiv_es": "corpus telemático",
@@ -23886,7 +23886,7 @@
         {
           "form": "corpus telemático",
           "rel": "lema",
-          "n": 7,
+          "n": 6,
           "docs": 1,
           "strings": [
             [
@@ -23895,7 +23895,7 @@
             ],
             [
               "corpus telemáticos",
-              2
+              1
             ]
           ]
         }
@@ -23951,12 +23951,12 @@
       "en": {
         "abs": "9",
         "rel": "0.000007",
-        "pmw": "6.75"
+        "pmw": "6.76"
       },
       "es": {
-        "abs": "28",
-        "rel": "0.000033",
-        "pmw": "32.87"
+        "abs": "29",
+        "rel": "0.000034",
+        "pmw": "34.16"
       }
     },
     "equiv_es": "minería de textos",
@@ -23996,12 +23996,12 @@
         {
           "form": "minería de textos",
           "rel": "sinonimo",
-          "n": 26,
+          "n": 27,
           "docs": 5,
           "strings": [
             [
               "minería de textos",
-              25
+              26
             ],
             [
               "minería de texto",
@@ -24062,14 +24062,14 @@
     },
     "freq": {
       "en": {
-        "abs": "238",
-        "rel": "0.000179",
-        "pmw": "178.61"
+        "abs": "248",
+        "rel": "0.000186",
+        "pmw": "186.26"
       },
       "es": {
         "abs": "139",
-        "rel": "0.000163",
-        "pmw": "163.16"
+        "rel": "0.000164",
+        "pmw": "163.73"
       }
     },
     "equiv_es": "tipo de texto",
@@ -24083,7 +24083,7 @@
       "Los metadatos suelen incluir información sobre el tipo de texto, esencial para entender el contexto y el uso de los datos del corpus."
     ],
     "docs": {
-      "en": 23,
+      "en": 24,
       "es": 27
     },
     "proposed": {
@@ -24095,16 +24095,16 @@
         {
           "form": "text type",
           "rel": "lema",
-          "n": 238,
-          "docs": 23,
+          "n": 248,
+          "docs": 24,
           "strings": [
             [
               "text type",
-              68
+              77
             ],
             [
               "text types",
-              170
+              171
             ]
           ]
         }
@@ -24168,14 +24168,14 @@
     },
     "freq": {
       "en": {
-        "abs": "624",
-        "rel": "0.000468",
-        "pmw": "468.30"
+        "abs": "607",
+        "rel": "0.000456",
+        "pmw": "455.90"
       },
       "es": {
-        "abs": "109",
-        "rel": "0.000128",
-        "pmw": "127.95"
+        "abs": "104",
+        "rel": "0.000123",
+        "pmw": "122.50"
       }
     },
     "equiv_es": "token",
@@ -24189,7 +24189,7 @@
     ],
     "docs": {
       "en": 29,
-      "es": 17
+      "es": 16
     },
     "proposed": {
       "en": false,
@@ -24200,16 +24200,16 @@
         {
           "form": "token",
           "rel": "lema",
-          "n": 624,
+          "n": 607,
           "docs": 29,
           "strings": [
             [
               "token",
-              265
+              254
             ],
             [
               "tokens",
-              359
+              353
             ]
           ]
         }
@@ -24218,8 +24218,8 @@
         {
           "form": "token",
           "rel": "lema",
-          "n": 109,
-          "docs": 17,
+          "n": 104,
+          "docs": 16,
           "strings": [
             [
               "token",
@@ -24227,7 +24227,7 @@
             ],
             [
               "tokens",
-              71
+              66
             ]
           ]
         }
@@ -24272,12 +24272,12 @@
       "en": {
         "abs": "56",
         "rel": "0.000042",
-        "pmw": "42.03"
+        "pmw": "42.06"
       },
       "es": {
         "abs": "12",
         "rel": "0.000014",
-        "pmw": "14.09"
+        "pmw": "14.13"
       }
     },
     "equiv_es": "tokenización",
@@ -24398,7 +24398,7 @@
       "es": {
         "abs": "22",
         "rel": "0.000026",
-        "pmw": "25.82"
+        "pmw": "25.91"
       }
     },
     "equiv_es": "Trados",
@@ -24516,12 +24516,12 @@
       "en": {
         "abs": "32",
         "rel": "0.000024",
-        "pmw": "24.02"
+        "pmw": "24.03"
       },
       "es": {
-        "abs": "17",
-        "rel": "0.000020",
-        "pmw": "19.96"
+        "abs": "15",
+        "rel": "0.000018",
+        "pmw": "17.67"
       }
     },
     "equiv_es": "corpus de entrenamiento",
@@ -24536,7 +24536,7 @@
     ],
     "docs": {
       "en": 6,
-      "es": 8
+      "es": 7
     },
     "proposed": {
       "en": false,
@@ -24565,12 +24565,12 @@
         {
           "form": "corpus de entrenamiento",
           "rel": "lema",
-          "n": 17,
-          "docs": 8,
+          "n": 15,
+          "docs": 7,
           "strings": [
             [
               "corpus de entrenamiento",
-              17
+              15
             ]
           ]
         }
@@ -24621,12 +24621,12 @@
       "en": {
         "abs": "16",
         "rel": "0.000012",
-        "pmw": "12.01"
+        "pmw": "12.02"
       },
       "es": {
         "abs": "23",
         "rel": "0.000027",
-        "pmw": "27.00"
+        "pmw": "27.09"
       }
     },
     "equiv_es": "transcriptor",
@@ -24724,7 +24724,7 @@
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "Transit",
@@ -24834,14 +24834,14 @@
     },
     "freq": {
       "en": {
-        "abs": "91",
-        "rel": "0.000068",
-        "pmw": "68.29"
+        "abs": "64",
+        "rel": "0.000048",
+        "pmw": "48.07"
       },
       "es": {
-        "abs": "46",
-        "rel": "0.000054",
-        "pmw": "54.00"
+        "abs": "43",
+        "rel": "0.000051",
+        "pmw": "50.65"
       }
     },
     "equiv_es": "corpus anotado sintácticamente",
@@ -24857,7 +24857,7 @@
     "aliases": [],
     "norm": "sinonimia",
     "docs": {
-      "en": 13,
+      "en": 9,
       "es": 9
     },
     "proposed": {
@@ -24869,12 +24869,12 @@
         {
           "form": "treebank",
           "rel": "lema",
-          "n": 91,
-          "docs": 13,
+          "n": 64,
+          "docs": 9,
           "strings": [
             [
               "treebank",
-              74
+              47
             ],
             [
               "treebanks",
@@ -24887,12 +24887,12 @@
         {
           "form": "corpus anotado sintácticamente",
           "rel": "sinonimo",
-          "n": 6,
-          "docs": 4,
+          "n": 9,
+          "docs": 6,
           "strings": [
             [
               "corpus anotado sintácticamente",
-              1
+              4
             ],
             [
               "corpus anotados sintácticamente",
@@ -24911,13 +24911,13 @@
         {
           "form": "treebank",
           "rel": "prestamo",
-          "n": 40,
+          "n": 34,
           "docs": 9,
           "consolidated": true,
           "strings": [
             [
               "treebank",
-              38
+              32
             ],
             [
               "treebanks",
@@ -24967,14 +24967,14 @@
     },
     "freq": {
       "en": {
-        "abs": "35",
-        "rel": "0.000026",
-        "pmw": "26.27"
+        "abs": "50",
+        "rel": "0.000038",
+        "pmw": "37.55"
       },
       "es": {
-        "abs": "52",
-        "rel": "0.000061",
-        "pmw": "61.04"
+        "abs": "58",
+        "rel": "0.000068",
+        "pmw": "68.32"
       }
     },
     "equiv_es": "TreeTagger",
@@ -24988,8 +24988,8 @@
       "La exactitud de TreeTagger es una medida clave de su rendimiento y condiciona su adopción en los estudios lingüísticos."
     ],
     "docs": {
-      "en": 6,
-      "es": 7
+      "en": 7,
+      "es": 8
     },
     "proposed": {
       "en": false,
@@ -25000,12 +25000,12 @@
         {
           "form": "TreeTagger",
           "rel": "lema",
-          "n": 35,
-          "docs": 6,
+          "n": 50,
+          "docs": 7,
           "strings": [
             [
               "TreeTagger",
-              35
+              50
             ]
           ]
         }
@@ -25014,12 +25014,12 @@
         {
           "form": "TreeTagger",
           "rel": "lema",
-          "n": 52,
-          "docs": 7,
+          "n": 58,
+          "docs": 8,
           "strings": [
             [
               "TreeTagger",
-              52
+              58
             ]
           ]
         }
@@ -25049,7 +25049,11 @@
     },
     "freq": {
       "en": null,
-      "es": null
+      "es": {
+        "abs": "1",
+        "rel": "0.000001",
+        "pmw": "1.18"
+      }
     },
     "equiv_es": "Tweepy",
     "equiv_en": "Tweepy",
@@ -25060,7 +25064,7 @@
     ],
     "docs": {
       "en": 0,
-      "es": 0
+      "es": 1
     },
     "proposed": {
       "en": false,
@@ -25085,12 +25089,12 @@
         {
           "form": "Tweepy",
           "rel": "lema",
-          "n": 0,
-          "docs": 0,
+          "n": 1,
+          "docs": 1,
           "strings": [
             [
               "Tweepy",
-              0
+              1
             ]
           ]
         }
@@ -25104,7 +25108,7 @@
   {
     "slug": "type",
     "term_en": "type",
-    "term_es": "tipo",
+    "term_es": "type",
     "category": "Metodología y diseño",
     "category_en": "Methodology and design",
     "type": "term",
@@ -25132,15 +25136,15 @@
       "en": {
         "abs": "201",
         "rel": "0.000151",
-        "pmw": "150.85"
+        "pmw": "150.96"
       },
       "es": {
-        "abs": "35",
-        "rel": "0.000041",
-        "pmw": "41.08"
+        "abs": "2",
+        "rel": "0.000002",
+        "pmw": "2.36"
       }
     },
-    "equiv_es": "tipo",
+    "equiv_es": "type",
     "equiv_en": "type",
     "relations_es": [
       "Los types son las formas distintas; los tokens, sus ocurrencias.",
@@ -25152,7 +25156,7 @@
     "norm": "sinonimia",
     "docs": {
       "en": 16,
-      "es": 9
+      "es": 2
     },
     "proposed": {
       "en": false,
@@ -25179,14 +25183,47 @@
       ],
       "es": [
         {
+          "form": "type",
+          "rel": "prestamo",
+          "n": 2,
+          "docs": 2,
+          "strings": [
+            [
+              "types y tokens",
+              1
+            ],
+            [
+              "type y token",
+              0
+            ],
+            [
+              "types/tokens",
+              0
+            ],
+            [
+              "type/token",
+              1
+            ],
+            [
+              "types",
+              0
+            ],
+            [
+              "type",
+              0
+            ]
+          ]
+        },
+        {
           "form": "tipo",
           "rel": "sinonimo",
-          "n": 1,
-          "docs": 1,
+          "n": 0,
+          "docs": 0,
+          "consolidated": false,
           "strings": [
             [
               "tipo-token",
-              1
+              0
             ],
             [
               "tipos y tokens",
@@ -25197,45 +25234,12 @@
               0
             ]
           ]
-        },
-        {
-          "form": "type",
-          "rel": "prestamo",
-          "n": 34,
-          "docs": 8,
-          "consolidated": true,
-          "strings": [
-            [
-              "types y tokens",
-              4
-            ],
-            [
-              "type y token",
-              1
-            ],
-            [
-              "types/tokens",
-              1
-            ],
-            [
-              "type/token",
-              1
-            ],
-            [
-              "types",
-              22
-            ],
-            [
-              "type",
-              5
-            ]
-          ]
         }
       ]
     },
     "gap": {
       "en": null,
-      "es": null
+      "es": "prestamo"
     },
     "contexts": {
       "es": {
@@ -25275,12 +25279,12 @@
       "en": {
         "abs": "92",
         "rel": "0.000069",
-        "pmw": "69.04"
+        "pmw": "69.10"
       },
       "es": {
         "abs": "50",
         "rel": "0.000059",
-        "pmw": "58.69"
+        "pmw": "58.90"
       }
     },
     "equiv_es": "relación entre types y tokens",
@@ -25315,19 +25319,19 @@
           "strings": [
             [
               "type-token ratio",
-              8
+              10
             ],
             [
               "type-token ratios",
-              5
+              9
             ],
             [
               "type/token ratio",
-              2
+              0
             ],
             [
               "type/token ratios",
-              4
+              0
             ]
           ]
         },
@@ -25492,7 +25496,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "UKB",
@@ -25568,14 +25572,14 @@
     },
     "freq": {
       "en": {
-        "abs": "52",
-        "rel": "0.000039",
-        "pmw": "39.02"
+        "abs": "51",
+        "rel": "0.000038",
+        "pmw": "38.30"
       },
       "es": {
         "abs": "9",
         "rel": "0.000011",
-        "pmw": "10.56"
+        "pmw": "10.60"
       }
     },
     "equiv_es": "Unicode",
@@ -25601,12 +25605,12 @@
         {
           "form": "Unicode",
           "rel": "lema",
-          "n": 52,
+          "n": 51,
           "docs": 10,
           "strings": [
             [
               "Unicode",
-              52
+              51
             ]
           ]
         }
@@ -25665,7 +25669,7 @@
       "es": {
         "abs": "4",
         "rel": "0.000005",
-        "pmw": "4.70"
+        "pmw": "4.71"
       }
     },
     "equiv_es": "Universal Dependencies",
@@ -25745,12 +25749,12 @@
       "en": {
         "abs": "6",
         "rel": "0.000005",
-        "pmw": "4.50"
+        "pmw": "4.51"
       },
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "Universal POS",
@@ -25853,14 +25857,14 @@
     },
     "freq": {
       "en": {
-        "abs": "40",
-        "rel": "0.000030",
-        "pmw": "30.02"
+        "abs": "72",
+        "rel": "0.000054",
+        "pmw": "54.08"
       },
       "es": {
-        "abs": "12",
-        "rel": "0.000014",
-        "pmw": "14.09"
+        "abs": "16",
+        "rel": "0.000019",
+        "pmw": "18.85"
       }
     },
     "equiv_es": "UTF-8",
@@ -25887,12 +25891,12 @@
         {
           "form": "UTF-8",
           "rel": "sigla",
-          "n": 39,
+          "n": 71,
           "docs": 6,
           "strings": [
             [
               "UTF-8",
-              39
+              71
             ]
           ]
         },
@@ -25921,12 +25925,12 @@
         {
           "form": "UTF-8",
           "rel": "sigla",
-          "n": 12,
+          "n": 16,
           "docs": 7,
           "strings": [
             [
               "UTF-8",
-              12
+              16
             ]
           ]
         },
@@ -25993,7 +25997,7 @@
       "es": {
         "abs": "44",
         "rel": "0.000052",
-        "pmw": "51.65"
+        "pmw": "51.83"
       }
     },
     "equiv_es": "Val.Es.Co",
@@ -26049,11 +26053,11 @@
           "strings": [
             [
               "Val.Es.Co",
-              39
+              41
             ],
             [
               "Val.Es.Co.",
-              2
+              0
             ]
           ]
         },
@@ -26113,7 +26117,7 @@
       "es": {
         "abs": "41",
         "rel": "0.000048",
-        "pmw": "48.13"
+        "pmw": "48.29"
       }
     },
     "equiv_es": "corpus virtual",
@@ -26217,12 +26221,12 @@
       "en": {
         "abs": "9",
         "rel": "0.000007",
-        "pmw": "6.75"
+        "pmw": "6.76"
       },
       "es": {
         "abs": "76",
-        "rel": "0.000089",
-        "pmw": "89.21"
+        "rel": "0.000090",
+        "pmw": "89.52"
       }
     },
     "equiv_es": "web como corpus",
@@ -26334,14 +26338,14 @@
     },
     "freq": {
       "en": {
-        "abs": "27",
+        "abs": "26",
         "rel": "0.000020",
-        "pmw": "20.26"
+        "pmw": "19.53"
       },
       "es": {
         "abs": "15",
         "rel": "0.000018",
-        "pmw": "17.61"
+        "pmw": "17.67"
       }
     },
     "equiv_es": "corpus web",
@@ -26354,7 +26358,7 @@
       "Un corpus web puede servir de corpus de referencia del uso actual de la lengua, ya que refleja sus tendencias y variaciones actuales."
     ],
     "docs": {
-      "en": 5,
+      "en": 4,
       "es": 4
     },
     "proposed": {
@@ -26366,12 +26370,12 @@
         {
           "form": "web corpus",
           "rel": "lema",
-          "n": 27,
-          "docs": 5,
+          "n": 26,
+          "docs": 4,
           "strings": [
             [
               "web corpus",
-              19
+              18
             ],
             [
               "web corpora",
@@ -26445,7 +26449,7 @@
       "es": {
         "abs": "3",
         "rel": "0.000004",
-        "pmw": "3.52"
+        "pmw": "3.53"
       }
     },
     "equiv_es": "web crawling",
@@ -26494,11 +26498,11 @@
           "strings": [
             [
               "web crawling",
-              0
+              1
             ],
             [
               "crawling",
-              3
+              2
             ]
           ]
         }
@@ -26548,7 +26552,7 @@
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "web para corpus",
@@ -26662,12 +26666,12 @@
       "en": {
         "abs": "33",
         "rel": "0.000025",
-        "pmw": "24.77"
+        "pmw": "24.79"
       },
       "es": {
         "abs": "25",
         "rel": "0.000029",
-        "pmw": "29.35"
+        "pmw": "29.45"
       }
     },
     "equiv_es": "comodín",
@@ -26792,7 +26796,7 @@
       "es": {
         "abs": "5",
         "rel": "0.000006",
-        "pmw": "5.87"
+        "pmw": "5.89"
       }
     },
     "equiv_es": "Wmatrix",
@@ -26879,12 +26883,12 @@
       "en": {
         "abs": "71",
         "rel": "0.000053",
-        "pmw": "53.28"
+        "pmw": "53.33"
       },
       "es": {
-        "abs": "16",
-        "rel": "0.000019",
-        "pmw": "18.78"
+        "abs": "10",
+        "rel": "0.000012",
+        "pmw": "11.78"
       }
     },
     "equiv_es": "frecuencia de palabras",
@@ -26899,7 +26903,7 @@
     ],
     "docs": {
       "en": 15,
-      "es": 8
+      "es": 6
     },
     "proposed": {
       "en": false,
@@ -26928,8 +26932,8 @@
         {
           "form": "frecuencia de palabras",
           "rel": "lema",
-          "n": 16,
-          "docs": 8,
+          "n": 10,
+          "docs": 6,
           "strings": [
             [
               "frecuencia de palabras",
@@ -26937,7 +26941,7 @@
             ],
             [
               "frecuencias de palabras",
-              11
+              5
             ]
           ]
         }
@@ -26983,14 +26987,14 @@
     },
     "freq": {
       "en": {
-        "abs": "299",
-        "rel": "0.000224",
-        "pmw": "224.39"
+        "abs": "287",
+        "rel": "0.000216",
+        "pmw": "215.56"
       },
       "es": {
         "abs": "139",
-        "rel": "0.000163",
-        "pmw": "163.16"
+        "rel": "0.000164",
+        "pmw": "163.73"
       }
     },
     "equiv_es": "lista de frecuencias",
@@ -27006,7 +27010,7 @@
     ],
     "norm": "sinonimia",
     "docs": {
-      "en": 23,
+      "en": 22,
       "es": 23
     },
     "proposed": {
@@ -27018,41 +27022,41 @@
         {
           "form": "word list",
           "rel": "sinonimo",
-          "n": 108,
+          "n": 106,
           "docs": 18,
           "strings": [
             [
               "word list",
-              44
+              54
             ],
             [
               "word lists",
-              36
+              52
             ],
             [
               "wordlist",
-              12
+              0
             ],
             [
               "wordlists",
-              16
+              0
             ]
           ]
         },
         {
           "form": "frequency list",
           "rel": "sinonimo",
-          "n": 191,
-          "docs": 15,
+          "n": 181,
+          "docs": 13,
           "consolidated": true,
           "strings": [
             [
               "frequency list",
-              96
+              94
             ],
             [
               "frequency lists",
-              95
+              87
             ]
           ]
         }
@@ -27164,12 +27168,12 @@
       "en": {
         "abs": "15",
         "rel": "0.000011",
-        "pmw": "11.26"
+        "pmw": "11.27"
       },
       "es": {
         "abs": "10",
         "rel": "0.000012",
-        "pmw": "11.74"
+        "pmw": "11.78"
       }
     },
     "equiv_es": "desambiguación semántica",
@@ -27308,7 +27312,7 @@
       "es": {
         "abs": "15",
         "rel": "0.000018",
-        "pmw": "17.61"
+        "pmw": "17.67"
       }
     },
     "equiv_es": "word sketch",
@@ -27409,7 +27413,7 @@
       "es": {
         "abs": "2",
         "rel": "0.000002",
-        "pmw": "2.35"
+        "pmw": "2.36"
       }
     },
     "equiv_es": "Wordfast",
@@ -27491,14 +27495,14 @@
     },
     "freq": {
       "en": {
-        "abs": "12",
-        "rel": "0.000009",
-        "pmw": "9.01"
+        "abs": "13",
+        "rel": "0.000010",
+        "pmw": "9.76"
       },
       "es": {
-        "abs": "20",
-        "rel": "0.000023",
-        "pmw": "23.48"
+        "abs": "22",
+        "rel": "0.000026",
+        "pmw": "25.91"
       }
     },
     "equiv_es": "WordNet",
@@ -27521,12 +27525,12 @@
         {
           "form": "WordNet",
           "rel": "lema",
-          "n": 12,
+          "n": 13,
           "docs": 5,
           "strings": [
             [
               "WordNet",
-              12
+              13
             ]
           ]
         }
@@ -27535,12 +27539,12 @@
         {
           "form": "WordNet",
           "rel": "lema",
-          "n": 20,
+          "n": 22,
           "docs": 4,
           "strings": [
             [
               "WordNet",
-              20
+              22
             ]
           ]
         }
@@ -27572,12 +27576,12 @@
       "en": {
         "abs": "6",
         "rel": "0.000005",
-        "pmw": "4.50"
+        "pmw": "4.51"
       },
       "es": {
-        "abs": "26",
-        "rel": "0.000031",
-        "pmw": "30.52"
+        "abs": "27",
+        "rel": "0.000032",
+        "pmw": "31.80"
       }
     },
     "equiv_es": "WordSmith Tools",
@@ -27617,12 +27621,12 @@
         {
           "form": "WordSmith Tools",
           "rel": "lema",
-          "n": 26,
+          "n": 27,
           "docs": 6,
           "strings": [
             [
               "WordSmith Tools",
-              26
+              27
             ]
           ]
         }
@@ -27659,12 +27663,12 @@
       "en": {
         "abs": "32",
         "rel": "0.000024",
-        "pmw": "24.02"
+        "pmw": "24.03"
       },
       "es": {
-        "abs": "44",
-        "rel": "0.000052",
-        "pmw": "51.65"
+        "abs": "35",
+        "rel": "0.000041",
+        "pmw": "41.23"
       }
     },
     "equiv_es": "corpus escrito",
@@ -27680,7 +27684,7 @@
     ],
     "docs": {
       "en": 10,
-      "es": 18
+      "es": 16
     },
     "proposed": {
       "en": false,
@@ -27709,16 +27713,16 @@
         {
           "form": "corpus escrito",
           "rel": "lema",
-          "n": 44,
-          "docs": 18,
+          "n": 35,
+          "docs": 16,
           "strings": [
             [
               "corpus escrito",
-              19
+              11
             ],
             [
               "corpus escritos",
-              25
+              24
             ]
           ]
         }
@@ -27763,7 +27767,7 @@
       "es": {
         "abs": "7",
         "rel": "0.000008",
-        "pmw": "8.22"
+        "pmw": "8.25"
       }
     },
     "equiv_es": "Xbench",
@@ -27839,14 +27843,14 @@
     },
     "freq": {
       "en": {
-        "abs": "347",
-        "rel": "0.000260",
-        "pmw": "260.42"
+        "abs": "529",
+        "rel": "0.000397",
+        "pmw": "397.31"
       },
       "es": {
-        "abs": "199",
-        "rel": "0.000234",
-        "pmw": "233.59"
+        "abs": "208",
+        "rel": "0.000245",
+        "pmw": "245.01"
       }
     },
     "equiv_es": "XML",
@@ -27859,7 +27863,7 @@
     ],
     "docs": {
       "en": 23,
-      "es": 19
+      "es": 20
     },
     "proposed": {
       "en": false,
@@ -27870,12 +27874,12 @@
         {
           "form": "XML",
           "rel": "sigla",
-          "n": 338,
+          "n": 520,
           "docs": 23,
           "strings": [
             [
               "XML",
-              338
+              520
             ]
           ]
         },
@@ -27900,12 +27904,12 @@
         {
           "form": "XML",
           "rel": "sigla",
-          "n": 192,
-          "docs": 19,
+          "n": 201,
+          "docs": 20,
           "strings": [
             [
               "XML",
-              192
+              201
             ]
           ]
         },
@@ -28061,12 +28065,12 @@
       "en": {
         "abs": "9",
         "rel": "0.000007",
-        "pmw": "6.75"
+        "pmw": "6.76"
       },
       "es": {
         "abs": "10",
         "rel": "0.000012",
-        "pmw": "11.74"
+        "pmw": "11.78"
       }
     },
     "equiv_es": "ley de Zipf",
