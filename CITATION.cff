@@ -11,5 +11,5 @@ date-released: 2026-11-22
 license: CC-BY-4.0
 repository-code: "https://github.com/isabel-mm/tesis-doctoral-datos"
 type: dataset
-abstract: "Material complementario de la tesis doctoral: registro del corpus bilingüe (inglés-español) de lingüística de corpus, criterios y recuentos de la anotación terminológica, inventario de términos y entidades, distribución de los términos, datos y registro de normalización del glosario bilingüe GLiCor, y rasgos, hiperparámetros, código y resultados completos de los modelos de reconocimiento de términos (CRF y BiLSTM-CRF). Los textos del corpus no se distribuyen por derechos de autor."
+abstract: "Material complementario de la tesis doctoral: registro del corpus bilingüe (inglés-español) de lingüística de corpus, criterios y recuentos de la anotación terminológica, inventario de términos y entidades, distribución de los términos, registro de normalización del glosario bilingüe GLiCor, y rasgos, hiperparámetros, código y resultados completos de los modelos de reconocimiento de términos (CRF y BiLSTM-CRF). Los textos del corpus no se distribuyen por derechos de autor."
 keywords: [terminología, extracción automática de términos, lingüística de corpus, terminografía, CRF, BiLSTM-CRF, GLiCor, TECLA]

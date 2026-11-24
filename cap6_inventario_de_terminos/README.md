@@ -2,7 +2,7 @@
 
 Unidades del inventario validado (GLiCor) presentes en cada subcorpus, con sus valores de terminologicidad (capítulo 6 de la tesis): 200 unidades en inglés (145 términos y 55 entidades) y 247 en español (140 términos y 107 entidades). Todas las cifras se calculan sin las secciones de referencias bibliográficas de los documentos (capítulo 3). Una unidad está presente en un subcorpus si aparece anotada en él con alguna de sus formas.
 
-Las unidades se validaron durante la anotación del corpus (capítulo 3 de la tesis) y se unificaron por concepto en las 261 entradas del glosario, que están en `cap8_glosario_GLiCor/`. Las formas de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `cap4_anotacion_de_terminos/formas_por_entrada.csv`.
+Las unidades se validaron durante la anotación del corpus (capítulo 3 de la tesis) y se unificaron por concepto en las 261 entradas del glosario GLiCor, que se recogen en el capítulo 8 de la tesis (su registro de normalización, en `cap8_glosario_GLiCor/`). Las formas de cada entrada (siglas, formas desarrolladas, sinónimos, préstamos) están en `cap4_anotacion_de_terminos/formas_por_entrada.csv`.
 
 Las cifras se calculan sobre las apariciones que la revisión experta anotó como término o entidad, con todas las formas de cada unidad, y no sobre todas las apariciones de la forma en el texto, que es lo que cuenta TECLA al ordenar los candidatos antes de la revisión (capítulo 5). Así, una forma que también funciona en la lengua general, como *muestra* (también del verbo *mostrar*) o *tipo* (*este tipo de análisis*), solo cuenta sus usos terminológicos.
 
